@@ -1,0 +1,5 @@
+# Replace grow.example.com with the domain configured in APP_URL.
+grow.example.com {
+    reverse_proxy 127.0.0.1:3001
+    encode zstd gzip
+}

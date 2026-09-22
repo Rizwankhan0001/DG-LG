@@ -1,0 +1,17 @@
+services:
+  grow:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 3001
+      DATABASE_PATH: /app/storage/grow.db
+      BACKUP_DIR: /app/storage/backups
+    ports:
+      - "127.0.0.1:3001:3001"
+    volumes:
+      - grow-data:/app/storage
+volumes:
+  grow-data:

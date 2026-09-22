@@ -1,0 +1,241 @@
+[
+  {
+    "id": "7161040896163",
+    "name": "Demerara Brown Sugar Sachets 1Kg (200Pcs X 5g)",
+    "category": "Sugar sachets",
+    "segments": [
+      "Cafés",
+      "Hotels & resorts",
+      "Caterers"
+    ],
+    "pitch": "Portioned brown sugar for coffee service and guest rooms.",
+    "image": "/products/7161040896163.webp",
+    "url": "https://www.dhampurgreen.com/products/demerara-brown-sugar-sachets",
+    "price": 1399,
+    "unit": "10 Kg",
+    "syncedAt": "2026-09-18T09:43:03.423Z"
+  },
+  {
+    "id": "6613008318627",
+    "name": "Jaggery Powder Sachets 1kg (200Pcs X 5g)",
+    "category": "Sugar sachets",
+    "segments": [
+      "Cafés",
+      "Hotels & resorts",
+      "Caterers"
+    ],
+    "pitch": "An alternative sweetener option for tea and coffee service.",
+    "image": "/products/6613008318627.webp",
+    "url": "https://www.dhampurgreen.com/products/jaggery-powder-sachets",
+    "price": 1699,
+    "unit": "10 Kg",
+    "syncedAt": "2026-09-18T09:43:04.031Z"
+  },
+  {
+    "id": "6613008154787",
+    "name": "White Sugar Sachets 1Kg (200Pcs X 5g)",
+    "category": "Sugar sachets",
+    "segments": [
+      "Cafés",
+      "Hotels & resorts",
+      "Restaurants",
+      "Caterers"
+    ],
+    "pitch": "Individually packed sugar for everyday beverage service.",
+    "image": "/products/6613008154787.webp",
+    "url": "https://www.dhampurgreen.com/products/white-sugar-sachet",
+    "price": 1250,
+    "unit": "10 Kg",
+    "syncedAt": "2026-09-18T09:43:04.814Z"
+  },
+  {
+    "id": "9148457943284",
+    "name": "Desi Khand Sachets 1Kg (200Pcs X 5g)",
+    "category": "Sugar sachets",
+    "segments": [
+      "Cafés",
+      "Hotels & resorts"
+    ],
+    "pitch": "Desi khand in portion packs for beverage counters.",
+    "image": "/products/9148457943284.webp",
+    "url": "https://www.dhampurgreen.com/products/desi-khand-sachets",
+    "price": 1350,
+    "unit": "10 Kg",
+    "syncedAt": "2026-09-18T09:43:05.539Z"
+  },
+  {
+    "id": "7160839766179",
+    "name": "Organic Jaggery Powder 800gm",
+    "category": "Jaggery & khand",
+    "segments": [
+      "Restaurants",
+      "Sweet shops",
+      "Bakeries",
+      "Distributors"
+    ],
+    "pitch": "Jaggery powder for Indian desserts, baking and beverages.",
+    "image": "/products/7160839766179.webp",
+    "url": "https://www.dhampurgreen.com/products/organic-jaggery-powder",
+    "price": 99,
+    "unit": "Default Title",
+    "syncedAt": "2026-09-18T09:43:06.081Z"
+  },
+  {
+    "id": "6613007368355",
+    "name": "Muscovado Sugar 500gm  (Pack of 2)",
+    "category": "Baking essentials",
+    "segments": [
+      "Bakeries",
+      "Hotels & resorts"
+    ],
+    "pitch": "Molasses-rich sugar for brownies, cookies and baking.",
+    "image": "/products/6613007368355.png",
+    "url": "https://www.dhampurgreen.com/products/muscovado-sugar-500g",
+    "price": 160,
+    "unit": "Default Title",
+    "syncedAt": "2026-09-18T09:43:06.641Z"
+  },
+  {
+    "id": "6613007138979",
+    "name": "Icing Sugar- 1 KG Pack",
+    "category": "Baking essentials",
+    "segments": [
+      "Bakeries",
+      "Hotels & resorts",
+      "Caterers"
+    ],
+    "pitch": "Icing sugar for frosting, finishing and pastry kitchens.",
+    "image": "/products/6613007138979.webp",
+    "url": "https://www.dhampurgreen.com/products/icing-sugar-1000g",
+    "price": 130,
+    "unit": "Default Title",
+    "syncedAt": "2026-09-18T09:43:07.275Z"
+  },
+  {
+    "id": "6613007106211",
+    "name": "Castor Sugar 1 Kg Pack",
+    "category": "Baking essentials",
+    "segments": [
+      "Bakeries",
+      "Hotels & resorts"
+    ],
+    "pitch": "Fine sugar for cakes and patisserie.",
+    "image": "/products/6613007106211.png",
+    "url": "https://www.dhampurgreen.com/products/buy-best-castor-sugar-online",
+    "price": 130,
+    "unit": "Default Title",
+    "syncedAt": "2026-09-18T09:43:07.882Z"
+  },
+  {
+    "id": "9285977440500",
+    "name": "Biscotti Cinnamon Caramel Syrup 450g",
+    "category": "Syrups & toppings",
+    "segments": [
+      "Cafés",
+      "Restaurants",
+      "Hotels & resorts"
+    ],
+    "pitch": "A cinnamon and caramel addition to a café beverage menu.",
+    "image": "/products/9285977440500.webp",
+    "url": "https://www.dhampurgreen.com/products/biscotti-cinnamon-caramel-syrup",
+    "price": 499,
+    "unit": "Default Title",
+    "syncedAt": "2026-09-18T09:43:08.683Z"
+  },
+  {
+    "id": "7815592476916",
+    "name": "Pancake Syrup 300ml",
+    "category": "Syrups & toppings",
+    "segments": [
+      "Cafés",
+      "Hotels & resorts",
+      "Restaurants"
+    ],
+    "pitch": "A topping option for breakfast service and desserts.",
+    "image": "/products/7815592476916.webp",
+    "url": "https://www.dhampurgreen.com/products/pancake-syrup-with-maple-300ml",
+    "price": 599,
+    "unit": "Default Title",
+    "syncedAt": "2026-09-18T09:43:09.476Z"
+  },
+  {
+    "id": "8155281162484",
+    "name": "Mojito Syrup 750ml",
+    "category": "Drink mixes",
+    "segments": [
+      "Bars & lounges",
+      "Restaurants",
+      "Hotels & resorts",
+      "Caterers"
+    ],
+    "pitch": "Mojito mixer for mocktail and event beverage menus.",
+    "image": "/products/8155281162484.webp",
+    "url": "https://www.dhampurgreen.com/products/mojito-syrup-750-ml",
+    "price": 299,
+    "unit": "Default Title",
+    "syncedAt": "2026-09-18T09:43:10.081Z"
+  },
+  {
+    "id": "8062445027572",
+    "name": "Blue Curacao Tangy Syrup 800ml",
+    "category": "Drink mixes",
+    "segments": [
+      "Bars & lounges",
+      "Restaurants",
+      "Caterers"
+    ],
+    "pitch": "A citrus mixer for mocktails and event drinks.",
+    "image": "/products/8062445027572.webp",
+    "url": "https://www.dhampurgreen.com/products/blue-curacao-syrup-750ml",
+    "price": 299,
+    "unit": "Default Title",
+    "syncedAt": "2026-09-18T09:43:10.647Z"
+  },
+  {
+    "id": "8294713950452",
+    "name": "Gur Saunf Sachets 1kg pack",
+    "category": "Mouth fresheners",
+    "segments": [
+      "Restaurants",
+      "Hotels & resorts",
+      "Caterers"
+    ],
+    "pitch": "Portioned jaggery and fennel for after-meal service.",
+    "image": "/products/8294713950452.webp",
+    "url": "https://www.dhampurgreen.com/products/gur-saunf-10kg",
+    "price": 2999,
+    "unit": "10 Kg",
+    "syncedAt": "2026-09-18T09:43:11.151Z"
+  },
+  {
+    "id": "9006961819892",
+    "name": "Treacle Molasses – Natural Sweetener",
+    "category": "Baking essentials",
+    "segments": [
+      "Bakeries",
+      "Hotels & resorts",
+      "Distributors"
+    ],
+    "pitch": "A rich sweetener for baking, sauces and glazes.",
+    "image": "/products/9006961819892.png",
+    "url": "https://www.dhampurgreen.com/products/treacle-molasses-800-ml",
+    "price": 299,
+    "unit": "800ml",
+    "syncedAt": "2026-09-18T09:43:11.873Z"
+  },
+  {
+    "id": "6613008285859",
+    "name": "Vanilla Sugar Sachets 1kg",
+    "category": "Sugar sachets",
+    "segments": [
+      "Cafés",
+      "Hotels & resorts"
+    ],
+    "pitch": "Vanilla sugar portions for coffee and beverage service.",
+    "image": "/products/6613008285859.webp",
+    "url": "https://www.dhampurgreen.com/products/vanilla-sugar-sachet-1000g",
+    "price": 350,
+    "unit": "Default Title",
+    "syncedAt": "2026-09-18T09:43:12.506Z"
+  }
+]

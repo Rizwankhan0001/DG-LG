@@ -1,0 +1,15 @@
+node_modules
+dist
+.git
+.env
+.env.*
+data/*.db*
+data/backups
+*.sqlite
+.deploy
+artifacts
+test-results
+playwright-report
+
+.vercel
+.research-cache

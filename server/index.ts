@@ -1,0 +1,23 @@
+import 'dotenv/config';
+import { readFileSync } from 'node:fs';
+import { createStore } from './db.js';
+import { createApp } from './app.js';
+import { seed } from './seed.js';
+import { seedResearch } from './research.js';
+import { startWorker } from './service.js';
+import { startBackups } from './backups.js';
+import { applyHostingDefaults } from './hosting.js';
+import type { Product } from '../shared/types.js';
+applyHostingDefaults();
+const store=createStore(process.env.DATABASE_PATH||'./data/grow.db');
+seed(store,JSON.parse(readFileSync(new URL('../data/catalog.json',import.meta.url),'utf8')) as Product[]);
+seedResearch(store);
+const app=createApp(store);
+const stopWorker=process.env.WORKER_ENABLED==='false'?()=>{}:startWorker(store);
+const stopBackups=startBackups(store);
+const port=Number(process.env.PORT)||3001;
+const host=process.env.HOST||'127.0.0.1';
+const server=app.listen(port,host,()=>console.log(`Grow API listening on http://${host}:${port}`));
+let closing=false;
+function shutdown(){if(closing)return;closing=true;stopWorker();const backupsStopped=stopBackups();server.close(()=>{void Promise.resolve(backupsStopped).then(()=>{store.db.close();process.exit(0);});});}
+process.on('SIGINT',shutdown);process.on('SIGTERM',shutdown);
