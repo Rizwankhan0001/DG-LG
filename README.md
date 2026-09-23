@@ -8,6 +8,10 @@ Live preview: **https://dhampur-green-grow.vercel.app**
 
 The Vercel deployment serves the frontend and a read-only API with the 303 versioned research records and product catalogue. The preview supports browsing, filters, product opportunities and the workflow guide. It does not save CRM changes, run discovery or automations, or send messages. No local database, private notes or `.env` file is uploaded. See [DEPLOYMENT.md](DEPLOYMENT.md) for deployment details and the full backend requirements.
 
+Quick filters expose phone/email availability and product fit. Filters, grid/list selection and business profile links survive reloads and can be shared. Each profile includes a copyable conversation brief with source links, suggested products and explicitly unconfirmed quantity assumptions. Settings explains the three steps from the public research preview to a private workspace; unavailable write actions are disabled.
+
+The repository is connected to Vercel: pushes to **`main`** automatically build and update **https://dhampur-green-grow.vercel.app**. The Vercel build must pass type checking, the frontend build and backend tests before the new deployment is promoted. GitHub Actions additionally runs desktop and mobile workflow tests.
+
 ## Start locally
 
 Requires Node.js 22.

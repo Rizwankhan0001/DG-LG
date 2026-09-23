@@ -1,4 +1,56 @@
 import { test, expect, type Page } from '@playwright/test';
+test('filtered views and lead profiles survive reloads and browser history',async({page})=>{
+  await page.goto('/');await navigate(page,'Find businesses');
+  await page.getByLabel('Filter by city').selectOption('Mumbai');
+  await page.getByRole('button',{name:'Phone available',exact:true}).click();
+  await page.getByLabel('Search businesses').fill('Bombay Canteen');
+  await expect(page).toHaveURL(/city=Mumbai/);await expect(page).toHaveURL(/contact=phone/);
+  await page.locator('.business-cell').click();
+  await expect(page).toHaveURL(/lead=/);
+  await expect(page.getByRole('region',{name:'Research at a glance'})).toContainText('Buyer needs unconfirmed');
+  await expect(page.getByRole('button',{name:'Copy conversation brief'})).toBeVisible();
+  await page.context().grantPermissions(['clipboard-read','clipboard-write']);
+  await page.getByRole('button',{name:'Copy conversation brief'}).click();
+  const brief=await page.evaluate(()=>navigator.clipboard.readText());
+  expect(brief).toContain('The Bombay Canteen');expect(brief).toContain('Actual demand is unknown.');expect(brief).toContain('https://thebombaycanteen.com/');
+  await page.reload();await expect(page.getByRole('dialog')).toContainText('The Bombay Canteen');
+  await page.getByRole('button',{name:'Close dialog'}).click();
+  await expect(page.getByLabel('Filter by city')).toHaveValue('Mumbai');
+  await expect(page.getByLabel('Search businesses')).toHaveValue('Bombay Canteen');
+  await expect(page.getByRole('button',{name:'Phone available',exact:true})).toHaveAttribute('aria-pressed','true');
+  await page.getByRole('button',{name:'Grid view'}).click();await page.reload();
+  await expect(page.getByRole('button',{name:'Grid view'})).toHaveAttribute('aria-pressed','true');
+  await page.getByRole('button',{name:'Remove Search: Bombay Canteen filter'}).click();
+  await expect(page.getByLabel('Search businesses')).toHaveValue('');
+  await page.getByRole('button',{name:'Clear all',exact:true}).click();
+  await expect(page.getByLabel('Filter by city')).toHaveValue('all');
+  await page.getByRole('button',{name:'List view'}).click();
+  await page.locator('.business-cell').first().click();await page.goBack();
+  await expect(page.getByRole('dialog')).toHaveCount(0);
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)).toBe(false);
+});
+
+test('public preview explains setup and disables changes while keeping research useful',async({page},testInfo)=>{
+  await page.route('**/api/bootstrap*',async route=>{const response=await route.fetch();const body=await response.json();await route.fulfill({response,json:{...body,readOnly:true}});});
+  const mutations:string[]=[];page.on('request',request=>{if(request.url().includes('/api/')&&!['GET','HEAD'].includes(request.method()))mutations.push(request.url());});
+  await page.goto('/');await expect(page.getByRole('region',{name:'Start your research'})).toBeVisible();
+  await expect(page.locator('.preview-banner')).toContainText('Research preview');
+  await page.screenshot({path:`artifacts/research-overview-${testInfo.project.name}.png`,fullPage:true});
+  await navigate(page,'Find businesses');await expect(page.getByRole('button',{name:'Find more businesses',exact:true})).toBeDisabled();
+  await expect(page.getByRole('button',{name:'Import',exact:true})).toBeDisabled();
+  await page.screenshot({path:`artifacts/research-directory-${testInfo.project.name}.png`,fullPage:true});
+  await page.locator('.business-cell').first().click();await expect(page.getByRole('button',{name:'Prepare outreach',exact:true})).toBeDisabled();
+  await expect(page.getByLabel('Lead sales stage')).toBeDisabled();
+  await page.getByRole('button',{name:'Open product opportunity'}).click();await page.getByLabel('Lower daily quantity').fill('50');
+  await expect(page.getByRole('button',{name:'Save requirement scenario'})).toBeDisabled();
+  await page.getByRole('button',{name:'Close dialog'}).click();await navigate(page,'Settings');
+  await expect(page.getByRole('region',{name:'Activate your workspace'})).toBeVisible();
+  await expect(page.getByRole('button',{name:'Save business settings'})).toBeDisabled();
+  await expect(page.getByRole('button',{name:'Sign out'})).toHaveCount(0);
+  await page.screenshot({path:`artifacts/activation-${testInfo.project.name}.png`,fullPage:true});
+  expect(mutations).toEqual([]);expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)).toBe(false);
+});
+
 test('data coverage explains real evidence and source review preserves the lead',async({page},testInfo)=>{
   await page.goto('/');await navigate(page,'Data & accuracy');
   await expect(page.getByRole('heading',{name:'Data & accuracy',exact:true})).toBeVisible();
@@ -142,7 +194,7 @@ test('product opportunities explain fit and save an editable monthly requirement
   await page.getByLabel('What did you learn from the buyer?').fill('Planning only. Ask purchasing about preferred sachets.');
   await page.getByRole('button',{name:'Save requirement scenario'}).click();
   await expect(page.getByRole('status')).toContainText('Requirement scenario saved');
-  await page.reload();await page.getByLabel('Search businesses').fill(name);await page.locator('.business-cell').click();
+  await page.reload();await expect(page.getByRole('dialog')).toContainText(name);
   await expect(page.getByRole('region',{name:'Product opportunity summary'})).toContainText('1,000–1,500 sachets/month');
   await page.getByRole('button',{name:'Open product opportunity'}).click();
   await expect(page.getByLabel('Lower daily quantity')).toHaveValue('80');

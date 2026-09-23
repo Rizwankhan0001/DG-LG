@@ -13,7 +13,10 @@ export type Page='Data & accuracy'|'How it works'|'Overview'|'Today'|'Discover l
 export interface AppContextType {data:Bootstrap;mode:Mode;setMode:(m:Mode)=>void;refresh:()=>Promise<void>;navigate:(p:Page)=>void;openLead:(lead:Lead)=>void;logContact:(lead:Lead)=>void;openDraft:(draft:Draft)=>void;discover:(city?:string,segment?:string)=>void;browse:(city?:string,segment?:string)=>void;notify:(message:string,type?:'success'|'error')=>void;run:<T>(fn:()=>Promise<T>,message?:string)=>Promise<T|undefined>}
 export const AppContext=createContext<AppContextType>(null!);
 export const useApp=()=>useContext(AppContext);
-export function Button({children,icon:Icon,variant='',className='',busy=false,...props}:React.ButtonHTMLAttributes<HTMLButtonElement>&{icon?:LucideIcon;variant?:string;busy?:boolean}){return <button {...props} disabled={props.disabled||busy} className={`button ${variant} ${className}`}>{busy?<Loader2 className="spin" size={16}/>:Icon?<Icon size={16}/>:null}{children}</button>;}
+export function Button({children,icon:Icon,variant='',className='',busy=false,requiresWrite=false,...props}:React.ButtonHTMLAttributes<HTMLButtonElement>&{icon?:LucideIcon;variant?:string;busy?:boolean;requiresWrite?:boolean}){
+  const context=useContext(AppContext);const unavailable=requiresWrite&&context?.data.readOnly;
+  return <button {...props} title={unavailable?'Available after your private workspace is connected. See Settings for setup steps.':props.title} disabled={props.disabled||busy||unavailable} className={`button ${variant} ${className}`}>{busy?<Loader2 className="spin" size={16}/>:Icon?<Icon size={16}/>:null}{children}</button>;
+}
 export function Badge({children,tone='green'}:{children:ReactNode;tone?:string}){return <span className={`badge ${tone}`}>{children}</span>;}
 export function Score({value}:{value:number}){return <span className={`score ${value>=80?'high':value>=60?'medium':'low'}`}><span className="score-dot"/>{value}<span className="score-denom">/100</span></span>;}
 export function Avatar({name,segment,large=false}:{name:string;segment?:string;large?:boolean}){return <span className={`business-avatar ${large?'large':''} ${segment==='Cafés'?'coffee':segment==='Bakeries'?'bakery':segment==='Hotels & resorts'?'hotel':segment==='Restaurants'?'restaurant':'other'}`}>{initials(name)}</span>;}

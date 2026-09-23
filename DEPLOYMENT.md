@@ -6,6 +6,14 @@ The public Vercel preview provides browsing with a read-only API. The full writa
 
 Public URL: **https://dhampur-green-grow.vercel.app**. Vercel project: `dhampur-green-grow` in the `portfolio-1512` scope.
 
+### Automatic updates from GitHub
+
+Vercel is connected to **`Rizwankhan0001/DG-LG`**, with **`main`** as the production branch. Commit and push changes to `main`; Vercel builds them and updates the public URL after a successful build. Other branches receive separate preview deployments. No Vercel token needs to be committed or added to frontend configuration.
+
+`vercel.json` runs the TypeScript check, Vite build and backend tests. A failure stops that deployment from replacing the existing production site. The GitHub Actions workflow independently runs backend and desktop/mobile workflow checks; it is not an additional deployment approval gate. Use a pull request and review those checks before merging changes into `main`.
+
+Check the deployment in the Vercel project's Deployments page. `/api/health` includes the first 12 characters of the deployed Git commit as `revision`, allowing you to verify which source version is serving production. A CLI-only deployment without Git metadata reports `local`.
+
 `vercel.json` builds the Vite frontend and routes `/api/*` to `api/index.ts`. The function initializes an in-memory database from the checked-in public research and catalogue. All API writes are blocked before authentication or provider calls. The frontend displays a preview notice and avoids background polling. The full local application still uses `server/index.ts` and supports saving.
 
 ```bash

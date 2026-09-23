@@ -37,7 +37,7 @@ export function createApp(store:Store,options:{readOnly?:boolean}={}) {
   app.set('trust proxy',1);
   app.use(helmet({contentSecurityPolicy:production?{directives:{defaultSrc:["'self'"],scriptSrc:["'self'"],styleSrc:["'self'","'unsafe-inline'"],imgSrc:["'self'",'data:','https://cdn.shopify.com'],fontSrc:["'self'"],connectSrc:["'self'"],upgradeInsecureRequests:[]}}:false}));
   app.use(express.json({limit:'2mb'}));app.use(express.urlencoded({extended:false,limit:'8kb'}));app.use(cookieParser());
-  app.get('/api/health',(_req,res)=>res.json({ok:true,service:'dhampur-green-grow'}));
+  app.get('/api/health',(_req,res)=>{res.setHeader('Cache-Control','no-store');res.json({ok:true,service:'dhampur-green-grow',revision:process.env.VERCEL_GIT_COMMIT_SHA?.slice(0,12)||'local',readOnly});});
   app.use('/api',(req,res,next)=>{
     res.setHeader('Cache-Control','no-store');
     if(readOnly&&!['GET','HEAD','OPTIONS'].includes(req.method))return res.status(503).json({error:'This live preview is read-only. Saving, automated searches and sending will be available after the cloud backend is connected.'});
