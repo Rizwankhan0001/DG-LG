@@ -26,17 +26,23 @@ const hash=(s:string)=>createHash('sha256').update(s).digest('hex');
 const asyncRoute=(fn:(req:Request,res:Response)=>Promise<unknown>)=>(req:Request,res:Response,next:NextFunction)=>{void fn(req,res).catch(next);};
 const error=(message:string,status=400)=>Object.assign(new Error(message),{status});
 
-export function createApp(store:Store) {
+export function createApp(store:Store,options:{readOnly?:boolean}={}) {
   const app=express();
+  const readOnly=options.readOnly===true;
   const production=process.env.NODE_ENV==='production';
-  const password=process.env.ADMIN_PASSWORD||'';
-  if(production && (password.length<12 || !process.env.APP_URL?.startsWith('https://')))throw new Error('Production requires ADMIN_PASSWORD (12+ characters) and an HTTPS APP_URL.');
+  const password=readOnly?'':process.env.ADMIN_PASSWORD||'';
+  if(production && !readOnly && (password.length<12 || !process.env.APP_URL?.startsWith('https://')))throw new Error('Production requires ADMIN_PASSWORD (12+ characters) and an HTTPS APP_URL.');
   const passwordHash=password?bcrypt.hashSync(password,12):'';
   app.disable('x-powered-by');
   app.set('trust proxy',1);
   app.use(helmet({contentSecurityPolicy:production?{directives:{defaultSrc:["'self'"],scriptSrc:["'self'"],styleSrc:["'self'","'unsafe-inline'"],imgSrc:["'self'",'data:','https://cdn.shopify.com'],fontSrc:["'self'"],connectSrc:["'self'"],upgradeInsecureRequests:[]}}:false}));
   app.use(express.json({limit:'2mb'}));app.use(express.urlencoded({extended:false,limit:'8kb'}));app.use(cookieParser());
   app.get('/api/health',(_req,res)=>res.json({ok:true,service:'dhampur-green-grow'}));
+  app.use('/api',(req,res,next)=>{
+    res.setHeader('Cache-Control','no-store');
+    if(readOnly&&!['GET','HEAD','OPTIONS'].includes(req.method))return res.status(503).json({error:'This live preview is read-only. Saving, automated searches and sending will be available after the cloud backend is connected.'});
+    next();
+  });
   app.use('/api',rateLimit({windowMs:60000,limit:240,standardHeaders:'draft-7',legacyHeaders:false,message:{error:'Too many requests. Please try again in a minute.'}}));
   app.use('/api',(req,res,next)=>{
     if(['GET','HEAD','OPTIONS'].includes(req.method)||req.path==='/unsubscribe')return next();
@@ -86,10 +92,14 @@ export function createApp(store:Store) {
     res.setHeader('Cache-Control','no-store');
     res.json({places:result.places,checkedAt:new Date().toISOString()});
   }));
-  app.get('/api/readiness',(_req,res)=>res.json(readiness(store)));
+  app.get('/api/readiness',(_req,res)=>{
+    const state=readiness(store);
+    if(readOnly){state.databaseHealthy=false;state.schedulerEnabled=false;state.backupsConfigured=false;state.loginProtected=false;state.checks=state.checks.map(check=>({...check,ready:check.id==='hosting',detail:check.id==='hosting'?'The read-only preview is published.':'This preview contains public research only. Connect the cloud backend to enable a private, persistent workspace.'}));}
+    res.json(state);
+  });
   app.get('/api/bootstrap',(req,res)=>{
     const mode=modeSchema.parse(req.query.mode);const demo=mode==='demo';
-    res.json({mode,authenticated:true,leads:store.list<Lead>('leads').filter(l=>l.demo===demo).sort((a,b)=>b.score-a.score),products:store.list<Product>('products'),drafts:store.list<Draft>('drafts').filter(d=>d.demo===demo).sort((a,b)=>b.createdAt.localeCompare(a.createdAt)),automations:store.list<Automation>('automations').filter(a=>a.mode===mode),jobs:store.list<Job>('jobs').filter(j=>j.mode===mode).sort((a,b)=>b.createdAt.localeCompare(a.createdAt)).slice(0,30),activities:store.list<Activity>('activities').filter(a=>a.demo===demo).sort((a,b)=>b.createdAt.localeCompare(a.createdAt)).slice(0,30),settings:store.settings(),integrations:integrations()});
+    res.json({mode,readOnly,authenticated:true,leads:store.list<Lead>('leads').filter(l=>l.demo===demo).sort((a,b)=>b.score-a.score),products:store.list<Product>('products'),drafts:store.list<Draft>('drafts').filter(d=>d.demo===demo).sort((a,b)=>b.createdAt.localeCompare(a.createdAt)),automations:store.list<Automation>('automations').filter(a=>a.mode===mode),jobs:store.list<Job>('jobs').filter(j=>j.mode===mode).sort((a,b)=>b.createdAt.localeCompare(a.createdAt)).slice(0,30),activities:store.list<Activity>('activities').filter(a=>a.demo===demo).sort((a,b)=>b.createdAt.localeCompare(a.createdAt)).slice(0,30),settings:store.settings(),integrations:integrations()});
   });
   app.post('/api/leads',(req,res)=>{
     const input=leadInput.parse(req.body);const mode=modeSchema.parse(req.body.mode);

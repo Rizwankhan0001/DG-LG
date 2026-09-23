@@ -1,6 +1,20 @@
 # Publish Dhampur Green Grow
 
-The application needs **one always-on Node/Docker service and a persistent volume**. The frontend, API and scheduler are deployed together. A static frontend deployment alone does not publish this application. No provider service has been created by preparing these files.
+The public Vercel preview provides browsing with a read-only API. The full writable application needs **one always-on Node/Docker service and a persistent volume**, or a database and scheduler migration for serverless hosting.
+
+## Vercel preview
+
+Public URL: **https://dhampur-green-grow.vercel.app**. Vercel project: `dhampur-green-grow` in the `portfolio-1512` scope.
+
+`vercel.json` builds the Vite frontend and routes `/api/*` to `api/index.ts`. The function initializes an in-memory database from the checked-in public research and catalogue. All API writes are blocked before authentication or provider calls. The frontend displays a preview notice and avoids background polling. The full local application still uses `server/index.ts` and supports saving.
+
+```bash
+vercel deploy --prod
+```
+
+Use Node.js 22. No provider keys are required for this preview. `.vercelignore` excludes local databases, backups, environment files and generated artifacts. Never upload private CRM data or provider credentials to this public preview. Adding provider keys alone will not enable editing: the Vercel entrypoint intentionally enforces read-only access.
+
+For a writable hosted workspace, deploy the existing persistent backend below, or migrate the database to a cloud service, restore administrator authentication, and move scheduled work to a durable queue before enabling writes on Vercel.
 
 ## Railway (integrated deployment option)
 
@@ -27,7 +41,8 @@ Official references: [Render Blueprint specification](https://render.com/docs/bl
 
 | Capability | Server secret/configuration |
 | --- | --- |
-| Find new businesses automatically | `GOOGLE_PLACES_API_KEY` with Places API (New) and billing enabled |
+| Refresh supported official business directories | No provider key; a running persistent backend and worker are required |
+| Check current Google listings | Optional `GOOGLE_PLACES_API_KEY` with Places API (New) and billing enabled; results are not stored in the CRM |
 | Personalize drafts with AI | `OPENAI_API_KEY` and optional `OPENAI_MODEL` |
 | Find missing business emails | `HUNTER_API_KEY` |
 | Send reviewed emails | `RESEND_API_KEY`, a verified `OUTREACH_FROM`, `OUTREACH_REPLY_TO`, `OUTREACH_ENABLED=true` |

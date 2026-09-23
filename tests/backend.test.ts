@@ -20,8 +20,8 @@ import type { Lead, Product, Job, Draft } from '../shared/types.js';
 
 const products=JSON.parse(readFileSync(new URL('../data/catalog.json',import.meta.url),'utf8')) as Product[];
 const nativeFetch=globalThis.fetch;
-async function setup(){
-  const store=createStore(':memory:');seed(store,products);const server=createApp(store).listen(0,'127.0.0.1');await once(server,'listening');
+async function setup(options:{readOnly?:boolean}={}){
+  const store=createStore(':memory:');seed(store,products);const server=createApp(store,options).listen(0,'127.0.0.1');await once(server,'listening');
   const address=server.address() as {port:number};const url=`http://127.0.0.1:${address.port}/api`;
   async function request(path:string,body?:unknown,method?:string,headers:Record<string,string>={}){
     const response=await nativeFetch(url+path,{method:method??(body?'POST':'GET'),headers:{'Content-Type':'application/json','X-Requested-With':'Grow',...headers},...(body?{body:JSON.stringify(body)}:{})});
@@ -29,6 +29,25 @@ async function setup(){
   }
   return {store,request,close:async()=>{server.closeAllConnections();await new Promise<void>((resolve,reject)=>server.close(e=>e?reject(e):resolve()));store.db.close();}};
 }
+
+test('public preview serves sourced records but blocks all writes and provider actions',async()=>{
+  const s=await setup({readOnly:true});
+  try{
+    seedResearch(s.store);
+    const response=await s.request('/bootstrap');assert.equal(response.status,200);assert.equal(response.data.readOnly,true);assert.equal(response.data.leads.length,researchedBusinesses.length);
+    const lead=response.data.leads[0];
+    for(const [path,method,body] of [
+      [`/leads/${lead.id}`,'PATCH',{stage:'Won'}],
+      [`/leads/${lead.id}/notes`,'POST',{text:'Do not save this'}],
+      [`/leads/${lead.id}/draft`,'POST',{}],
+      [`/leads/${lead.id}/google-check`,'POST',{}],
+      ['/discover','POST',{cities:['Mumbai'],segments:['Bakeries'],mode:'live',limit:10}],
+      ['/auth/login','POST',{email:'any@example.com',password:'password'}],
+    ] as const){const blocked=await s.request(path,body,method);assert.equal(blocked.status,503);assert.match(blocked.data.error,/read-only/);}
+    assert.deepEqual(s.store.get('leads',lead.id),lead);
+    const state=(await s.request('/readiness')).data;assert.equal(state.databaseHealthy,false);assert.equal(state.schedulerEnabled,false);
+  }finally{await s.close();}
+});
 
 test('scoring is explainable and does not invent contact data or purchasing intent',()=>{
   const minimal=scoreLead({segment:'Cafés',city:'Delhi NCR',phone:'',email:'',website:'',rating:null,reviews:0},products,['Delhi NCR']);

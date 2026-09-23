@@ -2,9 +2,15 @@
 
 A complete local web application for finding and developing hospitality sales opportunities for Dhampur Green. Built around **Delhi NCR, Mumbai, and Bengaluru**, with ten Indian cities and eight buyer categories.
 
+## Public Vercel preview
+
+Live preview: **https://dhampur-green-grow.vercel.app**
+
+The Vercel deployment serves the frontend and a read-only API with the 303 versioned research records and product catalogue. The preview supports browsing, filters, product opportunities and the workflow guide. It does not save CRM changes, run discovery or automations, or send messages. No local database, private notes or `.env` file is uploaded. See [DEPLOYMENT.md](DEPLOYMENT.md) for deployment details and the full backend requirements.
+
 ## Start locally
 
-Requires Node.js 20.19+ (Node 22 recommended).
+Requires Node.js 22.
 
 ```bash
 npm install

@@ -31,7 +31,7 @@ export interface Job { id: string; type: 'discovery'; status: 'queued' | 'runnin
 export interface Activity { id: string; text: string; kind: string; demo: boolean; createdAt: string }
 export interface Settings { company: string; senderName: string; targetCities: string[]; monthlyTarget: number; defaultDealValue: number; signature: string }
 export interface Integration { id: string; name: string; configured: boolean; enabled?: boolean; description: string; keys: string[]; url: string }
-export interface Bootstrap { leads: Lead[]; products: Product[]; drafts: Draft[]; automations: Automation[]; jobs: Job[]; activities: Activity[]; settings: Settings; integrations: Integration[]; mode: Mode; authenticated: boolean }
+export interface Bootstrap { readOnly?:boolean; leads: Lead[]; products: Product[]; drafts: Draft[]; automations: Automation[]; jobs: Job[]; activities: Activity[]; settings: Settings; integrations: Integration[]; mode: Mode; authenticated: boolean }
 export interface Readiness { environment:'local'|'production'; publicUrl:string|null; loginProtected:boolean; databaseHealthy:boolean; schedulerEnabled:boolean; backupsConfigured:boolean; checks:{id:string;title:string;ready:boolean;detail:string}[] }
 export interface DirectorySource { id:string; name:string; brand:string; city:string; segment:Segment; url:string; parser:'theobroma'|'blue-tokai' }
 export interface DirectoryStatus { id:string; checkedAt?:string; count?:number; error?:string }
