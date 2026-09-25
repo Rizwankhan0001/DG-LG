@@ -28,7 +28,7 @@ Sources: [Supabase pricing](https://supabase.com/pricing), [Railway pricing](htt
 | Check current Google listings | `GOOGLE_PLACES_API_KEY`; Google Cloud project with billing and Places API (New) enabled | Optional live lookup; no result persistence |
 | AI drafts | `OPENAI_API_KEY`, `OPENAI_MODEL` available to that API project | Optional; catalogue templates already work |
 | Find published company emails | `HUNTER_API_KEY` | Optional; may return a shared address, not a purchasing decision maker |
-| Send to opted-in contacts | `RESEND_API_KEY`, `OUTREACH_FROM`, `OUTREACH_REPLY_TO`, verified sending domain | After consent checks are implemented |
+| Send to opted-in contacts | `RESEND_API_KEY`, `OUTREACH_FROM`, `OUTREACH_REPLY_TO`, `OUTREACH_POSTAL_ADDRESS`, verified sending domain | Opt-in enforced in bulk campaigns and individual sends |
 | Allow reviewed sending | `OUTREACH_ENABLED=true` | Keep false during initial setup |
 | Background jobs | `WORKER_ENABLED=true` on an always-on service | To process discovery jobs and scheduled routines |
 | Usage limits | `DAILY_DISCOVERY_LIMIT`, `DAILY_ENRICHMENT_LIMIT`, `DAILY_EMAIL_LIMIT` | Start low and monitor actual provider usage |
@@ -42,7 +42,7 @@ Sources: [Google Places billing and field masks](https://developers.google.com/m
 ## Two production changes required by the provider choices
 
 1. **Google Places content:** The old persistent importer has been replaced by a live-only listing comparison in the Sources tab. Results use `Cache-Control: no-store`, remain out of the CRM and AI input, and display attribution. Discovery now imports independently sourced official-directory facts. Add public terms/privacy notices and review the intended Google use before production; this architecture change is not a compliance certification.
-2. **Email sending:** Resend prohibits cold outreach and requires recipients to opt in. Publicly finding an email and manually reviewing a message do not establish opt-in. The existing send gate checks review and suppression but does not record/enforce positive consent. Add consent evidence and enforce it server-side before enabling Resend. Cold prospecting needs a separately evaluated workflow/provider and an appropriate integration; it is not enabled by adding a Resend key.
+2. **Email sending:** Resend prohibits cold outreach and requires recipients to opt in. Publicly finding an email and manually reviewing a message do not establish opt-in. Bulk campaigns and individual sends now enforce recorded, address-specific email opt-in and suppression server-side. Record permission in a lead profile or import your existing permission records through Bulk campaigns. Campaign emails include your postal address and an unsubscribe link. Cold prospecting needs a separately evaluated workflow/provider and an appropriate integration; it is not enabled by adding a Resend key.
 
 Sources: [Google Places policies](https://developers.google.com/maps/documentation/places/web-service/policies), [Resend acceptable use](https://resend.com/legal/acceptable-use).
 
@@ -112,3 +112,7 @@ If Supabase Auth is integrated, also configure the project URL and publishable k
 6. Watch failed jobs, duplicate rates, contact quality, sample requests, confirmed orders and provider spend. Increase the schedule based on these results.
 
 The current SQLite setup remains an option for a small single-instance pilot with a persistent volume and off-host backups while this migration is built.
+
+## Bulk campaign setup
+
+See [CAMPAIGNS.md](CAMPAIGNS.md) for the email and WhatsApp keys, permission import format, queue behaviour, limits and recovery instructions. The public Vercel deployment remains read-only; adding sending keys to that preview does not activate a persistent worker.

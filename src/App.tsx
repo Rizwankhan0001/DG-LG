@@ -1,19 +1,21 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { Leaf, LayoutDashboard, Search, Bookmark, Columns3, Mail, Workflow, Package, ChartNoAxesCombined, Settings, ChevronDown, Bell, ArrowUpRight, Sparkles, HelpCircle, PanelLeftClose, Menu, Check, X, Loader2, LogOut, ArrowRight, Sprout, CircleHelp, ListTodo, BookOpen, ShieldCheck } from 'lucide-react';
+import { Send, Leaf, LayoutDashboard, Search, Bookmark, Columns3, Mail, Workflow, Package, ChartNoAxesCombined, Settings, ChevronDown, Bell, ArrowUpRight, Sparkles, HelpCircle, PanelLeftClose, Menu, Check, X, Loader2, LogOut, ArrowRight, Sprout, CircleHelp, ListTodo, BookOpen, ShieldCheck } from 'lucide-react';
 import type { Bootstrap, Lead, Mode, Draft } from '../shared/types';
 import { api, AppContext, Button, Modal, relativeTime, type Page } from './lib';
 import { navigateRoute, routePage, routeParams, updateRoute } from './navigation';
+import { ProductCatalogue } from './Catalogue';
+import { Campaigns } from './Campaigns';
 import { DataQuality } from './DataQuality';
 import { Guide } from './Guide';
 import { Overview, Reports } from './Overview';
 import { Today, ContactModal } from './Today';
 import { LeadsPage, LeadDrawer, DiscoveryModal, AddLeadModal, ImportModal } from './Leads';
-import { Pipeline, Outreach, Automations, ProductCatalogue, SettingsPage } from './Workspace';
+import { Pipeline, Outreach, Automations, SettingsPage } from './Workspace';
 
-const nav=[{label:'Overview',icon:LayoutDashboard},{label:'Today',icon:ListTodo},{label:'Discover leads',icon:Search},{label:'Saved leads',icon:Bookmark},{label:'Sales pipeline',icon:Columns3},{label:'Outreach studio',icon:Mail},{label:'Automations',icon:Workflow}] as const;
+const nav=[{label:'Overview',icon:LayoutDashboard},{label:'Today',icon:ListTodo},{label:'Discover leads',icon:Search},{label:'Saved leads',icon:Bookmark},{label:'Sales pipeline',icon:Columns3},{label:'Outreach studio',icon:Mail},{label:'Campaigns',icon:Send},{label:'Automations',icon:Workflow}] as const;
 const management=[{label:'Data & accuracy',icon:ShieldCheck},{label:'How it works',icon:BookOpen},{label:'Product catalogue',icon:Package},{label:'Reports',icon:ChartNoAxesCombined},{label:'Settings',icon:Settings}] as const;
 const pages=[...nav,...management].map(x=>x.label);
-const pageLabels:Record<Page,string>={'Data & accuracy':'Data & accuracy','How it works':'How it works','Overview':'Overview','Today':'Today’s actions','Discover leads':'Find businesses','Saved leads':'Shortlist','Sales pipeline':'Sales pipeline','Outreach studio':'Outreach','Automations':'Automations','Product catalogue':'Product catalogue','Reports':'Reports','Settings':'Settings'};
+const pageLabels:Record<Page,string>={'Data & accuracy':'Data & accuracy','How it works':'How it works','Overview':'Overview','Today':'Today’s actions','Discover leads':'Find businesses','Saved leads':'Shortlist','Sales pipeline':'Sales pipeline','Outreach studio':'Outreach','Campaigns':'Bulk campaigns','Automations':'Automations','Product catalogue':'Product catalogue','Reports':'Reports','Settings':'Settings'};
 const getPage=():Page=>{const value=routePage();return pages.includes(value as Page)?value as Page:'Overview';};
 function Login({onSuccess}:{onSuccess:()=>void}){
   const [email,setEmail]=useState('');const [password,setPassword]=useState('');const [busy,setBusy]=useState(false);const [error,setError]=useState('');
@@ -68,7 +70,7 @@ export default function App(){
           {activeJobs.length>0&&<button className="running-banner" onClick={()=>navigate('Automations')}><Loader2 size={15} className="spin"/><span>{activeJobs[0].progress}</span><span>View activity <ArrowRight size={13}/></span></button>}
           {page==='Data & accuracy'&&<DataQuality/>}{page==='How it works'&&<Guide/>}{page==='Overview'&&<Overview/>}{page==='Today'&&<Today/>}
           {(page==='Discover leads'||page==='Saved leads')&&<LeadsPage saved={page==='Saved leads'} query={query} setQuery={setQuery} onAdd={()=>setModal('add')} onImport={()=>setModal('import')}/>}
-          {page==='Sales pipeline'&&<Pipeline/>}{page==='Outreach studio'&&<Outreach focusedId={draftId}/>}{page==='Automations'&&<Automations/>}{page==='Product catalogue'&&<ProductCatalogue/>}{page==='Reports'&&<Reports/>}{page==='Settings'&&<SettingsPage onLogout={async()=>{await api('/auth/logout',{});setAuth(false);}}/>}
+          {page==='Campaigns'&&<Campaigns/>}{page==='Sales pipeline'&&<Pipeline/>}{page==='Outreach studio'&&<Outreach focusedId={draftId}/>}{page==='Automations'&&<Automations/>}{page==='Product catalogue'&&<ProductCatalogue/>}{page==='Reports'&&<Reports/>}{page==='Settings'&&<SettingsPage onLogout={async()=>{await api('/auth/logout',{});setAuth(false);}}/>}
           <footer className="page-footer"><span><Leaf size={12}/> Dhampur Green · Hospitality sales</span><span>Dhampur Green Grow <span className="footer-dot">·</span> Sources linked. Decisions yours.</span></footer>
         </main>
       </div>

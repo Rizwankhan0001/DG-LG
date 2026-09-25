@@ -2,6 +2,12 @@
 
 A complete local web application for finding and developing hospitality sales opportunities for Dhampur Green. Built around **Delhi NCR, Mumbai, and Bengaluru**, with ten Indian cities and eight buyer categories.
 
+## Bulk campaigns and product studio
+
+Bulk campaigns supports 50, 100, 150 or a custom batch of up to 500 unique opted-in contacts, filtered by city, buyer category and product. Personalised email and approved WhatsApp template campaigns have a saved review step, a paced queue, daily limits, pause/cancel controls and individual provider results. Recorded buyer interest improves research priority; scores are not conversion predictions. See [CAMPAIGNS.md](CAMPAIGNS.md) for activation and credentials.
+
+The product studio includes official imagery, service and buyer filters, three-product comparison, detailed pack/price context, copyable briefs and a browser-saved sample list with CSV export. Product-to-buyer links now consider all matching categories. Retail snapshots are not wholesale quotes, and a sample list does not place an order.
+
 ## Public Vercel preview
 
 Live preview: **https://dhampur-green-grow.vercel.app**

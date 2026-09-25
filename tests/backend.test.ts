@@ -145,11 +145,11 @@ test('AI requests use supplied catalogue facts and discard unknown product ident
 });
 
 test('reviewed sending is idempotent and unsubscribe blocks future outreach',async()=>{
-  const names=['RESEND_API_KEY','OUTREACH_ENABLED','OUTREACH_FROM'];const previous=Object.fromEntries(names.map(k=>[k,process.env[k]]));
-  Object.assign(process.env,{RESEND_API_KEY:'test-only',OUTREACH_ENABLED:'true',OUTREACH_FROM:'Dhampur Green <sender@example.com>'});const s=await setup();let calls=0;let payload:any;
+  const names=['RESEND_API_KEY','OUTREACH_ENABLED','OUTREACH_FROM','OUTREACH_POSTAL_ADDRESS','APP_URL'];const previous=Object.fromEntries(names.map(k=>[k,process.env[k]]));
+  Object.assign(process.env,{RESEND_API_KEY:'test-only',OUTREACH_ENABLED:'true',OUTREACH_FROM:'Dhampur Green <sender@example.com>',OUTREACH_POSTAL_ADDRESS:'Test address',APP_URL:'https://private.test'});const s=await setup();let calls=0;let payload:any;
   globalThis.fetch=async(input,init)=>{calls++;assert.equal(String(input),'https://api.resend.com/emails');payload=JSON.parse(String(init?.body));assert.match(String((init?.headers as Record<string,string>)['Idempotency-Key']),/^grow-draft-/);return new Response(JSON.stringify({id:'test-provider-id'}),{status:200});};
   try{
-    const lead=newLead(s.store,{name:'Email Test Cafe',city:'Mumbai',segment:'Cafés',email:'buyer@example.com'});s.store.saveLead(lead);
+    const lead=newLead(s.store,{name:'Email Test Cafe',city:'Mumbai',segment:'Cafés',email:'buyer@business.test',permissions:{email:{status:'granted',address:'buyer@business.test',note:'Buyer opted in via signed form',recordedAt:new Date().toISOString()}}});s.store.saveLead(lead);
     const draft=(await s.request(`/leads/${lead.id}/draft`,{})).data;
     assert.equal((await s.request(`/drafts/${draft.id}/send`,{reviewed:false})).status,400);assert.equal(calls,0);
     const sent=await s.request(`/drafts/${draft.id}/send`,{reviewed:true});assert.equal(sent.status,200);assert.equal(sent.data.status,'sent');assert.equal(calls,1);
@@ -162,11 +162,11 @@ test('reviewed sending is idempotent and unsubscribe blocks future outreach',asy
 });
 
 test('uncertain send retries preserve exactly the same payload and key',async()=>{
-  const names=['RESEND_API_KEY','OUTREACH_ENABLED','OUTREACH_FROM'];const previous=Object.fromEntries(names.map(k=>[k,process.env[k]]));
-  Object.assign(process.env,{RESEND_API_KEY:'test-only',OUTREACH_ENABLED:'true',OUTREACH_FROM:'Dhampur Green <sender@example.com>'});const s=await setup();const payloads:string[]=[];const keys:string[]=[];
+  const names=['RESEND_API_KEY','OUTREACH_ENABLED','OUTREACH_FROM','OUTREACH_POSTAL_ADDRESS','APP_URL'];const previous=Object.fromEntries(names.map(k=>[k,process.env[k]]));
+  Object.assign(process.env,{RESEND_API_KEY:'test-only',OUTREACH_ENABLED:'true',OUTREACH_FROM:'Dhampur Green <sender@example.com>',OUTREACH_POSTAL_ADDRESS:'Test address',APP_URL:'https://private.test'});const s=await setup();const payloads:string[]=[];const keys:string[]=[];
   globalThis.fetch=async(_input,init)=>{payloads.push(String(init?.body));keys.push((init?.headers as Record<string,string>)['Idempotency-Key']);if(payloads.length===1)throw new Error('Simulated lost provider response');return new Response(JSON.stringify({id:'same-provider-id'}),{status:200});};
   try{
-    const lead=newLead(s.store,{name:'Retry Test Cafe',city:'Mumbai',segment:'Cafés',email:'buyer@example.com'});s.store.saveLead(lead);
+    const lead=newLead(s.store,{name:'Retry Test Cafe',city:'Mumbai',segment:'Cafés',email:'buyer@business.test',permissions:{email:{status:'granted',address:'buyer@business.test',note:'Buyer opted in via signed form',recordedAt:new Date().toISOString()}}});s.store.saveLead(lead);
     const draft=(await s.request(`/leads/${lead.id}/draft`,{})).data;
     assert.equal((await s.request(`/drafts/${draft.id}/send`,{reviewed:true})).status,400);
     assert.equal(s.store.get<Draft>('drafts',draft.id)?.status,'failed');

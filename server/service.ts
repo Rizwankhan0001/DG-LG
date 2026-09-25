@@ -4,6 +4,7 @@ import { scoreLead } from './scoring.js';
 import { enrichEmail, makePitch } from './providers.js';
 import { discoverOfficial } from './source-discovery.js';
 import { directorySources } from './directories.js';
+import { recoverCampaigns, runCampaignTick } from './campaigns.js';
 import type { Automation, Draft, Job, Lead, Mode, Product, Segment } from '../shared/types.js';
 
 export function newLead(store:Store, input:Partial<Lead> & Pick<Lead,'name'|'city'|'segment'>):Lead {
@@ -82,6 +83,7 @@ export async function runDiscovery(store:Store,job:Job) {
   job.finishedAt=new Date().toISOString();store.put('jobs',job);
 }
 export function startWorker(store:Store) {
+  recoverCampaigns(store);
   // A stopped process cannot retain a running lock. Preserve partial inserts; do not re-send outreach.
   for(const job of store.list<Job>('jobs').filter(j=>j.status==='running'))store.put('jobs',{...job,status:'failed',error:'Server restarted during discovery. Partial results are saved; run again to continue.',finishedAt:new Date().toISOString()});
   let busy=false;
@@ -96,6 +98,7 @@ export function startWorker(store:Store) {
         catch(error){store.activity(`Automation ${rule.name}: ${error instanceof Error?error.message:'Unable to queue'}`,rule.mode==='demo','error');}
         store.put('automations',{...rule,lastRun:new Date().toISOString(),nextRun:new Date(Date.now()+(rule.frequency==='daily'?1:7)*86400000).toISOString()});
       }
+      await runCampaignTick(store);
       const next=store.list<Job>('jobs').filter(j=>j.status==='queued').sort((a,b)=>a.createdAt.localeCompare(b.createdAt))[0];
       if(next)await runDiscovery(store,next);
     }finally{busy=false;}

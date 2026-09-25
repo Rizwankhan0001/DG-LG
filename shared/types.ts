@@ -7,7 +7,8 @@ export type Mode = 'demo' | 'live';
 export interface DemandPlan { useCaseId:string; dailyLow:number; dailyHigh:number; days:number; portion:number; supplyShare:number; notes:string; updatedAt?:string }
 export const contactOutcomes = ['Connected', 'No answer', 'Interested', 'Sample requested', 'Not interested'] as const;
 export interface ContactLog { id:string; channel:'Call'|'Email'|'Meeting'; outcome:typeof contactOutcomes[number]; summary:string; createdAt:string; nextFollowUp:string }
-export interface Product { id: string; name: string; category: string; image: string; url: string; price: number; unit: string; segments: Segment[]; pitch: string; syncedAt: string }
+export interface ProductVariant { id:string; title:string; price:number; available?:boolean }
+export interface Product { id: string; name: string; category: string; image: string; url: string; price: number; unit: string; segments: Segment[]; pitch: string; syncedAt: string; variants?:ProductVariant[] }
 export interface Lead {
   id: string; name: string; city: string; area: string; segment: Segment; stage: Stage;
   score: number; scoreReasons: string[]; products: string[]; email: string; phone: string;
@@ -20,6 +21,7 @@ export interface Lead {
   brand?: string;
   demandPlan?: DemandPlan;
   contactHistory?: ContactLog[];
+  permissions?: Partial<Record<'email'|'whatsapp', {status:'granted'|'revoked';address:string;note:string;recordedAt:string}>>;
   directoryId?: string;
   researchCheck?: { checkedAt:string; url:string; changes:{field:'name'|'area'|'phone'|'email'; current:string; published:string}[] };
   aiGrounding?: { generatedAt:string; model:string; sourceUrls:string[]; evidenceCount:number };

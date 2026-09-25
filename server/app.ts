@@ -15,6 +15,9 @@ import { createDraft, newLead, queueDiscovery } from './service.js';
 import { businessDate } from '../shared/workflow.js';
 import { readiness } from './readiness.js';
 import { dataReport } from './data-quality.js';
+import { campaignRoutes, whatsappWebhook } from './campaign-routes.js';
+import { permissionProblem } from '../shared/campaigns.js';
+import { campaignBlock, campaignConfig } from './campaigns.js';
 import { calculateDemand, defaultPlan, useCases } from '../shared/opportunity.js';
 
 const modeSchema=z.enum(['demo','live']).default('live');
@@ -36,13 +39,14 @@ export function createApp(store:Store,options:{readOnly?:boolean}={}) {
   app.disable('x-powered-by');
   app.set('trust proxy',1);
   app.use(helmet({contentSecurityPolicy:production?{directives:{defaultSrc:["'self'"],scriptSrc:["'self'"],styleSrc:["'self'","'unsafe-inline'"],imgSrc:["'self'",'data:','https://cdn.shopify.com'],fontSrc:["'self'"],connectSrc:["'self'"],upgradeInsecureRequests:[]}}:false}));
-  app.use(express.json({limit:'2mb'}));app.use(express.urlencoded({extended:false,limit:'8kb'}));app.use(cookieParser());
+  app.use(express.json({limit:'2mb',verify:(req,_res,buffer)=>{if(req.url?.split('?')[0]==='/api/webhooks/whatsapp')(req as Request&{rawBody?:Buffer}).rawBody=buffer;}}));app.use(express.urlencoded({extended:false,limit:'8kb'}));app.use(cookieParser());
   app.get('/api/health',(_req,res)=>{res.setHeader('Cache-Control','no-store');res.json({ok:true,service:'dhampur-green-grow',revision:process.env.VERCEL_GIT_COMMIT_SHA?.slice(0,12)||'local',readOnly});});
   app.use('/api',(req,res,next)=>{
     res.setHeader('Cache-Control','no-store');
     if(readOnly&&!['GET','HEAD','OPTIONS'].includes(req.method))return res.status(503).json({error:'This live preview is read-only. Saving, automated searches and sending will be available after the cloud backend is connected.'});
     next();
   });
+  app.use('/api/webhooks/whatsapp',whatsappWebhook(store));
   app.use('/api',rateLimit({windowMs:60000,limit:240,standardHeaders:'draft-7',legacyHeaders:false,message:{error:'Too many requests. Please try again in a minute.'}}));
   app.use('/api',(req,res,next)=>{
     if(['GET','HEAD','OPTIONS'].includes(req.method)||req.path==='/unsubscribe')return next();
@@ -82,6 +86,7 @@ export function createApp(store:Store,options:{readOnly?:boolean}={}) {
     res.type('html').send('<!doctype html><title>Unsubscribed</title><main style="font-family:system-ui;max-width:520px;margin:80px auto;padding:24px"><h1>You’re unsubscribed.</h1><p>You will no longer receive business outreach from Dhampur Green.</p></main>');
   });
   app.use('/api',(req,res,next)=>isAuthed(req)?next():res.status(401).json({error:'Please sign in to continue.'}));
+  app.use('/api',campaignRoutes(store));
   const findLead=(id:string)=>{const lead=store.get<Lead>('leads',id);if(!lead)throw error('Lead not found.',404);return lead;};
   app.get('/api/data-quality',(_req,res)=>res.json(dataReport(store)));
   app.post('/api/leads/:id/google-check',asyncRoute(async(req,res)=>{
@@ -221,14 +226,17 @@ export function createApp(store:Store,options:{readOnly?:boolean}={}) {
     const lead=findLead(draft.leadId);
     if(!z.string().email().safeParse(lead.email).success||lead.email.endsWith('.example'))throw error('Add a valid business email to this lead first.');
     if(lead.suppressed||store.db.prepare('SELECT email FROM suppressions WHERE email=?').get(lead.email.toLowerCase()))throw error('This recipient is on your do-not-contact list.');
+    const permission=permissionProblem(lead,'email')||campaignBlock(store,lead,'email',lead.email.trim().toLowerCase(),undefined,draft.id);
+    if(permission)throw error(permission+'. Review Permissions in the lead profile.');
+    if(!process.env.OUTREACH_POSTAL_ADDRESS||!process.env.APP_URL?.startsWith('https://'))throw error('Set OUTREACH_POSTAL_ADDRESS and a public HTTPS APP_URL before sending.');
     if(draft.delivery&&draft.delivery.payload.to[0]!==lead.email)throw error('The recipient has changed since the first send attempt. Check the original message in Resend before preparing a new one.');
     if(draft.delivery&&Date.now()-Date.parse(draft.delivery.startedAt)>23*60*60*1000)throw error('The retry window has expired. Check delivery in Resend before preparing a new email.');
-    if(!store.reserveUsage('email_attempts',Number(process.env.DAILY_EMAIL_LIMIT)||30))throw error('Daily email limit reached.');
+    if(!store.reserveUsage('email_attempts',campaignConfig(store).email.limit))throw error('Daily email limit reached.');
     let delivery=draft.delivery;
     if(!delivery){
       const token=randomBytes(32).toString('hex');store.db.prepare('INSERT INTO unsubscribe_tokens VALUES(?,?)').run(token,lead.email.toLowerCase());
       const unsubscribe=`${process.env.APP_URL||'http://localhost:5173'}/api/unsubscribe?token=${token}`;
-      delivery={startedAt:new Date().toISOString(),payload:{from:process.env.OUTREACH_FROM,to:[lead.email],subject:draft.subject,text:`${draft.body}\n\nTo stop receiving business emails: ${unsubscribe}`,...(process.env.OUTREACH_REPLY_TO?{reply_to:process.env.OUTREACH_REPLY_TO}:{})}};
+      delivery={startedAt:new Date().toISOString(),payload:{from:process.env.OUTREACH_FROM,to:[lead.email],subject:draft.subject,text:`${draft.body}\n\n${store.settings().company}\n${process.env.OUTREACH_POSTAL_ADDRESS}\nYou are receiving this because you opted in to our product updates.\nTo stop receiving business emails: ${unsubscribe}`,...(process.env.OUTREACH_REPLY_TO?{reply_to:process.env.OUTREACH_REPLY_TO}:{})}};
     }
     store.put('drafts',{...draft,delivery,status:'sending',email:lead.email});
     try{

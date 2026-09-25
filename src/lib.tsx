@@ -9,7 +9,7 @@ export const currency=(value:number,compact=true)=>compact&&value>=100000?`₹${
 export const initials=(name:string)=>name.replace(/[^a-zA-Z0-9 ]/g,'').split(' ').filter(Boolean).slice(0,2).map(s=>s[0]).join('');
 export const dateLabel=(date:string)=>new Date(date).toLocaleDateString('en-IN',{day:'numeric',month:'short'});
 export const relativeTime=(date:string)=>{const m=Math.floor((Date.now()-Date.parse(date))/60000);return m<1?'Just now':m<60?`${m}m ago`:m<1440?`${Math.floor(m/60)}h ago`:`${Math.floor(m/1440)}d ago`;};
-export type Page='Data & accuracy'|'How it works'|'Overview'|'Today'|'Discover leads'|'Saved leads'|'Sales pipeline'|'Outreach studio'|'Automations'|'Product catalogue'|'Reports'|'Settings';
+export type Page='Campaigns'|'Data & accuracy'|'How it works'|'Overview'|'Today'|'Discover leads'|'Saved leads'|'Sales pipeline'|'Outreach studio'|'Automations'|'Product catalogue'|'Reports'|'Settings';
 export interface AppContextType {data:Bootstrap;mode:Mode;setMode:(m:Mode)=>void;refresh:()=>Promise<void>;navigate:(p:Page)=>void;openLead:(lead:Lead)=>void;logContact:(lead:Lead)=>void;openDraft:(draft:Draft)=>void;discover:(city?:string,segment?:string)=>void;browse:(city?:string,segment?:string)=>void;notify:(message:string,type?:'success'|'error')=>void;run:<T>(fn:()=>Promise<T>,message?:string)=>Promise<T|undefined>}
 export const AppContext=createContext<AppContextType>(null!);
 export const useApp=()=>useContext(AppContext);

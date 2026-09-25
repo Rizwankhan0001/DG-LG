@@ -1,7 +1,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { z } from 'zod';
 import type { Product } from '../shared/types.js';
-const productSchema=z.object({id:z.number(),title:z.string(),handle:z.string(),images:z.array(z.object({src:z.string().url()})),variants:z.array(z.object({price:z.string(),title:z.string()})).min(1)});
+const productSchema=z.object({id:z.number(),title:z.string(),handle:z.string(),images:z.array(z.object({src:z.string().url()})),variants:z.array(z.object({id:z.number(),price:z.string().regex(/^\d+(\.\d+)?$/),title:z.string(),available:z.boolean().optional()})).min(1)});
 const path=new URL('../data/catalog.json',import.meta.url);
 const existing=JSON.parse(readFileSync(path,'utf8')) as Product[];
 const response=await fetch('https://www.dhampurgreen.com/products.json?limit=250',{signal:AbortSignal.timeout(30000)});
@@ -12,6 +12,7 @@ let downloaded=0;
 for(const item of existing){
   const product=products.find(p=>String(p.id)===item.id);if(!product){console.warn(`Product ${item.id} is no longer in the catalogue. Keeping the last snapshot.`);continue;}
   item.name=product.title.trim();item.price=Number(product.variants[0].price);item.unit=product.variants[0].title;
+  item.variants=product.variants.map(variant=>({id:String(variant.id),title:variant.title,price:Number(variant.price),...(variant.available===undefined?{}:{available:variant.available})}));
   item.url=`https://www.dhampurgreen.com/products/${product.handle}`;item.syncedAt=new Date().toISOString();
   const source=product.images[0]?.src;
   if(source){
