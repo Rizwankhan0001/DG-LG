@@ -11,7 +11,11 @@ const permissionInput=z.object({leadId:z.string().min(1),address:z.string().min(
 export function campaignRoutes(store:Store){
   const router=Router();
   router.get('/campaigns',(_req,res)=>res.json({campaigns:store.list<Campaign>('campaigns').sort((a,b)=>b.createdAt.localeCompare(a.createdAt)).map(c=>detail(store,c.id)),config:campaignConfig(store)}));
-  router.get('/campaigns/audience',(req,res)=>res.json(campaignAudience(store,campaignFilters.parse({...req.query,limit:Number(req.query.limit??50)}))));
+  // Vercel rewrites add a `path` query key; validate only the public filter inputs.
+  router.get('/campaigns/audience',(req,res)=>{
+    const {channel,city,segment,productId,limit}=req.query;
+    res.json(campaignAudience(store,campaignFilters.parse({channel,city,segment,productId,limit:Number(limit??50)})));
+  });
   router.post('/campaigns/whatsapp-template',asyncRoute(async(_req,res)=>res.json(await loadWhatsAppTemplate(store))));
   router.post('/campaigns',(req,res)=>{
     const input=z.object({requestId:z.string().uuid(),name:z.string().trim().min(3).max(100),filters:campaignFilters,subject:z.string().trim().min(1).max(180).refine(s=>!/[\r\n]/.test(s),'Subject must be one line'),body:z.string().trim().min(10).max(6000),leadIds:z.array(z.string()).min(1).max(500)}).strict().parse(req.body);
