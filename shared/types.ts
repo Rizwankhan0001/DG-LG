@@ -1,5 +1,5 @@
 export const cities = ['Delhi NCR', 'Mumbai', 'Bengaluru', 'Hyderabad', 'Pune', 'Chennai', 'Jaipur', 'Kolkata', 'Goa', 'Ahmedabad'] as const;
-export const segments = ['Cafés', 'Restaurants', 'Hotels & resorts', 'Bakeries', 'Bars & lounges', 'Caterers', 'Sweet shops', 'Distributors'] as const;
+export const segments = ['Cafés', 'Restaurants', 'Hotels & resorts', 'Bakeries', 'Bars & lounges', 'Caterers', 'Sweet shops', 'Distributors', 'Food manufacturers'] as const;
 export const stages = ['New', 'Qualified', 'Contacted', 'Sample sent', 'Negotiation', 'Won', 'Lost'] as const;
 export type Segment = typeof segments[number];
 export type Stage = typeof stages[number];
@@ -10,6 +10,7 @@ export interface ContactLog { id:string; channel:'Call'|'Email'|'Meeting'; outco
 export interface ProductVariant { id:string; title:string; price:number; available?:boolean }
 export interface Product { id: string; name: string; category: string; image: string; url: string; price: number; unit: string; segments: Segment[]; pitch: string; syncedAt: string; variants?:ProductVariant[] }
 export interface Lead {
+  buyerCompanyId?:string;
   id: string; name: string; city: string; area: string; segment: Segment; stage: Stage;
   score: number; scoreReasons: string[]; products: string[]; email: string; phone: string;
   website: string; source: string; sourceUrl: string; sourceId: string; sourceAt: string;

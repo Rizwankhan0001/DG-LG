@@ -1,0 +1,102 @@
+[
+  {
+    "id": "material-0",
+    "family": "Cane jaggery",
+    "productIds": [
+      "7160839766179",
+      "7968344899828",
+      "7785428320500"
+    ],
+    "description": "Jaggery powder and solid gur for recipe trials.",
+    "qualification": [
+      "Confirm bulk packs, MOQ and current trade quote.",
+      "Supply capacity and manufacturer-grade specifications have not been provided.",
+      "Confirm batch test reports, certification where required, and sample approval."
+    ]
+  },
+  {
+    "id": "material-1",
+    "family": "Khandsari / khand",
+    "productIds": [
+      "8991455707380",
+      "7733988950260",
+      "7140699635875"
+    ],
+    "description": "Khandsari and desi khand: qualify grain size, colour and moisture.",
+    "qualification": [
+      "Confirm bulk packs, MOQ and current trade quote.",
+      "Supply capacity and manufacturer-grade specifications have not been provided.",
+      "Confirm batch test reports, certification where required, and sample approval."
+    ]
+  },
+  {
+    "id": "material-2",
+    "family": "Palm jaggery",
+    "productIds": [
+      "9589560639732",
+      "7626929209588"
+    ],
+    "description": "Palm jaggery is distinct from sugarcane jaggery; confirm source species.",
+    "qualification": [
+      "Confirm bulk packs, MOQ and current trade quote.",
+      "Supply capacity and manufacturer-grade specifications have not been provided.",
+      "Confirm batch test reports, certification where required, and sample approval."
+    ]
+  },
+  {
+    "id": "material-3",
+    "family": "Coconut jaggery",
+    "productIds": [
+      "7626920067316"
+    ],
+    "description": "Coconut jaggery requires an explicit coconut match.",
+    "qualification": [
+      "Confirm bulk packs, MOQ and current trade quote.",
+      "Supply capacity and manufacturer-grade specifications have not been provided.",
+      "Confirm batch test reports, certification where required, and sample approval."
+    ]
+  },
+  {
+    "id": "material-4",
+    "family": "Brown sugar",
+    "productIds": [
+      "7929067667700",
+      "6613008875683"
+    ],
+    "description": "Demerara and muscovado have different colour, flavour and grain profiles.",
+    "qualification": [
+      "Confirm bulk packs, MOQ and current trade quote.",
+      "Supply capacity and manufacturer-grade specifications have not been provided.",
+      "Confirm batch test reports, certification where required, and sample approval."
+    ]
+  },
+  {
+    "id": "material-5",
+    "family": "White / baking sugar",
+    "productIds": [
+      "7676459483380",
+      "6613007106211",
+      "6613007138979"
+    ],
+    "description": "General sugar evidence does not establish castor, icing or organic specifications.",
+    "qualification": [
+      "Confirm bulk packs, MOQ and current trade quote.",
+      "Supply capacity and manufacturer-grade specifications have not been provided.",
+      "Confirm batch test reports, certification where required, and sample approval."
+    ]
+  },
+  {
+    "id": "material-6",
+    "family": "Molasses",
+    "productIds": [
+      "9006961819892",
+      "8899858825460"
+    ],
+    "description": "Food-grade treacle and blackstrap: qualify flavour, viscosity and recipe performance.",
+    "qualification": [
+      "Confirm bulk packs, MOQ and current trade quote.",
+      "Supply capacity and manufacturer-grade specifications have not been provided.",
+      "Confirm batch test reports, certification where required, and sample approval."
+    ]
+  }
+]

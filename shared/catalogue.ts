@@ -18,7 +18,7 @@ const briefs:Record<string,{uses:string[];question:string}>={
   '9006961819892':{uses:['Baking trials','Sauces & glazes','Chef-led recipes'],question:'Which recipes call for molasses, and what flavour and handling requirements should a trial meet?'},
   '6613008285859':{uses:['Coffee service','Flavoured sweetener options','Guest beverage trays'],question:'Would a vanilla sugar option fit your coffee service, and how many portions would you trial?'},
 };
-export function productBrief(product:Product){return briefs[product.id]||{uses:[product.category,'Hospitality recipe trials'],question:'Which applications, pack sizes and monthly quantities would suit your operation?'};}
+export function productBrief(product:Product){return briefs[product.id]||{uses:[product.category,'Ingredient recipe trials'],question:'Who manufactures the product, what ingredient grade is needed, and what monthly quantity, bulk pack and sample trial can the buyer confirm?'};}
 export function productTitle(product:Product){
   return product.name.replace(/\s+\d+(?:\.\d+)?\s*(?:kg|gm?|ml)\b.*$/i,'').replace(/[-–]\s*$/,'').trim()||product.name;
 }
@@ -29,7 +29,7 @@ export function productPack(product:Product){
 export function productVariants(product:Product):ProductVariant[]{
   return product.variants?.length?product.variants:[{id:'snapshot',title:productPack(product),price:product.price}];
 }
-export function productFitsLead(product:Product,lead:Pick<Lead,'segment'>){return product.segments.includes(lead.segment);}
+export function productFitsLead(product:Product,lead:Pick<Lead,'segment'>&Partial<Pick<Lead,'buyerCompanyId'|'products'>>){return lead.buyerCompanyId?!!lead.products?.includes(product.id):product.segments.includes(lead.segment);}
 export function catalogueCsv(products:Product[]){
   const cell=(value:unknown)=>{let text=String(value??'');if(/^[\s]*[=+@\-\t\r]/.test(text))text="'"+text;return '"'+text.replaceAll('"','""')+'"';};
   const rows=[['Product','Category','Recorded pack / variant','Retail snapshot INR (not a B2B quote)','Suggested buyer categories','Suggested uses (not confirmed requirements)','Official product URL','Snapshot date','Selection status'],...products.map(product=>[product.name,product.category,productPack(product),product.price,product.segments.join('; '),productBrief(product).uses.join('; '),product.url,product.syncedAt,'Planning selection only; confirm samples, packs, MOQ and trade pricing'])];

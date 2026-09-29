@@ -71,7 +71,8 @@
       "Restaurants",
       "Sweet shops",
       "Bakeries",
-      "Distributors"
+      "Distributors",
+      "Food manufacturers"
     ],
     "pitch": "Jaggery powder for Indian desserts, baking and beverages.",
     "image": "/products/7160839766179.webp",
@@ -102,7 +103,8 @@
     "segments": [
       "Bakeries",
       "Hotels & resorts",
-      "Caterers"
+      "Caterers",
+      "Food manufacturers"
     ],
     "pitch": "Icing sugar for frosting, finishing and pastry kitchens.",
     "image": "/products/6613007138979.webp",
@@ -117,7 +119,8 @@
     "category": "Baking essentials",
     "segments": [
       "Bakeries",
-      "Hotels & resorts"
+      "Hotels & resorts",
+      "Food manufacturers"
     ],
     "pitch": "Fine sugar for cakes and patisserie.",
     "image": "/products/6613007106211.png",
@@ -214,7 +217,8 @@
     "segments": [
       "Bakeries",
       "Hotels & resorts",
-      "Distributors"
+      "Distributors",
+      "Food manufacturers"
     ],
     "pitch": "A rich sweetener for baking, sauces and glazes.",
     "image": "/products/9006961819892.png",
@@ -237,5 +241,275 @@
     "price": 350,
     "unit": "Default Title",
     "syncedAt": "2026-09-18T09:43:12.506Z"
+  },
+  {
+    "id": "7968344899828",
+    "name": "Natural Pure Jaggery Gur 880gm(220g*4)",
+    "category": "Jaggery & khand",
+    "segments": [
+      "Food manufacturers"
+    ],
+    "pitch": "Jaggery powder and solid gur for recipe trials. Bulk pack, specification, MOQ and trade price need supplier confirmation.",
+    "image": "/products/7968344899828.jpg",
+    "url": "https://www.dhampurgreen.com/products/natural-pure-jaggery-gur-220g",
+    "price": 120,
+    "unit": "Natural Pure Jaggery Gur 880gm(220g*4)",
+    "syncedAt": "2026-09-29T06:58:48.060Z",
+    "variants": [
+      {
+        "id": "49206721446132",
+        "title": "Natural Pure Jaggery Gur 880gm(220g*4)",
+        "price": 120,
+        "available": false
+      }
+    ]
+  },
+  {
+    "id": "7785428320500",
+    "name": "Sugarcane Jaggery- Vacuum Packed Gur/Gud 1kg",
+    "category": "Jaggery & khand",
+    "segments": [
+      "Food manufacturers"
+    ],
+    "pitch": "Jaggery powder and solid gur for recipe trials. Bulk pack, specification, MOQ and trade price need supplier confirmation.",
+    "image": "/products/7785428320500.jpg",
+    "url": "https://www.dhampurgreen.com/products/organic-jaggery",
+    "price": 120,
+    "unit": "Sugarcane Jaggery- Vacuum Packed Gur/Gud 1kg",
+    "syncedAt": "2026-09-29T06:58:48.060Z",
+    "variants": [
+      {
+        "id": "49206724755700",
+        "title": "Sugarcane Jaggery- Vacuum Packed Gur/Gud 1kg",
+        "price": 120,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "8991455707380",
+    "name": "Brown Desi Khand - 1kg",
+    "category": "Jaggery & khand",
+    "segments": [
+      "Food manufacturers"
+    ],
+    "pitch": "Khandsari and desi khand: qualify grain size, colour and moisture. Bulk pack, specification, MOQ and trade price need supplier confirmation.",
+    "image": "/products/8991455707380.jpg",
+    "url": "https://www.dhampurgreen.com/products/brown-desi-khand",
+    "price": 120,
+    "unit": "Brown Desi Khand - 1kg",
+    "syncedAt": "2026-09-29T06:58:48.060Z",
+    "variants": [
+      {
+        "id": "46350360346868",
+        "title": "Brown Desi Khand - 1kg",
+        "price": 120,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "7733988950260",
+    "name": "Organic Desi Khand, Khandsari 800gm",
+    "category": "Jaggery & khand",
+    "segments": [
+      "Food manufacturers"
+    ],
+    "pitch": "Khandsari and desi khand: qualify grain size, colour and moisture. Bulk pack, specification, MOQ and trade price need supplier confirmation.",
+    "image": "/products/7733988950260.jpg",
+    "url": "https://www.dhampurgreen.com/products/desi-khand-khandsari-800g",
+    "price": 199,
+    "unit": "Organic Desi Khand, Khandsari 800gm",
+    "syncedAt": "2026-09-29T06:58:48.060Z",
+    "variants": [
+      {
+        "id": "49206725083380",
+        "title": "Organic Desi Khand, Khandsari 800gm",
+        "price": 199,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "7140699635875",
+    "name": "Sulphurless Desi Khand-1 kg",
+    "category": "Jaggery & khand",
+    "segments": [
+      "Food manufacturers"
+    ],
+    "pitch": "Khandsari and desi khand: qualify grain size, colour and moisture. Bulk pack, specification, MOQ and trade price need supplier confirmation.",
+    "image": "/products/7140699635875.jpg",
+    "url": "https://www.dhampurgreen.com/products/sulphurless-desi-khand",
+    "price": 120,
+    "unit": "Sulphurless Desi Khand-1 kg",
+    "syncedAt": "2026-09-29T06:58:48.060Z",
+    "variants": [
+      {
+        "id": "49206727344372",
+        "title": "Sulphurless Desi Khand-1 kg",
+        "price": 120,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "9589560639732",
+    "name": "Palm Jaggery (270g)",
+    "category": "Jaggery & khand",
+    "segments": [
+      "Food manufacturers"
+    ],
+    "pitch": "Palm jaggery is distinct from sugarcane jaggery; confirm source species. Bulk pack, specification, MOQ and trade price need supplier confirmation.",
+    "image": "/products/9589560639732.jpg",
+    "url": "https://www.dhampurgreen.com/products/dhampurgreeen-palm-jaggery-270g",
+    "price": 299,
+    "unit": "Palm Jaggery (270g)",
+    "syncedAt": "2026-09-29T06:58:48.060Z",
+    "variants": [
+      {
+        "id": "49066797269236",
+        "title": "Palm Jaggery (270g)",
+        "price": 299,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "7626929209588",
+    "name": "Palm Jaggery powder 250gm",
+    "category": "Jaggery & khand",
+    "segments": [
+      "Food manufacturers"
+    ],
+    "pitch": "Palm jaggery is distinct from sugarcane jaggery; confirm source species. Bulk pack, specification, MOQ and trade price need supplier confirmation.",
+    "image": "/products/7626929209588.png",
+    "url": "https://www.dhampurgreen.com/products/palm-jaggery-powder-250g",
+    "price": 299,
+    "unit": "Palm Jaggery powder 250gm",
+    "syncedAt": "2026-09-29T06:58:48.060Z",
+    "variants": [
+      {
+        "id": "49206725607668",
+        "title": "Palm Jaggery powder 250gm",
+        "price": 299,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "7626920067316",
+    "name": "Coconut Jaggery Powder 250g",
+    "category": "Jaggery & khand",
+    "segments": [
+      "Food manufacturers"
+    ],
+    "pitch": "Coconut jaggery requires an explicit coconut match. Bulk pack, specification, MOQ and trade price need supplier confirmation.",
+    "image": "/products/7626920067316.png",
+    "url": "https://www.dhampurgreen.com/products/coconut-jaggery-powder-250g",
+    "price": 299,
+    "unit": "Coconut Jaggery Powder 250g",
+    "syncedAt": "2026-09-29T06:58:48.060Z",
+    "variants": [
+      {
+        "id": "49206725705972",
+        "title": "Coconut Jaggery Powder 250g",
+        "price": 299,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "7929067667700",
+    "name": "Demerara Brown Sugar (Fine Grain) 800gm",
+    "category": "Baking sugars",
+    "segments": [
+      "Food manufacturers"
+    ],
+    "pitch": "Demerara and muscovado have different colour, flavour and grain profiles. Bulk pack, specification, MOQ and trade price need supplier confirmation.",
+    "image": "/products/7929067667700.jpg",
+    "url": "https://www.dhampurgreen.com/products/demerara-brown-sugar-fine-grain-800g",
+    "price": 199,
+    "unit": "Demerara Brown Sugar (Fine Grain) 800gm",
+    "syncedAt": "2026-09-29T06:58:48.060Z",
+    "variants": [
+      {
+        "id": "49206723739892",
+        "title": "Demerara Brown Sugar (Fine Grain) 800gm",
+        "price": 199,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "6613008875683",
+    "name": "Muscovado Sugar 800gm",
+    "category": "Baking sugars",
+    "segments": [
+      "Food manufacturers"
+    ],
+    "pitch": "Demerara and muscovado have different colour, flavour and grain profiles. Bulk pack, specification, MOQ and trade price need supplier confirmation.",
+    "image": "/products/6613008875683.jpg",
+    "url": "https://www.dhampurgreen.com/products/muscovado-sugar-800g",
+    "price": 199,
+    "unit": "Muscovado Sugar 800gm",
+    "syncedAt": "2026-09-29T06:58:48.060Z",
+    "variants": [
+      {
+        "id": "49206727639284",
+        "title": "Muscovado Sugar 800gm",
+        "price": 199,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "7676459483380",
+    "name": "Organic White Sugar 800gm",
+    "category": "Baking sugars",
+    "segments": [
+      "Food manufacturers"
+    ],
+    "pitch": "General sugar evidence does not establish castor, icing or organic specifications. Bulk pack, specification, MOQ and trade price need supplier confirmation.",
+    "image": "/products/7676459483380.jpg",
+    "url": "https://www.dhampurgreen.com/products/organic-white-sugar-800g",
+    "price": 198,
+    "unit": "Organic White Sugar 800gm",
+    "syncedAt": "2026-09-29T06:58:48.060Z",
+    "variants": [
+      {
+        "id": "49206725279988",
+        "title": "Organic White Sugar 800gm",
+        "price": 198,
+        "available": true
+      }
+    ]
+  },
+  {
+    "id": "8899858825460",
+    "name": "Blackstrap Molasses (Edible)",
+    "category": "Molasses",
+    "segments": [
+      "Food manufacturers"
+    ],
+    "pitch": "Food-grade treacle and blackstrap: qualify flavour, viscosity and recipe performance. Bulk pack, specification, MOQ and trade price need supplier confirmation.",
+    "image": "/products/8899858825460.png",
+    "url": "https://www.dhampurgreen.com/products/blackstrap-molasses-800ml-edible",
+    "price": 399,
+    "unit": "800ml",
+    "syncedAt": "2026-09-29T06:58:48.060Z",
+    "variants": [
+      {
+        "id": "45976994414836",
+        "title": "800ml",
+        "price": 399,
+        "available": true
+      },
+      {
+        "id": "47750447005940",
+        "title": "500ml",
+        "price": 299,
+        "available": true
+      }
+    ]
   }
 ]

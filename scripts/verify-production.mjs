@@ -13,7 +13,7 @@ const port='3006';
 const base=`http://127.0.0.1:${port}`;
 let child;
 let output='';
-const env={...process.env,NODE_ENV:'production',PORT:port,HOST:'127.0.0.1',APP_URL:'https://localhost',ADMIN_EMAIL:'test@example.org',ADMIN_PASSWORD:password,DATABASE_PATH:join(directory,'grow.db'),BACKUP_DIR:join(directory,'backups'),WORKER_ENABLED:'false',GOOGLE_PLACES_API_KEY:'',OPENAI_API_KEY:'',HUNTER_API_KEY:'',RESEND_API_KEY:'',OUTREACH_ENABLED:'false'};
+const env={...process.env,NODE_ENV:'production',PORT:port,HOST:'127.0.0.1',APP_URL:'https://localhost',ADMIN_EMAIL:'test@example.org',ADMIN_PASSWORD:password,DATABASE_PATH:join(directory,'grow.db'),BACKUP_DIR:join(directory,'backups'),WORKER_ENABLED:'false',GOOGLE_PLACES_API_KEY:'',OPENAI_API_KEY:'',HUNTER_API_KEY:'',TAVILY_API_KEY:'',RESEND_API_KEY:'',OUTREACH_ENABLED:'false'};
 const pause=ms=>new Promise(resolve=>setTimeout(resolve,ms));
 async function start(){
   output='';
@@ -46,6 +46,11 @@ try {
   let cookie=await login();
   const bootstrap=await (await fetch(base+'/api/bootstrap',{headers:{Cookie:cookie}})).json();
   assert.equal(bootstrap.mode,'live');assert.equal(bootstrap.leads.length,expectedRecords);
+  assert.equal((await fetch(base+'/api/ingredient-intelligence')).status,401);
+  const research=await (await fetch(base+'/api/ingredient-intelligence',{headers:{Cookie:cookie}})).json();
+  assert.equal(research.products.length,33);
+  const buyerSaved=await fetch(base+'/api/ingredient-intelligence/companies/true-elements',{method:'PATCH',headers:{Cookie:cookie,'Content-Type':'application/json','X-Requested-With':'Grow',Origin:'https://localhost'},body:JSON.stringify({saved:true,notes:'Ingredient research persistence check'})});
+  assert.equal(buyerSaved.status,200);
   const lead=bootstrap.leads.find(item=>item.segment==='Cafés');
   const saved=await fetch(base+`/api/leads/${lead.id}`,{method:'PATCH',headers:{Cookie:cookie,'Content-Type':'application/json','X-Requested-With':'Grow',Origin:'https://localhost'},body:JSON.stringify({saved:true})});
   assert.equal(saved.status,200);
@@ -57,5 +62,7 @@ try {
   assert.equal(restored.leads.find(item=>item.id===lead.id).saved,true);
   assert.equal(restored.leads.length,expectedRecords);
   assert.equal(restored.leads.find(item=>item.id===lead.id).demandPlan.dailyLow,80);
+  const restoredResearch=await (await fetch(base+'/api/ingredient-intelligence',{headers:{Cookie:cookie}})).json();
+  assert.equal(restoredResearch.workspaces.find(w=>w.id==='true-elements').notes,'Ingredient research persistence check');
   console.log('Production check passed: compiled frontend, protected API, secure session cookies, real starter records and data persistence after restart.');
 } finally {await stop();await rm(directory,{recursive:true,force:true});}

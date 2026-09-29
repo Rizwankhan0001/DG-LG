@@ -203,3 +203,7 @@ scripts/             Catalogue sync, fonts and UI inspection
 Docker is not installed in the development environment used for this build, so the container build has not been executed here.
 
 The research and initial market strategy are in [BUSINESS_ANALYSIS.md](BUSINESS_ANALYSIS.md).
+
+## Ingredient buyer intelligence
+
+The default workspace now links your ingredients to sourced products from Indian brands, models transparent quantity scenarios, qualifies purchasing contacts and connects them to sales. See [INGREDIENT_BUYERS.md](INGREDIENT_BUYERS.md) for the research scope, automation, data provenance and optional nationwide search setup.

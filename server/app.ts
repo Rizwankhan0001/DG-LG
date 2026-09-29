@@ -15,6 +15,7 @@ import { createDraft, newLead, queueDiscovery } from './service.js';
 import { businessDate } from '../shared/workflow.js';
 import { readiness } from './readiness.js';
 import { dataReport } from './data-quality.js';
+import { intelligenceRoutes, seedIntelligence } from './intelligence.js';
 import { campaignRoutes, whatsappWebhook } from './campaign-routes.js';
 import { permissionProblem } from '../shared/campaigns.js';
 import { campaignBlock, campaignConfig } from './campaigns.js';
@@ -23,13 +24,14 @@ import { calculateDemand, defaultPlan, useCases } from '../shared/opportunity.js
 const modeSchema=z.enum(['demo','live']).default('live');
 const urlSchema=z.union([z.literal(''),z.string().url().refine(s=>/^https?:\/\//.test(s),'Use an http or https URL')]);
 const leadInput=z.object({name:z.string().trim().min(2).max(160),city:z.enum(cities),segment:z.enum(segments),area:z.string().max(400).default(''),email:z.union([z.literal(''),z.string().email().max(200)]).default(''),phone:z.string().max(40).default(''),website:urlSchema.default(''),owner:z.string().max(80).default('You')});
-const discoveryInput=z.object({cities:z.array(z.enum(cities)).min(1).max(10),segments:z.array(z.enum(segments)).min(1).max(8),limit:z.number().int().min(1).max(500).default(100),mode:modeSchema});
-const automationInput=z.object({name:z.string().trim().min(3).max(100),cities:z.array(z.enum(cities)).min(1).max(10),segments:z.array(z.enum(segments)).min(1).max(8),frequency:z.enum(['daily','weekly']),enabled:z.boolean().default(false),mode:modeSchema,minScore:z.number().int().min(0).max(100).default(70),draftOutreach:z.boolean().default(true),enrichEmails:z.boolean().default(false)});
+const discoveryInput=z.object({cities:z.array(z.enum(cities)).min(1).max(10),segments:z.array(z.enum(segments)).min(1).max(9),limit:z.number().int().min(1).max(500).default(100),mode:modeSchema});
+const automationInput=z.object({name:z.string().trim().min(3).max(100),cities:z.array(z.enum(cities)).min(1).max(10),segments:z.array(z.enum(segments)).min(1).max(9),frequency:z.enum(['daily','weekly']),enabled:z.boolean().default(false),mode:modeSchema,minScore:z.number().int().min(0).max(100).default(70),draftOutreach:z.boolean().default(true),enrichEmails:z.boolean().default(false)});
 const hash=(s:string)=>createHash('sha256').update(s).digest('hex');
 const asyncRoute=(fn:(req:Request,res:Response)=>Promise<unknown>)=>(req:Request,res:Response,next:NextFunction)=>{void fn(req,res).catch(next);};
 const error=(message:string,status=400)=>Object.assign(new Error(message),{status});
 
 export function createApp(store:Store,options:{readOnly?:boolean}={}) {
+  seedIntelligence(store);
   const app=express();
   const readOnly=options.readOnly===true;
   const production=process.env.NODE_ENV==='production';
@@ -87,6 +89,7 @@ export function createApp(store:Store,options:{readOnly?:boolean}={}) {
   });
   app.use('/api',(req,res,next)=>isAuthed(req)?next():res.status(401).json({error:'Please sign in to continue.'}));
   app.use('/api',campaignRoutes(store));
+  app.use('/api',intelligenceRoutes(store,readOnly));
   const findLead=(id:string)=>{const lead=store.get<Lead>('leads',id);if(!lead)throw error('Lead not found.',404);return lead;};
   app.get('/api/data-quality',(_req,res)=>res.json(dataReport(store)));
   app.post('/api/leads/:id/google-check',asyncRoute(async(req,res)=>{

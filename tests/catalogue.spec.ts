@@ -7,7 +7,7 @@ test('catalogue filters link the selected product to all matching buyer categori
   const errors:string[]=[];page.on('pageerror',error=>errors.push(error.message));
   await page.goto('/#Product%20catalogue?mode=live');
   await expect(page.getByRole('heading',{name:'Good products. Great possibilities.'})).toBeVisible();
-  await expect(page.locator('.catalogue-product-card')).toHaveCount(15);
+  await expect(page.locator('.catalogue-product-card')).toHaveCount(27);
   await page.screenshot({path:`artifacts/catalogue-${testInfo.project.name}.png`,fullPage:true,animations:'disabled'});
   await page.getByRole('button',{name:/Bakery kitchen/}).click();
   await expect(page.locator('.catalogue-product-card')).toHaveCount(5);
@@ -64,5 +64,5 @@ test('product briefs preserve source, snapshot and variant context across shared
   await page.getByLabel('Search products').fill('A product that is not in the catalogue');
   await expect(page.getByRole('heading',{name:'No products match these filters'})).toBeVisible();
   await page.getByRole('region',{name:'Product results'}).getByRole('button',{name:'Reset catalogue filters'}).click();
-  await expect(page.locator('.catalogue-product-card')).toHaveCount(15);
+  await expect(page.locator('.catalogue-product-card')).toHaveCount(27);
 });

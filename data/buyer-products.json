@@ -1,0 +1,916 @@
+[
+  {
+    "id": "earlyfoods-6917062393898",
+    "companyId": "earlyfoods",
+    "name": "Chota Pack- Foxtail Almond Jaggery Cookies",
+    "url": "https://earlyfoods.com/products/foxtail-almond-jaggery-cookies-80g",
+    "image": "/buyers/earlyfoods-6917062393898.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/1695/6563/files/23_b71e08c9-9a1a-4c54-a0e9-7cd7dbc0befd.png?v=1772788934&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Whole Millet Flour 30% (Foxtail Millet 12%, Little Millet/Saame 9%, Jowar 9%), Powdered Dry Fruits & Seeds 21% (Dates 6%, Walnut 5%, Sunflower Seeds 4%, Almonds 3%, Cashews 3%), Jaggery 14%, Butter 14%, Barley 9%, Un-Polished Red Rice 9%, Ghee 2.98%, Turmeric 0.02%",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 14%",
+        "percent": 14,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:23.602Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "earlyfoods-6917062524970",
+    "companyId": "earlyfoods",
+    "name": "Chota Pack - Ragi and Choco Jaggery Cookies",
+    "url": "https://earlyfoods.com/products/ragi-and-choco-jaggery-cookies-150g",
+    "image": "/buyers/earlyfoods-6917062524970.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/1695/6563/files/12_e1ee16ea-cc16-4bbe-9c5f-f89b023394d3.png?v=1772788613&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Whole Millet Flour 37% (Ragi/Naachni 22%, Little Millet/Saame 6%, Jowar 6%, Amaranth/Rajgira 3%), Butter 16%, Jaggery 16%, Powdered Dry Fruits & Seeds 15% (Sunflower Seeds 5%, Dates 4%, Almonds 3%, Cashews 3%), Barley 6%, Un-Polished Red Rice 6%, Ghee 2%, Raw Cacao Powder 1.98%, Turmeric 0.02%",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 16%",
+        "percent": 16,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:23.602Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "earlyfoods-6917062328362",
+    "companyId": "earlyfoods",
+    "name": "Chota Pack- Ajwain, Jeera Jaggery Cookies",
+    "url": "https://earlyfoods.com/products/ajwain-jeera-jaggery-cookies",
+    "image": "/buyers/earlyfoods-6917062328362.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/1695/6563/files/67_d0d8d292-fde3-433a-8b61-e8bd876297db.png?v=1772789106&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Whole Multigrain Flour 42% (Kodo Millet 28%, Little Millet 7%, Jowar/Sorghum 7%), Powdered Dry Fruits 13.98% ( Sunflower Seeds 4%, Dates 4%, Almonds 3%, Cashews 2.98%), Butter 13%, Jaggery 12%, Barley 7%, Un-Polished Red Rice 7%, Ghee 2%, Jeera 1%, Ajwain 1%, Rock Salt 1%, Turmeric 0.02%",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 12%",
+        "percent": 12,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:23.602Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "earlyfoods-6917062361130",
+    "companyId": "earlyfoods",
+    "name": "Chota Pack- Dry Fruit Jaggery Cookies",
+    "url": "https://earlyfoods.com/products/dry-fruit-jaggery-cookies-150gms",
+    "image": "/buyers/earlyfoods-6917062361130.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/1695/6563/files/45_bbf90685-73bd-46da-bfea-60e5ff0b1a15.png?v=1772789019&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Whole Millet Flour 24% (Little Millet/Saame 12%, Jowar/Sorghum 12%), Powdered Dry Fruits & Seeds 17% (Dates 6%, Sunflower Seeds 5%, Almonds 3%, Cashews 3%), Jaggery 16%, Butter 16%, Un-Polished Red Rice 12%, Barley 12%, Ghee 2.99%, Turmeric 0.01%",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 16%",
+        "percent": 16,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:23.602Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "earlyfoods-3490688204823",
+    "companyId": "earlyfoods",
+    "name": "Foxtail Millet Walnut Jaggery Cookies",
+    "url": "https://earlyfoods.com/products/walnut-foxtail-millet-jaggery-cookies-150g",
+    "image": "/buyers/earlyfoods-3490688204823.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/1695/6563/files/154_eacfe36f-7860-4d0b-933e-a111f7822123.png?v=1717238924&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Whole Millet Flour 30%(Foxtail Millet 12%, Little Millet/Saame 9%, Jowar 9%), Powdered Dry Fruits & Seeds 21%(Dates 6%, Walnut 5%, Sunflower Seeds 4%, Almonds 3%, Cashews 3%) Jaggery 14%, Butter 14%, Barley 9%, Un-polished Red Rice 9%, Ghee 2.98%, Turmeric 0.02%",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 14%",
+        "percent": 14,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:23.602Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "earlyfoods-3490687614999",
+    "companyId": "earlyfoods",
+    "name": "Bajra, Barnyard Millet Jaggery Cookies",
+    "url": "https://earlyfoods.com/products/bajra-barnyard-jaggery-cookies-150g",
+    "image": "/buyers/earlyfoods-3490687614999.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/1695/6563/files/153_72de1e23-8c6e-4175-a270-f4d768a7ccd4.png?v=1717238785&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Whole Millet Flour 36%(Bajra/Pearl Millet 10%, Barnayard Millet 10%, Jowar/Sorghum 8%, Little Millet/Saame 8%), Butter 16%, Jaggery 15%, Dry Fruits & Nuts 14%(Dates 4%, Sunflower Seeds 4%, Almonds 3%, Cashews 3%), Barley 8%, Un-polished Red Rice 8%, Ghee 2.98%, Turmeric 0.02%",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 15%",
+        "percent": 15,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:23.602Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "earlyfoods-3490347188247",
+    "companyId": "earlyfoods",
+    "name": "Ragi & Sesame Jaggery Cookies",
+    "url": "https://earlyfoods.com/products/ragi-sesame-jaggery-cookies-150g",
+    "image": "/buyers/earlyfoods-3490347188247.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/1695/6563/files/152_e986384d-652d-4931-b730-2d91670b766c.png?v=1717239311&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Whole Millet Flour 35%(Ragi/Nachni/Finger Millet 21%, Jowar/Sorghum 6%, Little Millet/Saame 6%, Rajgira/Amaranth 2%), Dry Fruits & Nuts 16%(Dates 5%, Sunflower Seeds 5%, Almonds 3%, Cashew 3%), Butter 16%, Jaggery 14%, Barley 6%, Un-polished Red Rice 6%, Sesame Seeds 5%, Ghee 1.98%, Turmeric 0.02%",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 14%",
+        "percent": 14,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:23.602Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "earlyfoods-1587615105047",
+    "companyId": "earlyfoods",
+    "name": "Foxtail Almond Jaggery Cookies",
+    "url": "https://earlyfoods.com/products/foxtail-almond-jaggery-cookies",
+    "image": "/buyers/earlyfoods-1587615105047.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/1695/6563/files/23_90e1fc28-273e-43f7-af7f-7234362a9550.png?v=1780562385&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Whole Millet Flour 30% (Foxtail Millet 12%, Little Millet/Saame 9%, Jowar 9%), Powdered Dry Fruits & Seeds 21% (Dates 6%, Walnut 5%, Sunflower Seeds 4%, Almonds 3%, Cashews 3%), Jaggery 14%, Butter 14%, Barley 9%, Un-Polished Red Rice 9%, Ghee 2.98%, Turmeric 0.02%",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 14%",
+        "percent": 14,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:23.602Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "earlyfoods-8731301266",
+    "companyId": "earlyfoods",
+    "name": "Ragi & Amaranth Jaggery Cookies",
+    "url": "https://earlyfoods.com/products/ragi-and-amaranth-cookies-200gms",
+    "image": "/buyers/earlyfoods-8731301266.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/1695/6563/files/1_d82988ca-25f5-422a-bb15-2dc6db3b8123.png?v=1780562770&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Whole Millet Flour 39% (Ragi/Naachni 22%, Little Millet/Saame 7%, Jowar 7%, Amaranth/Rajgira 3%), Powdered Dry Fruits & Seeds 16% (Dates 5%, Sunflower Seeds 5%, Almonds 3%, Cashews 3%), Butter 16%, Jaggery 15%, Barley 6%, Un-Polished Red Rice 6%, Ghee 1.99%, Turmeric 0.01%",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 15%",
+        "percent": 15,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:23.602Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "earlyfoods-7403051089962",
+    "companyId": "earlyfoods",
+    "name": "Whole Wheat Rusk",
+    "url": "https://earlyfoods.com/products/whole-wheat-rusk",
+    "image": "/buyers/earlyfoods-7403051089962.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/1695/6563/files/Rusksamazon_37.png?v=1773128453&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Whole Wheat Flour 66%, Cold-Pressed Groundnut Oil 10%, Mishri 9.94%, Dry fruits & seeds 7% (Sunflower Seeds 3%, Cashew 2%, Almonds 2%,), Jaggery 3%, Yeast 2.5%, Rock Salt 1%, Cardamom 0.5%, Ajwain/Carom Seeds 0.04%, Turmeric 0.01%",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 3%",
+        "percent": 3,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:23.602Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "earlyfoods-6930542624810",
+    "companyId": "earlyfoods",
+    "name": "Multigrain Millet Rusk",
+    "url": "https://earlyfoods.com/products/multigrain-millet-rusk-230gms",
+    "image": "/buyers/earlyfoods-6930542624810.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/1695/6563/files/RuskShopify_2.png?v=1762499023&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Whole wheat flour 40%, Whole multigrain millet flour 20% (Little millet 5%, Sorghum/Jowar 5%, Kodo millet 5%, Bajra 5%), Wood-pressed Groundnut oil 15%, Sulphurless Traditional Mishri/Kallusakkare 11%, Dry fruits & seeds 6% (Sunflower Seeds 2%, Cashew 2%, Almonds 2%), Jaggery 4%, Yeast 2%, Rock Salt 1%, Ajwain/Carom Seeds 0.5%, Cardamom 0.49%, Turmeric 0.01%",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 4%",
+        "percent": 4,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:23.602Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "earlyfoods-7443566493738",
+    "companyId": "earlyfoods",
+    "name": "Moringa Chutney Powder",
+    "url": "https://earlyfoods.com/products/moringa-chutney-powder",
+    "image": "/buyers/earlyfoods-7443566493738.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/1695/6563/files/57_081929c2-a94d-43c2-bb67-652459de78bc.png?v=1738221059&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Almonds 29%, Toor Dal 28%, Sunflower Seeds 23%, Moringa/Drumstick Leaves Powder 12%, Salt 4%, Byadgi Mirchi 1%, Amla Powder 1%, Jaggery Powder 0.9%, Jeera 0.3%, Pepper 0.3%, Hing 0.3%, Turmeric 0.2% & nothing else.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery Powder",
+        "quote": "Jaggery Powder 0.9%",
+        "percent": 0.9,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:23.602Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "true-elements-7868694429934",
+    "companyId": "true-elements",
+    "name": "Chocolate Granola 900g - Award Winning Breakfast",
+    "url": "https://true-elements.com/products/chocolate-granola-award-winning-breakfast",
+    "image": "/buyers/true-elements-7868694429934.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0655/6414/7950/files/dark_chocolate_granola_900g_e9aacb99-8ba1-4247-881f-984a8b7a8a30.png?v=1744366154&width=520",
+    "packGrams": 900,
+    "packNote": "Pack weight read from the product title; confirm the manufacturing unit.",
+    "ingredients": "Rolled Oats (28.4%), Wheat flakes (21.2%), Dried Cranberries (10.1%- Cranberries, Sugar, Sunflower Oil), Seeds (8.6%- Watermelon, Sesame), Raw Honey (8.1%), Jaggery (7.9%), Almonds (6.3%), Natural Alkalised Cocoa powder (5.1%), Oat flour, Desiccated Coconut, Soybean Oil, Natural Chocolate Flavour, Rosemary Extract.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 7.9%",
+        "percent": 7.9,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      },
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "compound",
+        "note": "This ingredient is inside another ingredient. The brand may buy a finished component; identify its manufacturer before proposing raw material."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:24.206Z",
+    "reviewStatus": "Reviewed",
+    "status": "Unavailable at check",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "true-elements-8100379885806",
+    "companyId": "true-elements",
+    "name": "Baked Granola Almonds And Dark Chocolate 450g",
+    "url": "https://true-elements.com/products/baked-granola-almonds-and-dark-chocolate-450gm",
+    "image": "/buyers/true-elements-8100379885806.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0655/6414/7950/files/dark_chocolate_granola_450g_6de046aa-9ebc-496b-ae74-7ace7ec1ed25.png?v=1744288737&width=520",
+    "packGrams": 450,
+    "packNote": "Pack weight read from the product title; confirm the manufacturing unit.",
+    "ingredients": "Rolled Oats (28.4%), Wheat flakes (21.2%), Dried Cranberries (10.1%- Cranberries, Sugar, Sunflower Oil), Seeds (8.6%- Watermelon, Sesame), Raw Honey (8.1%), Jaggery (7.9%), Almonds (6.3%), Natural Alkalised Cocoa powder (5.1%), Oat flour, Desiccated Coconut, Soybean Oil, Natural Chocolate Flavour, Rosemary Extract.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 7.9%",
+        "percent": 7.9,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      },
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "compound",
+        "note": "This ingredient is inside another ingredient. The brand may buy a finished component; identify its manufacturer before proposing raw material."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:24.206Z",
+    "reviewStatus": "Reviewed",
+    "status": "Unavailable at check",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "true-elements-8231688601838",
+    "companyId": "true-elements",
+    "name": "Fruit Nut and Crunch Muesli 700g",
+    "url": "https://true-elements.com/products/muesli-fruity-delight-with-jowar-flakes",
+    "image": "/buyers/true-elements-8231688601838.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0655/6414/7950/files/1_804dbc94-430e-4d58-aa32-2f09149e6cec.jpg?v=1784027916&width=520",
+    "packGrams": 700,
+    "packNote": "Pack weight read from the product title; confirm the manufacturing unit.",
+    "ingredients": "Wheat Flakes (27.2%), Millets (17%- Jowar Flakes), Rolled Oats (16.2%), Jaggery Powder (16%), Corn Flakes (15%), Dried Blackcurrant (2.6%), Flax Seeds, Almonds (2%), Freeze Dried Fruits (1.3% - Banana, Chikoo), Beetroot Powder, Rosemary Extract.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery Powder",
+        "quote": "Jaggery Powder 16%",
+        "percent": 16,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:24.206Z",
+    "reviewStatus": "Reviewed",
+    "status": "Unavailable at check",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "true-elements-8100349477102",
+    "companyId": "true-elements",
+    "name": "Super Oats Dark Chocolate 400gm",
+    "url": "https://true-elements.com/products/super-oats-dark-chocolate-400gm",
+    "image": "/buyers/true-elements-8100349477102.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0655/6414/7950/files/PDP_1_HighProteinoatsA.png?v=1764756022&width=520",
+    "packGrams": 400,
+    "packNote": "Pack weight read from the product title; confirm the manufacturing unit.",
+    "ingredients": "Oats (46.1%), Jaggery Powder (17%), Moong Bean Protein Isolate (14%), Natural Alkalized Cocoa Powder (7.6%), Watermelon Seeds, Soyabean Oil, Almonds, Chia Seeds, Dried Blackcurrant, Natural Chocolate Flavour, Rosemary Extract. �",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery Powder",
+        "quote": "Jaggery Powder 17%",
+        "percent": 17,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:24.206Z",
+    "reviewStatus": "Reviewed",
+    "status": "Unavailable at check",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "true-elements-7909191811310",
+    "companyId": "true-elements",
+    "name": "Multigrain Oatmeal 1kg",
+    "url": "https://true-elements.com/products/multigrain-oatmeal",
+    "image": "/buyers/true-elements-7909191811310.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0655/6414/7950/files/Multigrain_Oatmeal_1kg_af034641-3e69-4243-a34c-015f2ad60a23.png?v=1744365178&width=520",
+    "packGrams": 1000,
+    "packNote": "Pack weight read from the product title; confirm the manufacturing unit.",
+    "ingredients": "Rolled Oats (46.6%), Millets {26.6% - Jowar Flakes (21%); Amaranth Puff (5.6%)}, Raw Honey (14.9%), Barley Flakes (5.6%), Dried Cranberries (Cranberries, Sugar, Sunflower Oil), Seeds (Flax, Chia, Basil), Freeze Dried Fruits (Banana, Chikoo, Fig, Apple, Strawberry), Almonds, Rosemary Extract.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "compound",
+        "note": "This ingredient is inside another ingredient. The brand may buy a finished component; identify its manufacturer before proposing raw material."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:24.206Z",
+    "reviewStatus": "Reviewed",
+    "status": "Unavailable at check",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "the-snack-company-8905607708821",
+    "companyId": "the-snack-company",
+    "name": "Peanut Cluster 80 gm",
+    "url": "https://www.thesnackcompany.in/products/peanut-cluster",
+    "image": "/buyers/the-snack-company-8905607708821.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0494/2895/5285/files/Peanut_Cluster_Front1.png?v=1789373878&width=520",
+    "packGrams": 80,
+    "packNote": "Pack weight read from the product title; confirm the manufacturing unit.",
+    "ingredients": "Seeds 51% (Sunflower Seeds, Peanuts, Watermelon Seeds, Flax Seeds), Oat Flour, Brown Sugar, Rice Bran Oil, Rice Crisp, Dry-fruits 13% (Almonds, Raisins), Spice Mix (Chilly, Black Pepper, Parsley, Oregano, Garlic Powder, Salt, Tamarind Powder, Onion Powder, Lemon Juice Powder). Contains Nature Identical Flavors.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Brown sugar",
+        "term": "Brown Sugar",
+        "quote": "Brown Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Published ingredient use supports a supplier conversation, not confirmed buying interest."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:27.293Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "the-snack-company-9357711802517",
+    "companyId": "the-snack-company",
+    "name": "Coconut Bisticks",
+    "url": "https://www.thesnackcompany.in/products/coconut-bisticks",
+    "image": "/buyers/the-snack-company-9357711802517.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0494/2895/5285/files/Gemini_Generated_Image_bap2etbap2etbap2_1.png?v=1788262859&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Flour (Wheat Flour, Corn Flour), Jaggery, Fats (Butter, Coconut Oil), Dairy (Milk, Milk Powder), Desiccated Coconut, Dates, Salt, Baking Soda, Baking Powder",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:27.293Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "the-snack-company-9346422374549",
+    "companyId": "the-snack-company",
+    "name": "Apple Cinnamon Energy Bar",
+    "url": "https://www.thesnackcompany.in/products/apple-cinnamon-energy-bar",
+    "image": "/buyers/the-snack-company-9346422374549.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0494/2895/5285/files/Gemini_Generated_Image_66i9zq66i9zq66i9.png?v=1787605148&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Whole Grains 40% (Oats, Brown Rice, Rice Crisps, Little Millet, Foxtail, Quinoa), Seeds (Sunflower, Flax, Sesame, Pumpkin), Almonds, Jaggery, Pre Biotic Fibre (FOS), Apple Fibre 1.5%, Cranberry, Cinnamon, Guar Gum. Rosemary. Contains Nature Identical Flavor",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:27.293Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "the-snack-company-9046235349141",
+    "companyId": "the-snack-company",
+    "name": "Cashew Bistick",
+    "url": "https://www.thesnackcompany.in/products/cashew-bistick",
+    "image": "/buyers/the-snack-company-9046235349141.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0494/2895/5285/files/Cashew_Bistick.png?v=1769683050&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Wheat flour, Milk Solids, Brown Sugar, Rice bran oil, Cashew, Corn flour, Butter, Date paste, Baking powder, Soda, Salt",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Brown sugar",
+        "term": "Brown Sugar",
+        "quote": "Brown Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Published ingredient use supports a supplier conversation, not confirmed buying interest."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:27.293Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "the-snack-company-8081717919893",
+    "companyId": "the-snack-company",
+    "name": "70% Dark Chocolate",
+    "url": "https://www.thesnackcompany.in/products/70-dark-chocolate",
+    "image": "/buyers/the-snack-company-8081717919893.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0494/2895/5285/files/FloralInstagramPostTemplate_10.png?v=1701168608&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Cacao Nibs, Khandsari, Vanilla",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Khandsari / khand",
+        "term": "Khandsari",
+        "quote": "Khandsari",
+        "percent": null,
+        "relation": "direct",
+        "note": "Published ingredient use supports a supplier conversation, not confirmed buying interest."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:27.293Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "the-snack-company-8081699078293",
+    "companyId": "the-snack-company",
+    "name": "41% MYLK Chocolate",
+    "url": "https://www.thesnackcompany.in/products/41-mylk-chocolate",
+    "image": "/buyers/the-snack-company-8081699078293.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0494/2895/5285/files/MYLKChocolate41_VeganTreat.png?v=1706616793&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Rolled Oats, Khandsari, Cacao Butter, Cacao Nibs, Vanilla",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Khandsari / khand",
+        "term": "Khandsari",
+        "quote": "Khandsari",
+        "percent": null,
+        "relation": "direct",
+        "note": "Published ingredient use supports a supplier conversation, not confirmed buying interest."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:27.293Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "the-snack-company-7982525120661",
+    "companyId": "the-snack-company",
+    "name": "Hot Chocolate",
+    "url": "https://www.thesnackcompany.in/products/hot-chocolate",
+    "image": "/buyers/the-snack-company-7982525120661.png",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0494/2895/5285/files/FloralInstagramPostTemplate_2.png?v=1694719292&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Brown Sugar, Cocoa Powder, Milk Solids, Arrow Root Powder, Salt",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Brown sugar",
+        "term": "Brown Sugar",
+        "quote": "Brown Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Published ingredient use supports a supplier conversation, not confirmed buying interest."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:27.293Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "the-snack-company-5903635939477",
+    "companyId": "the-snack-company",
+    "name": "Multi Seed & Oats Cookies",
+    "url": "https://www.thesnackcompany.in/products/multi-seed-oats-cookies",
+    "image": "/buyers/the-snack-company-5903635939477.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0494/2895/5285/files/1-1_cccd83bd-0f80-4203-8df5-05789b0ac807.jpg?v=1686407334&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Rolled Oats 35%, Seeds 32% (Sunflower, Pumpkin, Flax), Brown Sugar, Coconut Oil, Wheat Flour, Baking Soda, Baking Powder, Salt, Rosemary Extract",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Brown sugar",
+        "term": "Brown Sugar",
+        "quote": "Brown Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Published ingredient use supports a supplier conversation, not confirmed buying interest."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:27.293Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "slurrp-farm-8887904010439",
+    "companyId": "slurrp-farm",
+    "name": "Double Choco Multigrain Cookies | Yummy Biscuits",
+    "url": "https://slurrpfarm.com/products/double-choco-chip-cookie-monocarton",
+    "image": "/buyers/slurrp-farm-8887904010439.gif",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0178/3798/1796/files/DCC_Cookie_ListingPackAnimation.webp?v=1790061909&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Multigrain Flour Blend (50%) [Whole Wheat, Jowar, Oat], Rice Bran Oil (12%), Chocolate Chips (9.5%) [Sugar, Non-hydrogenated Edible Oil, Whole Milk Powder, Skimmed Milk Powder, Cocoa Solids], Jaggery (8%), Sugar (8%), Cocoa Powder, Skimmed Milk Powder, Corn Flour, Nature-Identical Flavours, Raising Agent (Baking Soda), Salt, Emulsifier (Sunflower Lecithin), Xanthan Gum, Natural Rosemary.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 8%",
+        "percent": 8,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      },
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "compound",
+        "note": "This ingredient is inside another ingredient. The brand may buy a finished component; identify its manufacturer before proposing raw material."
+      },
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar 8%",
+        "percent": 8,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:28.343Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "slurrp-farm-8383389860039",
+    "companyId": "slurrp-farm",
+    "name": "Choco Ragi Cookies | Yummy Multigrain Biscuits",
+    "url": "https://slurrpfarm.com/products/the-good-cookie-tasty-no-maida-no-refined-sugar-choco-ragi-cookie",
+    "image": "/buyers/slurrp-farm-8383389860039.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0178/3798/1796/files/ChocoRagiListing_D2C_1500x1500_1copy_016beebb-f91f-410a-93df-0613742de9f6.jpg?v=1783410915&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Multigrain Flour Blend (48%) [Whole Wheat, Jowar, Ragi], Rice Bran Oil (12%), Jaggery (11%), Unrefined Sugar (11%), Cocoa Powder (3.5%), Chocolate Chips, Skimmed Milk Powder, Corn Flour, Nature-identical Flavour, Raising Agent (Baking Soda), Salt, Natural Emulsifier (Sunflower Lecithin), Xanthan Gum, Antioxidant (Natural Rosemary).",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 11%",
+        "percent": 11,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:28.343Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "slurrp-farm-8517342593223",
+    "companyId": "slurrp-farm",
+    "name": "Milky Choco Chip Cookies I Yummy Multigrain Biscuits",
+    "url": "https://slurrpfarm.com/products/milky-choco-chip-cookies",
+    "image": "/buyers/slurrp-farm-8517342593223.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0178/3798/1796/files/MilkyChoco-chipCookieListing_D2C_1500x1500_1copy.jpg?v=1783411103&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Cookies: Multigrain Flour Blend (43%) [Whole Wheat, Jowar], Rice Bran Oil (11%), Jaggery (11%), Sugar (11%), Cocoa Powder (3.5%), Skimmed Milk Powder, Corn Flour, Nature-Identical Flavours, Raising Agent (Baking Soda), Salt, Natural Emulsifier (Sunflower Lecithin), Xanthan Gum, Antioxidant (Natural Rosemary). White Chocolate Chips (8.6%): Sugar, Non-Hydrogenated Edible Oil, Whole Milk Powder, Skimmed Milk Powder.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 11%",
+        "percent": 11,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      },
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar 11%",
+        "percent": 11,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      },
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar in white chocolate chips",
+        "quote": "White Chocolate Chips (8.6%): Sugar",
+        "percent": null,
+        "relation": "compound",
+        "note": "This sugar belongs to the white chocolate chips, not a separate raw-material requirement."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:28.343Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "slurrp-farm-8383389597895",
+    "companyId": "slurrp-farm",
+    "name": "Banana Oat Cookies I Multigrain Biscuits",
+    "url": "https://slurrpfarm.com/products/the-good-cookie-yummy-no-maida-no-refined-sugar-banana-oat-cookies",
+    "image": "/buyers/slurrp-farm-8383389597895.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0178/3798/1796/files/BananaOatCookieListing_D2C_1500x1500_1copy_f1d57100-c3cc-4350-9c42-15a3a4a4fd09.jpg?v=1783411177&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Multigrain flour blend (48%) [Whole wheat flour (atta), jowar, oat], rice bran oil (13%), jaggery (11%), unrefined sugar (11%), instant oats (3%), banana fruit powder (2%), skimmed milk powder, corn flour, nature identical flavouring substances (vanilla, banana), raising agent (baking soda), natural emulsifier (sunflower lecithin), iodised salt, thickener (xanthan gum), antioxidant (natural rosemary).",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery",
+        "quote": "jaggery 11%",
+        "percent": 11,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:28.343Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "sweet-karam-coffee-7851799445656",
+    "companyId": "sweet-karam-coffee",
+    "name": "Peanut Chikki (Zero White Sugar)",
+    "url": "https://sweetkaramcoffee.in/products/peanut-chikki-pack-of-1-150g",
+    "image": "/buyers/sweet-karam-coffee-7851799445656.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0051/4159/4210/files/WhatsApp_Image_2026-09-25_at_12.57.04_PM.jpg?v=1790322733",
+    "packGrams": 150,
+    "packNote": "150 g unit listed in available packs; multipacks are also sold.",
+    "ingredients": "Peanuts, Jaggery, Dry ginger powder and cardamom powder.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:24.704Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "sweet-karam-coffee-9358666727576",
+    "companyId": "sweet-karam-coffee",
+    "name": "Sesame Chikki Bites",
+    "url": "https://sweetkaramcoffee.in/products/sesame-chikki-bites",
+    "image": "/buyers/sweet-karam-coffee-9358666727576.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0051/4159/4210/files/WhatsApp_Image_2026-08-29_at_7.04.37_PM_3.jpg?v=1788011635",
+    "packGrams": 100,
+    "packNote": "100 g unit in the published 2 × 100 g retail pack.",
+    "ingredients": "Roasted White Sesame (70%), Jaggery, Cardamom powder & Dry ginger powder.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:24.704Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "the-good-kind-9621988671845",
+    "companyId": "the-good-kind",
+    "name": "Hazelnut Chocolate Cookies",
+    "url": "https://thegoodkindfoods.com/products/hazelnut-chocolate-cookies",
+    "image": "/buyers/the-good-kind-9621988671845.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0857/0159/1397/files/tgk_hz2.jpg?v=1755174502",
+    "packGrams": null,
+    "packNote": "Pack weight not established; cookie pack count is not a weight.",
+    "ingredients": "Almond Butter, Organic Cane Sugar, Organic Finger Millet Flour, Organic Little Millet Flour, Brown Rice Protein, Edible vegetable (cold-pressed rice bran) oil, Hazelnut Chunks, Bean-to-bar Couverture Dark chocolate 60% (Cocoa Solids, Khandsari Sugar, Cocoa Butter), Baking Soda, Natural flavouring substances (vanilla)",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Khandsari / khand",
+        "term": "Khandsari Sugar",
+        "quote": "Khandsari Sugar",
+        "percent": null,
+        "relation": "compound",
+        "note": "This ingredient is inside another ingredient. The brand may buy a finished component; identify its manufacturer before proposing raw material."
+      },
+      {
+        "family": "White / baking sugar",
+        "term": "Organic Cane Sugar",
+        "quote": "Organic Cane Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:26.087Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  },
+  {
+    "id": "tots-and-moms-6584299552929",
+    "companyId": "tots-and-moms",
+    "name": "Cookies | Millet & Jaggery | Sweet & Savoury | 150g",
+    "url": "https://totsandmoms.com/products/sweet-savory-millet-jaggery-cookiees",
+    "image": "/buyers/tots-and-moms-6584299552929.jpg",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0516/2509/9425/files/cookies-millet-jaggery-sweet-savoury-150g-6494711.jpg?v=1768811313",
+    "packGrams": 150,
+    "packNote": "150 g from the official product title.",
+    "ingredients": "Almonds(3%), Cashewnuts(3%), Walnuts(3%), Pumpkin Seeds(10%), Jaggery(15%), Milk(9%), Butter(20%), Foxtail Millet(8%), Sorghum(8%), Little Millet(8%), Pearl Millet(8%), Rice(2%), Sago(2%), Himalayan Pink Salt(0.4%), Cumin Seeds(0.3%), Carrom Seeds(0.3%)",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 15%",
+        "percent": 15,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-09-29T07:00:29.158Z",
+    "reviewStatus": "Reviewed",
+    "status": "Active listing",
+    "discoveredBy": "Curated research"
+  }
+]

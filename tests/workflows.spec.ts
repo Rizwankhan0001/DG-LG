@@ -33,13 +33,13 @@ test('filtered views and lead profiles survive reloads and browser history',asyn
 test('public preview explains setup and disables changes while keeping research useful',async({page},testInfo)=>{
   await page.route('**/api/bootstrap*',async route=>{const response=await route.fetch();const body=await response.json();await route.fulfill({response,json:{...body,readOnly:true}});});
   const mutations:string[]=[];page.on('request',request=>{if(request.url().includes('/api/')&&!['GET','HEAD'].includes(request.method()))mutations.push(request.url());});
-  await page.goto('/');await expect(page.getByRole('region',{name:'Start your research'})).toBeVisible();
+  await page.goto('/#Overview');await expect(page.getByRole('region',{name:'Start your research'})).toBeVisible();
   await expect(page.locator('.preview-banner')).toContainText('Research preview');
   await page.screenshot({path:`artifacts/research-overview-${testInfo.project.name}.png`,fullPage:true});
   await navigate(page,'Find businesses');await expect(page.getByRole('button',{name:'Find more businesses',exact:true})).toBeDisabled();
   await expect(page.getByRole('button',{name:'Import',exact:true})).toBeDisabled();
   await page.screenshot({path:`artifacts/research-directory-${testInfo.project.name}.png`,fullPage:true});
-  await page.locator('.business-cell').first().click();await expect(page.getByRole('button',{name:'Prepare outreach',exact:true})).toBeDisabled();
+  await page.getByLabel('Search businesses').fill('Bombay Canteen');await page.locator('.business-cell').filter({hasText:'The Bombay Canteen'}).click();await expect(page.getByRole('button',{name:'Prepare outreach',exact:true})).toBeDisabled();
   await expect(page.getByLabel('Lead sales stage')).toBeDisabled();
   await page.getByRole('button',{name:'Open product opportunity'}).click();await page.getByLabel('Lower daily quantity').fill('50');
   await expect(page.getByRole('button',{name:'Save requirement scenario'})).toBeDisabled();
@@ -73,7 +73,7 @@ async function navigate(page:Page,name:string){await expect(page.locator('aside.
 test('overview, city search, lead profile, notes, stage and saved list work together',async({page},testInfo)=>{
   const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
   await page.addInitScript(()=>localStorage.setItem('grow-mode-v2','demo'));
-  await page.goto('/');await expect(page.getByRole('heading',{name:'Your next customer starts with a connection.'})).toBeVisible();
+  await page.goto('/#Overview');await expect(page.getByRole('heading',{name:'Your next customer starts with a connection.'})).toBeVisible();
   await navigate(page,'Find businesses');await page.getByLabel('Filter by city').selectOption('Mumbai');
   await page.getByLabel('Search businesses').fill('Sunday People');await expect(page.locator('.business-cell').filter({hasText:'Sunday People'})).toBeVisible();
   await page.locator('.business-cell').filter({hasText:'Sunday People'}).click();await expect(page.getByRole('dialog')).toBeVisible();
@@ -88,7 +88,7 @@ test('overview, city search, lead profile, notes, stage and saved list work toge
 });
 test('discovery adds sample leads and prepares an editable outreach draft',async({page})=>{
   await page.addInitScript(()=>localStorage.setItem('grow-mode-v2','demo'));
-  await page.goto('/');await expect(page.getByRole('heading',{name:'Your next customer starts with a connection.'})).toBeVisible();
+  await page.goto('/#Overview');await expect(page.getByRole('heading',{name:'Your next customer starts with a connection.'})).toBeVisible();
   await page.locator('.overview-heading').getByRole('button',{name:/Find more businesses/}).click();
   await expect(page.getByRole('dialog')).toBeVisible();await page.getByRole('button',{name:'Discover sample leads',exact:true}).click();
   await navigate(page,'Automations');await expect(page.locator('.history-table')).toContainText('completed',{timeout:20000});
@@ -99,7 +99,7 @@ test('discovery adds sample leads and prepares an editable outreach draft',async
   await page.reload();await expect(page.getByLabel('Email subject')).toHaveValue('A sample partnership discussion');
 });
 test('real businesses are the default and city filters expose their sources',async({page})=>{
-  await page.goto('/');
+  await page.goto('/#Overview');
   await expect(page.getByLabel('Workspace data mode')).toHaveValue('live');
   await expect(page.getByRole('region',{name:'Your sales workflow'})).toBeVisible();
   await page.getByRole('button',{name:/02 Mumbai \d+ business locations/}).click();
@@ -123,7 +123,7 @@ test('real businesses are the default and city filters expose their sources',asy
   expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)).toBe(false);
 });
 test('catalogue images, automation creation, pipeline and reports render without browser errors',async({page},testInfo)=>{
-  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.addInitScript(()=>localStorage.setItem('grow-mode-v2','demo'));await page.goto('/');await expect(page.getByRole('heading',{name:'Your next customer starts with a connection.'})).toBeVisible();
+  const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));await page.addInitScript(()=>localStorage.setItem('grow-mode-v2','demo'));await page.goto('/#Overview');await expect(page.getByRole('heading',{name:'Your next customer starts with a connection.'})).toBeVisible();
   await navigate(page,'Product catalogue');const image=page.locator('.product-image img').first();await expect(image).toBeVisible();await expect.poll(()=>image.evaluate((el:HTMLImageElement)=>el.complete&&el.naturalWidth>0)).toBe(true);
   await page.locator('.product-image').first().click();await expect(page.getByRole('dialog')).toContainText('Not a B2B quote.');await page.getByRole('button',{name:'Close dialog'}).click();
   await navigate(page,'Automations');await page.getByRole('button',{name:'Create automation'}).click();await page.getByLabel('Routine name').fill(`Test routine ${testInfo.project.name}`);await page.getByRole('button',{name:'Create routine'}).click();await expect(page.getByRole('heading',{name:`Test routine ${testInfo.project.name}`})).toBeVisible();

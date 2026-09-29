@@ -33,7 +33,7 @@ export function buildAudience(leads:Lead[],products:Product[],filters:AudienceFi
   const candidates:Candidate[]=leads.filter(lead=>!lead.demo&&(!filters.city||lead.city===filters.city)&&(!filters.segment||lead.segment===filters.segment)&&(!filters.productId||products.some(p=>p.id===filters.productId&&productFitsLead(p,lead)))).map(lead=>{
     const fits=products.filter(p=>productFitsLead(p,lead)&&(!filters.productId||p.id===filters.productId));
     let priority=0;const reasons:string[]=[];
-    if(fits.length){priority+=30;reasons.push('Catalogue matches this buyer category (+30)');}
+    if(fits.length){priority+=30;reasons.push(lead.buyerCompanyId?'Reviewed product ingredients match our catalogue (+30)':'Catalogue matches this buyer category (+30)');}
     const last=[...(lead.contactHistory??[])].sort((a,b)=>b.createdAt.localeCompare(a.createdAt))[0];
     if(last&&Date.parse(last.createdAt)<=now&&now-Date.parse(last.createdAt)<=90*86400000&&['Interested','Sample requested'].includes(last.outcome)){priority+=35;reasons.push(`Buyer reported ${last.outcome.toLowerCase()} in the last 90 days (+35)`);}
     if(['Qualified','Sample sent','Negotiation'].includes(lead.stage)){priority+=15;reasons.push(`Sales stage: ${lead.stage} (+15)`);}
@@ -52,7 +52,7 @@ export function buildAudience(leads:Lead[],products:Product[],filters:AudienceFi
   return {candidates,selected:ready.slice(0,filters.limit),matching:candidates.length,contactable:chosen.size,ready:ready.length,duplicates,requested:filters.limit};
 }
 export function personalise(template:string,candidate:Candidate,company:string,sender:string):string {
-  const labels:Record<Segment,string>={'Cafés':'café','Restaurants':'restaurant','Hotels & resorts':'hotel or resort','Bakeries':'bakery','Bars & lounges':'bar or lounge','Caterers':'catering','Sweet shops':'sweet shop','Distributors':'distribution'};
+  const labels:Record<Segment,string>={'Cafés':'café','Restaurants':'restaurant','Hotels & resorts':'hotel or resort','Bakeries':'bakery','Bars & lounges':'bar or lounge','Caterers':'catering','Sweet shops':'sweet shop','Distributors':'distribution','Food manufacturers':'food manufacturing'};
   const values:Record<string,string>={business:candidate.name,city:candidate.city,category:labels[candidate.segment],products:candidate.products.join(' and ')||'our hospitality range',company,sender};
   return template.replace(/{{\s*(\w+)\s*}}/g,(_,key:string)=>{if(!(key in values))throw new Error(`Unknown message field: ${key}`);return values[key];});
 }

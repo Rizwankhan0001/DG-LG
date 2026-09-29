@@ -17,7 +17,7 @@ const cases:Record<Segment,UseCase[]>={
   'Cafés':[sachets,toppings], 'Restaurants':[desserts,finish,drinks],
   'Hotels & resorts':[sachets,baking,drinks,toppings], 'Bakeries':[baking,desserts],
   'Bars & lounges':[drinks], 'Caterers':[finish,sachets,drinks],
-  'Sweet shops':[desserts,baking], 'Distributors':[distribution],
+  'Sweet shops':[desserts,baking], 'Distributors':[distribution], 'Food manufacturers':[{...desserts,id:'factory-recipe',title:'Published ingredient recipe',why:'Use the ingredient buyer profile for product-specific evidence and volume scenarios. Confirm factory production and formulation before quoting.',low:0,high:0,question:'Which product is made here, what is its recipe requirement, and who buys the ingredients?'}],
 };
 export function useCases(segment:Segment,products?:Product[]) {
   return cases[segment].filter(c=>!products||c.productIds.some(id=>products.some(p=>p.id===id)));
@@ -38,6 +38,6 @@ export function demandRange(segment:Segment,plan:DemandPlan) {
   return `${quantity(result.low)}–${quantity(result.high)} ${result.unit}/month`;
 }
 export function buyingRoute(lead:Pick<Lead,'segment'|'brand'>) {
-  const roles:Record<Segment,string>={'Cafés':'Café manager or beverage purchasing team','Restaurants':'Executive chef or purchase manager','Hotels & resorts':'F&B manager and procurement team','Bakeries':'Head baker or central production purchasing team','Bars & lounges':'Bar manager or beverage purchase manager','Caterers':'Catering operations or purchase manager','Sweet shops':'Production owner or purchase manager','Distributors':'Business owner or category buyer'};
+  const roles:Record<Segment,string>={'Cafés':'Café manager or beverage purchasing team','Restaurants':'Executive chef or purchase manager','Hotels & resorts':'F&B manager and procurement team','Bakeries':'Head baker or central production purchasing team','Bars & lounges':'Bar manager or beverage purchase manager','Caterers':'Catering operations or purchase manager','Sweet shops':'Production owner or purchase manager','Distributors':'Business owner or category buyer','Food manufacturers':'Ingredient procurement manager and product development team'};
   return {role:roles[lead.segment],note:lead.brand?`${lead.brand} may buy centrally. Ask whether this branch can approve a trial or must refer you to the brand’s purchasing team.`:'Ask whether purchasing happens at this location or through a central office.'};
 }

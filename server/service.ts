@@ -1,3 +1,4 @@
+import { recoverIngredientResearch, runIngredientTick } from './intelligence.js';
 import { randomUUID } from 'node:crypto';
 import type { Store } from './db.js';
 import { scoreLead } from './scoring.js';
@@ -84,6 +85,7 @@ export async function runDiscovery(store:Store,job:Job) {
 }
 export function startWorker(store:Store) {
   recoverCampaigns(store);
+  recoverIngredientResearch(store);
   // A stopped process cannot retain a running lock. Preserve partial inserts; do not re-send outreach.
   for(const job of store.list<Job>('jobs').filter(j=>j.status==='running'))store.put('jobs',{...job,status:'failed',error:'Server restarted during discovery. Partial results are saved; run again to continue.',finishedAt:new Date().toISOString()});
   let busy=false;
@@ -99,6 +101,7 @@ export function startWorker(store:Store) {
         store.put('automations',{...rule,lastRun:new Date().toISOString(),nextRun:new Date(Date.now()+(rule.frequency==='daily'?1:7)*86400000).toISOString()});
       }
       await runCampaignTick(store);
+      await runIngredientTick(store);
       const next=store.list<Job>('jobs').filter(j=>j.status==='queued').sort((a,b)=>a.createdAt.localeCompare(b.createdAt))[0];
       if(next)await runDiscovery(store,next);
     }finally{busy=false;}

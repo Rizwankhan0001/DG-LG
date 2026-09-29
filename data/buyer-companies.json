@@ -1,0 +1,200 @@
+[
+  {
+    "id": "earlyfoods",
+    "name": "Early Foods",
+    "website": "https://earlyfoods.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Millet snacks",
+    "description": "Cookies, rusks and traditional snacks with published jaggery recipes.",
+    "contactUrl": "https://earlyfoods.com/pages/contact-us",
+    "email": "hello@earlyfoods.com",
+    "phone": "",
+    "contactCheckedAt": "2026-09-29T07:03:41.196Z",
+    "contactNote": "Published general company contact, not a verified purchasing contact. Ask to be referred to ingredient procurement or product development. Address is a published contact location, not confirmed factory location.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ]
+  },
+  {
+    "id": "true-elements",
+    "name": "True Elements",
+    "website": "https://true-elements.com",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "locationSource": "https://true-elements.com/pages/contact-us",
+    "category": "Breakfast & cereals",
+    "description": "Breakfast cereals, granola and oat products sold by HW Wellness Solutions.",
+    "contactUrl": "https://true-elements.com/pages/contact-us",
+    "email": "care@true-elements.com",
+    "phone": "+917738442817",
+    "contactCheckedAt": "2026-09-29T07:03:42.565Z",
+    "contactNote": "Published general company contact, not a verified purchasing contact. Ask to be referred to ingredient procurement or product development. Address is a published contact location, not confirmed factory location.",
+    "contacts": [
+      {
+        "name": "Gauri Bhagwat",
+        "role": "Lead of Procurement (directory listing; current role unconfirmed)",
+        "url": "https://theorg.com/org/true-elements/teams/operations-team",
+        "sourceType": "Third-party directory",
+        "checkedAt": "2026-09-29T07:28:20.838Z",
+        "status": "Published professional lead"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ]
+  },
+  {
+    "id": "sweet-karam-coffee",
+    "name": "Sweet Karam Coffee",
+    "website": "https://sweetkaramcoffee.in",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "locationSource": "https://sweetkaramcoffee.in/pages/contact-us",
+    "category": "Traditional sweets",
+    "description": "Traditional sweets and snacks including jaggery-bound chikki.",
+    "contactUrl": "https://sweetkaramcoffee.in/pages/contact-us",
+    "email": "care@sweetkaramcoffee.in",
+    "phone": "+917358068806",
+    "contactCheckedAt": "2026-09-29T07:03:41.330Z",
+    "contactNote": "Published general company contact, not a verified purchasing contact. Ask to be referred to ingredient procurement or product development. Address is a published contact location, not confirmed factory location.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ]
+  },
+  {
+    "id": "the-good-kind",
+    "name": "The Good Kind",
+    "website": "https://thegoodkindfoods.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Protein snacks",
+    "description": "Cookies and protein bars; some sweeteners appear inside bought-in chocolate.",
+    "contactUrl": "https://thegoodkindfoods.com/pages/contact",
+    "email": "contact@thegoodkindfoods.com",
+    "phone": "",
+    "contactCheckedAt": "2026-09-29T07:03:41.446Z",
+    "contactNote": "Published general company contact, not a verified purchasing contact. Ask to be referred to ingredient procurement or product development. Address is a published contact location, not confirmed factory location.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ]
+  },
+  {
+    "id": "the-snack-company",
+    "name": "The Snack Company",
+    "website": "https://www.thesnackcompany.in",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "locationSource": "https://www.thesnackcompany.in/pages/contact-us",
+    "category": "Snacks & chocolate",
+    "description": "Snack range including khandsari chocolate, clusters and energy bars.",
+    "contactUrl": "https://www.thesnackcompany.in/pages/contact-us",
+    "email": "",
+    "phone": "",
+    "contactCheckedAt": "2026-09-29T07:03:41.275Z",
+    "contactNote": "Published general company contact, not a verified purchasing contact. Ask to be referred to ingredient procurement or product development. Address is a published contact location, not confirmed factory location.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ]
+  },
+  {
+    "id": "slurrp-farm",
+    "name": "Slurrp Farm",
+    "website": "https://slurrpfarm.com",
+    "city": "Delhi NCR",
+    "state": "Delhi",
+    "locationSource": "https://slurrpfarm.com/pages/contact-us",
+    "category": "Millet snacks",
+    "description": "Millet-based cookies with published jaggery ingredient percentages.",
+    "contactUrl": "https://slurrpfarm.com/pages/contact-us",
+    "email": "mail@slurrpfarm.com",
+    "phone": "+919318318000",
+    "contactCheckedAt": "2026-09-29T07:03:43.467Z",
+    "contactNote": "Published general company contact, not a verified purchasing contact. Ask to be referred to ingredient procurement or product development. Address is a published contact location, not confirmed factory location.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ]
+  },
+  {
+    "id": "tots-and-moms",
+    "name": "Tots & Moms",
+    "website": "https://totsandmoms.com",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "locationSource": "https://totsandmoms.com/pages/contact-us",
+    "category": "Millet snacks",
+    "description": "Millet cookies and mixes with product-specific ingredient panels.",
+    "contactUrl": "https://totsandmoms.com/pages/contact-us",
+    "email": "info@totsandmoms.com",
+    "phone": "",
+    "contactCheckedAt": "2026-09-29T07:03:42.005Z",
+    "contactNote": "Published general company contact, not a verified purchasing contact. Ask to be referred to ingredient procurement or product development. Address is a published contact location, not confirmed factory location.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ]
+  }
+]
