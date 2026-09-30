@@ -1,0 +1,650 @@
+[
+  {
+    "id": "earlyfoods",
+    "name": "Early Foods",
+    "host": "earlyfoods.com",
+    "category": "Millet snacks"
+  },
+  {
+    "id": "true-elements",
+    "name": "True Elements",
+    "host": "true-elements.com",
+    "category": "Breakfast & cereals"
+  },
+  {
+    "id": "sweet-karam-coffee",
+    "name": "Sweet Karam Coffee",
+    "host": "sweetkaramcoffee.in",
+    "category": "Traditional sweets"
+  },
+  {
+    "id": "the-good-kind",
+    "name": "The Good Kind",
+    "host": "thegoodkindfoods.com",
+    "category": "Protein snacks"
+  },
+  {
+    "id": "the-snack-company",
+    "name": "The Snack Company",
+    "host": "www.thesnackcompany.in",
+    "category": "Snacks & chocolate"
+  },
+  {
+    "id": "slurrp-farm",
+    "name": "Slurrp Farm",
+    "host": "slurrpfarm.com",
+    "category": "Millet snacks"
+  },
+  {
+    "id": "tots-and-moms",
+    "name": "Tots & Moms",
+    "host": "totsandmoms.com",
+    "category": "Millet snacks"
+  },
+  {
+    "id": "anandhaas",
+    "name": "Shree Anandhaas",
+    "host": "anandhaassweets.com",
+    "category": "Traditional sweets"
+  },
+  {
+    "id": "snackative",
+    "name": "Snackative",
+    "host": "snackative.com",
+    "category": "Traditional sweets & snacks"
+  },
+  {
+    "id": "jai-jalaram",
+    "name": "Jai Jalaram Foods",
+    "host": "jaijalaramfoods.com",
+    "category": "Bakery"
+  },
+  {
+    "id": "nutritius",
+    "name": "Nutritius",
+    "host": "nutritius.com",
+    "category": "Chikki & snacks"
+  },
+  {
+    "id": "nutty-yogi",
+    "name": "Nutty Yogi",
+    "host": "nuttyyogi.com",
+    "category": "Snacks & breakfast"
+  },
+  {
+    "id": "timios",
+    "name": "Timios",
+    "host": "mytimios.com",
+    "category": "Children’s snacks"
+  },
+  {
+    "id": "mumum",
+    "name": "The Mumum Co",
+    "host": "themumumco.com",
+    "category": "Children’s snacks"
+  },
+  {
+    "id": "bagrrys",
+    "name": "Bagrry’s",
+    "host": "bagrrys.com",
+    "category": "Breakfast & cereals"
+  },
+  {
+    "id": "kwality",
+    "name": "Kwality Foods",
+    "host": "kwalityfoods.in",
+    "category": "Breakfast & cereals"
+  },
+  {
+    "id": "max-protein",
+    "name": "RiteBite Max Protein",
+    "host": "maxprotein.in",
+    "category": "Protein snacks"
+  },
+  {
+    "id": "gudworld",
+    "name": "Gudworld",
+    "host": "gudworld.in",
+    "category": "Traditional sweets & snacks"
+  },
+  {
+    "id": "gur-chini",
+    "name": "Gur Chini",
+    "host": "gurchini.com",
+    "category": "Traditional sweets"
+  },
+  {
+    "id": "bhikharam",
+    "name": "Bhikharam Chandmal",
+    "host": "bhikharamchandmal.in",
+    "category": "Traditional sweets & snacks"
+  },
+  {
+    "id": "ganesh-bhel",
+    "name": "Ganesh Bhel",
+    "host": "ganeshbhel.com",
+    "category": "Traditional snacks"
+  },
+  {
+    "id": "chitale",
+    "name": "Chitale Bandhu",
+    "host": "chitalebandhu.in",
+    "category": "Traditional sweets & snacks"
+  },
+  {
+    "id": "sri-krishna",
+    "name": "Sri Krishna Sweets",
+    "host": "srikrishnasweets.com",
+    "category": "Traditional sweets"
+  },
+  {
+    "id": "a2b",
+    "name": "Adyar Ananda Bhavan",
+    "host": "aabsweets.com",
+    "category": "Traditional sweets"
+  },
+  {
+    "id": "bikanervala",
+    "name": "Bikanervala",
+    "host": "bikanervala.com",
+    "category": "Traditional sweets & snacks"
+  },
+  {
+    "id": "haldiram",
+    "name": "Haldiram’s",
+    "host": "haldirams.com",
+    "category": "Traditional sweets & snacks"
+  },
+  {
+    "id": "chaayos",
+    "name": "Chaayos",
+    "host": "chaayos.com",
+    "category": "Tea & snacks"
+  },
+  {
+    "id": "country-bean",
+    "name": "Country Bean",
+    "host": "countrybean.in",
+    "category": "Coffee & beverages"
+  },
+  {
+    "id": "rage",
+    "name": "Rage Coffee",
+    "host": "ragecoffee.com",
+    "category": "Coffee & snacks"
+  },
+  {
+    "id": "sleepy-owl",
+    "name": "Sleepy Owl",
+    "host": "sleepyowl.co",
+    "category": "Coffee & beverages"
+  },
+  {
+    "id": "blue-tokai",
+    "name": "Blue Tokai Coffee",
+    "host": "bluetokaicoffee.com",
+    "category": "Coffee & beverages"
+  },
+  {
+    "id": "naagin",
+    "name": "Naagin",
+    "host": "naaginsauce.com",
+    "category": "Sauces"
+  },
+  {
+    "id": "masterchow",
+    "name": "MasterChow",
+    "host": "masterchow.in",
+    "category": "Sauces & noodles"
+  },
+  {
+    "id": "slurrp",
+    "name": "Sluurpy",
+    "host": "sluurpy.in",
+    "category": "Snacks"
+  },
+  {
+    "id": "the-baker-dozen",
+    "name": "The Baker’s Dozen",
+    "host": "thebakersdozen.in",
+    "category": "Bakery"
+  },
+  {
+    "id": "eat-sova",
+    "name": "Sova",
+    "host": "eatsova.in",
+    "category": "Ready-to-eat foods"
+  },
+  {
+    "id": "farmveda",
+    "name": "Farmveda",
+    "host": "farmveda.in",
+    "category": "Breakfast & snacks"
+  },
+  {
+    "id": "mille",
+    "name": "Mille",
+    "host": "millesupergrain.com",
+    "category": "Millet foods"
+  },
+  {
+    "id": "slurrp-farm-cereal",
+    "name": "Wholsum Foods",
+    "host": "wholsumfoods.com",
+    "category": "Millet foods"
+  },
+  {
+    "id": "ancient-roots",
+    "name": "Ancient Roots",
+    "host": "ancientrootsindia.com",
+    "category": "Cookies & snacks"
+  },
+  {
+    "id": "oh-sugar",
+    "name": "Oh Sugar Patisserie",
+    "host": "ohsugarpatisserie.com",
+    "category": "Bakery"
+  },
+  {
+    "id": "u-turn",
+    "name": "U-Turn4Nature",
+    "host": "www.u-turn.in",
+    "category": "Traditional snacks"
+  },
+  {
+    "id": "la-cocoa",
+    "name": "La Cocoa",
+    "host": "www.lacocoa.in",
+    "category": "Chocolate"
+  },
+  {
+    "id": "cacao-essentia",
+    "name": "Cacao Essentia",
+    "host": "cacaoessentia.com",
+    "category": "Chocolate"
+  },
+  {
+    "id": "mapro",
+    "name": "Mapro",
+    "host": "www.mapro.com",
+    "category": "Fruit products & bakery"
+  },
+  {
+    "id": "queen-cookies",
+    "name": "Queen Cookies",
+    "host": "queencookies.in",
+    "category": "Cookies"
+  },
+  {
+    "id": "mos-bakery",
+    "name": "Mo’s Bakery",
+    "host": "www.mosbakery.in",
+    "category": "Bakery"
+  },
+  {
+    "id": "yogabar",
+    "name": "Yoga Bar",
+    "host": "www.yogabars.in",
+    "category": "Breakfast & snacks"
+  },
+  {
+    "id": "the-whole-truth",
+    "name": "The Whole Truth",
+    "host": "thewholetruthfoods.com",
+    "category": "Protein snacks & chocolate"
+  },
+  {
+    "id": "open-secret",
+    "name": "Open Secret",
+    "host": "opensecret.in",
+    "category": "Cookies & snacks"
+  },
+  {
+    "id": "farmley",
+    "name": "Farmley",
+    "host": "farmley.com",
+    "category": "Nuts & snacks"
+  },
+  {
+    "id": "happilo",
+    "name": "Happilo",
+    "host": "happilo.com",
+    "category": "Nuts & snacks"
+  },
+  {
+    "id": "snackible",
+    "name": "Snackible",
+    "host": "snackible.com",
+    "category": "Snacks"
+  },
+  {
+    "id": "eat-better",
+    "name": "Eat Better Co",
+    "host": "eatbetterco.com",
+    "category": "Traditional snacks"
+  },
+  {
+    "id": "eat-anytime",
+    "name": "Eat Anytime",
+    "host": "eatanytime.in",
+    "category": "Snack bars"
+  },
+  {
+    "id": "healthy-master",
+    "name": "Healthy Master",
+    "host": "healthymaster.in",
+    "category": "Snacks"
+  },
+  {
+    "id": "healthy-treat",
+    "name": "Healthy Treat",
+    "host": "healthytreat.in",
+    "category": "Snacks"
+  },
+  {
+    "id": "nourish-organics",
+    "name": "Nourish Organics",
+    "host": "nourishorganics.in",
+    "category": "Breakfast & snacks"
+  },
+  {
+    "id": "the-cinnamon-kitchen",
+    "name": "The Cinnamon Kitchen",
+    "host": "cinnamon.kitchen",
+    "category": "Bakery & snacks"
+  },
+  {
+    "id": "lo-foods",
+    "name": "Lo! Foods",
+    "host": "lofoods.fit",
+    "category": "Bakery & snacks"
+  },
+  {
+    "id": "nourish-you",
+    "name": "Nourish You",
+    "host": "nourishyou.in",
+    "category": "Breakfast & plant-based foods"
+  },
+  {
+    "id": "monsoon-harvest",
+    "name": "Monsoon Harvest",
+    "host": "monsoonharvest.in",
+    "category": "Breakfast & snacks"
+  },
+  {
+    "id": "soulfull",
+    "name": "Tata Soulfull",
+    "host": "www.tatasoulfull.com",
+    "category": "Breakfast & snacks"
+  },
+  {
+    "id": "paul-and-mike",
+    "name": "Paul and Mike",
+    "host": "www.paulandmike.co",
+    "category": "Chocolate"
+  },
+  {
+    "id": "mason-and-co",
+    "name": "Mason & Co",
+    "host": "www.masonandco.in",
+    "category": "Chocolate"
+  },
+  {
+    "id": "sihi",
+    "name": "Sihi Chocolaterie",
+    "host": "sihi.in",
+    "category": "Chocolate"
+  },
+  {
+    "id": "pascati",
+    "name": "Pascati",
+    "host": "www.pascati.com",
+    "category": "Chocolate"
+  },
+  {
+    "id": "soklet",
+    "name": "Soklet",
+    "host": "www.soklet.in",
+    "category": "Chocolate"
+  },
+  {
+    "id": "naviluna",
+    "name": "Naviluna",
+    "host": "www.naviluna.com",
+    "category": "Chocolate"
+  },
+  {
+    "id": "manam",
+    "name": "Manam Chocolate",
+    "host": "manamchocolate.com",
+    "category": "Chocolate"
+  },
+  {
+    "id": "bon-fiction",
+    "name": "Bon Fiction",
+    "host": "bonfiction.com",
+    "category": "Chocolate"
+  },
+  {
+    "id": "ambriona",
+    "name": "Ambriona",
+    "host": "ambriona.com",
+    "category": "Chocolate"
+  },
+  {
+    "id": "almond-house",
+    "name": "Almond House",
+    "host": "almondhouse.com",
+    "category": "Traditional sweets"
+  },
+  {
+    "id": "govindjee",
+    "name": "Govindjee",
+    "host": "govindjee.store",
+    "category": "Traditional snacks"
+  },
+  {
+    "id": "lets-try",
+    "name": "Let’s Try",
+    "host": "www.letstryfoods.com",
+    "category": "Traditional snacks"
+  },
+  {
+    "id": "hame",
+    "name": "Hame",
+    "host": "hameindia.com",
+    "category": "Millet snacks"
+  },
+  {
+    "id": "millet-amma",
+    "name": "Millet Amma",
+    "host": "milletamma.com",
+    "category": "Millet foods"
+  },
+  {
+    "id": "grami",
+    "name": "Grami Superfoods",
+    "host": "gramisuperfoods.com",
+    "category": "Millet foods"
+  },
+  {
+    "id": "healthy-binge",
+    "name": "The Healthy Binge",
+    "host": "thehealthybinge.com",
+    "category": "Millet snacks"
+  },
+  {
+    "id": "omay",
+    "name": "Omay Foods",
+    "host": "omayfoods.com",
+    "category": "Snacks"
+  },
+  {
+    "id": "taali",
+    "name": "Taali Foods",
+    "host": "taalifoods.com",
+    "category": "Snacks"
+  },
+  {
+    "id": "4700bc",
+    "name": "4700BC",
+    "host": "4700bc.com",
+    "category": "Snacks"
+  },
+  {
+    "id": "pintola",
+    "name": "Pintola",
+    "host": "pintola.in",
+    "category": "Nut butters & breakfast"
+  },
+  {
+    "id": "alpino",
+    "name": "Alpino",
+    "host": "alpinohealthfoods.com",
+    "category": "Nut butters & breakfast"
+  },
+  {
+    "id": "myfitness",
+    "name": "MYFITNESS",
+    "host": "myfitness.in",
+    "category": "Nut butters"
+  },
+  {
+    "id": "brownsalt",
+    "name": "Brownsalt Bakery",
+    "host": "brownsaltbakery.com",
+    "category": "Bakery & granola"
+  },
+  {
+    "id": "wingreens",
+    "name": "Wingreens Farms",
+    "host": "wingreensworld.com",
+    "category": "Sauces & beverages"
+  },
+  {
+    "id": "paper-boat",
+    "name": "Paper Boat",
+    "host": "www.paperboatfoods.com",
+    "category": "Beverages & snacks"
+  },
+  {
+    "id": "kapiva",
+    "name": "Kapiva",
+    "host": "kapiva.in",
+    "category": "Wellness foods"
+  },
+  {
+    "id": "wellbeing",
+    "name": "Wellbeing Nutrition",
+    "host": "wellbeingnutrition.com",
+    "category": "Wellness foods"
+  },
+  {
+    "id": "conscious-food",
+    "name": "Conscious Food",
+    "host": "www.consciousfood.com",
+    "category": "Organic foods & snacks"
+  },
+  {
+    "id": "two-brothers",
+    "name": "Two Brothers Organic Farms",
+    "host": "twobrothersindiashop.com",
+    "category": "Traditional foods"
+  },
+  {
+    "id": "anveshan",
+    "name": "Anveshan",
+    "host": "www.anveshan.farm",
+    "category": "Traditional foods"
+  },
+  {
+    "id": "indic",
+    "name": "Indic Organics",
+    "host": "indicorganics.com",
+    "category": "Traditional foods"
+  },
+  {
+    "id": "sweetish-house",
+    "name": "Sweetish House Mafia",
+    "host": "sweetishhousemafia.com",
+    "category": "Cookies"
+  },
+  {
+    "id": "notos",
+    "name": "NOTO",
+    "host": "eatnoto.com",
+    "category": "Ice cream & desserts"
+  },
+  {
+    "id": "minus30",
+    "name": "Minus 30",
+    "host": "minus30.co",
+    "category": "Ice cream"
+  },
+  {
+    "id": "cookie-man",
+    "name": "Cookie Man",
+    "host": "www.cookiemanindia.com",
+    "category": "Cookies & bakery"
+  },
+  {
+    "id": "adya-organics",
+    "name": "Adya Organics",
+    "host": "adyaorganics.com",
+    "category": "Organic snacks & sweets"
+  },
+  {
+    "id": "millet-bank",
+    "name": "Millet Bank",
+    "host": "milletbank.in",
+    "category": "Millet snacks"
+  },
+  {
+    "id": "anand-sweets",
+    "name": "Anand Sweets & Savouries",
+    "host": "www.anandsweets.in",
+    "category": "Traditional sweets"
+  },
+  {
+    "id": "jus-amazin",
+    "name": "Jus Amazin",
+    "host": "www.jusamazin.com",
+    "category": "Nut butters & snacks"
+  },
+  {
+    "id": "sihi-chocolaterie",
+    "name": "Sihi Chocolaterie",
+    "host": "sihichocolaterie.com",
+    "category": "Chocolate"
+  },
+  {
+    "id": "bombay-sweet-shop",
+    "name": "Bombay Sweet Shop",
+    "host": "bombaysweetshop.com",
+    "category": "Traditional sweets"
+  },
+  {
+    "id": "go-desi",
+    "name": "GO DESi",
+    "host": "godesi.in",
+    "category": "Traditional sweets & snacks"
+  },
+  {
+    "id": "jaggic",
+    "name": "Jaggic / Ragnah Ventures",
+    "host": "www.jaggic.com",
+    "category": "Jaggery snacks"
+  },
+  {
+    "id": "tiggle",
+    "name": "Tiggle",
+    "host": "thetiggle.com",
+    "category": "Chocolate drinks"
+  },
+  {
+    "id": "loyka",
+    "name": "Loyka / August Assortments",
+    "host": "www.loyka.co",
+    "category": "Chocolate & nut snacks"
+  }
+]

@@ -7,6 +7,8 @@ import { randomBytes } from 'node:crypto';
 import assert from 'node:assert/strict';
 
 const expectedRecords=JSON.parse(await readFile(new URL('../data/researched-leads.json',import.meta.url),'utf8')).length;
+const expectedBuyerProducts=JSON.parse(await readFile(new URL('../data/buyer-products.json',import.meta.url),'utf8')).length;
+const expectedBuyerCompanies=JSON.parse(await readFile(new URL('../data/buyer-companies.json',import.meta.url),'utf8')).length;
 const directory=await mkdtemp(join(tmpdir(),'grow-production-check-'));
 const password=randomBytes(24).toString('base64url');
 const port='3006';
@@ -48,7 +50,8 @@ try {
   assert.equal(bootstrap.mode,'live');assert.equal(bootstrap.leads.length,expectedRecords);
   assert.equal((await fetch(base+'/api/ingredient-intelligence')).status,401);
   const research=await (await fetch(base+'/api/ingredient-intelligence',{headers:{Cookie:cookie}})).json();
-  assert.equal(research.products.length,33);
+  assert.equal(research.products.length,expectedBuyerProducts);
+  assert.equal(research.companies.length,expectedBuyerCompanies);
   const buyerSaved=await fetch(base+'/api/ingredient-intelligence/companies/true-elements',{method:'PATCH',headers:{Cookie:cookie,'Content-Type':'application/json','X-Requested-With':'Grow',Origin:'https://localhost'},body:JSON.stringify({saved:true,notes:'Ingredient research persistence check'})});
   assert.equal(buyerSaved.status,200);
   const lead=bootstrap.leads.find(item=>item.segment==='Cafés');

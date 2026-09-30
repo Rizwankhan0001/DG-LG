@@ -10,9 +10,9 @@
     "description": "Cookies, rusks and traditional snacks with published jaggery recipes.",
     "contactUrl": "https://earlyfoods.com/pages/contact-us",
     "email": "hello@earlyfoods.com",
-    "phone": "",
-    "contactCheckedAt": "2026-09-29T07:03:41.196Z",
-    "contactNote": "Published general company contact, not a verified purchasing contact. Ask to be referred to ingredient procurement or product development. Address is a published contact location, not confirmed factory location.",
+    "phone": "+918049670521",
+    "contactCheckedAt": "2026-09-30T06:30:37.254Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
     "contacts": [],
     "targetRoles": [
       "Ingredient procurement / purchase manager",
@@ -24,6 +24,43 @@
       "Who approves raw-material suppliers and sample trials for this product?",
       "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
       "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "hello@earlyfoods.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://earlyfoods.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:37.254Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+918049670521",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://earlyfoods.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:37.254Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "marketplaces": [
+      {
+        "platform": "Flipkart",
+        "url": "https://www.flipkart.com/early-foods-dry-fruits-seeds-jaggery-cookies-150g-150-g/p/itmbd9be48f44143",
+        "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      },
+      {
+        "platform": "JioMart",
+        "url": "https://www.jiomart.com/p/groceries/early-foods-gluten-and-sugarfree-free-multigrain-millet-jaggery-cookies-900-g-pack-of-6/592112152",
+        "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      },
+      {
+        "platform": "BigBasket",
+        "url": "https://www.bigbasket.com/pd/40135914/early-foods-multi-grain-millet-jaggery-cookies-150-g/",
+        "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
     ]
   },
   {
@@ -35,19 +72,25 @@
     "locationSource": "https://true-elements.com/pages/contact-us",
     "category": "Breakfast & cereals",
     "description": "Breakfast cereals, granola and oat products sold by HW Wellness Solutions.",
-    "contactUrl": "https://true-elements.com/pages/contact-us",
+    "contactUrl": "https://true-elements.com/pages/contact",
     "email": "care@true-elements.com",
     "phone": "+917738442817",
-    "contactCheckedAt": "2026-09-29T07:03:42.565Z",
-    "contactNote": "Published general company contact, not a verified purchasing contact. Ask to be referred to ingredient procurement or product development. Address is a published contact location, not confirmed factory location.",
+    "contactCheckedAt": "2026-09-30T06:30:37.419Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
     "contacts": [
       {
         "name": "Gauri Bhagwat",
-        "role": "Lead of Procurement (directory listing; current role unconfirmed)",
-        "url": "https://theorg.com/org/true-elements/teams/operations-team",
-        "sourceType": "Third-party directory",
-        "checkedAt": "2026-09-29T07:28:20.838Z",
-        "status": "Published professional lead"
+        "role": "Procurement lead (directory title; current role unconfirmed)",
+        "department": "Procurement",
+        "url": "https://in.linkedin.com/in/gauri-bhagwat-38b100103",
+        "sourceType": "Professional profile",
+        "checkedAt": "2026-09-30T06:44:32.633Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Public LinkedIn profile supports True Elements association and procurement-related activity; The Org supplies the procurement-lead title. Verify current employment and buying authority.",
+        "corroboratingUrls": [
+          "https://theorg.com/org/true-elements/teams/operations-team",
+          "https://www.linkedin.com/posts/gauri-bhagwat-38b100103_indias-growing-appetite-for-superfoods-activity-7324879846843596801-N50n"
+        ]
       }
     ],
     "targetRoles": [
@@ -60,6 +103,23 @@
       "Who approves raw-material suppliers and sample trials for this product?",
       "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
       "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+917738442817",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://true-elements.com/pages/contact-us",
+        "checkedAt": "2026-09-29T07:03:42.565Z"
+      },
+      {
+        "kind": "Email",
+        "value": "care@true-elements.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://true-elements.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:37.419Z"
+      }
     ]
   },
   {
@@ -74,9 +134,20 @@
     "contactUrl": "https://sweetkaramcoffee.in/pages/contact-us",
     "email": "care@sweetkaramcoffee.in",
     "phone": "+917358068806",
-    "contactCheckedAt": "2026-09-29T07:03:41.330Z",
-    "contactNote": "Published general company contact, not a verified purchasing contact. Ask to be referred to ingredient procurement or product development. Address is a published contact location, not confirmed factory location.",
-    "contacts": [],
+    "contactCheckedAt": "2026-09-30T06:30:37.170Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Prashant Unni Menon",
+        "role": "Supply chain & procurement professional",
+        "department": "Procurement",
+        "url": "https://in.linkedin.com/in/prashant-unni-menon-080a6251",
+        "sourceType": "Professional profile",
+        "checkedAt": "2026-09-30T06:44:32.633Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Public indexed professional profile supports this role or company association. Current employment and purchasing authority require confirmation."
+      }
+    ],
     "targetRoles": [
       "Ingredient procurement / purchase manager",
       "Product development / R&D manager",
@@ -87,6 +158,30 @@
       "Who approves raw-material suppliers and sample trials for this product?",
       "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
       "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+917358068806",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://sweetkaramcoffee.in/pages/contact-us",
+        "checkedAt": "2026-09-29T07:03:41.330Z"
+      },
+      {
+        "kind": "Email",
+        "value": "care@sweetkaramcoffee.in",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://sweetkaramcoffee.in/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:37.170Z"
+      },
+      {
+        "kind": "Email",
+        "value": "sanjith@sweetkaramcoffee.in",
+        "purpose": "Corporate gifting",
+        "url": "https://sweetkaramcoffee.in/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:37.170Z"
+      }
     ]
   },
   {
@@ -101,8 +196,8 @@
     "contactUrl": "https://thegoodkindfoods.com/pages/contact",
     "email": "contact@thegoodkindfoods.com",
     "phone": "",
-    "contactCheckedAt": "2026-09-29T07:03:41.446Z",
-    "contactNote": "Published general company contact, not a verified purchasing contact. Ask to be referred to ingredient procurement or product development. Address is a published contact location, not confirmed factory location.",
+    "contactCheckedAt": "2026-09-30T06:30:37.765Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
     "contacts": [],
     "targetRoles": [
       "Ingredient procurement / purchase manager",
@@ -114,7 +209,17 @@
       "Who approves raw-material suppliers and sample trials for this product?",
       "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
       "What certifications, lab tests, price and payment terms are required for supplier approval?"
-    ]
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "contact@thegoodkindfoods.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://thegoodkindfoods.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:37.765Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
   },
   {
     "id": "the-snack-company",
@@ -126,11 +231,32 @@
     "category": "Snacks & chocolate",
     "description": "Snack range including khandsari chocolate, clusters and energy bars.",
     "contactUrl": "https://www.thesnackcompany.in/pages/contact-us",
-    "email": "",
+    "email": "contactus@thesnackcompany.in",
     "phone": "",
-    "contactCheckedAt": "2026-09-29T07:03:41.275Z",
-    "contactNote": "Published general company contact, not a verified purchasing contact. Ask to be referred to ingredient procurement or product development. Address is a published contact location, not confirmed factory location.",
-    "contacts": [],
+    "contactCheckedAt": "2026-09-30T06:30:38.161Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Vaishnavi Rao",
+        "role": "Co-founder",
+        "department": "Leadership",
+        "url": "https://www.thesnackcompany.in/pages/about-us-1",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:38.793Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Vivek Shivashankar",
+        "role": "Co-founder",
+        "department": "Leadership",
+        "url": "https://www.thesnackcompany.in/pages/about-us-1",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:38.793Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      }
+    ],
     "targetRoles": [
       "Ingredient procurement / purchase manager",
       "Product development / R&D manager",
@@ -141,6 +267,16 @@
       "Who approves raw-material suppliers and sample trials for this product?",
       "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
       "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "contactus@thesnackcompany.in",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://www.thesnackcompany.in/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:38.161Z"
+      }
     ]
   },
   {
@@ -155,9 +291,43 @@
     "contactUrl": "https://slurrpfarm.com/pages/contact-us",
     "email": "mail@slurrpfarm.com",
     "phone": "+919318318000",
-    "contactCheckedAt": "2026-09-29T07:03:43.467Z",
-    "contactNote": "Published general company contact, not a verified purchasing contact. Ask to be referred to ingredient procurement or product development. Address is a published contact location, not confirmed factory location.",
-    "contacts": [],
+    "contactCheckedAt": "2026-09-30T06:30:38.872Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Meghana Narayan",
+        "role": "Co-founder",
+        "department": "Leadership",
+        "url": "https://slurrpfarm.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:39.786Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Shauravi Malik",
+        "role": "Co-founder",
+        "department": "Leadership",
+        "url": "https://slurrpfarm.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:39.786Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Rahul Mathur",
+        "role": "Operations leader",
+        "department": "Operations",
+        "url": "https://in.linkedin.com/in/mathur-rahul",
+        "sourceType": "Professional profile",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Public indexed profile describes operations leadership at Wholsum Foods. Own hiring post references demand planning and procurement responsibilities in the operations team; it does not establish his exact purchasing title.",
+        "corroboratingUrls": [
+          "https://www.linkedin.com/posts/mathur-rahul_hiring-supplychainjobs-procurement-activity-7424055078900371456-9NPQ"
+        ]
+      }
+    ],
     "targetRoles": [
       "Ingredient procurement / purchase manager",
       "Product development / R&D manager",
@@ -168,6 +338,23 @@
       "Who approves raw-material suppliers and sample trials for this product?",
       "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
       "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T10:37:36.137Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "mail@slurrpfarm.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://slurrpfarm.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:38.872Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919318318000",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://slurrpfarm.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:38.872Z"
+      }
     ]
   },
   {
@@ -179,11 +366,223 @@
     "locationSource": "https://totsandmoms.com/pages/contact-us",
     "category": "Millet snacks",
     "description": "Millet cookies and mixes with product-specific ingredient panels.",
-    "contactUrl": "https://totsandmoms.com/pages/contact-us",
+    "contactUrl": "https://www.totsandmoms.com/pages/contact-us",
     "email": "info@totsandmoms.com",
     "phone": "",
-    "contactCheckedAt": "2026-09-29T07:03:42.005Z",
-    "contactNote": "Published general company contact, not a verified purchasing contact. Ask to be referred to ingredient procurement or product development. Address is a published contact location, not confirmed factory location.",
+    "contactCheckedAt": "2026-09-30T06:30:39.307Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Kavitha Prashanth",
+        "role": "Founder",
+        "department": "Leadership",
+        "url": "https://blog.totsandmoms.com/contact-us/",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Official company blog identifies the founder and publishes this product-enquiry email; the main store also introduces Kavitha as founder. Purchasing authority still needs confirmation.",
+        "corroboratingUrls": [
+          "https://www.totsandmoms.com/"
+        ],
+        "email": "kavitha@totsandmoms.com"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T10:37:36.137Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "info@totsandmoms.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://www.totsandmoms.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:39.307Z"
+      },
+      {
+        "kind": "Email",
+        "value": "kavitha@totsandmoms.com",
+        "purpose": "Founder product enquiries",
+        "url": "https://blog.totsandmoms.com/contact-us/",
+        "checkedAt": "2026-09-30T10:37:36.137Z"
+      }
+    ],
+    "marketplaces": [
+      {
+        "platform": "Flipkart",
+        "url": "https://www.flipkart.com/tots-moms-millet-jaggery-cookies-ragi-almonds-pack-2-multi-grain-biscuit/p/itm1a549cf135fd7",
+        "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ]
+  },
+  {
+    "id": "anandhaas",
+    "name": "Shree Anandhaas",
+    "website": "https://anandhaassweets.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Traditional sweets",
+    "description": "Traditional sweets company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://anandhaassweets.com/pages/contact",
+    "email": "care@anandhaas.com",
+    "phone": "+91 9940222040",
+    "contactCheckedAt": "2026-09-30T06:30:39.500Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Sathesh",
+        "role": "Executive President - R&D & Manufacturing",
+        "department": "Product development",
+        "url": "https://anandhaassweets.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:39.989Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Balakumar",
+        "role": "Executive President - Manufacturing",
+        "department": "Operations",
+        "url": "https://anandhaassweets.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:39.989Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Elango",
+        "role": "Executive Vice President - Manufacturing",
+        "department": "Operations",
+        "url": "https://anandhaassweets.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:39.989Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Madhu Padmanabhan",
+        "role": "Executive President - Sales",
+        "department": "Sales",
+        "url": "https://anandhaassweets.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:39.989Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Rajkumar",
+        "role": "Executive Vice President - Sales",
+        "department": "Sales",
+        "url": "https://anandhaassweets.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:39.989Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Manikanden",
+        "role": "Chairman & Managing Director",
+        "department": "Leadership",
+        "url": "https://anandhaassweets.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:39.989Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Venkatesh",
+        "role": "Executive Director",
+        "department": "Leadership",
+        "url": "https://anandhaassweets.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:39.989Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Nammalwar",
+        "role": "Executive Director",
+        "department": "Leadership",
+        "url": "https://anandhaassweets.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:39.989Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Narayanaram",
+        "role": "Executive Director",
+        "department": "Leadership",
+        "url": "https://anandhaassweets.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:39.989Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Amutha",
+        "role": "Executive Director",
+        "department": "Leadership",
+        "url": "https://anandhaassweets.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:39.989Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T10:44:30.774Z",
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+919940222040",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://anandhaassweets.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:39.500Z"
+      },
+      {
+        "kind": "Email",
+        "value": "care@anandhaas.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://anandhaassweets.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:39.500Z"
+      }
+    ]
+  },
+  {
+    "id": "jai-jalaram",
+    "name": "Jai Jalaram Foods",
+    "website": "https://jaijalaramfoods.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Bakery",
+    "description": "Bakery company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://jaijalaramfoods.com/pages/contact",
+    "email": "customercare@jaijalaramfoods.com",
+    "phone": "+91 7420090991",
+    "contactCheckedAt": "2026-09-30T06:30:39.805Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
     "contacts": [],
     "targetRoles": [
       "Ingredient procurement / purchase manager",
@@ -195,6 +594,2847 @@
       "Who approves raw-material suppliers and sample trials for this product?",
       "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
       "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+917420090991",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://jaijalaramfoods.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:39.805Z"
+      },
+      {
+        "kind": "Email",
+        "value": "customercare@jaijalaramfoods.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://jaijalaramfoods.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:39.805Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T10:44:30.779Z"
+  },
+  {
+    "id": "nutritius",
+    "name": "Nutritius",
+    "website": "https://nutritius.com",
+    "city": "Navsari",
+    "state": "Gujarat",
+    "locationSource": "https://nutritius.com/pages/contact",
+    "category": "Chikki & snacks",
+    "description": "Chikki & snacks company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://nutritius.com/pages/contact",
+    "email": "info@nutritius.com",
+    "phone": "+919090225555",
+    "contactCheckedAt": "2026-09-30T06:30:40.115Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+919090225555",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://nutritius.com/pages/contact",
+        "checkedAt": "2026-09-29T12:25:11.404Z"
+      },
+      {
+        "kind": "Email",
+        "value": "info@nutritius.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://nutritius.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:40.115Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "nutty-yogi",
+    "name": "Nutty Yogi",
+    "website": "https://nuttyyogi.com",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "locationSource": "https://nuttyyogi.com/pages/contact-us",
+    "category": "Snacks & breakfast",
+    "description": "Snacks & breakfast company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://nuttyyogi.com/pages/contact-us",
+    "email": "pallavi@nuttyyogi.com",
+    "phone": "",
+    "contactCheckedAt": "2026-09-30T06:30:40.832Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "pallavi@nuttyyogi.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://nuttyyogi.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:40.832Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "sri-krishna",
+    "name": "Sri Krishna Sweets",
+    "website": "https://srikrishnasweets.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Traditional sweets",
+    "description": "Traditional sweets company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://srikrishnasweets.com/pages/contact",
+    "email": "customercare@srikrishnasweets.com",
+    "phone": "",
+    "contactCheckedAt": "2026-09-29T12:25:12.218Z",
+    "contactNote": "Public company contact route, not a verified purchasing contact. Ask for procurement or product development. Manufacturing site, buying authority, demand and permission to send outreach remain unconfirmed.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "customercare@srikrishnasweets.com",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://srikrishnasweets.com/pages/contact",
+        "checkedAt": "2026-09-29T12:25:12.218Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "chaayos",
+    "name": "Chaayos",
+    "website": "https://chaayos.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Tea & snacks",
+    "description": "Tea & snacks company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://chaayos.com",
+    "email": "Letstalk@chaayos.com",
+    "phone": "18001202424",
+    "contactCheckedAt": "2026-09-30T06:30:42.468Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "18001202424",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://chaayos.com/products/dry-fruit-cookies-450g",
+        "checkedAt": "2026-09-29T12:25:12.173Z"
+      },
+      {
+        "kind": "Email",
+        "value": "Letstalk@chaayos.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://chaayos.com",
+        "checkedAt": "2026-09-30T06:30:42.468Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "blue-tokai",
+    "name": "Blue Tokai Coffee",
+    "website": "https://bluetokaicoffee.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Coffee & beverages",
+    "description": "Coffee & beverages company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://bluetokaicoffee.com/pages/contact",
+    "email": "getcoffee@bluetokaicoffee.com",
+    "phone": "+91 96060 47077",
+    "contactCheckedAt": "2026-09-30T06:30:41.376Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+919606047077",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://bluetokaicoffee.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:41.376Z"
+      },
+      {
+        "kind": "Email",
+        "value": "getcoffee@bluetokaicoffee.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://bluetokaicoffee.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:41.376Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T10:44:30.779Z"
+  },
+  {
+    "id": "naagin",
+    "name": "Naagin",
+    "website": "https://naaginsauce.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Sauces",
+    "description": "Sauces company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://www.naaginsauce.com/pages/contact-us",
+    "email": "hello@naaginsauce.com",
+    "phone": "",
+    "contactCheckedAt": "2026-09-30T06:30:42.708Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "hello@naaginsauce.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://www.naaginsauce.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:42.708Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "farmveda",
+    "name": "Farmveda",
+    "website": "https://farmveda.in",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Breakfast & snacks",
+    "description": "Breakfast & snacks company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://farmveda.in/pages/contact-us-old",
+    "email": "online@farmveda.in",
+    "phone": "+91 9008255519",
+    "contactCheckedAt": "2026-09-30T06:30:42.387Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+919008255519",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://farmveda.in/pages/contact-us-old",
+        "checkedAt": "2026-09-30T06:30:42.387Z"
+      },
+      {
+        "kind": "Email",
+        "value": "online@farmveda.in",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://farmveda.in/pages/contact-us-old",
+        "checkedAt": "2026-09-30T06:30:42.387Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T10:44:30.779Z"
+  },
+  {
+    "id": "ancient-roots",
+    "name": "Ancient Roots",
+    "website": "https://ancientrootsindia.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Cookies & snacks",
+    "description": "Cookies & snacks company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://ancientrootsindia.com/pages/contact-us",
+    "email": "support@ancientrootsindia.com",
+    "phone": "+91 9825009309",
+    "contactCheckedAt": "2026-09-30T06:30:42.867Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+919825009309",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://ancientrootsindia.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:42.867Z"
+      },
+      {
+        "kind": "Email",
+        "value": "support@ancientrootsindia.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://ancientrootsindia.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:42.867Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T10:44:30.779Z"
+  },
+  {
+    "id": "oh-sugar",
+    "name": "Oh Sugar Patisserie",
+    "website": "https://ohsugarpatisserie.com",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "locationSource": "https://ohsugarpatisserie.com/policies/contact-information",
+    "category": "Bakery",
+    "description": "Bakery company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://ohsugarpatisserie.com/policies/contact-information",
+    "email": "careohhsugar@govindjee.store",
+    "phone": "+919982323536",
+    "contactCheckedAt": "2026-09-30T06:30:44.022Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Dhruvika Vijay",
+        "role": "Founder / pastry chef",
+        "department": "Product development",
+        "url": "https://ohsugarpatisserie.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:44.588Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+919982323536",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://ohsugarpatisserie.com/policies/contact-information",
+        "checkedAt": "2026-09-29T12:25:13.600Z"
+      },
+      {
+        "kind": "Email",
+        "value": "careohhsugar@govindjee.store",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://ohsugarpatisserie.com/policies/contact-information",
+        "checkedAt": "2026-09-30T06:30:44.022Z"
+      }
     ]
+  },
+  {
+    "id": "cacao-essentia",
+    "name": "Cacao Essentia",
+    "website": "https://cacaoessentia.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Chocolate",
+    "description": "Chocolate company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://cacaoessentia.com/pages/get-in-touch",
+    "email": "cacaoessentia@gmail.com",
+    "phone": "",
+    "contactCheckedAt": "2026-09-29T12:25:13.493Z",
+    "contactNote": "Public company contact route, not a verified purchasing contact. Ask for procurement or product development. Manufacturing site, buying authority, demand and permission to send outreach remain unconfirmed.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "cacaoessentia@gmail.com",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://cacaoessentia.com/pages/get-in-touch",
+        "checkedAt": "2026-09-29T12:25:13.493Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "mapro",
+    "name": "Mapro",
+    "website": "https://www.mapro.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Fruit products & bakery",
+    "description": "Fruit products & bakery company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://www.mapro.com/pages/contact",
+    "email": "connect@mapro.com",
+    "phone": "8805004000",
+    "contactCheckedAt": "2026-09-30T06:30:44.338Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "connect@mapro.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://www.mapro.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:44.338Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "8805004000",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://www.mapro.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:44.338Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "queen-cookies",
+    "name": "Queen Cookies",
+    "website": "https://queencookies.in",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "locationSource": "https://queencookies.in/pages/contact-us",
+    "category": "Cookies",
+    "description": "Cookies company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://queencookies.in/pages/contact-us",
+    "email": "care@queencookies.in",
+    "phone": "+919920088831",
+    "contactCheckedAt": "2026-09-30T06:30:45.019Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Rani R. Malviya",
+        "role": "Founder",
+        "department": "Leadership",
+        "url": "https://queencookies.in/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:45.532Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "care@queencookies.in",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://queencookies.in/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:45.019Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919920088831",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://queencookies.in/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:45.019Z"
+      }
+    ]
+  },
+  {
+    "id": "mos-bakery",
+    "name": "Mo’s Bakery",
+    "website": "https://www.mosbakery.in",
+    "city": "Delhi NCR",
+    "state": "Delhi",
+    "locationSource": "https://www.mosbakery.in/pages/contact",
+    "category": "Bakery",
+    "description": "Bakery company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://www.mosbakery.in/pages/contact",
+    "email": "contact.mosbakery@gmail.com",
+    "phone": "+919818727856",
+    "contactCheckedAt": "2026-09-30T06:30:44.981Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Mohita",
+        "role": "Founder",
+        "department": "Leadership",
+        "url": "https://www.mosbakery.in/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:45.711Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+919818727856",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://www.mosbakery.in/pages/contact",
+        "checkedAt": "2026-09-29T12:25:14.081Z"
+      },
+      {
+        "kind": "Email",
+        "value": "contact.mosbakery@gmail.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://www.mosbakery.in/pages/contact",
+        "checkedAt": "2026-09-30T06:30:44.981Z"
+      }
+    ]
+  },
+  {
+    "id": "farmley",
+    "name": "Farmley",
+    "website": "https://farmley.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Nuts & snacks",
+    "description": "Nuts & snacks company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://farmley.com/products/premium-flax-seeds",
+    "email": "",
+    "phone": "",
+    "contactCheckedAt": "2026-09-29T12:25:13.973Z",
+    "contactNote": "Public company contact route, not a verified purchasing contact. Ask for procurement or product development. Manufacturing site, buying authority, demand and permission to send outreach remain unconfirmed.",
+    "contacts": [
+      {
+        "name": "Siddharth Mali",
+        "role": "Procurement professional",
+        "department": "Procurement",
+        "url": "https://in.linkedin.com/in/siddharth-mali-4a466a1b6",
+        "sourceType": "Professional profile",
+        "checkedAt": "2026-09-30T06:44:32.633Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Profile describes procurement experience and lists Farmley. University alumni directory corroborates a Farmley category-management role; exact current title and employment need confirmation.",
+        "corroboratingUrls": [
+          "https://apps.unishivaji.ac.in/uploads/alumni/ALUMNI%20FOOD.pdf"
+        ]
+      },
+      {
+        "name": "Karan Sirohi",
+        "role": "Import & procurement professional",
+        "department": "Procurement",
+        "url": "https://in.linkedin.com/in/karan-sirohi",
+        "sourceType": "Professional profile",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Public indexed profile lists Farmley and describes import/procurement work; an own post mentions time at Farmley. Current title and employment remain unconfirmed.",
+        "corroboratingUrls": []
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T10:37:36.137Z",
+    "contactRoutes": []
+  },
+  {
+    "id": "snackible",
+    "name": "Snackible",
+    "website": "https://snackible.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Snacks",
+    "description": "Snacks company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://snackible.com/pages/get-in-touch",
+    "email": "munch@snackible.com",
+    "phone": "9920335511",
+    "contactCheckedAt": "2026-09-30T06:30:45.694Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "munch@snackible.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://snackible.com/pages/get-in-touch",
+        "checkedAt": "2026-09-30T06:30:45.694Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9920335511",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://snackible.com/pages/get-in-touch",
+        "checkedAt": "2026-09-30T06:30:45.694Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "eat-better",
+    "name": "Eat Better Co",
+    "website": "https://eatbetterco.com",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "locationSource": "https://eatbetterco.com/pages/contact-us",
+    "category": "Traditional snacks",
+    "description": "Traditional snacks company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://eatbetterco.com/pages/contact-us",
+    "email": "care@eatbetterco.com",
+    "phone": "+919829188706",
+    "contactCheckedAt": "2026-09-30T06:30:46.210Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Mridula Kanoria",
+        "role": "Founder",
+        "department": "Leadership",
+        "url": "https://eatbetterco.com/pages/our-story",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:46.761Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+919829188706",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://eatbetterco.com/pages/contact-us",
+        "checkedAt": "2026-09-29T12:25:14.430Z"
+      },
+      {
+        "kind": "Email",
+        "value": "care@eatbetterco.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://eatbetterco.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:46.210Z"
+      }
+    ]
+  },
+  {
+    "id": "nourish-organics",
+    "name": "Nourish Organics",
+    "website": "https://nourishorganics.in",
+    "city": "Delhi NCR",
+    "state": "Haryana",
+    "locationSource": "https://nourishorganics.in/pages/contact",
+    "category": "Breakfast & snacks",
+    "description": "Breakfast & snacks company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://nourishorganics.in/pages/contact",
+    "email": "care@nourishorganics.in",
+    "phone": "9312006667",
+    "contactCheckedAt": "2026-09-30T06:30:46.621Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+919312006667",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://nourishorganics.in/pages/contact",
+        "checkedAt": "2026-09-30T06:30:46.621Z"
+      },
+      {
+        "kind": "Email",
+        "value": "care@nourishorganics.in",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://nourishorganics.in/pages/contact",
+        "checkedAt": "2026-09-30T06:30:46.621Z"
+      },
+      {
+        "kind": "Email",
+        "value": "deepika@nourishorganics.in",
+        "purpose": "Bulk orders & sales enquiries",
+        "url": "https://nourishorganics.in/pages/contact",
+        "checkedAt": "2026-09-30T06:30:46.621Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T10:44:30.779Z"
+  },
+  {
+    "id": "the-cinnamon-kitchen",
+    "name": "The Cinnamon Kitchen",
+    "website": "https://cinnamon.kitchen",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Bakery & snacks",
+    "description": "Bakery & snacks company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://cinnamon.kitchen/pages/contact",
+    "email": "hey@cinnamon.kitchen",
+    "phone": "",
+    "contactCheckedAt": "2026-09-30T06:30:46.345Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "hey@cinnamon.kitchen",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://cinnamon.kitchen/pages/contact",
+        "checkedAt": "2026-09-30T06:30:46.345Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "paul-and-mike",
+    "name": "Paul and Mike",
+    "website": "https://www.paulandmike.co",
+    "city": "Ernakulam",
+    "state": "Kerala",
+    "locationSource": "https://www.paulandmike.co/pages/urgent-contact-us",
+    "category": "Chocolate",
+    "description": "Chocolate company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://www.paulandmike.co/pages/urgent-contact-us",
+    "email": "orders@paulandmike.co",
+    "phone": "+917306821979",
+    "contactCheckedAt": "2026-09-30T06:30:46.833Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+917306821979",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://www.paulandmike.co/pages/urgent-contact-us",
+        "checkedAt": "2026-09-29T12:25:15.495Z"
+      },
+      {
+        "kind": "Email",
+        "value": "orders@paulandmike.co",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://www.paulandmike.co/pages/urgent-contact-us",
+        "checkedAt": "2026-09-30T06:30:46.833Z"
+      },
+      {
+        "kind": "Email",
+        "value": "tarun@synthite.com",
+        "purpose": "Business / corporate orders",
+        "url": "https://www.paulandmike.co/pages/contact-us",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "pascati",
+    "name": "Pascati",
+    "website": "https://www.pascati.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Chocolate",
+    "description": "Chocolate company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://pascati.com/products/72-dark-kerala-75g",
+    "email": "indulge@pascati.com",
+    "phone": "+917304961310",
+    "contactCheckedAt": "2026-09-30T06:30:48.911Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Devansh Ashar",
+        "role": "Co-founder & Chief Chocolate Maker",
+        "department": "Product development",
+        "url": "https://www.pascati.com/pages/our-story",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:44:32.633Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "indulge@pascati.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://pascati.com/products/72-dark-kerala-75g",
+        "checkedAt": "2026-09-30T06:30:48.911Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+917304961310",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://pascati.com/products/72-dark-kerala-75g",
+        "checkedAt": "2026-09-30T06:30:48.911Z"
+      }
+    ]
+  },
+  {
+    "id": "manam",
+    "name": "Manam Chocolate",
+    "website": "https://manamchocolate.com",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "locationSource": "https://manamchocolate.com/pages/contact",
+    "category": "Chocolate",
+    "description": "Chocolate company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://manamchocolate.com/pages/contact",
+    "email": "care@manamchocolate.com",
+    "phone": "+917331100776",
+    "contactCheckedAt": "2026-09-30T06:30:47.562Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Chaitanya Muppala",
+        "role": "CEO",
+        "department": "Leadership",
+        "url": "https://www.linkedin.com/posts/manam-chocolate_manamchocolatekarkhana-indiancraftchocolate-activity-7298649632828440576-_Vrr",
+        "sourceType": "Company announcement",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Manam Chocolate names its CEO in its own LinkedIn announcement. The post is older than this research check; reconfirm current responsibility and ask for a procurement introduction.",
+        "corroboratingUrls": []
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+917331100776",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://manamchocolate.com/pages/contact",
+        "checkedAt": "2026-09-29T12:25:15.577Z"
+      },
+      {
+        "kind": "Email",
+        "value": "care@manamchocolate.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://manamchocolate.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:47.562Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T10:37:36.137Z"
+  },
+  {
+    "id": "ambriona",
+    "name": "Ambriona",
+    "website": "https://ambriona.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Chocolate",
+    "description": "Chocolate company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://www.ambriona.com/pages/contact-us",
+    "email": "ambrionaonlinesales@gmail.com",
+    "phone": "9326076610",
+    "contactCheckedAt": "2026-09-30T06:30:48.056Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "9326076610",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://www.ambriona.com/pages/contact-us",
+        "checkedAt": "2026-09-29T12:25:16.156Z"
+      },
+      {
+        "kind": "Email",
+        "value": "ambrionaonlinesales@gmail.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://www.ambriona.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:48.056Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "almond-house",
+    "name": "Almond House",
+    "website": "https://almondhouse.com",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "locationSource": "https://almondhouse.com/pages/contact",
+    "category": "Traditional sweets",
+    "description": "Traditional sweets company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://almondhouse.com/pages/contact",
+    "email": "info@almondhouse.com",
+    "phone": "+919121241841",
+    "contactCheckedAt": "2026-09-30T06:30:48.124Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+919121241841",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://almondhouse.com/pages/contact",
+        "checkedAt": "2026-09-29T12:25:15.913Z"
+      },
+      {
+        "kind": "Email",
+        "value": "info@almondhouse.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://almondhouse.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:48.124Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "govindjee",
+    "name": "Govindjee",
+    "website": "https://govindjee.store",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "locationSource": "https://www.govindjee.store/pages/contact-us",
+    "category": "Traditional snacks",
+    "description": "Traditional snacks company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://www.govindjee.store/pages/contact-us",
+    "email": "care@govindjee.store",
+    "phone": "+919079002340",
+    "contactCheckedAt": "2026-09-30T06:30:48.812Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "care@govindjee.store",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://www.govindjee.store/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:48.812Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919079002340",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://www.govindjee.store/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:48.812Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "millet-amma",
+    "name": "Millet Amma",
+    "website": "https://milletamma.com",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "locationSource": "https://milletamma.com/pages/contact-us",
+    "category": "Millet foods",
+    "description": "Millet foods company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://milletamma.com/pages/contact-us",
+    "email": "eatright@milletamma.com",
+    "phone": "+917624979333",
+    "contactCheckedAt": "2026-09-30T06:30:49.604Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Ruchika Bhuwalka",
+        "role": "Founder",
+        "department": "Leadership",
+        "url": "https://milletamma.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:50.935Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+917624979333",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://milletamma.com/pages/contact-us",
+        "checkedAt": "2026-09-29T12:25:16.288Z"
+      },
+      {
+        "kind": "Email",
+        "value": "eatright@milletamma.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://milletamma.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:49.604Z"
+      }
+    ]
+  },
+  {
+    "id": "omay",
+    "name": "Omay Foods",
+    "website": "https://omayfoods.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Snacks",
+    "description": "Snacks company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://www.omayfoods.com/products/nutty-mix-with-dry-fruits",
+    "email": "hello@omayfoods.com",
+    "phone": "",
+    "contactCheckedAt": "2026-09-30T06:30:51.039Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Vijay",
+        "role": "Founder",
+        "department": "Leadership",
+        "url": "https://omayfoods.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:44:32.633Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "hello@omayfoods.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://www.omayfoods.com/products/nutty-mix-with-dry-fruits",
+        "checkedAt": "2026-09-30T06:30:51.039Z"
+      }
+    ]
+  },
+  {
+    "id": "brownsalt",
+    "name": "Brownsalt Bakery",
+    "website": "https://brownsaltbakery.com",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "locationSource": "https://brownsaltbakery.com/pages/get-in-touch",
+    "category": "Bakery & granola",
+    "description": "Bakery & granola company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://brownsaltbakery.com/pages/get-in-touch",
+    "email": "hello@brownsaltbakery.com",
+    "phone": "+917506540736",
+    "contactCheckedAt": "2026-09-30T06:30:50.192Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "hello@brownsaltbakery.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://brownsaltbakery.com/pages/get-in-touch",
+        "checkedAt": "2026-09-30T06:30:50.192Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+917506540736",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://brownsaltbakery.com/pages/get-in-touch",
+        "checkedAt": "2026-09-30T06:30:50.192Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "conscious-food",
+    "name": "Conscious Food",
+    "website": "https://www.consciousfood.com",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "locationSource": "https://www.consciousfood.com/pages/contact-us",
+    "category": "Organic foods & snacks",
+    "description": "Organic foods & snacks company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://www.consciousfood.com/pages/contact-us",
+    "email": "",
+    "phone": "09967166755",
+    "contactCheckedAt": "2026-09-29T12:25:17.231Z",
+    "contactNote": "Public company contact route, not a verified purchasing contact. Ask for procurement or product development. Manufacturing site, buying authority, demand and permission to send outreach remain unconfirmed. The published address is a company contact location; confirm the relevant factory and delivery site.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "09967166755",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://www.consciousfood.com/pages/contact-us",
+        "checkedAt": "2026-09-29T12:25:17.231Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "two-brothers",
+    "name": "Two Brothers Organic Farms",
+    "website": "https://twobrothersindiashop.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Traditional foods",
+    "description": "Traditional foods company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://twobrothersindiashop.com/pages/contact-us",
+    "email": "info@twobrothersindia.com",
+    "phone": "+917406753753",
+    "contactCheckedAt": "2026-09-30T06:30:51.579Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+917406753753",
+        "purpose": "General business contact; ask for procurement referral",
+        "url": "https://twobrothersindiashop.com/pages/contact-us",
+        "checkedAt": "2026-09-29T12:25:17.606Z"
+      },
+      {
+        "kind": "Email",
+        "value": "info@twobrothersindia.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://twobrothersindiashop.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:51.579Z"
+      },
+      {
+        "kind": "Email",
+        "value": "kapil@twobrothersindia.com",
+        "purpose": "Gifting / corporate / weddings / B2B",
+        "url": "https://twobrothersindiashop.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:51.579Z"
+      },
+      {
+        "kind": "Email",
+        "value": "satyajit@twobrothersindia.com",
+        "purpose": "Founder contact published by company",
+        "url": "https://twobrothersindiashop.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:51.579Z"
+      },
+      {
+        "kind": "Email",
+        "value": "ajinkya@twobrothersindia.com",
+        "purpose": "Founder contact published by company",
+        "url": "https://twobrothersindiashop.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:51.579Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "sweetish-house",
+    "name": "Sweetish House Mafia",
+    "website": "https://sweetishhousemafia.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Cookies",
+    "description": "Cookies company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://www.sweetishhousemafia.com/pages/contact",
+    "email": "support@sweetishhousemafia.com",
+    "phone": "+918850580432",
+    "contactCheckedAt": "2026-09-30T06:30:51.858Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Neha Arya Sethi",
+        "role": "Co-founder & Head Chef",
+        "department": "Product development",
+        "url": "https://sweetishhousemafia.com/pages/about",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:44:32.633Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Aakash Sethi",
+        "role": "Co-founder & CEO",
+        "department": "Leadership",
+        "url": "https://sweetishhousemafia.com/pages/about",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:44:32.633Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "support@sweetishhousemafia.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://www.sweetishhousemafia.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:51.858Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+918850580432",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://www.sweetishhousemafia.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:51.858Z"
+      }
+    ]
+  },
+  {
+    "id": "minus30",
+    "name": "Minus 30",
+    "website": "https://minus30.co",
+    "city": "Delhi NCR",
+    "state": "Delhi",
+    "locationSource": "https://minus30.co/pages/contact",
+    "category": "Ice cream",
+    "description": "Ice cream company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://minus30.co",
+    "email": "minus30@minus30.co",
+    "phone": "",
+    "contactCheckedAt": "2026-09-30T06:30:53.070Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "minus30@minus30.co",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://minus30.co",
+        "checkedAt": "2026-09-30T06:30:53.070Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "adya-organics",
+    "name": "Adya Organics",
+    "website": "https://adyaorganics.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Organic snacks & sweets",
+    "description": "Organic snacks & sweets company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://adyaorganics.com",
+    "email": "info@adyaorganics.com",
+    "phone": "+919354924309",
+    "contactCheckedAt": "2026-09-30T06:30:52.778Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Pallavi Sinha",
+        "role": "Managing Director",
+        "department": "Leadership",
+        "url": "https://adyaorganics.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:53.109Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Official company biography describes responsibility for ingredient selection, recipes and production. Confirm supplier approval and purchasing authority directly."
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "info@adyaorganics.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://adyaorganics.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:53.458Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919354924309",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://adyaorganics.com",
+        "checkedAt": "2026-09-30T06:30:52.778Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919354924305",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://adyaorganics.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:53.458Z"
+      }
+    ],
+    "marketplaces": [
+      {
+        "platform": "Instamart",
+        "url": "https://www.swiggy.com/instamart/p/adya-organics-sesame-jaggery-cookies-ZFBBX0Z3GL",
+        "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ]
+  },
+  {
+    "id": "sihi-chocolaterie",
+    "name": "Sihi Chocolaterie",
+    "website": "https://sihichocolaterie.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Chocolate",
+    "description": "Chocolate company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://sihichocolaterie.com",
+    "email": "",
+    "phone": "",
+    "contactCheckedAt": "2026-09-30T06:28:27.003Z",
+    "contactNote": "Public company contact route, not a verified purchasing contact. Ask for procurement or product development. Manufacturing site, buying authority, demand and permission to send outreach remain unconfirmed.",
+    "contacts": [],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "contactRoutes": [],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "go-desi",
+    "name": "GO DESi",
+    "website": "https://godesi.in",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Traditional sweets & snacks",
+    "description": "Traditional sweets & snacks company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
+    "contactUrl": "https://godesi.in",
+    "email": "welovetalking@godesi.in",
+    "phone": "+919353756891",
+    "contactCheckedAt": "2026-09-30T06:30:54.280Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Vinay Kothari",
+        "role": "Founder",
+        "department": "Leadership",
+        "url": "https://godesi.in/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:54.592Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Quality assurance / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Do you manufacture this product yourselves, or does a contract manufacturer purchase the ingredients?",
+      "Who approves raw-material suppliers and sample trials for this product?",
+      "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
+      "What certifications, lab tests, price and payment terms are required for supplier approval?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "welovetalking@godesi.in",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://godesi.in",
+        "checkedAt": "2026-09-30T06:30:54.280Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919353756891",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://godesi.in",
+        "checkedAt": "2026-09-30T06:30:54.280Z"
+      }
+    ],
+    "marketplaces": [
+      {
+        "platform": "Zepto",
+        "url": "https://www.zepto.com/pn/kaju-katli-classic-kaju-barfi-sweets-by-go-desi/pvid/b4a61fbb-992f-4169-8625-9f4d12eff88b",
+        "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ]
+  },
+  {
+    "id": "max-protein",
+    "name": "RiteBite Max Protein",
+    "website": "https://maxprotein.in",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Protein snacks",
+    "description": "Protein snacks brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://maxprotein.in/pages/contact-us",
+    "email": "support.nipl@zyduswellness.com",
+    "phone": "",
+    "contactCheckedAt": "2026-09-30T06:30:54.806Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "support.nipl@zyduswellness.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://maxprotein.in/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:54.806Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "chitale",
+    "name": "Chitale Bandhu",
+    "website": "https://chitalebandhu.in",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Traditional sweets & snacks",
+    "description": "Traditional sweets & snacks brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://www.chitalebandhu.in/pages/contact-us",
+    "email": "shoponline@chitalebandhu.in",
+    "phone": "+919922944482",
+    "contactCheckedAt": "2026-09-29T12:25:12.350Z",
+    "contactNote": "Official website route. Purchasing contact, current demand and manufacturing responsibility require confirmation.",
+    "contacts": [
+      {
+        "name": "Indraneel Chitale",
+        "role": "Managing Partner",
+        "department": "Leadership",
+        "url": "https://www.linkedin.com/posts/indraneelchitale_when-i-stepped-in-as-managing-partner-at-activity-7424670604701675520-ITnn",
+        "sourceType": "Professional profile",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Own public LinkedIn post identifies the managing-partner role at Chitale Bandhu. Confirm current role and which Chitale entity buys the relevant ingredients.",
+        "corroboratingUrls": []
+      }
+    ],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "shoponline@chitalebandhu.in",
+        "purpose": "Published general business contact; request procurement referral",
+        "url": "https://www.chitalebandhu.in/pages/contact-us",
+        "checkedAt": "2026-09-29T12:25:12.350Z"
+      },
+      {
+        "kind": "Email",
+        "value": "tradeenquiries@chitalegroup.in",
+        "purpose": "Trade / business enquiries",
+        "url": "https://www.chitalebandhu.in/pages/contact-us",
+        "checkedAt": "2026-09-29T12:25:12.350Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919922944482",
+        "purpose": "Published company phone; purchasing referral unconfirmed",
+        "url": "https://www.chitalebandhu.in/pages/contact-us",
+        "checkedAt": "2026-09-29T12:25:12.350Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T10:37:36.137Z"
+  },
+  {
+    "id": "bikanervala",
+    "name": "Bikanervala",
+    "website": "https://bikanervala.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Traditional sweets & snacks",
+    "description": "Traditional sweets & snacks brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://bikanervala.com/pages/contact",
+    "email": "customercare@bikanervala.com",
+    "phone": "",
+    "contactCheckedAt": "2026-09-30T06:30:55.347Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "customercare@bikanervala.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://bikanervala.com/pages/contact",
+        "checkedAt": "2026-09-30T06:30:55.347Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "open-secret",
+    "name": "Open Secret",
+    "website": "https://opensecret.in",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Cookies & snacks",
+    "description": "Cookies & snacks brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://opensecret.in/pages/contact",
+    "email": "sayhello@opensecret.in",
+    "phone": "+919015227230",
+    "contactCheckedAt": "2026-09-30T06:30:57.186Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "sayhello@opensecret.in",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://opensecret.in/pages/contact",
+        "checkedAt": "2026-09-30T06:30:57.186Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919015227230",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://opensecret.in/pages/contact",
+        "checkedAt": "2026-09-30T06:30:57.186Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "marketplaces": [
+      {
+        "platform": "BigBasket",
+        "url": "https://www.bigbasket.com/pd/40236563/open-secret-coconut-chocolate-bars-with-jaggery-no-refined-sugar-150-g/",
+        "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ]
+  },
+  {
+    "id": "lo-foods",
+    "name": "Lo! Foods",
+    "website": "https://lofoods.fit",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Bakery & snacks",
+    "description": "Bakery & snacks brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://lofoods.fit",
+    "email": "",
+    "phone": "",
+    "contactCheckedAt": "",
+    "contactNote": "Official website route. Purchasing contact, current demand and manufacturing responsibility require confirmation.",
+    "contacts": [
+      {
+        "name": "Kavya",
+        "role": "R&D Head",
+        "department": "Product development",
+        "url": "https://lofoods.fit/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:55.780Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Venkatesh SS",
+        "role": "Chief Operating Officer",
+        "department": "Operations",
+        "url": "https://lofoods.fit/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:55.780Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Dushyant",
+        "role": "Factory Head",
+        "department": "Operations",
+        "url": "https://lofoods.fit/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:55.780Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Deepankar Kabi",
+        "role": "Revenue Head - FMCG",
+        "department": "Sales",
+        "url": "https://lofoods.fit/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:55.780Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Himanshu",
+        "role": "Revenue Head - Breads",
+        "department": "Sales",
+        "url": "https://lofoods.fit/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:55.780Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Sudarshan Gangrade",
+        "role": "Founder",
+        "department": "Leadership",
+        "url": "https://lofoods.fit/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:55.780Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Ajay S Tanwar",
+        "role": "Chief Business Officer",
+        "department": "Leadership",
+        "url": "https://lofoods.fit/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:55.780Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      }
+    ],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [],
+    "marketplaces": [
+      {
+        "platform": "Blinkit",
+        "url": "https://blinkit.com/prn/x/prid/587285",
+        "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ]
+  },
+  {
+    "id": "soklet",
+    "name": "Soklet",
+    "website": "https://www.soklet.in",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Chocolate",
+    "description": "Chocolate brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://soklet.in/pages/contact-us",
+    "email": "contact@soklet.in",
+    "phone": "9944485213",
+    "contactCheckedAt": "2026-09-29T12:25:15.737Z",
+    "contactNote": "Official website route. Purchasing contact, current demand and manufacturing responsibility require confirmation.",
+    "contacts": [],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "contact@soklet.in",
+        "purpose": "Published general business contact; request procurement referral",
+        "url": "https://soklet.in/pages/contact-us",
+        "checkedAt": "2026-09-29T12:25:15.737Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9944485213",
+        "purpose": "Published company phone; purchasing referral unconfirmed",
+        "url": "https://soklet.in/pages/contact-us",
+        "checkedAt": "2026-09-29T12:25:15.737Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T10:37:36.137Z"
+  },
+  {
+    "id": "bon-fiction",
+    "name": "Bon Fiction",
+    "website": "https://bonfiction.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Chocolate",
+    "description": "Chocolate brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://www.bonfiction.com/pages/contact",
+    "email": "info@bonfiction.com",
+    "phone": "+917504455555",
+    "contactCheckedAt": "2026-09-30T06:44:32.633Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Prathina Grandhi",
+        "role": "Co-founder / chocolate development",
+        "department": "Product development",
+        "url": "https://www.bonfiction.com/pages/our-story",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:44:32.633Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Akhil Grandhi",
+        "role": "Co-founder",
+        "department": "Leadership",
+        "url": "https://www.bonfiction.com/pages/our-story",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:44:32.633Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      }
+    ],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "info@bonfiction.com",
+        "purpose": "Published business enquiries; purchasing responsibility unconfirmed",
+        "url": "https://www.bonfiction.com/pages/contact",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+917504455555",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://www.bonfiction.com/pages/contact",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ]
+  },
+  {
+    "id": "alpino",
+    "name": "Alpino",
+    "website": "https://alpinohealthfoods.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Nut butters & breakfast",
+    "description": "Nut butters & breakfast brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://alpino.store/pages/contact-us",
+    "email": "support@alpinohealthfoods.com",
+    "phone": "",
+    "contactCheckedAt": "2026-09-29T12:25:16.810Z",
+    "contactNote": "Official website route. Purchasing contact, current demand and manufacturing responsibility require confirmation.",
+    "contacts": [
+      {
+        "name": "Chetan Kanani",
+        "role": "Co-founder & CEO",
+        "department": "Leadership",
+        "url": "https://in.linkedin.com/in/chetankanani",
+        "sourceType": "Professional profile",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Profile lists Alpino Health Foods. A conference-organiser announcement, also shared on the profile, names the CEO role. Confirm current responsibility and request an introduction to raw-material purchasing.",
+        "corroboratingUrls": [
+          "https://www.linkedin.com/posts/national-entrepreneurship-network_speaker-spotlight-surat-sme-conference-activity-7449792769751011328-Vm9r"
+        ]
+      }
+    ],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "support@alpinohealthfoods.com",
+        "purpose": "Published general business contact; request procurement referral",
+        "url": "https://alpino.store/pages/contact-us",
+        "checkedAt": "2026-09-29T12:25:16.810Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T10:37:36.137Z"
+  },
+  {
+    "id": "myfitness",
+    "name": "MYFITNESS",
+    "website": "https://myfitness.in",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Nut butters",
+    "description": "Nut butters brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://myfitness.in/policies/contact-information",
+    "email": "care@myfitness.co.in",
+    "phone": "+917096699111",
+    "contactCheckedAt": "2026-09-30T06:44:32.633Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "care@myfitness.co.in",
+        "purpose": "Published business enquiries; purchasing responsibility unconfirmed",
+        "url": "https://myfitness.in/policies/contact-information",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+917096699111",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://myfitness.in/policies/contact-information",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "wingreens",
+    "name": "Wingreens Harvest / Monsoon Harvest",
+    "website": "https://wingreensworld.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Sauces & beverages",
+    "description": "Sauces & beverages brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://wingreensworld.com/pages/contact-us",
+    "email": "support@wingreens.in",
+    "phone": "",
+    "contactCheckedAt": "2026-09-29T12:25:16.874Z",
+    "contactNote": "Official website route. Purchasing contact, current demand and manufacturing responsibility require confirmation.",
+    "contacts": [
+      {
+        "name": "Armaan Kapoor",
+        "role": "Head of New Projects & Strategic Procurement (directory title)",
+        "department": "Procurement",
+        "url": "https://theorg.com/org/wingreens-world/person/armaan-kapoor",
+        "sourceType": "Third-party directory",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The directory explicitly marks this profile unverified. A public LinkedIn profile corroborates Wingreens association but not the exact procurement title. Reconfirm role, company entity and ingredient category before approaching.",
+        "corroboratingUrls": [
+          "https://in.linkedin.com/in/armaan-kapoor-31561815"
+        ]
+      },
+      {
+        "name": "Arjun Singh Bora",
+        "role": "Manager - Procurement & Purchase (directory title)",
+        "department": "Procurement",
+        "url": "https://theorg.com/org/wingreens-world/person/armaan-kapoor",
+        "sourceType": "Third-party directory",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Wingreens org-chart entry names this procurement/purchase role. The matching public LinkedIn profile supports company association; current title, packaging versus ingredient scope and buying authority remain unverified.",
+        "corroboratingUrls": [
+          "https://in.linkedin.com/in/arjun-singh-bora-20b75b100"
+        ]
+      }
+    ],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "support@wingreens.in",
+        "purpose": "Published general business contact; request procurement referral",
+        "url": "https://wingreensworld.com/pages/contact-us",
+        "checkedAt": "2026-09-29T12:25:16.874Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T10:37:36.137Z"
+  },
+  {
+    "id": "cookie-man",
+    "name": "Cookie Man",
+    "website": "https://www.cookiemanindia.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Cookies & bakery",
+    "description": "Cookies & bakery brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://www.cookiemanindia.com",
+    "email": "customercare@cookiemanindia.com",
+    "phone": "+919952972111",
+    "contactCheckedAt": "2026-09-30T06:30:57.309Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Sandeep Raghav",
+        "role": "Regional Sales Manager",
+        "department": "Sales",
+        "url": "https://in.linkedin.com/in/sandeep-raghav-78ab056a",
+        "sourceType": "Professional profile",
+        "checkedAt": "2026-09-30T06:44:32.633Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Public indexed professional profile supports this role or company association. Current employment and purchasing authority require confirmation."
+      },
+      {
+        "name": "Bithin Ghosh",
+        "role": "AVP - Corporate Sales",
+        "department": "Sales",
+        "url": "https://in.linkedin.com/in/bithin-ghosh-42122515",
+        "sourceType": "Professional profile",
+        "checkedAt": "2026-09-30T06:44:32.633Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Public indexed professional profile supports this role or company association. Current employment and purchasing authority require confirmation."
+      },
+      {
+        "name": "Saibal Chandra Banerjee",
+        "role": "Business Head - Trade Sales",
+        "department": "Sales",
+        "url": "https://www.linkedin.com/posts/saibal-chandra-banerjee-5306568_excellence-growthjourney-fmcg-activity-7454549082313805824-3sGX",
+        "sourceType": "Professional profile",
+        "checkedAt": "2026-09-30T06:44:32.633Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Self-published appointment announcement names CookieMan and the trade-sales role. Confirm current employment; this is a sales referral route, not a confirmed raw-material buyer."
+      },
+      {
+        "name": "Praveen Omkar",
+        "role": "Corporate & Institution Sales Manager, Bengaluru",
+        "department": "Sales",
+        "url": "https://in.linkedin.com/in/praveen-omkar-b117b1138",
+        "sourceType": "Professional profile",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Own public LinkedIn product post names the corporate/institutional sales role. Confirm current employment and request a referral to ingredient purchasing.",
+        "corroboratingUrls": []
+      }
+    ],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "researchUpdatedAt": "2026-09-30T10:37:36.137Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "customercare@cookiemanindia.com",
+        "purpose": "Published business enquiries; purchasing responsibility unconfirmed",
+        "url": "https://www.cookiemanindia.com/products/millet-jaggery-cookies",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919952972111",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://www.cookiemanindia.com",
+        "checkedAt": "2026-09-30T06:30:57.309Z"
+      }
+    ],
+    "marketplaces": [
+      {
+        "platform": "Instamart",
+        "url": "https://www.swiggy.com/instamart/city/vizag/cb/cookie-man/cookies",
+        "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      },
+      {
+        "platform": "Zepto",
+        "url": "https://www.zepto.com/pn/cookieman-millet-jaggery-cookies/pvid/23e5985e-305b-4f7b-811f-0b784230cd2b",
+        "note": "Search-indexed millet-jaggery cookie listing; direct page access restricted at check. Ingredient evidence comes from the brand website.",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ]
+  },
+  {
+    "id": "millet-bank",
+    "name": "Millet Bank",
+    "website": "https://milletbank.in",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Millet snacks",
+    "description": "Millet snacks brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://milletbank.in/pages/contact",
+    "email": "care@minkan.in",
+    "phone": "",
+    "contactCheckedAt": "2026-09-30T06:30:58.048Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Raj Ivaturi",
+        "role": "National Sales Head",
+        "department": "Sales",
+        "url": "https://in.linkedin.com/in/raj-ivaturi-0166937a",
+        "sourceType": "Professional profile",
+        "checkedAt": "2026-09-30T06:44:32.633Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Public indexed professional profile supports this role or company association. Current employment and purchasing authority require confirmation."
+      }
+    ],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "care@minkan.in",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://milletbank.in/pages/contact",
+        "checkedAt": "2026-09-30T06:30:58.048Z"
+      }
+    ]
+  },
+  {
+    "id": "anand-sweets",
+    "name": "Anand Sweets & Savouries",
+    "website": "https://www.anandsweets.in",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Traditional sweets",
+    "description": "Traditional sweets brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://www.anandsweets.in/pages/contact",
+    "email": "care@anandsweets.net",
+    "phone": "+919364087490",
+    "contactCheckedAt": "2026-09-30T06:30:57.547Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "care@anandsweets.net",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-09-30T06:30:57.547Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919364087490",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-09-30T06:30:57.547Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "jus-amazin",
+    "name": "Jus Amazin",
+    "website": "https://www.jusamazin.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Nut butters & snacks",
+    "description": "Nut butters & snacks brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://www.jusamazin.com/pages/contact-us",
+    "email": "info@jusamazin.com",
+    "phone": "+917899737378",
+    "contactCheckedAt": "2026-09-30T06:30:58.439Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "info@jusamazin.com",
+        "purpose": "General business / customer care; request procurement referral",
+        "url": "https://www.jusamazin.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:58.439Z"
+      },
+      {
+        "kind": "Email",
+        "value": "orders@jusamazin.com",
+        "purpose": "Orders / sales enquiries",
+        "url": "https://www.jusamazin.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:58.439Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+917899737378",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://www.jusamazin.com/pages/contact-us",
+        "checkedAt": "2026-09-30T06:30:58.439Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+  },
+  {
+    "id": "bombay-sweet-shop",
+    "name": "Bombay Sweet Shop",
+    "website": "https://bombaysweetshop.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Traditional sweets",
+    "description": "Traditional sweets brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
+    "contactUrl": "https://bombaysweetshop.com/pages/byculla-experience-retail-store",
+    "email": "chat@bombaysweetshop.com",
+    "phone": "+919136192636",
+    "contactCheckedAt": "2026-09-30T06:44:32.633Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Girish Nayak",
+        "role": "Chief Mithaiwala",
+        "department": "Product development",
+        "url": "https://bombaysweetshop.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:58.410Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Yash Bhanage",
+        "role": "Co-Founder & COO",
+        "department": "Operations",
+        "url": "https://bombaysweetshop.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:58.410Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "Sameer Seth",
+        "role": "Co-Founder & CEO",
+        "department": "Leadership",
+        "url": "https://bombaysweetshop.com/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:30:58.410Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      }
+    ],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Which entity manufactures these products and purchases the ingredients?",
+      "Who approves ingredient suppliers and sample trials?",
+      "What specifications, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "chat@bombaysweetshop.com",
+        "purpose": "Published business enquiries; purchasing responsibility unconfirmed",
+        "url": "https://bombaysweetshop.com/pages/byculla-experience-retail-store",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919136192636",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://bombaysweetshop.com/pages/byculla-experience-retail-store",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ]
+  },
+  {
+    "id": "right-shift",
+    "name": "ITC Right Shift",
+    "website": "https://rightshift.in",
+    "category": "Cookies & nutrition",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "locationSource": "https://rightshift.in/contact-us.html",
+    "description": "Cookies & nutrition brand with sourced ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases the raw materials.",
+    "contactUrl": "https://rightshift.in/contact-us.html",
+    "email": "itccares@itc.in",
+    "phone": "1800425444444",
+    "contactCheckedAt": "2026-09-30T06:44:32.633Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Who manufactures the product and buys the ingredients?",
+      "Who approves ingredient suppliers and trials?",
+      "What ingredient grade, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "itccares@itc.in",
+        "purpose": "Published business enquiries; purchasing responsibility unconfirmed",
+        "url": "https://rightshift.in/contact-us.html",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "1800425444444",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://rightshift.in/contact-us.html",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "marketplaces": [
+      {
+        "platform": "Instamart",
+        "url": "https://www.swiggy.com/instamart/p/itc-right-shift-jaggery-oats-cookies-0-maida-0-refined-sugar-with-nuts-and-seeds-CG9PVSS7UG",
+        "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      },
+      {
+        "platform": "Zepto",
+        "url": "https://www.zepto.com/pn/right-shift-jaggery-ragi-almond-millet-cookies-maida-free-and-sugar-free/pvid/29bdaf38-6dba-4f60-8797-c15942bac672",
+        "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ]
+  },
+  {
+    "id": "paper-boat",
+    "name": "Paper Boat / Hector Beverages",
+    "website": "https://www.hectorbeverages.com",
+    "category": "Snacks & beverages",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "locationSource": "https://www.hectorbeverages.com/contact-us",
+    "description": "Snacks & beverages brand with sourced ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases the raw materials.",
+    "contactUrl": "https://www.hectorbeverages.com/contact-us",
+    "email": "paperboat@hectorbeverages.com",
+    "phone": "18002030515",
+    "contactCheckedAt": "2026-09-30T06:44:32.633Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Pandey Kundan Kr.",
+        "role": "Raw-material / packaging / indirect procurement professional",
+        "department": "Procurement",
+        "url": "https://in.linkedin.com/in/kundannitm",
+        "sourceType": "Professional profile",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Public indexed About section describes RMPM and indirect procurement experience and lists Hector Beverages. Exact current job title, raw-material category and buying authority are unconfirmed.",
+        "corroboratingUrls": []
+      },
+      {
+        "name": "Srujan Pudota",
+        "role": "Procurement & supply chain professional",
+        "department": "Procurement",
+        "url": "https://in.linkedin.com/in/srujan-pudota-6a9001203",
+        "sourceType": "Professional profile",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Public indexed About section describes procurement, inventory, logistics and supply-chain planning experience and lists Hector Beverages. Confirm current employment, ingredient category and authority.",
+        "corroboratingUrls": []
+      }
+    ],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Who manufactures the product and buys the ingredients?",
+      "Who approves ingredient suppliers and trials?",
+      "What ingredient grade, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "paperboat@hectorbeverages.com",
+        "purpose": "Published business enquiries; purchasing responsibility unconfirmed",
+        "url": "https://www.hectorbeverages.com/contact-us",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "18002030515",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://www.hectorbeverages.com/contact-us",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ],
+    "researchUpdatedAt": "2026-09-30T10:37:36.137Z",
+    "marketplaces": [
+      {
+        "platform": "BigBasket",
+        "url": "https://www.bigbasket.com/pd/40115088/paper-boat-chikki-peanut-bar-16-g/",
+        "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ]
+  },
+  {
+    "id": "kocoatrait",
+    "name": "Kocoatrait / Cocoatrait",
+    "website": "https://cocoatrait.com",
+    "category": "Chocolate",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "locationSource": "https://cocoatrait.com/contact/",
+    "description": "Chocolate brand with sourced ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases the raw materials.",
+    "contactUrl": "https://cocoatrait.com/contact/",
+    "email": "nitin@cocoatrait.com",
+    "phone": "+919600064846",
+    "contactCheckedAt": "2026-09-30T06:44:32.633Z",
+    "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
+    "contacts": [
+      {
+        "name": "Poonam Chordia",
+        "role": "Founder / heads production",
+        "department": "Operations",
+        "url": "https://cocoatrait.com/about-us/",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T06:44:32.633Z",
+        "status": "Published professional lead",
+        "evidenceNote": "The company publishes this person and role. Current purchasing authority and preferred introduction route require confirmation."
+      },
+      {
+        "name": "L Nitin Chordia",
+        "role": "Co-founder / chocolate taster",
+        "department": "Leadership",
+        "url": "https://cocoatrait.com/",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Official website identifies the co-founder; its business contact page publishes the email. Confirm raw-material supplier approval responsibility.",
+        "corroboratingUrls": [
+          "https://cocoatrait.com/contact/",
+          "https://cocoatrait.com/bean-to-bar-chocolate-india/"
+        ],
+        "email": "nitin@cocoatrait.com"
+      }
+    ],
+    "targetRoles": [
+      "Raw-material procurement / purchase manager",
+      "Product development / R&D manager",
+      "Manufacturing / operations manager"
+    ],
+    "buyingQuestions": [
+      "Who manufactures the product and buys the ingredients?",
+      "Who approves ingredient suppliers and trials?",
+      "What ingredient grade, delivery location and monthly quantities can the buyer confirm?"
+    ],
+    "researchUpdatedAt": "2026-09-30T10:37:36.137Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "nitin@cocoatrait.com",
+        "purpose": "Published business enquiries; purchasing responsibility unconfirmed",
+        "url": "https://cocoatrait.com/contact/",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919600064846",
+        "purpose": "Published company phone; ask for procurement referral",
+        "url": "https://cocoatrait.com/contact/",
+        "checkedAt": "2026-09-30T06:44:32.633Z"
+      }
+    ]
+  },
+  {
+    "id": "tiggle",
+    "name": "Tiggle",
+    "website": "https://thetiggle.com",
+    "category": "Chocolate drinks",
+    "city": "Agra",
+    "state": "Uttar Pradesh",
+    "contactUrl": "https://thetiggle.com/pages/contact-us",
+    "locationSource": "https://thetiggle.com/pages/contact-us",
+    "email": "help@thetiggle.com",
+    "phone": "8791295599",
+    "contactCheckedAt": "2026-09-30T10:36:32.511Z",
+    "description": "Chocolate drinks company with published ingredient-use evidence. Confirm factory and supplier approval responsibility before quoting.",
+    "contactNote": "Public business enquiry route. Purchasing responsibility is not confirmed.",
+    "contacts": [
+      {
+        "name": "Anuva Kakkar",
+        "role": "Founder",
+        "department": "Leadership",
+        "url": "https://thetiggle.com/pages/our-story",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Official story describes Anuva founding the brand; the terms page supplies the full name. Public LinkedIn profile corroborates the company association. Confirm purchasing responsibility.",
+        "corroboratingUrls": [
+          "https://thetiggle.com/pages/terms-of-service",
+          "https://in.linkedin.com/in/anuva-kakkar-9ba6401a8"
+        ]
+      }
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "help@thetiggle.com",
+        "purpose": "Company enquiries / customer care",
+        "url": "https://thetiggle.com/pages/contact-us",
+        "checkedAt": "2026-09-30T10:37:36.137Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "8791295599",
+        "purpose": "Published business WhatsApp; ask for procurement referral",
+        "url": "https://thetiggle.com/pages/contact-us",
+        "checkedAt": "2026-09-30T10:37:36.137Z"
+      }
+    ],
+    "targetRoles": [
+      "Raw-material purchasing manager",
+      "R&D / product development",
+      "Manufacturing / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Who purchases ingredients for this product?",
+      "Who approves new suppliers and samples?",
+      "Which grades, quantities, delivery locations and pack sizes are required?"
+    ],
+    "researchUpdatedAt": "2026-09-30T10:37:36.137Z"
+  },
+  {
+    "id": "loyka",
+    "name": "Loyka / August Assortments",
+    "website": "https://www.loyka.co",
+    "category": "Chocolate & nut snacks",
+    "city": "Navi Mumbai",
+    "state": "Maharashtra",
+    "contactUrl": "https://www.loyka.co/pages/contact-us",
+    "locationSource": "https://www.loyka.co/pages/contact-us",
+    "email": "contactus@augustassortments.com",
+    "phone": "+919763754455",
+    "contactCheckedAt": "2026-09-30T10:36:32.511Z",
+    "description": "Chocolate & nut snacks company with published ingredient-use evidence. Confirm factory and supplier approval responsibility before quoting.",
+    "contactNote": "Public business enquiry route. Purchasing responsibility is not confirmed.",
+    "contacts": [
+      {
+        "name": "Aanchal",
+        "role": "Co-founder / product development",
+        "department": "Product development",
+        "url": "https://www.loyka.co/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Official founder story names Aanchal and describes development of the almond-brittle product. Only the name published on the company page is used. Confirm raw-material purchasing responsibility.",
+        "corroboratingUrls": []
+      },
+      {
+        "name": "Aditya",
+        "role": "Co-founder",
+        "department": "Leadership",
+        "url": "https://www.loyka.co/pages/about-us",
+        "sourceType": "Company website",
+        "checkedAt": "2026-09-30T10:37:36.137Z",
+        "status": "Published professional lead",
+        "evidenceNote": "Official founder story names Aditya. Only the name published on the company page is used; confirm supplier approval and purchasing responsibility.",
+        "corroboratingUrls": []
+      }
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "contactus@augustassortments.com",
+        "purpose": "Business / bulk-order enquiries",
+        "url": "https://www.loyka.co/pages/contact-us",
+        "checkedAt": "2026-09-30T10:37:36.137Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919763754455",
+        "purpose": "Business / bulk-order enquiries",
+        "url": "https://www.loyka.co/pages/contact-us",
+        "checkedAt": "2026-09-30T10:37:36.137Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919321362790",
+        "purpose": "Business / bulk-order enquiries",
+        "url": "https://www.loyka.co/pages/contact-us",
+        "checkedAt": "2026-09-30T10:37:36.137Z"
+      }
+    ],
+    "targetRoles": [
+      "Raw-material purchasing manager",
+      "R&D / product development",
+      "Manufacturing / supplier approval"
+    ],
+    "buyingQuestions": [
+      "Who purchases ingredients for this product?",
+      "Who approves new suppliers and samples?",
+      "Which grades, quantities, delivery locations and pack sizes are required?"
+    ],
+    "researchUpdatedAt": "2026-09-30T10:37:36.137Z"
   }
 ]

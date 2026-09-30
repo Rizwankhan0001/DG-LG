@@ -1,0 +1,1287 @@
+{
+  "generatedAt": "2026-09-29T12:29:54.890Z",
+  "offline": true,
+  "networkRequests": 0,
+  "companiesBefore": 7,
+  "productsBefore": 33,
+  "companies": 40,
+  "products": 1124,
+  "addedCompanies": 33,
+  "addedProducts": 1091,
+  "reviewed": 33,
+  "needsReview": 1091,
+  "listingsRead": 6800,
+  "productPagesRead": 2439,
+  "families": [
+    {
+      "family": "Cane jaggery",
+      "products": 303,
+      "companies": 25
+    },
+    {
+      "family": "Khandsari / khand",
+      "products": 38,
+      "companies": 7
+    },
+    {
+      "family": "Palm jaggery",
+      "products": 4,
+      "companies": 2
+    },
+    {
+      "family": "Coconut jaggery",
+      "products": 4,
+      "companies": 1
+    },
+    {
+      "family": "Brown sugar",
+      "products": 83,
+      "companies": 10
+    },
+    {
+      "family": "White / baking sugar",
+      "products": 783,
+      "companies": 35
+    },
+    {
+      "family": "Molasses",
+      "products": 2,
+      "companies": 1
+    }
+  ],
+  "sources": [
+    {
+      "companyId": "4700bc",
+      "company": "4700BC",
+      "source": "https://4700bc.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:48.364Z",
+      "listings": 78,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "a2b",
+      "company": "Adyar Ananda Bhavan",
+      "source": "https://aabsweets.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: HTTP 404. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "almond-house",
+      "company": "Almond House",
+      "source": "https://almondhouse.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:45.865Z",
+      "listings": 258,
+      "ingredientMatches": 140,
+      "added": 140,
+      "retained": 0,
+      "pagesRead": 220,
+      "warnings": []
+    },
+    {
+      "companyId": "alpino",
+      "company": "Alpino",
+      "source": "https://alpinohealthfoods.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:49.050Z",
+      "listings": 63,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "ambriona",
+      "company": "Ambriona",
+      "source": "https://ambriona.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:46.127Z",
+      "listings": 118,
+      "ingredientMatches": 23,
+      "added": 23,
+      "retained": 0,
+      "pagesRead": 81,
+      "warnings": [
+        "50-date-sweetened-dark-chocolate-500-g: title/ingredient sweetener claims need review."
+      ]
+    },
+    {
+      "companyId": "ancient-roots",
+      "company": "Ancient Roots",
+      "source": "https://ancientrootsindia.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:39.172Z",
+      "listings": 27,
+      "ingredientMatches": 2,
+      "added": 2,
+      "retained": 0,
+      "pagesRead": 18,
+      "warnings": []
+    },
+    {
+      "companyId": "anveshan",
+      "company": "Anveshan",
+      "source": "https://www.anveshan.farm/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:51.245Z",
+      "listings": 66,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "bagrrys",
+      "company": "Bagrry’s",
+      "source": "https://bagrrys.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:00.490Z",
+      "listings": 45,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 41,
+      "warnings": []
+    },
+    {
+      "companyId": "bhikharam",
+      "company": "Bhikharam Chandmal",
+      "source": "https://bhikharamchandmal.in/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: HTTP 404. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "bikanervala",
+      "company": "Bikanervala",
+      "source": "https://bikanervala.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:03.336Z",
+      "listings": 250,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": [
+        "Catalogue pagination limit reached; additional listings may exist."
+      ]
+    },
+    {
+      "companyId": "blue-tokai",
+      "company": "Blue Tokai Coffee",
+      "source": "https://bluetokaicoffee.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:04.290Z",
+      "listings": 191,
+      "ingredientMatches": 1,
+      "added": 1,
+      "retained": 0,
+      "pagesRead": 9,
+      "warnings": []
+    },
+    {
+      "companyId": "bon-fiction",
+      "company": "Bon Fiction",
+      "source": "https://bonfiction.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:45.356Z",
+      "listings": 31,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "brownsalt",
+      "company": "Brownsalt Bakery",
+      "source": "https://brownsaltbakery.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:49.327Z",
+      "listings": 88,
+      "ingredientMatches": 19,
+      "added": 19,
+      "retained": 0,
+      "pagesRead": 38,
+      "warnings": []
+    },
+    {
+      "companyId": "cacao-essentia",
+      "company": "Cacao Essentia",
+      "source": "https://cacaoessentia.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:40.407Z",
+      "listings": 20,
+      "ingredientMatches": 6,
+      "added": 6,
+      "retained": 0,
+      "pagesRead": 11,
+      "warnings": []
+    },
+    {
+      "companyId": "chaayos",
+      "company": "Chaayos",
+      "source": "https://chaayos.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:03.411Z",
+      "listings": 61,
+      "ingredientMatches": 3,
+      "added": 3,
+      "retained": 0,
+      "pagesRead": 43,
+      "warnings": []
+    },
+    {
+      "companyId": "chitale",
+      "company": "Chitale Bandhu",
+      "source": "https://chitalebandhu.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:03.470Z",
+      "listings": 75,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "conscious-food",
+      "company": "Conscious Food",
+      "source": "https://www.consciousfood.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:51.386Z",
+      "listings": 106,
+      "ingredientMatches": 9,
+      "added": 9,
+      "retained": 0,
+      "pagesRead": 95,
+      "warnings": []
+    },
+    {
+      "companyId": "country-bean",
+      "company": "Country Bean",
+      "source": "https://countrybean.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:03.749Z",
+      "listings": 27,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "earlyfoods",
+      "company": "Early Foods",
+      "source": "https://earlyfoods.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:37.791Z",
+      "listings": 157,
+      "ingredientMatches": 47,
+      "added": 35,
+      "retained": 12,
+      "pagesRead": 0,
+      "warnings": []
+    },
+    {
+      "companyId": "eat-anytime",
+      "company": "Eat Anytime",
+      "source": "https://eatanytime.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:41.975Z",
+      "listings": 202,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "eat-better",
+      "company": "Eat Better Co",
+      "source": "https://eatbetterco.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:41.786Z",
+      "listings": 82,
+      "ingredientMatches": 14,
+      "added": 14,
+      "retained": 0,
+      "pagesRead": 49,
+      "warnings": []
+    },
+    {
+      "companyId": "farmley",
+      "company": "Farmley",
+      "source": "https://farmley.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:40.960Z",
+      "listings": 37,
+      "ingredientMatches": 1,
+      "added": 1,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "farmveda",
+      "company": "Farmveda",
+      "source": "https://farmveda.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:05.608Z",
+      "listings": 42,
+      "ingredientMatches": 4,
+      "added": 4,
+      "retained": 0,
+      "pagesRead": 37,
+      "warnings": []
+    },
+    {
+      "companyId": "ganesh-bhel",
+      "company": "Ganesh Bhel",
+      "source": "https://ganeshbhel.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: HTTP 404. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "govindjee",
+      "company": "Govindjee",
+      "source": "https://govindjee.store/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:46.618Z",
+      "listings": 230,
+      "ingredientMatches": 84,
+      "added": 84,
+      "retained": 0,
+      "pagesRead": 220,
+      "warnings": []
+    },
+    {
+      "companyId": "grami",
+      "company": "Grami Superfoods",
+      "source": "https://gramisuperfoods.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: HTTP 404. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "gudworld",
+      "company": "Gudworld",
+      "source": "https://gudworld.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:00.881Z",
+      "listings": 34,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "gur-chini",
+      "company": "Gur Chini",
+      "source": "https://gurchini.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:01.340Z",
+      "listings": 250,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": [
+        "Catalogue pagination limit reached; additional listings may exist."
+      ]
+    },
+    {
+      "companyId": "haldiram",
+      "company": "Haldiram’s",
+      "source": "https://haldirams.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: HTTP 404. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "hame",
+      "company": "Hame",
+      "source": "https://hameindia.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: fetch failed. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "happilo",
+      "company": "Happilo",
+      "source": "https://happilo.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:41.416Z",
+      "listings": 142,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "healthy-master",
+      "company": "Healthy Master",
+      "source": "https://healthymaster.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:42.210Z",
+      "listings": 185,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "healthy-treat",
+      "company": "Healthy Treat",
+      "source": "https://healthytreat.in/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: fetch failed. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "indic",
+      "company": "Indic Organics",
+      "source": "https://indicorganics.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: fetch failed. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "jai-jalaram",
+      "company": "Jai Jalaram Foods",
+      "source": "https://jaijalaramfoods.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:20:59.014Z",
+      "listings": 81,
+      "ingredientMatches": 61,
+      "added": 61,
+      "retained": 0,
+      "pagesRead": 78,
+      "warnings": []
+    },
+    {
+      "companyId": "kapiva",
+      "company": "Kapiva",
+      "source": "https://kapiva.in/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: HTTP 404. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "kwality",
+      "company": "Kwality Foods",
+      "source": "https://kwalityfoods.in/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: HTTP 404. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "la-cocoa",
+      "company": "La Cocoa",
+      "source": "https://www.lacocoa.in/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: fetch failed. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "lets-try",
+      "company": "Let’s Try",
+      "source": "https://www.letstryfoods.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: HTTP 404. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "lo-foods",
+      "company": "Lo! Foods",
+      "source": "https://lofoods.fit/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:42.629Z",
+      "listings": 33,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "manam",
+      "company": "Manam Chocolate",
+      "source": "https://manamchocolate.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:45.225Z",
+      "listings": 100,
+      "ingredientMatches": 61,
+      "added": 61,
+      "retained": 0,
+      "pagesRead": 95,
+      "warnings": []
+    },
+    {
+      "companyId": "mapro",
+      "company": "Mapro",
+      "source": "https://www.mapro.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:40.798Z",
+      "listings": 139,
+      "ingredientMatches": 99,
+      "added": 99,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": []
+    },
+    {
+      "companyId": "mason-and-co",
+      "company": "Mason & Co",
+      "source": "https://www.masonandco.in/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: fetch failed. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "masterchow",
+      "company": "MasterChow",
+      "source": "https://masterchow.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:04.626Z",
+      "listings": 78,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "mille",
+      "company": "Mille",
+      "source": "https://millesupergrain.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:06.459Z",
+      "listings": 44,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 25,
+      "warnings": []
+    },
+    {
+      "companyId": "millet-amma",
+      "company": "Millet Amma",
+      "source": "https://milletamma.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:47.252Z",
+      "listings": 206,
+      "ingredientMatches": 1,
+      "added": 1,
+      "retained": 0,
+      "pagesRead": 163,
+      "warnings": []
+    },
+    {
+      "companyId": "minus30",
+      "company": "Minus 30",
+      "source": "https://minus30.co/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:52.072Z",
+      "listings": 90,
+      "ingredientMatches": 38,
+      "added": 38,
+      "retained": 0,
+      "pagesRead": 76,
+      "warnings": []
+    },
+    {
+      "companyId": "mos-bakery",
+      "company": "Mo’s Bakery",
+      "source": "https://www.mosbakery.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:41.909Z",
+      "listings": 102,
+      "ingredientMatches": 21,
+      "added": 21,
+      "retained": 0,
+      "pagesRead": 23,
+      "warnings": []
+    },
+    {
+      "companyId": "monsoon-harvest",
+      "company": "Monsoon Harvest",
+      "source": "https://monsoonharvest.in/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "myfitness",
+      "company": "MYFITNESS",
+      "source": "https://myfitness.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:48.664Z",
+      "listings": 31,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "naagin",
+      "company": "Naagin",
+      "source": "https://naaginsauce.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:05.041Z",
+      "listings": 34,
+      "ingredientMatches": 3,
+      "added": 3,
+      "retained": 0,
+      "pagesRead": 10,
+      "warnings": []
+    },
+    {
+      "companyId": "naviluna",
+      "company": "Naviluna",
+      "source": "https://www.naviluna.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: fetch failed. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "notos",
+      "company": "NOTO",
+      "source": "https://eatnoto.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:51.985Z",
+      "listings": 31,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "nourish-organics",
+      "company": "Nourish Organics",
+      "source": "https://nourishorganics.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:42.616Z",
+      "listings": 47,
+      "ingredientMatches": 9,
+      "added": 9,
+      "retained": 0,
+      "pagesRead": 22,
+      "warnings": []
+    },
+    {
+      "companyId": "nourish-you",
+      "company": "Nourish You",
+      "source": "https://nourishyou.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:42.649Z",
+      "listings": 37,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "nutritius",
+      "company": "Nutritius",
+      "source": "https://nutritius.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:20:59.244Z",
+      "listings": 17,
+      "ingredientMatches": 10,
+      "added": 10,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "nutty-yogi",
+      "company": "Nutty Yogi",
+      "source": "https://nuttyyogi.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:20:59.794Z",
+      "listings": 501,
+      "ingredientMatches": 33,
+      "added": 33,
+      "retained": 0,
+      "pagesRead": 201,
+      "warnings": []
+    },
+    {
+      "companyId": "oh-sugar",
+      "company": "Oh Sugar Patisserie",
+      "source": "https://ohsugarpatisserie.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:39.320Z",
+      "listings": 47,
+      "ingredientMatches": 45,
+      "added": 45,
+      "retained": 0,
+      "pagesRead": 47,
+      "warnings": []
+    },
+    {
+      "companyId": "omay",
+      "company": "Omay Foods",
+      "source": "https://omayfoods.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:47.915Z",
+      "listings": 192,
+      "ingredientMatches": 7,
+      "added": 7,
+      "retained": 0,
+      "pagesRead": 59,
+      "warnings": []
+    },
+    {
+      "companyId": "open-secret",
+      "company": "Open Secret",
+      "source": "https://opensecret.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:41.010Z",
+      "listings": 97,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "paper-boat",
+      "company": "Paper Boat",
+      "source": "https://www.paperboatfoods.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "pascati",
+      "company": "Pascati",
+      "source": "https://www.pascati.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:44.809Z",
+      "listings": 32,
+      "ingredientMatches": 18,
+      "added": 18,
+      "retained": 0,
+      "pagesRead": 30,
+      "warnings": []
+    },
+    {
+      "companyId": "paul-and-mike",
+      "company": "Paul and Mike",
+      "source": "https://www.paulandmike.co/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:43.641Z",
+      "listings": 46,
+      "ingredientMatches": 36,
+      "added": 36,
+      "retained": 0,
+      "pagesRead": 42,
+      "warnings": []
+    },
+    {
+      "companyId": "pintola",
+      "company": "Pintola",
+      "source": "https://pintola.in/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: HTTP 401. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "queen-cookies",
+      "company": "Queen Cookies",
+      "source": "https://queencookies.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:40.405Z",
+      "listings": 9,
+      "ingredientMatches": 8,
+      "added": 8,
+      "retained": 0,
+      "pagesRead": 8,
+      "warnings": []
+    },
+    {
+      "companyId": "rage",
+      "company": "Rage Coffee",
+      "source": "https://ragecoffee.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:04.139Z",
+      "listings": 36,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "max-protein",
+      "company": "RiteBite Max Protein",
+      "source": "https://maxprotein.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:00.385Z",
+      "listings": 155,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "anandhaas",
+      "company": "Shree Anandhaas",
+      "source": "https://anandhaassweets.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:20:58.919Z",
+      "listings": 170,
+      "ingredientMatches": 94,
+      "added": 94,
+      "retained": 0,
+      "pagesRead": 167,
+      "warnings": []
+    },
+    {
+      "companyId": "sihi",
+      "company": "Sihi Chocolaterie",
+      "source": "https://sihi.in/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "sleepy-owl",
+      "company": "Sleepy Owl",
+      "source": "https://sleepyowl.co/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:03.986Z",
+      "listings": 74,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "slurrp-farm",
+      "company": "Slurrp Farm",
+      "source": "https://slurrpfarm.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:38.614Z",
+      "listings": 108,
+      "ingredientMatches": 4,
+      "added": 0,
+      "retained": 4,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "slurrp",
+      "company": "Sluurpy",
+      "source": "https://sluurpy.in/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: HTTP 404. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "snackative",
+      "company": "Snackative",
+      "source": "https://snackative.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: HTTP 402. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "snackible",
+      "company": "Snackible",
+      "source": "https://snackible.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:41.640Z",
+      "listings": 74,
+      "ingredientMatches": 39,
+      "added": 39,
+      "retained": 0,
+      "pagesRead": 34,
+      "warnings": []
+    },
+    {
+      "companyId": "soklet",
+      "company": "Soklet",
+      "source": "https://www.soklet.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:44.585Z",
+      "listings": 35,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "eat-sova",
+      "company": "Sova",
+      "source": "https://eatsova.in/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: fetch failed. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "sri-krishna",
+      "company": "Sri Krishna Sweets",
+      "source": "https://srikrishnasweets.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:21:02.456Z",
+      "listings": 118,
+      "ingredientMatches": 1,
+      "added": 1,
+      "retained": 0,
+      "pagesRead": 110,
+      "warnings": []
+    },
+    {
+      "companyId": "sweet-karam-coffee",
+      "company": "Sweet Karam Coffee",
+      "source": "https://sweetkaramcoffee.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:38.348Z",
+      "listings": 204,
+      "ingredientMatches": 41,
+      "added": 39,
+      "retained": 2,
+      "pagesRead": 141,
+      "warnings": []
+    },
+    {
+      "companyId": "sweetish-house",
+      "company": "Sweetish House Mafia",
+      "source": "https://sweetishhousemafia.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:51.879Z",
+      "listings": 59,
+      "ingredientMatches": 35,
+      "added": 35,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "taali",
+      "company": "Taali Foods",
+      "source": "https://taalifoods.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: fetch failed. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "soulfull",
+      "company": "Tata Soulfull",
+      "source": "https://www.tatasoulfull.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: fetch failed. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "the-baker-dozen",
+      "company": "The Baker’s Dozen",
+      "source": "https://thebakersdozen.in/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: fetch failed. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "the-cinnamon-kitchen",
+      "company": "The Cinnamon Kitchen",
+      "source": "https://cinnamon.kitchen/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:42.428Z",
+      "listings": 60,
+      "ingredientMatches": 32,
+      "added": 32,
+      "retained": 0,
+      "pagesRead": 52,
+      "warnings": []
+    },
+    {
+      "companyId": "the-good-kind",
+      "company": "The Good Kind",
+      "source": "https://thegoodkindfoods.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:38.388Z",
+      "listings": 9,
+      "ingredientMatches": 6,
+      "added": 5,
+      "retained": 1,
+      "pagesRead": 6,
+      "warnings": []
+    },
+    {
+      "companyId": "healthy-binge",
+      "company": "The Healthy Binge",
+      "source": "https://thehealthybinge.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "mumum",
+      "company": "The Mumum Co",
+      "source": "https://themumumco.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: fetch failed. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "the-snack-company",
+      "company": "The Snack Company",
+      "source": "https://www.thesnackcompany.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:39.230Z",
+      "listings": 63,
+      "ingredientMatches": 23,
+      "added": 15,
+      "retained": 8,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "the-whole-truth",
+      "company": "The Whole Truth",
+      "source": "https://thewholetruthfoods.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "timios",
+      "company": "Timios",
+      "source": "https://mytimios.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: Unexpected token '<', \"<!DOCTYPE \"... is not valid JSON. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "tots-and-moms",
+      "company": "Tots & Moms",
+      "source": "https://totsandmoms.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:39.105Z",
+      "listings": 109,
+      "ingredientMatches": 24,
+      "added": 23,
+      "retained": 1,
+      "pagesRead": 51,
+      "warnings": []
+    },
+    {
+      "companyId": "true-elements",
+      "company": "True Elements",
+      "source": "https://true-elements.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:38.042Z",
+      "listings": 91,
+      "ingredientMatches": 10,
+      "added": 5,
+      "retained": 5,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "two-brothers",
+      "company": "Two Brothers Organic Farms",
+      "source": "https://twobrothersindiashop.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:51.191Z",
+      "listings": 113,
+      "ingredientMatches": 12,
+      "added": 12,
+      "retained": 0,
+      "pagesRead": 106,
+      "warnings": []
+    },
+    {
+      "companyId": "u-turn",
+      "company": "U-Turn4Nature",
+      "source": "https://www.u-turn.in/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: HTTP 404. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "wellbeing",
+      "company": "Wellbeing Nutrition",
+      "source": "https://wellbeingnutrition.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:50.454Z",
+      "listings": 193,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "slurrp-farm-cereal",
+      "company": "Wholsum Foods",
+      "source": "https://wholsumfoods.com/products.json?limit=250",
+      "checkedAt": "",
+      "listings": 0,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 0,
+      "warnings": [
+        "Public catalogue request: HTTP 404. No ingredient evidence imported."
+      ]
+    },
+    {
+      "companyId": "wingreens",
+      "company": "Wingreens Farms",
+      "source": "https://wingreensworld.com/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:49.489Z",
+      "listings": 212,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    },
+    {
+      "companyId": "yogabar",
+      "company": "Yoga Bar",
+      "source": "https://www.yogabars.in/products.json?limit=250",
+      "checkedAt": "2026-09-29T12:15:40.641Z",
+      "listings": 58,
+      "ingredientMatches": 0,
+      "added": 0,
+      "retained": 0,
+      "pagesRead": 1,
+      "warnings": []
+    }
+  ],
+  "publicEmailCompanies": 35,
+  "publicPhoneCompanies": 28,
+  "sourcedLocationCompanies": 20
+}

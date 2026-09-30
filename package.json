@@ -13,7 +13,9 @@
     "backup": "tsx scripts/backup.ts",
     "verify:production": "node scripts/verify-production.mjs",
     "package:release": "node scripts/package-release.mjs",
-    "research:refresh": "tsx scripts/research-refresh.ts"
+    "research:refresh": "tsx scripts/research-refresh.ts",
+    "research:buyers": "tsx scripts/ingredient-refresh.ts",
+    "research:export": "tsx scripts/export-buyer-research.ts"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",
@@ -21,6 +23,7 @@
     "cheerio": "^1.2.0",
     "cookie-parser": "^1.4.7",
     "dotenv": "^16.5.0",
+    "exceljs": "^4.4.0",
     "express": "^4.21.2",
     "express-rate-limit": "^7.5.0",
     "helmet": "^8.1.0",

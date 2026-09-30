@@ -1,19 +1,25 @@
 # Ingredient buyer research
 
-The primary workspace is **Ingredient buyers**. It links Dhampur Green raw materials to other brands’ published product ingredients, then helps qualify the factory, purchasing person and volume.
+The primary workspace is **Ingredient buyers**, which opens with one card per company. Each card groups its matching products and ingredient families. **View all products** opens that company’s searchable range; selecting a product shows its published ingredients, Dhampur Green matches and buying-potential tools. Company and product links survive reloads. The separate **Product matches** view remains available.
+
+**Download Excel** beside the results exports a real `.xlsx` workbook. Choose **Current filtered results** or **All researched companies**. The **Companies** sheet has one row per firm with public email/phone, contact pages, separately labelled purchasing contacts, matching products and ingredients, suggested Dhampur products, qualification stages and saved notes. **Product matches** retains every recorded ingredient match for the selected products, with sources, dates and review status. **Contact people** lists sourced names, roles, departments, person-specific business emails where published, evidence limits and suggested approach. **Contact routes** lists company emails/phones with purpose and source. **Export notes** records the scope and filters. Unknown values stay blank. Sheets have frozen headers and Excel filters. Downloads work in both the private workspace and the public preview, using only the data available in that view.
 
 ## What is included
 
 - 27 supplier catalogue products; 7 ingredient families mapped to relevant raw-material products.
-- 33 sourced product profiles across Early Foods, True Elements, Sweet Karam Coffee, The Good Kind, The Snack Company, Slurrp Farm and Tots & Moms. This is a starting research set, not a nationwide census.
+- 1,184 sourced product profiles across 63 companies/brands. The original 33 reviewed profiles are preserved; 1,151 profiles need review. This is a research set, not a nationwide census or a count of unique legal buyers or recipes.
 - Product source URLs, official product images, ingredient text, exact published percentages where available, check dates and direct/component distinctions.
-- Company contact routes, contact locations where sourced, procurement/R&D roles to ask for, qualification questions and one explicitly unverified professional directory lead. General customer-service addresses are not purchasing contacts.
+- 60 named public professional leads across 30 companies: 8 procurement, 8 product development, 7 operations, 9 sales and 28 leadership roles. Company pages, public LinkedIn sources and two explicitly unverified directory entries retain their individual evidence. General company routes are separate: 115 published emails/phones, deduplicated within each company. Only two person-specific emails were sourced; no missing email is guessed.
 - Saved notes, shortlist, qualification stages, verified professional contacts and quantity scenarios on the private backend.
 - Reviewed direct matches and a user-verified buyer contact can create one deduplicated **Food manufacturers** sales lead. No email/WhatsApp permission or buyer demand is inferred. The campaign audience uses those evidence-linked product IDs, rather than every manufacturing product.
 
+Search now includes professional names and roles. Filter companies with procurement, R&D, sales or leadership contacts. Sort by company name, research date, matching product count, people count or purchasing contacts first; product view sorts by title and source date. Inside a company, people can be filtered by role/source and sorted by title, name, check date or company evidence. Suggested approach text distinguishes direct purchasing questions from technical trials and referral requests. A check date is not confirmation of employment.
+
+Run `npm run research:export` to regenerate the public [Excel workbook](data/ingredient-buyers.xlsx), [people CSV](data/buyer-contacts.csv), [business routes CSV](data/buyer-contact-routes.csv) and product CSV. The standalone exporter never reads private CRM data. The in-app download retains all sourced people at the selected firms, including additional roles.
+
 ## The simple workflow
 
-1. Select a supplier ingredient and inspect a matching buyer product.
+1. Find a company or filter by supplier ingredient. Open the company’s products, then inspect a matching product.
 2. Open its published ingredient source. A component match, such as khand inside couverture chocolate, requires finding the component manufacturer.
 3. In **Buying potential**, enter packs/month, pack weight, recipe percentage, ingredient yield and proposed supply share.
 4. In **Purchasing team**, confirm manufacturing responsibility, identify the professional buyer and record a source for their current role.
@@ -22,6 +28,10 @@ The primary workspace is **Ingredient buyers**. It links Dhampur Green raw mater
 The calculation is packs × grams/pack ÷ 1,000 × ingredient percentage ÷ yield percentage × supply share. A 10,000-pack, 700 g, 16% jaggery recipe at 100% yield and 25% share illustrates 280 kg/month. Production and share are **assumptions**, not disclosed orders. Unknown ingredient percentages stay blank; we never derive jaggery share by subtracting peanut content, cocoa percentage or nutrition-panel sugar totals. Manufacturing losses, recipe basis and bulk specifications need buyer confirmation.
 
 ## Automation and additional coverage
+
+**Bulk public research export:** the September 29 expansion inspected 6,800 catalogue listings and 2,439 cached product pages across 97 candidate sources (67 returned public catalogues). Download `data/ingredient-buyers.csv` for company, product, published ingredients, direct/component matches, suggested Dhampur products, source links and public contacts. The source-by-source results and gaps are in `data/ingredient-refresh-report.json`; see [data/BUYER_RESEARCH.md](data/BUYER_RESEARCH.md). The September 30 enrichment adds company pages, public LinkedIn evidence, and selected Flipkart, Instamart, Zepto, BigBasket, Blinkit and JioMart sources. Public business emails are now available for 59 companies and phones for 45. Amazon searches/access produced no usable imported evidence. See `data/buyer-enrichment-report.json`; these remain public leads rather than verified purchasing contacts.
+
+Run `npm run research:buyers -- --pages` to append additional source-backed profiles from the registered public sources. `--company=mapro,cookie-man` limits the run to selected registered companies; `--offline` rebuilds from the ignored local research cache. The exporter reads up to four 250-listing feed pages and attempts up to 250 missing product pages per company, uses a 24-hour feed cache, records source failures, and retains existing research. It never reads `.env` or the CRM database, never sends outreach, and never turns search snippets into ingredient evidence. Image-only labels and inaccessible catalogues remain coverage gaps. This CLI is separate from the private worker's seven existing catalogue connectors below.
 
 **Official catalogue scans:** no API key. The private worker reads up to 250 public product listings per selected, fixed allowlisted company. It extracts ingredient sections, adds new matches as **Needs review**, and flags changed ingredients for review. Some stores publish ingredient panels only on the full product page; their existing reviewed evidence is retained when the feed cannot supply it. A failed source retains the previous evidence and displays a warning. Scans do not fabricate new brands, contacts or missing ingredients.
 
@@ -53,4 +63,4 @@ Dhampur Green still needs to confirm manufacturer-grade specifications, certific
 
 Company sources are in `data/buyer-companies.json`; product label sources, image attribution, check dates and ingredient evidence are in `data/buyer-products.json`. Supplier mappings are in `data/supplier-materials.json`. Retail supplier products link to dhampurgreen.com. Published addresses are contact locations, not confirmed factory sites. A listing sold out at the check date does not establish that manufacturing has ceased.
 
-The test suites cover ingredient negation/component handling, avoiding nutrition/marketing false matches, quantity arithmetic, source failures, deduplication, contact qualification, private persistence, public write blocking, search limits, and desktop/mobile workflows. Test searches and contacts use fixtures; tests do not send outreach or use live provider credentials.
+Validation passed for this expansion: production build, all 61 backend/unit tests, all 50 desktop/mobile browser tests, and the production authentication and persistence check. Offline sorting, workbook, evidence and seed-preservation checks also passed. The test suites cover ingredient negation/component handling, avoiding nutrition/marketing false matches, quantity arithmetic, source failures, deduplication, contact qualification, private persistence, public write blocking, search limits, and desktop/mobile workflows. Test searches and contacts use fixtures; tests do not send outreach or use live provider credentials.

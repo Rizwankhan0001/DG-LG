@@ -1,0 +1,243 @@
+{
+  "checkedAt": "2026-09-30T10:41:56.176Z",
+  "baseline": {
+    "companies": 40,
+    "products": 1124,
+    "people": 1
+  },
+  "totals": {
+    "companies": 63,
+    "products": 1184,
+    "people": 60,
+    "companiesWithPeople": 30,
+    "contactRoutes": 115,
+    "companiesWithEmail": 59,
+    "companiesWithPhone": 45,
+    "personEmails": 2,
+    "reviewedProducts": 33,
+    "productsNeedingReview": 1151
+  },
+  "additions": {
+    "companyIds": [
+      "adya-organics",
+      "sihi-chocolaterie",
+      "go-desi",
+      "max-protein",
+      "chitale",
+      "bikanervala",
+      "open-secret",
+      "lo-foods",
+      "soklet",
+      "bon-fiction",
+      "alpino",
+      "myfitness",
+      "wingreens",
+      "cookie-man",
+      "millet-bank",
+      "anand-sweets",
+      "jus-amazin",
+      "bombay-sweet-shop",
+      "right-shift",
+      "paper-boat",
+      "kocoatrait",
+      "tiggle",
+      "loyka"
+    ],
+    "products": 60,
+    "people": 59
+  },
+  "contactSources": {
+    "Professional profile": 14,
+    "Company website": 43,
+    "Company announcement": 1,
+    "Third-party directory": 2
+  },
+  "departments": {
+    "Procurement": 8,
+    "Leadership": 28,
+    "Operations": 7,
+    "Product development": 8,
+    "Sales": 9
+  },
+  "ingredientFamilies": [
+    {
+      "family": "Cane jaggery",
+      "products": 345,
+      "companies": 43
+    },
+    {
+      "family": "Khandsari / khand",
+      "products": 44,
+      "companies": 10
+    },
+    {
+      "family": "Palm jaggery",
+      "products": 11,
+      "companies": 4
+    },
+    {
+      "family": "Coconut jaggery",
+      "products": 4,
+      "companies": 1
+    },
+    {
+      "family": "Brown sugar",
+      "products": 84,
+      "companies": 11
+    },
+    {
+      "family": "White / baking sugar",
+      "products": 789,
+      "companies": 39
+    },
+    {
+      "family": "Molasses",
+      "products": 2,
+      "companies": 1
+    }
+  ],
+  "marketplaceEvidence": [
+    {
+      "companyId": "earlyfoods",
+      "platform": "Flipkart",
+      "url": "https://www.flipkart.com/early-foods-dry-fruits-seeds-jaggery-cookies-150g-150-g/p/itmbd9be48f44143",
+      "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+      "checkedAt": "2026-09-30T06:44:32.633Z"
+    },
+    {
+      "companyId": "earlyfoods",
+      "platform": "JioMart",
+      "url": "https://www.jiomart.com/p/groceries/early-foods-gluten-and-sugarfree-free-multigrain-millet-jaggery-cookies-900-g-pack-of-6/592112152",
+      "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+      "checkedAt": "2026-09-30T06:44:32.633Z"
+    },
+    {
+      "companyId": "earlyfoods",
+      "platform": "BigBasket",
+      "url": "https://www.bigbasket.com/pd/40135914/early-foods-multi-grain-millet-jaggery-cookies-150-g/",
+      "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+      "checkedAt": "2026-09-30T06:44:32.633Z"
+    },
+    {
+      "companyId": "tots-and-moms",
+      "platform": "Flipkart",
+      "url": "https://www.flipkart.com/tots-moms-millet-jaggery-cookies-ragi-almonds-pack-2-multi-grain-biscuit/p/itm1a549cf135fd7",
+      "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+      "checkedAt": "2026-09-30T06:44:32.633Z"
+    },
+    {
+      "companyId": "adya-organics",
+      "platform": "Instamart",
+      "url": "https://www.swiggy.com/instamart/p/adya-organics-sesame-jaggery-cookies-ZFBBX0Z3GL",
+      "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+      "checkedAt": "2026-09-30T06:44:32.633Z"
+    },
+    {
+      "companyId": "go-desi",
+      "platform": "Zepto",
+      "url": "https://www.zepto.com/pn/kaju-katli-classic-kaju-barfi-sweets-by-go-desi/pvid/b4a61fbb-992f-4169-8625-9f4d12eff88b",
+      "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+      "checkedAt": "2026-09-30T06:44:32.633Z"
+    },
+    {
+      "companyId": "open-secret",
+      "platform": "BigBasket",
+      "url": "https://www.bigbasket.com/pd/40236563/open-secret-coconut-chocolate-bars-with-jaggery-no-refined-sugar-150-g/",
+      "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+      "checkedAt": "2026-09-30T06:44:32.633Z"
+    },
+    {
+      "companyId": "lo-foods",
+      "platform": "Blinkit",
+      "url": "https://blinkit.com/prn/x/prid/587285",
+      "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+      "checkedAt": "2026-09-30T06:44:32.633Z"
+    },
+    {
+      "companyId": "cookie-man",
+      "platform": "Instamart",
+      "url": "https://www.swiggy.com/instamart/city/vizag/cb/cookie-man/cookies",
+      "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+      "checkedAt": "2026-09-30T06:44:32.633Z"
+    },
+    {
+      "companyId": "cookie-man",
+      "platform": "Zepto",
+      "url": "https://www.zepto.com/pn/cookieman-millet-jaggery-cookies/pvid/23e5985e-305b-4f7b-811f-0b784230cd2b",
+      "note": "Search-indexed millet-jaggery cookie listing; direct page access restricted at check. Ingredient evidence comes from the brand website.",
+      "checkedAt": "2026-09-30T06:44:32.633Z"
+    },
+    {
+      "companyId": "right-shift",
+      "platform": "Instamart",
+      "url": "https://www.swiggy.com/instamart/p/itc-right-shift-jaggery-oats-cookies-0-maida-0-refined-sugar-with-nuts-and-seeds-CG9PVSS7UG",
+      "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+      "checkedAt": "2026-09-30T06:44:32.633Z"
+    },
+    {
+      "companyId": "right-shift",
+      "platform": "Zepto",
+      "url": "https://www.zepto.com/pn/right-shift-jaggery-ragi-almond-millet-cookies-maida-free-and-sugar-free/pvid/29bdaf38-6dba-4f60-8797-c15942bac672",
+      "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+      "checkedAt": "2026-09-30T06:44:32.633Z"
+    },
+    {
+      "companyId": "paper-boat",
+      "platform": "BigBasket",
+      "url": "https://www.bigbasket.com/pd/40115088/paper-boat-chikki-peanut-bar-16-g/",
+      "note": "Public marketplace listing supports product discovery. Availability varies by location; use the attached product evidence for ingredient qualification.",
+      "checkedAt": "2026-09-30T06:44:32.633Z"
+    }
+  ],
+  "platformCoverage": [
+    {
+      "platform": "Amazon",
+      "result": "Checked indexed searches and attempted public access; no usable Amazon source was imported in this run."
+    },
+    {
+      "platform": "Flipkart",
+      "result": "Early Foods and Tots & Moms listing links recorded as discovery corroboration."
+    },
+    {
+      "platform": "Instamart",
+      "result": "Cookie Man, Adya Organics and ITC Right Shift listing links recorded."
+    },
+    {
+      "platform": "Zepto",
+      "result": "ITC Right Shift ingredient list imported; GO DESi and Cookie Man discovery links recorded. Some pages restricted direct access."
+    },
+    {
+      "platform": "BigBasket",
+      "result": "Paper Boat indexed ingredient evidence imported for review; Early Foods and Open Secret discovery links recorded."
+    },
+    {
+      "platform": "Blinkit",
+      "result": "Lo Foods discovery link recorded."
+    },
+    {
+      "platform": "JioMart",
+      "result": "Early Foods discovery link recorded."
+    },
+    {
+      "platform": "LinkedIn",
+      "result": "Public indexed professional profiles, self-published posts and company announcements used. No authenticated private access. Indexing can lag; fetching a source is not employment or purchasing verification."
+    }
+  ],
+  "limitations": [
+    "Companies are research profiles for brands/businesses, not a verified count of independent legal buying entities.",
+    "General business routes and named person emails are separate. No email addresses or phone numbers were guessed.",
+    "Directory-only titles remain explicitly unverified. Hiring posts were used for context, never to turn HR/recruiters into purchasing managers.",
+    "Conflicting current employers, liked/reposted third-party roles, private/masked contact data and unsupported ingredient claims were excluded.",
+    "Partial brand descriptions and marketplace evidence need complete current label review. New profiles retain Needs review; no purchasing demand or quantity is inferred.",
+    "Research dates show when sources were inspected; they are not role-confirmation dates.",
+    "Original 1,124 product profiles retained unchanged.",
+    "Business routes deduplicated within each company across spaces and Indian country-code formatting; the same shared company route can serve multiple brands.",
+    "Shipping-weight audit corrected five new product weights: three use explicit title/variant weights; two remain unknown. Source check dates are preserved separately from research correction timestamps."
+  ],
+  "artifacts": {
+    "companies": "buyer-companies.json",
+    "products": "buyer-products.json",
+    "workbook": "ingredient-buyers.xlsx",
+    "contactCsv": "buyer-contacts.csv"
+  }
+}

@@ -19,8 +19,9 @@ const companies=(store:Store)=>store.list<BuyerCompany>('buyer_companies');
 const products=(store:Store)=>store.list<BuyerProduct>('buyer_products');
 export function seedIntelligence(store:Store){
   for(const [file,collection] of [['buyer-companies','buyer_companies'],['buyer-products','buyer_products'],['supplier-materials','supplier_materials']]){
-    const items=JSON.parse(readFileSync(new URL(`../data/${file}.json`,import.meta.url),'utf8')) as ({id:string;checkedAt?:string;contactCheckedAt?:string})[];
-    for(const item of items){const existing=store.get<typeof item>(collection,item.id);if(!existing||(item.checkedAt||item.contactCheckedAt||'')>(existing.checkedAt||existing.contactCheckedAt||''))store.put(collection,item);}
+    const items=JSON.parse(readFileSync(new URL(`../data/${file}.json`,import.meta.url),'utf8')) as ({id:string;checkedAt?:string;contactCheckedAt?:string;researchUpdatedAt?:string})[];
+    const version=(item:typeof items[number])=>[item.checkedAt||'',item.contactCheckedAt||'',item.researchUpdatedAt||''].sort().at(-1)!;
+    for(const item of items){const existing=store.get<typeof item>(collection,item.id);if(!existing||version(item)>version(existing))store.put(collection,item);}
   }
 }
 export function workspace(store:Store,id:string):BuyerWorkspace {
