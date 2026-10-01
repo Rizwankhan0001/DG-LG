@@ -17,6 +17,7 @@ const sources = read<ResearchSource[]>('buyer-sources');
 const extra = existsSync('data/daily-research-sources.json') ? read<ResearchSource[]>('daily-research-sources') : [];
 const warnings: string[] = [];
 let searchRequests = 0;
+let successfulSearches = 0;
 if (process.env.TAVILY_API_KEY) {
   const terms = ['jaggery cookies ingredients manufacturer India', 'khandsari chocolate ingredients brand India', 'jaggery granola muesli ingredients India', 'brown sugar bakery biscuits ingredients India', 'jaggery chikki laddu manufacturer contact India', 'molasses treacle food ingredients India', 'palm jaggery snacks ingredients manufacturer India'];
   const offset = Math.floor(Date.now() / 86400000) % terms.length;
@@ -27,6 +28,7 @@ if (process.env.TAVILY_API_KEY) {
       if (!response.ok) throw new Error(`Search returned HTTP ${response.status}; check provider access and quota.`);
       const raw = await response.text(); if (raw.length > 2_000_000) throw new Error('Search response too large.');
       const parsed = z.object({ results: z.array(z.object({ url: z.string().url(), title: z.string() })).max(30) }).parse(JSON.parse(raw));
+      successfulSearches++;
       for (const item of parsed.results) {
         if (!candidateHost(item.url)) continue;
         const host = new URL(item.url).hostname, id = `web-${canonicalHost(host).replace(/[^a-z0-9]+/g, '-')}`;
@@ -39,6 +41,8 @@ if (process.env.TAVILY_API_KEY) {
       }
     } catch (e) { warnings.push((e as Error).message); }
   }
+  if (!successfulSearches) throw new Error(`Tavily is configured, but all ${searchRequests} search requests failed. Check that the GitHub Actions secret TAVILY_API_KEY is valid and has available quota. Previous public research was preserved.`);
+  console.log(`Tavily connection verified: ${successfulSearches}/${searchRequests} search requests successful.`);
 }
 const fetcher = createPublicFetcher(integer('DAILY_BUYER_PAGE_LIMIT', 300, 600));
 const fetchEvidence = async (url: string) => {

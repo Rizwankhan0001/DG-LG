@@ -26,6 +26,8 @@ Without a search key, discovery checks the registered backlog in `data/buyer-sou
 
 With the key configured, up to four basic Tavily requests discover new official-source candidates per run. Search snippets never become ingredient or person evidence. Defaults per run: 35 company candidates, 300 public-page requests, four search requests. Retries/manual runs can incur additional provider usage; these limits are request bounds, not a monetary cap. No new paid account is provisioned. Failed sources are retained for follow-up, with a six-day interval between attempts. Unprocessed candidates remain eligible when the page budget is exhausted.
 
+The workflow reports whether the secret is available without displaying it. The collector verifies the connection within its normal search allowance and logs the successful request count. If every configured search fails, the run fails visibly and preserves the previous published research; a stored but rejected key is not reported as a working connection.
+
 To run locally with public websites only:
 
 ```bash

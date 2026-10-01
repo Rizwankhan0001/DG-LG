@@ -28,6 +28,15 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Check daily search configuration
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+        run: |
+          if [ -n "$TAVILY_API_KEY" ]; then
+            echo 'Tavily secret is available. The collection step will verify it through the normal search allowance.'
+          else
+            echo '::notice::TAVILY_API_KEY is not configured. Discovery will use the registered website backlog.'
+          fi
       - name: Discover and qualify company candidates
         run: npm run research:daily
         env:
