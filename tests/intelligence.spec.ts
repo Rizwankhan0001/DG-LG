@@ -4,7 +4,7 @@ import type { BuyerCompany, BuyerProduct } from '../shared/intelligence';
 const products=JSON.parse(readFileSync(new URL('../data/buyer-products.json',import.meta.url),'utf8')) as BuyerProduct[];
 const companies=JSON.parse(readFileSync(new URL('../data/buyer-companies.json',import.meta.url),'utf8')) as BuyerCompany[];
 
-test('ingredient workspace starts with one card per company and filters its product previews',async({page},info)=>{
+test('ingredient workspace filters compact company cards and opens product evidence through the company',async({page},info)=>{
   const errors:string[]=[];page.on('pageerror',e=>errors.push(e.message));
   await page.goto('/');await expect(page.getByRole('heading',{name:/Your ingredients/})).toBeVisible();
   await expect(page.getByRole('button',{name:'Companies',exact:true})).toHaveAttribute('aria-pressed','true');
@@ -13,7 +13,7 @@ test('ingredient workspace starts with one card per company and filters its prod
   await page.locator('.ib-workflow summary').click();await expect(page.locator('.ib-steps')).toBeVisible();
   await page.getByLabel('Ingredient family',{exact:true}).selectOption('Khandsari / khand');await expect(page.locator('.ib-company-card')).toHaveCount(new Set(products.filter(p=>p.matches.some(m=>m.family==='Khandsari / khand')).map(p=>p.companyId)).size);
   await page.getByLabel('Ingredient evidence filter').selectOption('compound');await page.getByLabel('Search ingredient buyers').fill('Hazelnut Chocolate Cookies');await expect(page.locator('.ib-company-card')).toHaveCount(1);
-  await page.getByRole('button',{name:'View Hazelnut Chocolate Cookies from The Good Kind',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('Inside a component');await expect(page.getByRole('dialog').getByRole('link',{name:'Official product evidence'})).toHaveAttribute('href',/thegoodkindfoods.com/);
+  await page.getByRole('button',{name:'The Good Kind',exact:true}).click();await page.getByLabel('Search company products',{exact:true}).fill('Hazelnut Chocolate Cookies');await page.locator('.ib-company-product-row').click();await expect(page.getByRole('dialog')).toContainText('Inside a component');await expect(page.getByRole('dialog').getByRole('link',{name:'Official product evidence'})).toHaveAttribute('href',/thegoodkindfoods.com/);
   await page.reload();await expect(page.getByRole('dialog')).toContainText('Hazelnut Chocolate Cookies');await page.getByRole('button',{name:'Close dialog'}).click();
   await page.getByRole('button',{name:'Reset filters'}).click();await page.getByRole('button',{name:'Product matches',exact:true}).click();await expect(page.locator('.ib-match-card')).toHaveCount(products.length);await page.getByRole('button',{name:'Companies',exact:true}).click();await page.locator('.ib-section-heading').scrollIntoViewIfNeeded();await page.screenshot({path:`artifacts/ingredient-companies-${info.project.name}.png`,fullPage:false,animations:'disabled'});
   expect(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)).toBe(false);expect(errors).toEqual([]);

@@ -15,7 +15,8 @@
     "package:release": "node scripts/package-release.mjs",
     "research:refresh": "tsx scripts/research-refresh.ts",
     "research:buyers": "tsx scripts/ingredient-refresh.ts",
-    "research:export": "tsx scripts/export-buyer-research.ts"
+    "research:export": "tsx scripts/export-buyer-research.ts",
+    "research:daily": "tsx scripts/daily-buyers.ts"
   },
   "dependencies": {
     "bcryptjs": "^3.0.2",

@@ -1,6 +1,8 @@
 # Ingredient buyer research — 30 September 2026
 
-Current research contains **63 company/brand profiles, 1,184 product listings and 60 named public professional leads across 30 companies**. This pass added **23 companies, 60 products and 59 people** to the previous 40-company / 1,124-product set, and strengthened the pre-existing procurement lead with a LinkedIn source. The original 33 reviewed product records remain intact; 1,151 profiles need ingredient review.
+**1 October checkpoint:** 73 companies, 1,222 products and 65 named people. See [the latest daily report](DAILY_RESEARCH.md) and [automation setup](../DAILY_RESEARCH.md) for subsequent runs. The figures below describe the 30 September snapshot.
+
+This historical snapshot contains **63 company/brand profiles, 1,184 product listings and 60 named public professional leads across 30 companies**. This pass added **23 companies, 60 products and 59 people** to the previous 40-company / 1,124-product set, and strengthened the pre-existing procurement lead with a LinkedIn source. The original 33 reviewed product records remain intact; 1,151 profiles need ingredient review.
 
 [Download Excel workbook](ingredient-buyers.xlsx) · [Contact people CSV](buyer-contacts.csv) · [Business contact routes CSV](buyer-contact-routes.csv) · [Product CSV](ingredient-buyers.csv) · [Enrichment report](buyer-enrichment-report.json)
 

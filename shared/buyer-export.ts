@@ -3,6 +3,7 @@ import { productTitle } from './catalogue.js';
 import { relevantSupplierProducts, type BuyerProduct, type IngredientBootstrap } from './intelligence.js';
 import type { Product } from './types.js';
 import { contactApproach, sortBuyerContacts } from './buyer-contacts.js';
+import { buyerReadiness, companyApproachBrief } from './buyer-readiness.js';
 
 export interface BuyerExportInput {
   research: Pick<IngredientBootstrap, 'companies' | 'products' | 'materials' | 'workspaces'>;
@@ -82,6 +83,10 @@ export function createBuyerWorkbook({ research, products, catalogue, scope, filt
     { header: 'Published people count', key: 'peopleCount', width: 22 },
     { header: 'Published people', key: 'people', width: 48 },
     { header: 'Marketplace sources', key: 'marketplaces', width: 56 },
+    { header: 'Ingredient and contact readiness', key: 'readiness', width: 34 },
+    { header: 'Suggested next step', key: 'approach', width: 58 },
+    { header: 'Still to confirm', key: 'gaps', width: 50 },
+    { header: 'Company approach brief', key: 'brief', width: 70 },
   ]);
   const evidence = sheet(workbook, 'Product matches', [
     { header: 'Company', key: 'company', width: 28 },
@@ -151,6 +156,9 @@ export function createBuyerWorkbook({ research, products, catalogue, scope, filt
       peopleCount: company.contacts.length,
       people: unique(company.contacts.map(contact => `${contact.name} — ${contact.role}`)),
       marketplaces: unique((company.marketplaces ?? []).map(source => `${source.platform}: ${source.url}\n${source.note} Checked ${source.checkedAt}`)),
+      readiness: buyerReadiness(company, items, exportedAt.getTime()).label,
+      approach: buyerReadiness(company, items, exportedAt.getTime()).approach,
+      gaps: buyerReadiness(company, items, exportedAt.getTime()).gaps.join('\n'), brief: companyApproachBrief(company, items),
     });
     for (const contact of sortBuyerContacts(company.contacts)) people.addRow({
       ...contact, company: company.name, companyId, email: contact.email || '', approach: contactApproach(contact),

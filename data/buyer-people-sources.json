@@ -1,0 +1,46 @@
+[
+  {
+    "companyId": "jai-jungle",
+    "name": "Samarth Jain",
+    "role": "Founder",
+    "department": "Leadership",
+    "url": "https://jaijungle.com/pages/about-us-1",
+    "evidence": ["Founder Samarth Jain"],
+    "evidenceNote": "Named as founder on the official company story. Ask for an introduction to ingredient procurement; current buying authority is unconfirmed."
+  },
+  {
+    "companyId": "earlyfoods",
+    "name": "Shalini Santhosh Kumar",
+    "role": "Founder",
+    "department": "Leadership",
+    "url": "https://earlyfoods.com/blogs/inspiring-stories/yourstory-covers-the-journey-of-shalini-santhosh-kumar-founder-of-early-foods",
+    "evidence": ["Shalini Santhosh Kumar, Founder of Early Foods"],
+    "evidenceNote": "Founder named in an official company article dated March 2018. Historical founder association supports an introduction, not confirmation of present employment or purchasing authority."
+  },
+  {
+    "companyId": "nourish-organics",
+    "name": "Seema Jindal Jajodia",
+    "role": "Founder",
+    "department": "Leadership",
+    "url": "https://nourishorganics.in/blogs/community/tribe-story-001",
+    "evidence": ["Meet our founder, Seema Jindal Jajodia"],
+    "evidenceNote": "Named in a September 2022 company story. Confirm the current leadership role and request an ingredient procurement introduction; historical association is not buying authority."
+  },
+  {
+    "companyId": "nourish-organics",
+    "name": "Reshu",
+    "role": "Brand Manager / marketing collaborations",
+    "url": "https://nourishorganics.in/pages/the-team",
+    "evidence": ["Reshu (Brand Manager)", "marketing@nourishorganics.in"],
+    "evidenceNote": "Official site publishes a first name and brand-manager role. Full identity and purchasing responsibility are unconfirmed. The marketing mailbox is a departmental route, not a personal email."
+  },
+  {
+    "companyId": "nutty-yogi",
+    "name": "Pallavi Gupta",
+    "role": "Published business enquiries contact",
+    "url": "https://nuttyyogi.com/pages/contact-us",
+    "email": "pallavi@nuttyyogi.com",
+    "evidence": ["business queries", "Pallavi Gupta", "pallavi@nuttyyogi.com"],
+    "evidenceNote": "Name and business email are explicitly paired on the official contact page for business queries and feedback. Procurement role and buying authority are not established."
+  }
+]

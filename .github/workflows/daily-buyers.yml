@@ -1,0 +1,77 @@
+name: Daily company research
+
+on:
+  schedule:
+    - cron: '45 3 * * *' # 09:15 Asia/Kolkata; GitHub may delay scheduled runs.
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/daily-buyers.yml']
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-company-research
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Discover and qualify company candidates
+        run: npm run research:daily
+        env:
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          DAILY_BUYER_TARGET: '10'
+          DAILY_BUYER_SEARCH_LIMIT: '4'
+          DAILY_BUYER_PAGE_LIMIT: '300'
+          DAILY_BUYER_CANDIDATE_LIMIT: '35'
+      - run: npm run research:export
+      - run: npm run build
+      - run: npm test
+      - run: npx playwright install --with-deps chromium
+      - run: npm run test:e2e
+      - name: Save validated public research
+        id: commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/buyer-companies.json data/buyer-products.json data/daily-research-report.json data/daily-research-state.json data/DAILY_RESEARCH.md data/ingredient-buyers.xlsx data/ingredient-buyers.csv data/buyer-contacts.csv data/buyer-contact-routes.csv
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh daily sourced company research'
+            git push origin HEAD:main
+          fi
+          echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Publish the latest main branch
+        env:
+          DEPLOY_HOOK: ${{ secrets.VERCEL_BUYER_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$DEPLOY_HOOK" ]; then
+            echo 'Using the existing GitHub-to-Vercel integration; the following check verifies publication.'
+          else
+            curl --fail --silent --show-error --max-time 30 --request POST "$DEPLOY_HOOK" > /dev/null
+          fi
+      - name: Verify public research was deployed
+        env:
+          EXPECTED_REVISION: ${{ steps.commit.outputs.revision }}
+        run: node scripts/verify-daily-deployment.mjs
+      - name: Retain public evidence and daily report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-public-research-${{ github.run_id }}
+          path: |
+            .research-cache/daily/
+            data/daily-research-report.json
+            data/DAILY_RESEARCH.md
+          retention-days: 14

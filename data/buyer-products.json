@@ -31764,5 +31764,1007 @@
     "reviewStatus": "Needs review",
     "status": "Active listing",
     "discoveredBy": "Curated research"
+  },
+  {
+    "id": "jai-jungle-8137671704620",
+    "companyId": "jai-jungle",
+    "name": "Mahua Gond Desi Ghee Ladoo",
+    "url": "https://jaijungle.com/products/mahua-gond-desi-ghee-ladoo",
+    "image": "https://cdn.shopify.com/s/files/1/0710/8142/6988/files/MahuaGondLadooTinFrontMain.jpg?v=1767169463&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0710/8142/6988/files/MahuaGondLadooTinFrontMain.jpg?v=1767169463&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Whole wheat flour, Mahua flower, desi ghee, jaggery, wild gond, Ashwagandha",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery",
+        "quote": "jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:37:16.679Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "naashta-shop-web-22003d831d606b92",
+    "companyId": "naashta-shop",
+    "name": "Pahadi Ragi Panjiri Granola",
+    "url": "https://www.naashtashop.in/product-page/pahadi-ragi-panjiri-granola",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Ragi (Mandua) Flour, Desi Ghee, Coconut Pieces, Pumpkin seeds, Sesame seeds, Amaranth, Almonds, Jaggery, Cinnamon powder",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:37:16.679Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "naashta-shop-web-043260cf083d519a",
+    "companyId": "naashta-shop",
+    "name": "Atta Cookies with Bhangjeera & Desi Ghee",
+    "url": "https://www.naashtashop.in/product-page/atta-cookies-with-bhangjeera-desi-ghee",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Whole-wheat flour, Sugar, Salt, Butter, Bhangjeera",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:37:16.679Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan",
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "naashta-shop-web-ed634e2fd1fa79f6",
+    "companyId": "naashta-shop",
+    "name": "Spiced Jaggery With Cardamom and Black Pepper",
+    "url": "https://www.naashtashop.in/product-page/spiced-jaggery-with-cardamom-and-black-pepper",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Jaggery, Ginger powder, Cardamom powder, Fennel seed powder, Black pepper",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:37:16.679Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "pintexim-web-eacd196106c82d08",
+    "companyId": "pintexim",
+    "name": "Jaggery Jowar Cookies",
+    "url": "https://pintexim.com/product/jaggery-jowar-cookies/",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Jowar flour; Fennel seed; Carom seed; Cumin seed; Black jaggery; Ghee",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery",
+        "quote": "jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:37:16.679Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan",
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "pintexim-web-acdfda146d228189",
+    "companyId": "pintexim",
+    "name": "Jaggery Mix Millet Cookies",
+    "url": "https://pintexim.com/product/jaggery-mix-millet-cookies/",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Ragi flour; Bajra flour; Jowar flour; Wheat flour; Vanilla; Fennel seed; Carom seeds; Black jaggery; Ghee",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery",
+        "quote": "jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:37:16.679Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "pintexim-web-6a373e59fd960ab7",
+    "companyId": "pintexim",
+    "name": "Jaggery Rajgira Cookies",
+    "url": "https://pintexim.com/product/jaggery-rajgira-cookies/",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Rajgira seeds; Cardamom powder; Black jaggery; Ghee",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery",
+        "quote": "jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:37:16.679Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan",
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "pintexim-web-a17147d9620fd91e",
+    "companyId": "pintexim",
+    "name": "Jaggery Ragi Chocolate Cookies",
+    "url": "https://pintexim.com/product/jaggery-chocolate-cookies/",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Chocolate chips; Cocoa powder; Wheat flour; Ragi flour; Black jaggery; Ghee",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery",
+        "quote": "jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:37:16.679Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan",
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "pintexim-web-825fbcda169e3847",
+    "companyId": "pintexim",
+    "name": "Jaggery Ragi Oats Cookies",
+    "url": "https://pintexim.com/product/jaggery-oats-cookies/",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Oat flakes; Wheat flour; Ragi flour; Vanilla; Black jaggery; Ghee",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery",
+        "quote": "jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:37:16.679Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan",
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "lets-try-web-665a2c8cfbae4649",
+    "companyId": "lets-try",
+    "name": "Oats Chocochip Cookies",
+    "url": "https://www.letstryfoods.com/product/lets-try-oats-choco-chip-cookies",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Whole Wheat Flour (24%), Oats (17%), Brown Sugar, Edible Vegetable Fat (Shortening), Chocolate Chips (6%) [Sugar, Edible Vegetable Fat (Hydrogenated Oil), Cocoa Solids, Emulsifier (INS 322), Flavours (Nature Identical & Artificial Flavouring Substance - Vanilla)], Milk Solids, Coconut, Glucose, Arrowroot Powder, Honey (0.6%), Custard Powder, Cocoa Powder, Artificial Flavouring Substances (Caramel), Raising Agents [INS 500(ii), INS 503(ii), INS 450(i)], lodised Salt, Artificial Flavouring Substances (Caramel, Chocolate, Milk, Cashew). *Contains added flavour (Nature Identical & Artificial Flavouring Substances Caramel, Chocolate, Milk, Cashew, Vanilla).",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Brown sugar",
+        "term": "Brown Sugar",
+        "quote": "Brown Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Published ingredient use supports a supplier conversation, not confirmed buying interest."
+      },
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "compound",
+        "note": "This ingredient is inside another ingredient. The brand may buy a finished component; identify its manufacturer before proposing raw material."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:37:16.679Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "lets-try-web-ff8e1de49b29e71c",
+    "companyId": "lets-try",
+    "name": "Besan Barfi",
+    "url": "https://www.letstryfoods.com/product/besan-barfi",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Gram Flour (Besan) (33%), Refined Sugar, Clarified Butter (Ghee), Almonds (8.3%), Cashew (8.3%), Cardamom Powder.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:37:16.679Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "lets-try-web-046ee998f4fe3030",
+    "companyId": "lets-try",
+    "name": "Purani Delhi - Kaju Katli",
+    "url": "https://www.letstryfoods.com/product/let-s-try-purani-delhi-kaju-katli",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Cashew Nuts (Kaju) (50%), Refined Sugar, Fibre, Preservative (INS 282), Preservatives (INS 202).",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:37:16.679Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "lets-try-web-698d9493a7285dea",
+    "companyId": "lets-try",
+    "name": "Ragi Ladoo",
+    "url": "https://www.letstryfoods.com/product/ragi-ladoo",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Ragi Flour (35%), Refined Sugar, Clarified Butter (Ghee), Almonds (9%), Cashew (9%), Elaichi Powder, Black Pepper.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:37:16.679Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "adya-organics-web-353d2616ff6ea16d",
+    "companyId": "adya-organics",
+    "name": "Besan Laddus",
+    "url": "https://adyaorganics.com/products/besan-laddus",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "1 cup besan (gram flour) 1/2 cup ghee 1/2 cup sugar 1/4 cup chopped nuts (such as almonds, cashews, and pistachios) 1 tsp cardamom powder A pinch of saffron (optional) Instructions:",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "sugar",
+        "quote": "sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:42:38.293Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan",
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "anand-sweets-web-956d3c693dbd5601",
+    "companyId": "anand-sweets",
+    "name": "Anand Jaggery Flax Seed Laddu 225g",
+    "url": "https://www.anandsweets.in/products/anand-flax-seed-laddu-225g",
+    "image": "",
+    "imageSource": "",
+    "packGrams": 225,
+    "packNote": "Pack weight from the product title; confirm before estimating demand.",
+    "ingredients": "Jaggery, Flax Seed (25%), Peanuts, Sesame seeds, Cashew and Ghee",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:42:38.293Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "anand-sweets-web-5cec314b2738bd93",
+    "companyId": "anand-sweets",
+    "name": "Anand Jaggery Dink Laddu 225g",
+    "url": "https://www.anandsweets.in/products/anand-dink-laddu-225g",
+    "image": "",
+    "imageSource": "",
+    "packGrams": 225,
+    "packNote": "Pack weight from the product title; confirm before estimating demand.",
+    "ingredients": "Jaggery, Dry Coconut, Acacia Gum(Edible Gum), Ghee, Almond, Cashew nut, Walnut, Raisins, Cucumber Seeds, Marking Nuts, Pistachio, Poppy Seeds, Garden Cress Seeds, Cardamom Powder and Dry Ginger Powder.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:42:38.293Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "anand-sweets-web-e0273541b08c8f1e",
+    "companyId": "anand-sweets",
+    "name": "Anand Jaggery Gond Laddu 225g",
+    "url": "https://www.anandsweets.in/products/anand-gond-laddu-225g",
+    "image": "",
+    "imageSource": "",
+    "packGrams": 225,
+    "packNote": "Pack weight from the product title; confirm before estimating demand.",
+    "ingredients": "Ghee, Whole Wheat Flour (29%), Jaggery, Acacia Gum, Cashew Nuts, Almond, Coconut Powder, Cucumber Seeds and Cardamom Powder.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:42:38.293Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "anand-sweets-web-1fd70306f93d5185",
+    "companyId": "anand-sweets",
+    "name": "Anand Jaggery Ragi Laddu 225g",
+    "url": "https://www.anandsweets.in/products/anand-ragi-laddu-225g",
+    "image": "",
+    "imageSource": "",
+    "packGrams": 225,
+    "packNote": "Pack weight from the product title; confirm before estimating demand.",
+    "ingredients": "Ragi Flour (30%), Jaggery, Ghee, Cashew Nuts, Almonds, Oats, Coconut Powder, Cardamom Powder and Cinnamon Powder.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:42:38.293Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "immunit-web-d6e44e61fd31950e",
+    "companyId": "immunit",
+    "name": "Choco-Ragi millet cookies (with cane jaggery)",
+    "url": "https://immunit.in/product/choco-ragi-millet-cookies-with-cane-jaggery/",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Ragi(Finger millet) flour(40%), Whole Wheat Flour, Cane Jaggery, Unsweetened non-alkalized Cocoa powder, Vegetable Oil (Refined Sesame Seed Oil), Salt",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:46:06.581Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "nihkan-web-55ab000937729921",
+    "companyId": "nihkan",
+    "name": "NIHKAN Multi Millet Jaggery Cookies - No Maida No Refined Sugar- 150g",
+    "url": "https://nihkan.in/products/nihkan-gbf-cookies-multigrain",
+    "image": "",
+    "imageSource": "",
+    "packGrams": 150,
+    "packNote": "Pack weight from the product title; confirm before estimating demand.",
+    "ingredients": "80% (Ragi, Jowar, Bajra), Whole Wheat, Butter, Milk & Milk Solids, Jaggery, Baking Powder, Baking Soda",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:46:06.581Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "nihkan-web-ef3f8deefb1a3325",
+    "companyId": "nihkan",
+    "name": "NIHKAN Chocochip Oats Jaggery Cookies - No Maida | No Refined Sugar - 150g",
+    "url": "https://nihkan.in/products/nihkan-wholegrains-cookies-chocochip",
+    "image": "",
+    "imageSource": "",
+    "packGrams": 150,
+    "packNote": "Pack weight from the product title; confirm before estimating demand.",
+    "ingredients": "80% (Oats Flour & Rolled Oats), Whole Wheat, Butter, Milk & Milk Solids, Jaggery, Choco Chips, Baking Powder, Baking Soda",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:46:06.581Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "nihkan-web-d150306affc541ed",
+    "companyId": "nihkan",
+    "name": "NIHKAN Oats Jaggery Cookies - No Maida | No Sugar - 150g",
+    "url": "https://nihkan.in/products/nihkan-gbf-cookies-oats",
+    "image": "",
+    "imageSource": "",
+    "packGrams": 150,
+    "packNote": "Pack weight from the product title; confirm before estimating demand.",
+    "ingredients": "80% (Oats & Rolled Oats), Whole Wheat, Butter, Milk & Milk Solids, Jaggery, Baking Powder, Baking Soda",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:46:06.581Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "some-more-foods-web-cfbbf1ffde398422",
+    "companyId": "some-more-foods",
+    "name": "Multimillet cookies - 100gms",
+    "url": "https://somemorefoods.com/products/multimillet-cookies",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Foxtail Millet; Finger Millet; Little Millet; Barnyard Millet; Proso Millet; Brown Top Millet; Sprouted sorghum; Black gram; Bengal gram; Moong dhal; Tapioca; Natural jaggery; Vegetable oils and salt",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery",
+        "quote": "jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:46:06.581Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "some-more-foods-web-f3d842d0698e099b",
+    "companyId": "some-more-foods",
+    "name": "Chia Seeds & Little Millet Cookies - 100gms",
+    "url": "https://somemorefoods.com/products/chiaseeds-little-millet-cookies",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Little Millet; Chia Seeds; Sprouted sorghum; Black gram; Bengal gram; Moong dhal; Tapioca; Natural jaggery; Vegetable oils and salt",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery",
+        "quote": "jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:46:06.581Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "some-more-foods-web-64c6538adfdd77ac",
+    "companyId": "some-more-foods",
+    "name": "Coconut & Foxtail Millet Cookies - 100gms",
+    "url": "https://somemorefoods.com/products/coconut-foxtail-millet-cookies",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Foxtail Millet; Coconut powder; Sprouted sorghum; Black gram; Bengal gram; Moong dhal; Tapioca; Natural jaggery; Vegetable oils and salt",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery",
+        "quote": "jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:46:06.581Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "trusnax-web-41fe589606d8d92f",
+    "companyId": "trusnax",
+    "name": "TruSnax Millet Jaggery Cookies",
+    "url": "https://www.trusnax.com/products/trusnax-millet-jaggery-cookies",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Finger millet | Pearl Millet | Barnyard Millet | Foxtail Millet | Bajra | Whole Wheat Flour | Rice Barn oil|Jaggery | Millk | Iodized Salt | Raising Agent(INS 500(ii))",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:46:06.581Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "trusnax-web-c6035d2d7f23c13c",
+    "companyId": "trusnax",
+    "name": "TruSnax Three Cookies Millet Jaggery (Pack of 5)",
+    "url": "https://www.trusnax.com/products/trusnax-three-cookies-millet-jaggery-pack-of-5",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Ragi, Pear Millet, Foxtail Millet, Bajra, Whole Wheat Flour, Jaggery, Rice Bran Oil, Leaving Agents (NS500ii), Lodised salt",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:46:06.581Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "from-granny-8071777910893",
+    "companyId": "from-granny",
+    "name": "Black Til Ladoo",
+    "url": "https://fromgranny.in/products/black-sesame-ladoo",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0789/7709/files/black_sesam_eladdu_for_website.jpg?v=1780495166&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0702/0789/7709/files/black_sesam_eladdu_for_website.jpg?v=1780495166&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Black Sesame Seeds, Jaggery",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:48:37.334Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "from-granny-8071777878125",
+    "companyId": "from-granny",
+    "name": "Alsi Ke Laddu with Jaggery",
+    "url": "https://fromgranny.in/products/alsi-ke-laddu-with-jaggery",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0789/7709/files/flaxseed_laddu_for_website.jpg?v=1780562582&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0702/0789/7709/files/flaxseed_laddu_for_website.jpg?v=1780562582&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Seeds Mix ((37%) Flaxseed, White Sesame Seeds and Pumkin Seeds) , Jaggery (37%), Nuts Mix (21%) (Peanuts, Walnuts and Almond), Cow Ghee and Iodized Salt",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 37%",
+        "percent": 37,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:48:37.334Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "from-granny-8071777845357",
+    "companyId": "from-granny",
+    "name": "Sprouted Ragi Ladoo",
+    "url": "https://fromgranny.in/products/sprouted-ragi-ladoo",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0789/7709/files/Ragi_for_website.jpg?v=1780492717&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0702/0789/7709/files/Ragi_for_website.jpg?v=1780492717&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Sprouted Ragi Flour, Jaggery, Cow Ghee, Cashew Nut, Green Cardamom",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:48:37.334Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "from-granny-8071777812589",
+    "companyId": "from-granny",
+    "name": "Peanut Ladoo",
+    "url": "https://fromgranny.in/products/peanut-ladoo",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0789/7709/files/peanut_ladoo_for_website.jpg?v=1780496032&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0702/0789/7709/files/peanut_ladoo_for_website.jpg?v=1780496032&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Peanut, Jaggery, Sea Salt",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:48:37.334Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "from-granny-8071777747053",
+    "companyId": "from-granny",
+    "name": "Multi Millet Ladoo",
+    "url": "https://fromgranny.in/products/multi-millet-ladoo",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0789/7709/files/millet_laddu_for_website.jpg?v=1780556986&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0702/0789/7709/files/millet_laddu_for_website.jpg?v=1780556986&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Mix Millet Flour (Jowar, Bajra, Foxtail Millet Flour), Jaggery, Cow Ghee, Cashew Nut, Green Cardamom",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:48:37.334Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "from-granny-8071777714285",
+    "companyId": "from-granny",
+    "name": "Besan Laddu",
+    "url": "https://fromgranny.in/products/besan-laddu-with-jaggery",
+    "image": "https://cdn.shopify.com/s/files/1/0702/0789/7709/files/besan_ladoo_for_website.jpg?v=1780565836&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0702/0789/7709/files/besan_ladoo_for_website.jpg?v=1780565836&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Besan (Chickpea Flour), Jaggery, Pure Cow Ghee, Cashew Nut, Green Cardamom",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:48:37.334Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "paaramparik-10208286572725",
+    "companyId": "paaramparik",
+    "name": "Dry Fruit Gond Laddu Delight",
+    "url": "https://paaramparik.com/products/dry-fruits-laddu-delight",
+    "image": "https://cdn.shopify.com/s/files/1/0627/1877/1381/files/PaaramparikDryFruitGondladdu-main.jpg?v=1766684094&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0627/1877/1381/files/PaaramparikDryFruitGondladdu-main.jpg?v=1766684094&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Dryfruits(Almond, Pista, Cashew, Raisin, Coconut, Poppy Seeds), Clarified Butter(Desi Ghee), Wheat Flour, Organic Jaggery, Acacia Natural Gum(Gond), Turmeric, Ginger",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:48:37.334Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "paaramparik-7594606756021",
+    "companyId": "paaramparik",
+    "name": "Millet Laddu with Dry Fruits",
+    "url": "https://paaramparik.com/products/millet-laddu-with-dry-fruits",
+    "image": "https://cdn.shopify.com/s/files/1/0627/1877/1381/files/Millets_Dry_Fruit_Gond_Laddu_front.jpg?v=1766640183&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0627/1877/1381/files/Millets_Dry_Fruit_Gond_Laddu_front.jpg?v=1766640183&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Dryfruits(Almond, Pista, Cashew, Raisin, Coconut, Poppy Seeds), Clarified Butter(Desi Ghee), Sorghum Millet(Jowar), Jaggery, Acacia Natural Gum(Gond), Ginger",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:48:37.334Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "paaramparik-7594607018165",
+    "companyId": "paaramparik",
+    "name": "Sattu Laddu with Cashew & Jaggery",
+    "url": "https://paaramparik.com/products/sattu-laddu-with-cashew-jaggery",
+    "image": "https://cdn.shopify.com/s/files/1/0627/1877/1381/files/SattuLaddu_glutten_free_sweet_snack_jaggery.heic?v=1746512553&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0627/1877/1381/files/SattuLaddu_glutten_free_sweet_snack_jaggery.heic?v=1746512553&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Sattu(Roasted Bengal Gram flour), Organic Jaggery, Clarified Butter(Desi ghee), Cashew, Rice, Foxnuts(Makhana)",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:48:37.334Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "paaramparik-7592810610869",
+    "companyId": "paaramparik",
+    "name": "Flax Seed Alsi Laddu with Dry Fruits",
+    "url": "https://paaramparik.com/products/flax-seed-laddu-with-dry-fruits-6-pieces",
+    "image": "https://cdn.shopify.com/s/files/1/0627/1877/1381/files/PaaramparikMilletsDryFruit-Front-main_21745d98-ab35-4cc8-9d83-92c4356c245e.jpg?v=1771491234&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0627/1877/1381/files/PaaramparikMilletsDryFruit-Front-main_21745d98-ab35-4cc8-9d83-92c4356c245e.jpg?v=1771491234&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Dryfruits(Almond, Pista, Cashew, Raisin, Coconut, Poppy Seeds), Clarified Butter(Desi Ghee), Wheat Flour, Organic Jaggery, Flax Seeds (Flaxseeds or Alsi) , Acacia Natural Gum(Gond), Ginger",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:48:37.334Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "paaramparik-7575303684277",
+    "companyId": "paaramparik",
+    "name": "Immunity+ Dry Fruits Laddu",
+    "url": "https://paaramparik.com/products/immunity-plus-dry-fruits-laddoos",
+    "image": "https://cdn.shopify.com/s/files/1/0627/1877/1381/files/Immunity_dry_Fruit_Laddu_Hero.jpg?v=1766640274&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0627/1877/1381/files/Immunity_dry_Fruit_Laddu_Hero.jpg?v=1766640274&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Dryfruits(Almond, Pista, Cashew, Raisin, Coconut, Poppy Seeds), Clarified Butter(Desi Ghee), Wheat Flour, Organic Jaggery, Acacia Natural Gum(Gond), Turmeric, Ginger",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T04:48:37.334Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
   }
 ]

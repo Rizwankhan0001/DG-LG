@@ -73,3 +73,7 @@ npm run verify:production
 With `BACKUP_DIR` configured, the server writes a SQLite snapshot on startup when needed, then checks hourly for the next daily snapshot. It retains seven completed snapshots by default (`BACKUP_RETENTION`). Snapshots are owner-readable only. Backup failures appear in Settings. Run `npm run backup` for an on-demand snapshot.
 
 Backups on the same volume do not protect against losing that volume. Keep an encrypted off-host copy or enable your hosting provider's volume backup service. To preserve existing local CRM edits, take a snapshot, transfer it privately to the persistent volume as `grow.db` while the hosted service is stopped, then start the service. Never put database files in the source archive or Git. Without that migration, a first deployment starts with the researched businesses and a fresh CRM.
+
+## Daily public research
+
+The [daily company workflow](DAILY_RESEARCH.md) collects public company/product/contact evidence at 09:15 IST. It validates, exports and commits research, then checks the Vercel revision and counts. The public website remains read-only; the scheduled cloud job needs no local server. Broader discovery uses the repository secret `TAVILY_API_KEY`.

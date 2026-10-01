@@ -13,7 +13,18 @@
     "phone": "+918049670521",
     "contactCheckedAt": "2026-09-30T06:30:37.254Z",
     "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
-    "contacts": [],
+    "contacts": [
+      {
+        "name": "Shalini Santhosh Kumar",
+        "role": "Founder",
+        "department": "Leadership",
+        "url": "https://earlyfoods.com/blogs/inspiring-stories/yourstory-covers-the-journey-of-shalini-santhosh-kumar-founder-of-early-foods",
+        "sourceType": "Company website",
+        "status": "Published professional lead",
+        "checkedAt": "2026-10-01T04:46:06.581Z",
+        "evidenceNote": "Founder named in an official company article dated March 2018. Historical founder association supports an introduction, not confirmation of present employment or purchasing authority."
+      }
+    ],
     "targetRoles": [
       "Ingredient procurement / purchase manager",
       "Product development / R&D manager",
@@ -39,9 +50,16 @@
         "purpose": "Published company phone; ask for procurement referral",
         "url": "https://earlyfoods.com/pages/contact-us",
         "checkedAt": "2026-09-30T06:30:37.254Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+91 8095199933",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://earlyfoods.com/pages/contact-us",
+        "checkedAt": "2026-10-01T04:48:37.334Z"
       }
     ],
-    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z",
     "marketplaces": [
       {
         "platform": "Flipkart",
@@ -671,7 +689,18 @@
     "phone": "",
     "contactCheckedAt": "2026-09-30T06:30:40.832Z",
     "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
-    "contacts": [],
+    "contacts": [
+      {
+        "name": "Pallavi Gupta",
+        "role": "Published business enquiries contact",
+        "url": "https://nuttyyogi.com/pages/contact-us",
+        "email": "pallavi@nuttyyogi.com",
+        "sourceType": "Company website",
+        "status": "Published professional lead",
+        "checkedAt": "2026-10-01T04:46:06.581Z",
+        "evidenceNote": "Name and business email are explicitly paired on the official contact page for business queries and feedback. Procurement role and buying authority are not established."
+      }
+    ],
     "targetRoles": [
       "Ingredient procurement / purchase manager",
       "Product development / R&D manager",
@@ -692,7 +721,7 @@
         "checkedAt": "2026-09-30T06:30:40.832Z"
       }
     ],
-    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+    "researchUpdatedAt": "2026-10-01T04:46:06.581Z"
   },
   {
     "id": "sri-krishna",
@@ -817,7 +846,7 @@
         "checkedAt": "2026-09-30T06:30:41.376Z"
       }
     ],
-    "researchUpdatedAt": "2026-09-30T10:44:30.779Z"
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
   },
   {
     "id": "naagin",
@@ -1357,7 +1386,27 @@
     "phone": "9312006667",
     "contactCheckedAt": "2026-09-30T06:30:46.621Z",
     "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
-    "contacts": [],
+    "contacts": [
+      {
+        "name": "Seema Jindal Jajodia",
+        "role": "Founder",
+        "department": "Leadership",
+        "url": "https://nourishorganics.in/blogs/community/tribe-story-001",
+        "sourceType": "Company website",
+        "status": "Published professional lead",
+        "checkedAt": "2026-10-01T04:46:06.581Z",
+        "evidenceNote": "Named in a September 2022 company story. Confirm the current leadership role and request an ingredient procurement introduction; historical association is not buying authority."
+      },
+      {
+        "name": "Reshu",
+        "role": "Brand Manager / marketing collaborations",
+        "url": "https://nourishorganics.in/pages/the-team",
+        "sourceType": "Company website",
+        "status": "Published professional lead",
+        "checkedAt": "2026-10-01T04:46:06.581Z",
+        "evidenceNote": "Official site publishes a first name and brand-manager role. Full identity and purchasing responsibility are unconfirmed. The marketing mailbox is a departmental route, not a personal email."
+      }
+    ],
     "targetRoles": [
       "Ingredient procurement / purchase manager",
       "Product development / R&D manager",
@@ -1392,7 +1441,7 @@
         "checkedAt": "2026-09-30T06:30:46.621Z"
       }
     ],
-    "researchUpdatedAt": "2026-09-30T10:44:30.779Z"
+    "researchUpdatedAt": "2026-10-01T04:46:06.581Z"
   },
   {
     "id": "the-cinnamon-kitchen",
@@ -1596,7 +1645,7 @@
   {
     "id": "ambriona",
     "name": "Ambriona",
-    "website": "https://ambriona.com",
+    "website": "https://www.ambriona.com",
     "city": "Location to confirm",
     "state": "",
     "locationSource": "",
@@ -1633,9 +1682,16 @@
         "purpose": "General business / customer care; request procurement referral",
         "url": "https://www.ambriona.com/pages/contact-us",
         "checkedAt": "2026-09-30T06:30:48.056Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9981134333",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.ambriona.com/products/ambriona-55-black-white-tiramisu-chocolate-vegan-gluten-free-coconut-sugar-sweetened-50g-copy",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
       }
     ],
-    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
   },
   {
     "id": "almond-house",
@@ -1677,9 +1733,128 @@
         "purpose": "General business / customer care; request procurement referral",
         "url": "https://almondhouse.com/pages/contact",
         "checkedAt": "2026-09-30T06:30:48.124Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9121241831",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9121241832",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9121241830",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9121241834",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9121241844",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9121241840",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9121241842",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9121241835",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "8121031338",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "8121031339",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "8121025121",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "8121547744",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9121241836",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9121241838",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9121241839",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9121241837",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Email",
+        "value": "care@almondhouse.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://almondhouse.com/products/ragi-jaggery-cookies-copy",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
       }
     ],
-    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
   },
   {
     "id": "govindjee",
@@ -1905,9 +2080,16 @@
         "purpose": "General business contact; ask for procurement referral",
         "url": "https://www.consciousfood.com/pages/contact-us",
         "checkedAt": "2026-09-29T12:25:17.231Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "02246081126",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.consciousfood.com/",
+        "checkedAt": "2026-10-01T04:48:37.334Z"
       }
     ],
-    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
   },
   {
     "id": "two-brothers",
@@ -2113,7 +2295,7 @@
       "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
       "What certifications, lab tests, price and payment terms are required for supplier approval?"
     ],
-    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "researchUpdatedAt": "2026-10-01T04:42:38.293Z",
     "contactRoutes": [
       {
         "kind": "Email",
@@ -2277,7 +2459,7 @@
   {
     "id": "chitale",
     "name": "Chitale Bandhu",
-    "website": "https://chitalebandhu.in",
+    "website": "https://www.chitalebandhu.in",
     "city": "Location to confirm",
     "state": "",
     "locationSource": "",
@@ -2347,7 +2529,7 @@
     "description": "Traditional sweets & snacks brand with published ingredient-use evidence. Confirm which legal entity or contract manufacturer purchases raw materials.",
     "contactUrl": "https://bikanervala.com/pages/contact",
     "email": "customercare@bikanervala.com",
-    "phone": "",
+    "phone": "+919650075931",
     "contactCheckedAt": "2026-09-30T06:30:55.347Z",
     "contactNote": "Published business contact; this may route to customer service. Ask for ingredient purchasing or supplier approval. Named people below are public professional leads, not confirmed buyers.",
     "contacts": [],
@@ -2368,9 +2550,51 @@
         "purpose": "General business / customer care; request procurement referral",
         "url": "https://bikanervala.com/pages/contact",
         "checkedAt": "2026-09-30T06:30:55.347Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919650075931",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://bikanervala.com/products/kaju-chocolate-burfi",
+        "checkedAt": "2026-10-01T04:46:06.581Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+9101147006735",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://bikanervala.com/products/kaju-chocolate-burfi",
+        "checkedAt": "2026-10-01T04:46:06.581Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "8802143800",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://bikanervala.com/pages/contact",
+        "checkedAt": "2026-10-01T04:46:06.581Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "011-4700-6700",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://bikanervala.com/pages/contact",
+        "checkedAt": "2026-10-01T04:46:06.581Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9528214214",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://bikanervala.com/pages/contact",
+        "checkedAt": "2026-10-01T04:46:06.581Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "9971877211",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://bikanervala.com/pages/contact",
+        "checkedAt": "2026-10-01T04:46:06.581Z"
       }
     ],
-    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
   },
   {
     "id": "open-secret",
@@ -2576,7 +2800,7 @@
   {
     "id": "bon-fiction",
     "name": "Bon Fiction",
-    "website": "https://bonfiction.com",
+    "website": "https://www.bonfiction.com",
     "city": "Location to confirm",
     "state": "",
     "locationSource": "",
@@ -2860,7 +3084,7 @@
       "Who approves ingredient suppliers and sample trials?",
       "What specifications, delivery location and monthly quantities can the buyer confirm?"
     ],
-    "researchUpdatedAt": "2026-09-30T10:37:36.137Z",
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z",
     "contactRoutes": [
       {
         "kind": "Email",
@@ -2875,6 +3099,13 @@
         "purpose": "Published company phone; ask for procurement referral",
         "url": "https://www.cookiemanindia.com",
         "checkedAt": "2026-09-30T06:30:57.309Z"
+      },
+      {
+        "kind": "Email",
+        "value": "pradeep@cookiemanindia.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.cookiemanindia.com/pages/about-our-brand",
+        "checkedAt": "2026-10-01T04:48:37.334Z"
       }
     ],
     "marketplaces": [
@@ -2978,9 +3209,121 @@
         "purpose": "Published company phone; ask for procurement referral",
         "url": "https://www.anandsweets.in/pages/contact",
         "checkedAt": "2026-09-30T06:30:57.547Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+91 8037002142",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+91 8037002129",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "91 8037002135",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+91 8037002133",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+91 8037002130",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+91 8037002139",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919353135383",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+91 8037002136",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "91 9353139148",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+91 8037002134",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "91 9364084911",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+91 8037002141",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+91 8037002140",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "91 8037002138",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "91  93640 87491",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+916360758650",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.anandsweets.in/pages/contact",
+        "checkedAt": "2026-10-01T04:42:38.293Z"
       }
     ],
-    "researchUpdatedAt": "2026-09-30T06:44:32.633Z"
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
   },
   {
     "id": "jus-amazin",
@@ -3088,7 +3431,7 @@
       "Who approves ingredient suppliers and sample trials?",
       "What specifications, delivery location and monthly quantities can the buyer confirm?"
     ],
-    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "researchUpdatedAt": "2026-10-01T04:46:06.581Z",
     "contactRoutes": [
       {
         "kind": "Email",
@@ -3436,5 +3779,439 @@
       "Which grades, quantities, delivery locations and pack sizes are required?"
     ],
     "researchUpdatedAt": "2026-09-30T10:37:36.137Z"
+  },
+  {
+    "id": "jai-jungle",
+    "name": "Jai Jungle Farmers Producer Company",
+    "website": "https://jaijungle.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Cookies & forest foods",
+    "description": "Published food product ingredients match the supplier catalogue. Confirm the manufacturing company and raw-material buying team.",
+    "contactUrl": "https://jaijungle.com/pages/contact",
+    "email": "info@jaijungle.com",
+    "phone": "",
+    "contactCheckedAt": "2026-10-01T04:37:16.679Z",
+    "contactNote": "Public company route; purchasing authority and demand are unconfirmed.",
+    "contacts": [
+      {
+        "name": "Samarth Jain",
+        "role": "Founder",
+        "department": "Leadership",
+        "url": "https://jaijungle.com/pages/about-us-1",
+        "sourceType": "Company website",
+        "status": "Published professional lead",
+        "checkedAt": "2026-10-01T04:46:06.581Z",
+        "evidenceNote": "Named as founder on the official company story. Ask for an introduction to ingredient procurement; current buying authority is unconfirmed."
+      }
+    ],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "info@jaijungle.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://jaijungle.com/pages/contact",
+        "checkedAt": "2026-10-01T04:37:16.679Z"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Operations / factory manager"
+    ],
+    "buyingQuestions": [
+      "Who purchases the raw materials: your company or a contract manufacturer?",
+      "Who approves ingredient suppliers and sample trials?",
+      "Which grade, delivery location, monthly quantity and certifications do you require?"
+    ],
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "naashta-shop",
+    "name": "Naashta Shop / Ekat",
+    "website": "https://www.naashtashop.in",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Granola & regional snacks",
+    "description": "Published food product ingredients match the supplier catalogue. Confirm the manufacturing company and raw-material buying team.",
+    "contactUrl": "https://www.naashtashop.in/",
+    "email": "hello@naashtashop.in",
+    "phone": "",
+    "contactCheckedAt": "2026-10-01T04:37:16.679Z",
+    "contactNote": "Public company route; purchasing authority and demand are unconfirmed.",
+    "contacts": [],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "hello@naashtashop.in",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.naashtashop.in/product-page/chai-naashta-wellness-box",
+        "checkedAt": "2026-10-01T04:37:16.679Z"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Operations / factory manager"
+    ],
+    "buyingQuestions": [
+      "Who purchases the raw materials: your company or a contract manufacturer?",
+      "Who approves ingredient suppliers and sample trials?",
+      "Which grade, delivery location, monthly quantity and certifications do you require?"
+    ],
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "pintexim",
+    "name": "Pintexim / Parmeshwari International Exim",
+    "website": "https://pintexim.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Cookies & traditional foods",
+    "description": "Published food product ingredients match the supplier catalogue. Confirm the manufacturing company and raw-material buying team.",
+    "contactUrl": "https://pintexim.com/",
+    "email": "parmeshwariinternationalexim@gmail.com",
+    "phone": "918682908682",
+    "contactCheckedAt": "2026-10-01T04:37:16.679Z",
+    "contactNote": "Public company route; purchasing authority and demand are unconfirmed.",
+    "contacts": [],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "918682908682",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://pintexim.com/product/jaggery-rajgira-cookies/",
+        "checkedAt": "2026-10-01T04:37:16.679Z"
+      },
+      {
+        "kind": "Email",
+        "value": "parmeshwariinternationalexim@gmail.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://pintexim.com/product/jaggery-rajgira-cookies/",
+        "checkedAt": "2026-10-01T04:37:16.679Z"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Operations / factory manager"
+    ],
+    "buyingQuestions": [
+      "Who purchases the raw materials: your company or a contract manufacturer?",
+      "Who approves ingredient suppliers and sample trials?",
+      "Which grade, delivery location, monthly quantity and certifications do you require?"
+    ],
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "lets-try",
+    "name": "Let’s Try",
+    "website": "https://www.letstryfoods.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Traditional snacks",
+    "description": "Published food product ingredients match the supplier catalogue. Confirm the manufacturing company and raw-material buying team.",
+    "contactUrl": "https://www.letstryfoods.com/",
+    "email": "ecom@earthcrust.co.in",
+    "phone": "+919654932262",
+    "contactCheckedAt": "2026-10-01T04:37:16.679Z",
+    "contactNote": "Public company route; purchasing authority and demand are unconfirmed.",
+    "contacts": [],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "ecom@earthcrust.co.in",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.letstryfoods.com/product/besan-barfi",
+        "checkedAt": "2026-10-01T04:37:16.679Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+919654932262",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.letstryfoods.com/product/besan-barfi",
+        "checkedAt": "2026-10-01T04:37:16.679Z"
+      },
+      {
+        "kind": "Email",
+        "value": "export@earthcrust.co.in",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.letstryfoods.com/product/besan-barfi",
+        "checkedAt": "2026-10-01T04:37:16.679Z"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Operations / factory manager"
+    ],
+    "buyingQuestions": [
+      "Who purchases the raw materials: your company or a contract manufacturer?",
+      "Who approves ingredient suppliers and sample trials?",
+      "Which grade, delivery location, monthly quantity and certifications do you require?"
+    ],
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "immunit",
+    "name": "Immunit",
+    "website": "https://immunit.in",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Millet cookies & snacks",
+    "description": "Published food product ingredients match the supplier catalogue. Confirm the manufacturing company and raw-material buying team.",
+    "contactUrl": "https://immunit.in/",
+    "email": "care.immunit@gmail.com",
+    "phone": "040-35861142",
+    "contactCheckedAt": "2026-10-01T04:46:06.581Z",
+    "contactNote": "Public company route; purchasing authority and demand are unconfirmed.",
+    "contacts": [],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "040-35861142",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://immunit.in/",
+        "checkedAt": "2026-10-01T04:46:06.581Z"
+      },
+      {
+        "kind": "Email",
+        "value": "care.immunit@gmail.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://immunit.in/",
+        "checkedAt": "2026-10-01T04:46:06.581Z"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Operations / factory manager"
+    ],
+    "buyingQuestions": [
+      "Who purchases the raw materials: your company or a contract manufacturer?",
+      "Who approves ingredient suppliers and sample trials?",
+      "Which grade, delivery location, monthly quantity and certifications do you require?"
+    ],
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "nihkan",
+    "name": "Nihkan",
+    "website": "https://nihkan.in",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Millet cookies & foods",
+    "description": "Published food product ingredients match the supplier catalogue. Confirm the manufacturing company and raw-material buying team.",
+    "contactUrl": "https://nihkan.in/",
+    "email": "info@nihkan.in",
+    "phone": "+91 9321387675",
+    "contactCheckedAt": "2026-10-01T04:46:06.581Z",
+    "contactNote": "Public company route; purchasing authority and demand are unconfirmed.",
+    "contacts": [],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "info@nihkan.in",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://nihkan.in/pages/about-us",
+        "checkedAt": "2026-10-01T04:46:06.581Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+91 9321387675",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://nihkan.in/pages/about-us",
+        "checkedAt": "2026-10-01T04:46:06.581Z"
+      },
+      {
+        "kind": "Email",
+        "value": "Kanika.nandurdikar@nihkan.in",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://nihkan.in/products/nihkan-gbf-cookies-multigrain",
+        "checkedAt": "2026-10-01T04:46:06.581Z"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Operations / factory manager"
+    ],
+    "buyingQuestions": [
+      "Who purchases the raw materials: your company or a contract manufacturer?",
+      "Who approves ingredient suppliers and sample trials?",
+      "Which grade, delivery location, monthly quantity and certifications do you require?"
+    ],
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "some-more-foods",
+    "name": "Some More Foods",
+    "website": "https://somemorefoods.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Millet cookies & foods",
+    "description": "Published food product ingredients match the supplier catalogue. Confirm the manufacturing company and raw-material buying team.",
+    "contactUrl": "https://somemorefoods.com/",
+    "email": "somemorefoods@gmail.com",
+    "phone": "",
+    "contactCheckedAt": "2026-10-01T04:46:06.581Z",
+    "contactNote": "Public company route; purchasing authority and demand are unconfirmed.",
+    "contacts": [],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "somemorefoods@gmail.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://somemorefoods.com/products/coconut-foxtail-millet-cookies",
+        "checkedAt": "2026-10-01T04:46:06.581Z"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Operations / factory manager"
+    ],
+    "buyingQuestions": [
+      "Who purchases the raw materials: your company or a contract manufacturer?",
+      "Who approves ingredient suppliers and sample trials?",
+      "Which grade, delivery location, monthly quantity and certifications do you require?"
+    ],
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "trusnax",
+    "name": "TruSnax",
+    "website": "https://www.trusnax.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Millet cookies & snacks",
+    "description": "Published food product ingredients match the supplier catalogue. Confirm the manufacturing company and raw-material buying team.",
+    "contactUrl": "https://www.trusnax.com/pages/contact",
+    "email": "info@trusnax.com",
+    "phone": "+918300133361",
+    "contactCheckedAt": "2026-10-01T04:46:06.581Z",
+    "contactNote": "Public company route; purchasing authority and demand are unconfirmed.",
+    "contacts": [],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "info@trusnax.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.trusnax.com/pages/contact",
+        "checkedAt": "2026-10-01T04:46:06.581Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+918300133361",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.trusnax.com/pages/contact",
+        "checkedAt": "2026-10-01T04:46:06.581Z"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Operations / factory manager"
+    ],
+    "buyingQuestions": [
+      "Who purchases the raw materials: your company or a contract manufacturer?",
+      "Who approves ingredient suppliers and sample trials?",
+      "Which grade, delivery location, monthly quantity and certifications do you require?"
+    ],
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "from-granny",
+    "name": "From Granny",
+    "website": "https://fromgranny.in",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Traditional sweets & snacks",
+    "description": "Published food product ingredients match the supplier catalogue. Confirm the manufacturing company and raw-material buying team.",
+    "contactUrl": "https://fromgranny.in/",
+    "email": "paramparags@gmail.com",
+    "phone": "",
+    "contactCheckedAt": "2026-10-01T04:48:37.334Z",
+    "contactNote": "Public company route; purchasing authority and demand are unconfirmed.",
+    "contacts": [],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "paramparags@gmail.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://fromgranny.in/pages/contact",
+        "checkedAt": "2026-10-01T04:48:37.334Z"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Operations / factory manager"
+    ],
+    "buyingQuestions": [
+      "Who purchases the raw materials: your company or a contract manufacturer?",
+      "Who approves ingredient suppliers and sample trials?",
+      "Which grade, delivery location, monthly quantity and certifications do you require?"
+    ],
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "paaramparik",
+    "name": "Paaramparik",
+    "website": "https://paaramparik.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Traditional sweets & millet foods",
+    "description": "Published food product ingredients match the supplier catalogue. Confirm the manufacturing company and raw-material buying team.",
+    "contactUrl": "https://paaramparik.com/",
+    "email": "info@paaramparik.com",
+    "phone": "+917022544414",
+    "contactCheckedAt": "2026-10-01T04:48:37.334Z",
+    "contactNote": "Public company route; purchasing authority and demand are unconfirmed.",
+    "contacts": [],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+917022544414",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://paaramparik.com/",
+        "checkedAt": "2026-10-01T04:48:37.334Z"
+      },
+      {
+        "kind": "Email",
+        "value": "info@paaramparik.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://paaramparik.com/",
+        "checkedAt": "2026-10-01T04:48:37.334Z"
+      },
+      {
+        "kind": "Email",
+        "value": "info.paaramparik@gmail.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://paaramparik.com/",
+        "checkedAt": "2026-10-01T04:48:37.334Z"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Operations / factory manager"
+    ],
+    "buyingQuestions": [
+      "Who purchases the raw materials: your company or a contract manufacturer?",
+      "Who approves ingredient suppliers and sample trials?",
+      "Which grade, delivery location, monthly quantity and certifications do you require?"
+    ],
+    "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
   }
 ]

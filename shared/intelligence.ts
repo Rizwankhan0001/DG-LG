@@ -1,4 +1,5 @@
 import type { Product } from './types.js';
+import type { DailyResearchReport } from './buyer-readiness.js';
 
 export const ingredientFamilies=['Cane jaggery','Khandsari / khand','Palm jaggery','Coconut jaggery','Brown sugar','White / baking sugar','Molasses'] as const;
 export type IngredientFamily=typeof ingredientFamilies[number];
@@ -8,14 +9,14 @@ export interface BuyerContactRoute {kind:'Email'|'Phone';value:string;purpose:st
 export interface BuyerMarketplace {platform:string;url:string;checkedAt:string;note:string}
 export interface BuyerCompany {id:string;name:string;website:string;city:string;state:string;locationSource:string;category:string;description:string;contactUrl:string;email:string;phone:string;contactCheckedAt:string;contactNote:string;contacts:BuyerContact[];targetRoles:string[];buyingQuestions:string[];contactRoutes?:BuyerContactRoute[];marketplaces?:BuyerMarketplace[];researchUpdatedAt?:string}
 export interface IngredientEvidence {family:IngredientFamily;term:string;quote:string;percent:number|null;relation:'direct'|'compound';note:string}
-export interface BuyerProduct {id:string;companyId:string;name:string;url:string;image:string;imageSource:string;packGrams:number|null;packNote:string;ingredients:string;ingredientsSource:'Ingredient list'|'Product description'|'Marketplace listing'|'User supplied';matches:IngredientEvidence[];checkedAt:string;researchUpdatedAt?:string;sourcePublishedAt?:string;reviewStatus:'Reviewed'|'Needs review';status:'Active listing'|'Unavailable at check'|'Source unavailable';discoveredBy:'Curated research'|'Catalogue scan'|'User import'}
+export interface BuyerProduct {id:string;companyId:string;name:string;url:string;image:string;imageSource:string;packGrams:number|null;packNote:string;ingredients:string;ingredientsSource:'Ingredient list'|'Product description'|'Marketplace listing'|'User supplied';matches:IngredientEvidence[];checkedAt:string;researchUpdatedAt?:string;sourcePublishedAt?:string;reviewStatus:'Reviewed'|'Needs review';status:'Active listing'|'Unavailable at check'|'Source unavailable'|'Availability unconfirmed';discoveredBy:'Curated research'|'Catalogue scan'|'User import'}
 export interface BuyerScenario {productId:string;family:IngredientFamily;monthlyPacks:number;packGrams:number;ingredientPercent:number;yieldPercent:number;supplyShare:number;basis:'Illustration'|'Buyer confirmed';evidence:string;updatedAt?:string}
 export interface BuyerWorkspace {id:string;stage:'Research'|'Find buyer'|'Contact verified'|'Sample discussion'|'Qualified'|'Not a fit';saved:boolean;notes:string;contactName:string;contactRole:string;contactSource:string;contactEmail:string;contactVerifiedAt:string;leadId?:string;scenarios:BuyerScenario[];updatedAt:string}
 export interface IngredientRun {id:string;companyIds:string[];completedCompanyIds:string[];status:'queued'|'running'|'completed'|'failed';createdAt:string;finishedAt?:string;scanned:number;matched:number;added:number;updated:number;warnings:string[];progress:string}
 export interface IngredientSearchInput {family:IngredientFamily;industry:string;location:string;marketplace:boolean}
 export interface IngredientSearch extends IngredientSearchInput {id:string;query:string;createdAt:string;finishedAt?:string;status:'queued'|'running'|'completed'|'failed';error:string;results:{title:string;url:string;excerpt:string}[]}
 export interface IngredientSchedule {id:string;enabled:boolean;companyIds:string[];nextRun:string;lastRun:string;discovery?:IngredientSearchInput|null}
-export interface IngredientBootstrap {companies:BuyerCompany[];products:BuyerProduct[];materials:SupplierMaterial[];workspaces:BuyerWorkspace[];runs:IngredientRun[];searches:IngredientSearch[];searchConfigured:boolean;schedule:IngredientSchedule;workerEnabled:boolean;coverage:{companyId:string;enabled:boolean;detail:string}[];readOnly:boolean}
+export interface IngredientBootstrap {companies:BuyerCompany[];products:BuyerProduct[];materials:SupplierMaterial[];workspaces:BuyerWorkspace[];runs:IngredientRun[];searches:IngredientSearch[];searchConfigured:boolean;schedule:IngredientSchedule;workerEnabled:boolean;coverage:{companyId:string;enabled:boolean;detail:string}[];readOnly:boolean;dailyResearch?:DailyResearchReport|null}
 
 export function ingredientPriority(product:BuyerProduct,company:BuyerCompany,workspace?:BuyerWorkspace){
   const reasons:{label:string;points:number}[]=[];

@@ -1,0 +1,127 @@
+{
+  "day": "2026-10-01",
+  "startedAt": "2026-10-01T04:48:37.334Z",
+  "finishedAt": "2026-10-01T04:49:32.592Z",
+  "target": 10,
+  "addedCompanies": [
+    {
+      "id": "jai-jungle",
+      "name": "Jai Jungle Farmers Producer Company",
+      "website": "https://jaijungle.com",
+      "products": 1
+    },
+    {
+      "id": "naashta-shop",
+      "name": "Naashta Shop / Ekat",
+      "website": "https://www.naashtashop.in",
+      "products": 3
+    },
+    {
+      "id": "pintexim",
+      "name": "Pintexim / Parmeshwari International Exim",
+      "website": "https://pintexim.com",
+      "products": 5
+    },
+    {
+      "id": "lets-try",
+      "name": "Let’s Try",
+      "website": "https://www.letstryfoods.com",
+      "products": 4
+    },
+    {
+      "id": "immunit",
+      "name": "Immunit",
+      "website": "https://immunit.in",
+      "products": 1
+    },
+    {
+      "id": "nihkan",
+      "name": "Nihkan",
+      "website": "https://nihkan.in",
+      "products": 3
+    },
+    {
+      "id": "some-more-foods",
+      "name": "Some More Foods",
+      "website": "https://somemorefoods.com",
+      "products": 3
+    },
+    {
+      "id": "trusnax",
+      "name": "TruSnax",
+      "website": "https://www.trusnax.com",
+      "products": 2
+    },
+    {
+      "id": "from-granny",
+      "name": "From Granny",
+      "website": "https://fromgranny.in",
+      "products": 6
+    },
+    {
+      "id": "paaramparik",
+      "name": "Paaramparik",
+      "website": "https://paaramparik.com",
+      "products": 5
+    }
+  ],
+  "addedProducts": 38,
+  "addedPeople": 5,
+  "addedRoutes": 62,
+  "enrichedCompanies": 3,
+  "candidatesChecked": 8,
+  "requests": 84,
+  "searchRequests": 0,
+  "searchConfigured": false,
+  "shortfall": 0,
+  "status": "target-met",
+  "warnings": [
+    "Web discovery is not connected. Checking the registered company backlog; add TAVILY_API_KEY to GitHub Actions secrets for broader discovery.",
+    "Pre-publication audit corrected 6 product titles/availability flags from visible product headings and re-extracted business emails with text boundaries. Original product records were preserved.",
+    "Final route audit removed hotel/mandate inboxes and duplicate landline formats; retained brand-specific business routes."
+  ],
+  "outcomes": [
+    {
+      "company": "Chaayos",
+      "host": "chaayos.com",
+      "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+    },
+    {
+      "company": "Chitale Bandhu",
+      "host": "chitalebandhu.in",
+      "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+    },
+    {
+      "company": "Conscious Food",
+      "host": "consciousfood.com",
+      "result": "Rechecked: 0 new products, 1 new business routes, 0 new named people."
+    },
+    {
+      "company": "From Granny",
+      "host": "fromgranny.in",
+      "result": "Added: 6 new products, 1 new business routes, 0 new named people."
+    },
+    {
+      "company": "Paaramparik",
+      "host": "paaramparik.com",
+      "result": "Added: 5 new products, 4 new business routes, 0 new named people."
+    },
+    {
+      "company": "Cookie Man",
+      "host": "cookiemanindia.com",
+      "result": "Rechecked: 0 new products, 2 new business routes, 0 new named people."
+    },
+    {
+      "company": "Early Foods",
+      "host": "earlyfoods.com",
+      "result": "Rechecked: 0 new products, 3 new business routes, 0 new named people."
+    },
+    {
+      "company": "Eat Better Co",
+      "host": "eatbetterco.com",
+      "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+    }
+  ],
+  "schedule": "Daily at 09:15 IST (scheduled runs can be delayed)",
+  "workflowUrl": "https://github.com/Rizwankhan0001/DG-LG/actions/workflows/daily-buyers.yml"
+}

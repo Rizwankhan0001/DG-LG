@@ -7,7 +7,7 @@ const tidy=(text:string)=>text.replace(/\s+/g,' ').trim();
 const ingredientLabel=/^(?:(?:organic|product)\s+)?ingredients?(?:\s+list|\s*(?:&|and)\s*allergens)?\s*[:–-]?\s*/i;
 const sectionEnd=/\b(?:how to (?:use|cook|store)|nutritional?(?: information| facts| value)?|storage|shelf life|manufacturer|allergen(?:s| information)?|packaging|delivery|specifications?|net weight|taste profile)\s*:?/i;
 const listText=(text:string)=>tidy(text).replace(ingredientLabel,'').split(sectionEnd)[0].replace(/\s*Read more\s*$/i,'').trim();
-const isList=(text:string)=>text.length>=8&&text.length<=2500&&/[,;•]/.test(text)&&!/(?:\b(?:we |our |your |these |this |are made|is made|serve as|serves as|crafted with|made with |only the |natural ingredients|sweetened with|making it|perfect for|delicious|latest monthly|shop now|add to cart|read more))/i.test(text);
+const isList=(text:string)=>text.length>=8&&text.length<=2500&&/[,;•|]/.test(text)&&!/(?:\b(?:we |our |your |these |this |are made|is made|serve as|serves as|crafted with|made with |only the |natural ingredients|sweetened with|making it|perfect for|delicious|latest monthly|shop now|add to cart|read more))/i.test(text);
 // Only product-specific ingredient sections enter matching, never recipes, menus or related-product widgets.
 export function ingredientSection(companyId:string,html:string):string {
   if(companyId==='earlyfoods'){

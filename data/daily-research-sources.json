@@ -1,0 +1,207 @@
+[
+  {
+    "id": "pintexim",
+    "name": "Pintexim / Parmeshwari International Exim",
+    "host": "pintexim.com",
+    "category": "Cookies & traditional foods",
+    "country": "India",
+    "productUrls": [
+      "https://pintexim.com/product/jaggery-jowar-cookies/"
+    ],
+    "discoveryUrl": "https://pintexim.com/product/jaggery-jowar-cookies/"
+  },
+  {
+    "id": "naashta-shop",
+    "name": "Naashta Shop / Ekat",
+    "host": "www.naashtashop.in",
+    "excludedContactDomains": ["amritbhawan.in"],
+    "contactReviewNote": "Amrit Bhawan hotel contacts on the shared site are not Naashta Shop ingredient-buying contacts. Retain the published hello@naashtashop.in route.",
+    "category": "Granola & regional snacks",
+    "country": "India",
+    "productUrls": [
+      "https://www.naashtashop.in/product-page/pahadi-ragi-panjiri-granola"
+    ],
+    "discoveryUrl": "https://www.naashtashop.in/product-page/pahadi-ragi-panjiri-granola"
+  },
+  {
+    "id": "kalewa",
+    "name": "Kalewa",
+    "host": "www.kalewa.in",
+    "category": "Millet cookies",
+    "country": "India",
+    "discoveryUrl": "https://www.kalewa.in/"
+  },
+  {
+    "id": "jai-jungle",
+    "name": "Jai Jungle Farmers Producer Company",
+    "host": "jaijungle.com",
+    "category": "Cookies & forest foods",
+    "country": "India",
+    "productUrls": [
+      "https://jaijungle.com/products/buckwheat-jaggery-mahua-cookies"
+    ],
+    "discoveryUrl": "https://jaijungle.com/products/buckwheat-jaggery-mahua-cookies"
+  },
+  {
+    "id": "galaiyas",
+    "name": "Galaiya\u2019s Cookies",
+    "host": "galaiyascookies.in",
+    "category": "Cookies & bakery",
+    "country": "India",
+    "discoveryUrl": "https://galaiyascookies.in/"
+  },
+  {
+    "id": "soulstir",
+    "name": "SoulStir",
+    "host": "www.soulstir.in",
+    "category": "Granola & breakfast",
+    "country": "India",
+    "discoveryUrl": "https://www.soulstir.in/"
+  },
+  {
+    "id": "gud-mishri",
+    "name": "Gud Mishri",
+    "host": "gudmishri.in",
+    "category": "Traditional sweets & cookies",
+    "country": "India",
+    "productUrls": [],
+    "discoveryUrl": "https://gudmishri.in"
+  },
+  {
+    "id": "pavitram",
+    "name": "Pavitram Organics",
+    "host": "pavitramorg.com",
+    "category": "Cookies & traditional foods",
+    "country": "India",
+    "productUrls": [],
+    "discoveryUrl": "https://pavitramorg.com"
+  },
+  {
+    "id": "swadcrafts",
+    "name": "SwadCrafts",
+    "host": "www.swadcrafts.com",
+    "category": "Traditional snacks",
+    "country": "India",
+    "productUrls": [],
+    "discoveryUrl": "https://www.swadcrafts.com"
+  },
+  {
+    "id": "pkp-foods",
+    "name": "PKP Foods / Sivamshu Associates",
+    "host": "pkpfoods.com",
+    "category": "Millet cookies",
+    "country": "India",
+    "productUrls": [
+      "https://pkpfoods.com/product/ragi-jaggery-cookies/"
+    ],
+    "discoveryUrl": "https://pkpfoods.com/product/ragi-jaggery-cookies/"
+  },
+  {
+    "id": "laddoos-dotcom",
+    "name": "Laddoos.com",
+    "host": "shop.laddoosdotcom.in",
+    "category": "Traditional sweets & cookies",
+    "country": "India",
+    "productUrls": [
+      "https://shop.laddoosdotcom.in/product/jackfruit-cookies"
+    ],
+    "discoveryUrl": "https://shop.laddoosdotcom.in/product/jackfruit-cookies"
+  },
+  {
+    "id": "trusnax",
+    "name": "TruSnax",
+    "host": "www.trusnax.com",
+    "category": "Millet cookies & snacks",
+    "country": "India",
+    "productUrls": [
+      "https://www.trusnax.com/products/trusnax-millet-jaggery-cookies"
+    ],
+    "discoveryUrl": "https://www.trusnax.com/products/trusnax-millet-jaggery-cookies"
+  },
+  {
+    "id": "some-more-foods",
+    "name": "Some More Foods",
+    "host": "somemorefoods.com",
+    "category": "Millet cookies & foods",
+    "country": "India",
+    "productUrls": [
+      "https://somemorefoods.com/products/multimillet-cookies"
+    ],
+    "discoveryUrl": "https://somemorefoods.com/products/multimillet-cookies"
+  },
+  {
+    "id": "immunit",
+    "name": "Immunit",
+    "host": "immunit.in",
+    "category": "Millet cookies & snacks",
+    "country": "India",
+    "productUrls": [
+      "https://immunit.in/product/choco-ragi-millet-cookies-with-cane-jaggery/"
+    ],
+    "discoveryUrl": "https://immunit.in/product/choco-ragi-millet-cookies-with-cane-jaggery/"
+  },
+  {
+    "id": "nihkan",
+    "name": "Nihkan",
+    "host": "nihkan.in",
+    "category": "Millet cookies & foods",
+    "country": "India",
+    "productUrls": [
+      "https://nihkan.in/products/nihkan-gbf-cookies-multigrain"
+    ],
+    "discoveryUrl": "https://nihkan.in/products/nihkan-gbf-cookies-multigrain"
+  },
+  {
+    "id": "milasty",
+    "name": "Milasty",
+    "host": "milasty.com",
+    "category": "Millet cookies",
+    "country": "India",
+    "productUrls": [],
+    "discoveryUrl": "https://milasty.com"
+  },
+  {
+    "id": "daromas",
+    "name": "D\u2019aromas",
+    "host": "daromas.in",
+    "category": "Baking premixes",
+    "country": "India",
+    "productUrls": [
+      "https://daromas.in/products/jaggery-cookies"
+    ],
+    "discoveryUrl": "https://daromas.in/products/jaggery-cookies"
+  },
+  {
+    "id": "ravi-sweets",
+    "name": "Ravi Sweets",
+    "host": "ravisweets.com",
+    "category": "Traditional sweets",
+    "country": "India",
+    "productUrls": [
+      "https://ravisweets.com/product/millet-laddu/"
+    ],
+    "discoveryUrl": "https://ravisweets.com/product/millet-laddu/"
+  },
+  {
+    "id": "from-granny",
+    "name": "From Granny",
+    "host": "fromgranny.in",
+    "category": "Traditional sweets & snacks",
+    "country": "India",
+    "productUrls": [
+      "https://fromgranny.in/products/multi-millet-ladoo"
+    ],
+    "discoveryUrl": "https://fromgranny.in/products/multi-millet-ladoo"
+  },
+  {
+    "id": "paaramparik",
+    "name": "Paaramparik",
+    "host": "paaramparik.com",
+    "category": "Traditional sweets & millet foods",
+    "country": "India",
+    "productUrls": [
+      "https://paaramparik.com/products/millet-laddu-with-dry-fruits"
+    ],
+    "discoveryUrl": "https://paaramparik.com/products/millet-laddu-with-dry-fruits"
+  }
+]
