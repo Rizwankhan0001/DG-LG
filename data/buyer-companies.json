@@ -925,9 +925,16 @@
         "purpose": "General business / customer care; request procurement referral",
         "url": "https://farmveda.in/pages/contact-us-old",
         "checkedAt": "2026-09-30T06:30:42.387Z"
+      },
+      {
+        "kind": "Email",
+        "value": "info@farmveda.in",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://farmveda.in/policies/contact-information",
+        "checkedAt": "2026-10-01T06:34:53.135Z"
       }
     ],
-    "researchUpdatedAt": "2026-09-30T10:44:30.779Z"
+    "researchUpdatedAt": "2026-10-01T06:34:53.135Z"
   },
   {
     "id": "ancient-roots",
@@ -1222,14 +1229,14 @@
   {
     "id": "farmley",
     "name": "Farmley",
-    "website": "https://farmley.com",
+    "website": "https://www.farmley.com",
     "city": "Location to confirm",
     "state": "",
     "locationSource": "",
     "category": "Nuts & snacks",
     "description": "Nuts & snacks company with published product ingredient matches. Confirm manufacturing and raw-material purchasing responsibility.",
     "contactUrl": "https://farmley.com/products/premium-flax-seeds",
-    "email": "",
+    "email": "social@farmley.com",
     "phone": "",
     "contactCheckedAt": "2026-09-29T12:25:13.973Z",
     "contactNote": "Public company contact route, not a verified purchasing contact. Ask for procurement or product development. Manufacturing site, buying authority, demand and permission to send outreach remain unconfirmed.",
@@ -1270,8 +1277,23 @@
       "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
       "What certifications, lab tests, price and payment terms are required for supplier approval?"
     ],
-    "researchUpdatedAt": "2026-09-30T10:37:36.137Z",
-    "contactRoutes": []
+    "researchUpdatedAt": "2026-10-01T06:34:53.135Z",
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "social@farmley.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.farmley.com/pages/contact-us",
+        "checkedAt": "2026-10-01T06:34:53.135Z"
+      },
+      {
+        "kind": "Email",
+        "value": "aman.gupta@farmley.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.farmley.com/pages/contact-us",
+        "checkedAt": "2026-10-01T06:34:53.135Z"
+      }
+    ]
   },
   {
     "id": "snackible",
@@ -1859,7 +1881,7 @@
   {
     "id": "govindjee",
     "name": "Govindjee",
-    "website": "https://govindjee.store",
+    "website": "https://www.govindjee.store",
     "city": "Jaipur",
     "state": "Rajasthan",
     "locationSource": "https://www.govindjee.store/pages/contact-us",
@@ -2394,7 +2416,7 @@
       "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
       "What certifications, lab tests, price and payment terms are required for supplier approval?"
     ],
-    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "researchUpdatedAt": "2026-10-01T06:34:53.135Z",
     "contactRoutes": [
       {
         "kind": "Email",
@@ -2409,6 +2431,13 @@
         "purpose": "Published company phone; ask for procurement referral",
         "url": "https://godesi.in",
         "checkedAt": "2026-09-30T06:30:54.280Z"
+      },
+      {
+        "kind": "Phone",
+        "value": "+918904271453",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://godesi.in/pages/contact-us",
+        "checkedAt": "2026-10-01T06:34:53.135Z"
       }
     ],
     "marketplaces": [

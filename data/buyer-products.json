@@ -32766,5 +32766,367 @@
     "reviewStatus": "Needs review",
     "status": "Active listing",
     "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "farmveda-web-d5a616d033506707",
+    "companyId": "farmveda",
+    "name": "Jaggery Peanut Chikki (Pack of 30) - Pack of 30 (25g*30)",
+    "url": "https://farmveda.in/products/classic-peanut-chikki-pack-of-4",
+    "image": "",
+    "imageSource": "",
+    "packGrams": 25,
+    "packNote": "Pack weight from the product title; confirm before estimating demand.",
+    "ingredients": "Peanuts, Jaggery, Ghee, Rock Salt, Cardamom Flavour",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:34:53.135Z",
+    "reviewStatus": "Needs review",
+    "status": "Unavailable at check",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "farmveda-web-0d8557ce298cbbb1",
+    "companyId": "farmveda",
+    "name": "Roasted Peanut Chocolate - Pack of 2 - Pack of 2",
+    "url": "https://farmveda.in/products/roasted-peanut-chocolate",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Sugar, edible vegetable oil, cocoa solids, peanuts, emulsifiers (INS 322)",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:34:53.135Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "govindjee-web-e5c95c712c736531",
+    "companyId": "govindjee",
+    "name": "Mix Chikki",
+    "url": "https://www.govindjee.store/products/mix-chikki",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Groundnut , Jaggery ,Sugar , Rajgira .",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      },
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:34:53.135Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "govindjee-web-8c6110262e26290a",
+    "companyId": "govindjee",
+    "name": "Groundnut Chikki",
+    "url": "https://www.govindjee.store/products/groundnut-chikki",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Groundnut, Sugar,Jaggery.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      },
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:34:53.135Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "govindjee-web-daa07719681e8c2b",
+    "companyId": "govindjee",
+    "name": "Mini Til Ladoo",
+    "url": "https://www.govindjee.store/products/mini-til-ladoo-sesame-ladoo",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Sesame Seeds, Jaggery.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:34:53.135Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "govindjee-web-f4a08d40109cb140",
+    "companyId": "govindjee",
+    "name": "Picnic Ladoo",
+    "url": "https://www.govindjee.store/products/picnic-ladoo",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Jaggery, Peanuts, Amaranth.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:34:53.135Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "govindjee-web-5da73a7b412f231d",
+    "companyId": "govindjee",
+    "name": "Granola Mix",
+    "url": "https://www.govindjee.store/products/granola-mix",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Oats, Honey, Almonds, Cranberry, Black Grapes, Sugar",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:34:53.135Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "govindjee-web-a635a674d27a76cf",
+    "companyId": "govindjee",
+    "name": "Nankhatai Cookies",
+    "url": "https://www.govindjee.store/products/nankhatai-cookies",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Refine Flour, Cane Sugar, Ghee",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:34:53.135Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "govindjee-web-5c82eedd6a007ad2",
+    "companyId": "govindjee",
+    "name": "Bajra Jaggery Cookies",
+    "url": "https://www.govindjee.store/products/bajra-cookies",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Pearl Millet Flour, Almond Flour, Jaggery, Cardamom, Butter, Sesame Seeds.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:34:53.135Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "govindjee-web-6127c9b1e666b02b",
+    "companyId": "govindjee",
+    "name": "Ragi Cookies",
+    "url": "https://www.govindjee.store/products/ragi-cookies",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Oats, Almond flour, Finger Millet, Jaggery Powder, Brown Sugar Butter",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery Powder",
+        "quote": "Jaggery Powder",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      },
+      {
+        "family": "Brown sugar",
+        "term": "Brown Sugar",
+        "quote": "Brown Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Published ingredient use supports a supplier conversation, not confirmed buying interest."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:34:53.135Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "jus-amazin-web-503f62aefa2bd5a8",
+    "companyId": "jus-amazin",
+    "name": "Desi Energy Bar-40 g-( Pack of 5) |Nuts | Millets | Seeds | Oats | Quinoa| Complete-Wholesome Snack – Energy Bar| 7 Grams of Protein",
+    "url": "https://www.jusamazin.com/products/desi-energy-bar-40-g-pack-of-5-nuts-millets-seeds-oats-quinoa-complete-wholesome-snack-energy-bar-7-grams-of-protein",
+    "image": "",
+    "imageSource": "",
+    "packGrams": 40,
+    "packNote": "Pack weight from the product title; confirm before estimating demand.",
+    "ingredients": "Nuts & Seeds ( Peanuts,Sesame,Almonds) Jaggery Super Cereal Blend (Rolled Oats,Jowar,Bajra,Quinoa) Organic Rock Salt and Cardamon",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:34:53.135Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "jus-amazin-web-d7f42d25df616e94",
+    "companyId": "jus-amazin",
+    "name": "Crushed Peanut Chikki with Jaggery-100g -( Pack of 5) |Rich in Protein, Dietary Fiber & Anti-Oxidants| No Refined Sugar | No Liquid Glucose",
+    "url": "https://www.jusamazin.com/products/crushed-peanut-chikki-with-jaggery-100g-pack-of-5-rich-in-protein-dietary-fiber-anti-oxidants-no-refined-sugar-no-liquid-glucose",
+    "image": "",
+    "imageSource": "",
+    "packGrams": 100,
+    "packNote": "Pack weight from the product title; confirm before estimating demand.",
+    "ingredients": "Peanut, Jaggery and Cardamom",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:34:53.135Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "jus-amazin-web-5bc26b42a7af1824",
+    "companyId": "jus-amazin",
+    "name": "Peanut Chikki with Jaggery-100g- ( Pack of 5) |Rich in Amino Acids, Protein ,Dietary Fiber & Anti-Oxidants| No Refined Sugar | No Liquid Glucose",
+    "url": "https://www.jusamazin.com/products/peanut-chikki-with-jaggery-100g-pack-of-5-rich-in-amino-acids-protein-dietary-fiber-anti-oxidants-no-refined-sugar-no-liquid-glucose",
+    "image": "",
+    "imageSource": "",
+    "packGrams": 100,
+    "packNote": "Pack weight from the product title; confirm before estimating demand.",
+    "ingredients": "Peanuts, Jaggery and Cardamom",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:34:53.135Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
   }
 ]
