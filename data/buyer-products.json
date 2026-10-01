@@ -33128,5 +33128,57 @@
     "reviewStatus": "Needs review",
     "status": "Active listing",
     "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "millet-bank-web-f4cd5a766e37a53e",
+    "companyId": "millet-bank",
+    "name": "Millet Chocolate Fills",
+    "url": "https://milletbank.in/products/millet-chocolate-fills",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Ragi Flour, Little Millet Flour, Foxtail Millet Flour, Rice Flour, Corn Grit, Cocoa Powder, Palmolein oil, Sugar Powder, lodized Salt, Vegetable Shortening, Skimmed Milk Powder",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:54:59.022Z",
+    "reviewStatus": "Needs review",
+    "status": "Unavailable at check",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "millet-bank-web-d5e7df76f3c9f542",
+    "companyId": "millet-bank",
+    "name": "Multi Millet Tooty Frooty Cookies",
+    "url": "https://milletbank.in/products/multi-millet-tutty-fruity-cookies",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Whole Wheat Flour, Pure Jaggery Powder, Hydrogenated Veg. oil, Multimillet Flour, Tuitty Fruittty",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery Powder",
+        "quote": "Jaggery Powder",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-01T06:54:59.022Z",
+    "reviewStatus": "Needs review",
+    "status": "Unavailable at check",
+    "discoveredBy": "Catalogue scan"
   }
 ]

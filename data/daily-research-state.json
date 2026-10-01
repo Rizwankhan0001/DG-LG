@@ -89,14 +89,187 @@
     "godesi.in": "2026-10-01T06:34:53.135Z",
     "govindjee.store": "2026-10-01T06:34:53.135Z",
     "jaijalaramfoods.com": "2026-10-01T06:34:53.135Z",
-    "jusamazin.com": "2026-10-01T06:34:53.135Z"
+    "jusamazin.com": "2026-10-01T06:34:53.135Z",
+    "lofoods.fit": "2026-10-01T06:54:59.022Z",
+    "loyka.co": "2026-10-01T06:54:59.022Z",
+    "manamchocolate.com": "2026-10-01T06:54:59.022Z",
+    "mapro.com": "2026-10-01T06:54:59.022Z",
+    "milletamma.com": "2026-10-01T06:54:59.022Z",
+    "milletbank.in": "2026-10-01T06:54:59.022Z"
   },
-  "discovered": [],
+  "discovered": [
+    {
+      "id": "web-farmlokal-com",
+      "name": "farmlokal.com",
+      "host": "www.farmlokal.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.farmlokal.com/product-page/brand/multigrain-jaggery-cookies-160733",
+      "productUrls": [
+        "https://www.farmlokal.com/product-page/brand/multigrain-jaggery-cookies-160733"
+      ]
+    },
+    {
+      "id": "web-ijcrt-org",
+      "name": "ijcrt.org",
+      "host": "www.ijcrt.org",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.ijcrt.org/papers/IJCRT2405610.pdf",
+      "productUrls": []
+    },
+    {
+      "id": "web-daromas-co-in",
+      "name": "daromas.co.in",
+      "host": "www.daromas.co.in",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.daromas.co.in/millet-cookies.html",
+      "productUrls": []
+    },
+    {
+      "id": "web-justdial-com",
+      "name": "justdial.com",
+      "host": "www.justdial.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.justdial.com/india/jaggery-cookies",
+      "productUrls": []
+    },
+    {
+      "id": "web-exportersindia-com",
+      "name": "exportersindia.com",
+      "host": "www.exportersindia.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.exportersindia.com/indian-suppliers/organic-cookies.htm",
+      "productUrls": []
+    },
+    {
+      "id": "web-researchgate-net",
+      "name": "researchgate.net",
+      "host": "www.researchgate.net",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.researchgate.net/publication/374732787_Formulation_of_Jaggery_based_Functional_Cookies_Optimization_and_Evaluation_of_Sensory_Physico-Chemical_Nutritional_and_Nutraceutical_Properties",
+      "productUrls": []
+    },
+    {
+      "id": "web-ensun-io",
+      "name": "ensun.io",
+      "host": "ensun.io",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://ensun.io/search/cookie-manufacturing/india",
+      "productUrls": []
+    },
+    {
+      "id": "web-satvyk-com",
+      "name": "satvyk.com",
+      "host": "satvyk.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://satvyk.com/products/dry-fruit-jaggery-cookies",
+      "productUrls": [
+        "https://satvyk.com/products/dry-fruit-jaggery-cookies"
+      ]
+    },
+    {
+      "id": "web-thefoodslife-com",
+      "name": "thefoodslife.com",
+      "host": "thefoodslife.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://thefoodslife.com/blog/jaggery-cookie",
+      "productUrls": []
+    },
+    {
+      "id": "web-herobakery-co-in",
+      "name": "herobakery.co.in",
+      "host": "www.herobakery.co.in",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.herobakery.co.in/moong-dal-cookies.htm",
+      "productUrls": []
+    },
+    {
+      "id": "web-qoot-food",
+      "name": "qoot.food",
+      "host": "www.qoot.food",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.qoot.food/best-cookies-manufacturing-business-in-india",
+      "productUrls": []
+    },
+    {
+      "id": "web-revenuebase-ai",
+      "name": "revenuebase.ai",
+      "host": "revenuebase.ai",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://revenuebase.ai/companies/cookie-manufacturers/india",
+      "productUrls": []
+    },
+    {
+      "id": "web-paawakfoods-com",
+      "name": "paawakfoods.com",
+      "host": "paawakfoods.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://paawakfoods.com/blogs/recipes/jaggery-granola",
+      "productUrls": []
+    },
+    {
+      "id": "web-tarladalal-com",
+      "name": "tarladalal.com",
+      "host": "www.tarladalal.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.tarladalal.com/muesli-balls-38620r",
+      "productUrls": []
+    },
+    {
+      "id": "web-kitchentherapy-in",
+      "name": "kitchentherapy.in",
+      "host": "www.kitchentherapy.in",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.kitchentherapy.in/blogs/breakfast/jaggery-coconut-chocolate-granola-gluten-free-vegan",
+      "productUrls": []
+    },
+    {
+      "id": "web-samyarasden-com",
+      "name": "samyarasden.com",
+      "host": "www.samyarasden.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.samyarasden.com/post/healthy-granola-sweetened-with-jaggery",
+      "productUrls": []
+    },
+    {
+      "id": "web-nupursindiankitchen-com",
+      "name": "nupursindiankitchen.com",
+      "host": "nupursindiankitchen.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://nupursindiankitchen.com/how-to-make-healthy-breakfast-granola-with-oats-nuts-and-jaggery",
+      "productUrls": []
+    },
+    {
+      "id": "web-playfulcooking-com",
+      "name": "playfulcooking.com",
+      "host": "www.playfulcooking.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.playfulcooking.com/jaggery-nuts-melon-seeds-granola",
+      "productUrls": []
+    },
+    {
+      "id": "web-archanaskitchen-com",
+      "name": "archanaskitchen.com",
+      "host": "www.archanaskitchen.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.archanaskitchen.com/recipe/stovetop-granola-using-jaggery",
+      "productUrls": []
+    },
+    {
+      "id": "web-kelloggs-com",
+      "name": "kelloggs.com",
+      "host": "www.kelloggs.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.kelloggs.com/en-in/products/muesli.html",
+      "productUrls": [
+        "https://www.kelloggs.com/en-in/products/muesli.html"
+      ]
+    }
+  ],
   "history": [
     {
       "day": "2026-10-01",
-      "startedAt": "2026-10-01T06:34:53.135Z",
-      "finishedAt": "2026-10-01T06:35:26.832Z",
+      "startedAt": "2026-10-01T06:54:59.022Z",
+      "finishedAt": "2026-10-01T06:55:38.245Z",
       "target": 10,
       "addedCompanies": [
         {
@@ -160,49 +333,47 @@
           "products": 5
         }
       ],
-      "addedProducts": 51,
+      "addedProducts": 53,
       "addedPeople": 5,
       "addedRoutes": 66,
-      "enrichedCompanies": 5,
+      "enrichedCompanies": 1,
       "candidatesChecked": 6,
-      "requests": 83,
-      "searchRequests": 0,
-      "searchConfigured": false,
+      "requests": 72,
+      "searchRequests": 4,
+      "searchConfigured": true,
       "shortfall": 0,
       "status": "target-met",
-      "warnings": [
-        "Web discovery is not connected. Checking the registered company backlog; add TAVILY_API_KEY to GitHub Actions secrets for broader discovery."
-      ],
+      "warnings": [],
       "outcomes": [
         {
-          "company": "Farmley",
-          "host": "farmley.com",
-          "result": "Rechecked: 0 new products, 2 new business routes, 0 new named people."
-        },
-        {
-          "company": "Farmveda",
-          "host": "farmveda.in",
-          "result": "Rechecked: 2 new products, 1 new business routes, 0 new named people."
-        },
-        {
-          "company": "GO DESi",
-          "host": "godesi.in",
-          "result": "Rechecked: 0 new products, 1 new business routes, 0 new named people."
-        },
-        {
-          "company": "Govindjee",
-          "host": "govindjee.store",
-          "result": "Rechecked: 8 new products, 0 new business routes, 0 new named people."
-        },
-        {
-          "company": "Jai Jalaram Foods",
-          "host": "jaijalaramfoods.com",
+          "company": "Lo! Foods",
+          "host": "lofoods.fit",
           "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
         },
         {
-          "company": "Jus Amazin",
-          "host": "jusamazin.com",
-          "result": "Rechecked: 3 new products, 0 new business routes, 0 new named people."
+          "company": "Loyka / August Assortments",
+          "host": "loyka.co",
+          "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+        },
+        {
+          "company": "Manam Chocolate",
+          "host": "manamchocolate.com",
+          "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+        },
+        {
+          "company": "Mapro",
+          "host": "mapro.com",
+          "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+        },
+        {
+          "company": "Millet Amma",
+          "host": "milletamma.com",
+          "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+        },
+        {
+          "company": "Millet Bank",
+          "host": "milletbank.in",
+          "result": "Rechecked: 2 new products, 0 new business routes, 0 new named people."
         }
       ],
       "schedule": "Daily at 09:15 IST (scheduled runs can be delayed)",
