@@ -12,7 +12,7 @@ The product studio includes official imagery, service and buyer filters, three-p
 
 Live preview: **https://dhampur-green-grow.vercel.app**
 
-The Vercel deployment serves the frontend and a read-only API with the 303 versioned research records and product catalogue. The preview supports browsing, filters, product opportunities and the workflow guide. It does not save CRM changes, run discovery or automations, or send messages. No local database, private notes or `.env` file is uploaded. See [DEPLOYMENT.md](DEPLOYMENT.md) for deployment details and the full backend requirements.
+The Vercel deployment serves the frontend and a read-only API with the 303 versioned research records and product catalogue. After owner sign-in, the preview supports browsing, filters, product opportunities and the workflow guide. It does not save CRM changes, run discovery or automations, or send messages. No local database, private notes or `.env` file is uploaded. See [DEPLOYMENT.md](DEPLOYMENT.md) for deployment details and the full backend requirements.
 
 Quick filters expose phone/email availability and product fit. Filters, grid/list selection and business profile links survive reloads and can be shared. Each profile includes a copyable conversation brief with source links, suggested products and explicitly unconfirmed quantity assumptions. Settings explains the three steps from the public research preview to a private workspace; unavailable write actions are disabled.
 
@@ -30,7 +30,7 @@ npm run dev
 
 Open **http://127.0.0.1:5173**. The API runs at **http://127.0.0.1:3001**.
 
-No external keys are needed to browse and work with the researched starter businesses. Local development without an administrator password is accessible only through the default loopback binding. Configure `ADMIN_PASSWORD` to require sign-in locally as well.
+No external API keys are needed to work with the researched starter businesses. Set `ADMIN_EMAIL` and `ADMIN_PASSWORD` in `.env`, then sign in on Credentials. Without an owner password, workspace sections remain locked.
 
 The app opens in **Real businesses** with **303 researched business locations** across nine markets, including 88 in Delhi NCR, 65 in Mumbai and 65 in Bengaluru. Records include official source links, research dates and public contacts where found. These are researched prospects, not confirmed buyers. A separate **Sample workspace** contains 45 fictional businesses for practice; its records and drafts stay separate and sample emails cannot be sent.
 
@@ -78,7 +78,7 @@ Set these in **`.env`** or your host's secret manager. Keep secrets out of Git a
 | **OpenAI** | `OPENAI_API_KEY`, `OPENAI_MODEL` | Optional AI pitches and product recommendations. Default configurable model: `gpt-4.1-mini`; choose a Responses-compatible model available to your account. |
 | **Hunter** | `HUNTER_API_KEY` | Optional public business email lookup for a lead's website domain. |
 | **Resend** | `RESEND_API_KEY`, `OUTREACH_FROM`, `OUTREACH_ENABLED=true` | Optional actual sending. Verify your domain and sender in Resend first. |
-| **Your team** | `ADMIN_EMAIL`, `ADMIN_PASSWORD` | Production administrator login. Use a unique password of at least 12 characters. |
+| **Your team** | `ADMIN_EMAIL`, `ADMIN_PASSWORD` | Owner login for local and hosted workspaces. Use a unique password of at least 12 characters. |
 | **Your host/domain** | `APP_URL`, `HOST`, `DATABASE_PATH` | Public HTTPS URL, persistent storage, DNS and hosting access for deployment. |
 
 Example sender: `OUTREACH_FROM=Dhampur Green <sales@your-verified-domain.com>`. Set `OUTREACH_REPLY_TO` to your monitored business mailbox. Replies go there; this release does not ingest replies or delivery webhooks.
@@ -109,7 +109,7 @@ The worker checks the persistent job queue every three seconds. The first schedu
 - New live leads begin with a zero/unestimated deal value. User-entered opportunity values and the reporting scenario are planning assumptions. Won value is not collected revenue; accounting/invoicing is outside this release.
 - Demo discovery uses deterministic sample names so repeated runs demonstrate duplicate handling.
 - No external outreach is sent during setup or testing. Automated routines prepare drafts; sending requires the user's action in the application.
-- The application has a single administrator workspace, not separate user accounts, tenant billing or role-based permissions. These can be added if multiple independent sales teams are needed.
+- The application has one owner role with full access and restricted member accounts for the Ingredient buyers section. It does not provide independent tenant workspaces or tenant billing.
 
 ## Sending and recovery
 
@@ -207,3 +207,14 @@ The research and initial market strategy are in [BUSINESS_ANALYSIS.md](BUSINESS_
 ## Ingredient buyer intelligence
 
 The default workspace now links your ingredients to sourced products from Indian brands, models transparent quantity scenarios, qualifies purchasing contacts and connects them to sales. See [INGREDIENT_BUYERS.md](INGREDIENT_BUYERS.md) for the research scope, automation, data provenance and optional nationwide search setup.
+
+
+## Owner and shared access
+
+Set `ADMIN_EMAIL` and a strong `ADMIN_PASSWORD` (at least 12 characters) in `.env` or your hosting provider’s environment settings, then restart the server. Sign in on **Credentials** to unlock all sections as the owner. Without an owner password, the platform stays locked, including the read-only preview. Existing sessions from before role-based access was introduced must sign in again.
+
+To share the platform, open **Credentials → Share access**, enter the other person’s email and an initial password, and create an ingredient account. Share those credentials privately. Members can use **Ingredient buyers**, manage their own password and work with ingredient research; every other section remains visibly locked. The API separately denies access to general leads, campaigns, exports, reports, settings, integrations and account administration. There is no public registration or member promotion to owner.
+
+Use **Revoke access** to remove a member and end all their sessions immediately. Password changes end all of that member’s sessions. To reset a forgotten member password, revoke their account and create it again with a new password. Owner credentials remain in the server environment; changing them and restarting invalidates existing owner sessions. Passwords are hashed, sessions are stored as token hashes, and API responses never include password hashes or owner secrets.
+
+Shared accounts require a persistent database. The Vercel preview uses an in-memory database and supports owner sign-in for viewing only; its sessions can end on a cold start and account creation is unavailable. Configure the owner environment variables there separately. This repository change does not update an existing deployment automatically.

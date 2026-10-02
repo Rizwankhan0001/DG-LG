@@ -2,9 +2,9 @@ import express, { type Request, type Response, type NextFunction } from 'express
 import helmet from 'helmet';
 import rateLimit from 'express-rate-limit';
 import cookieParser from 'cookie-parser';
-import bcrypt from 'bcryptjs';
-import { createHash, randomBytes, randomUUID } from 'node:crypto';
+import { randomBytes, randomUUID } from 'node:crypto';
 import { resolve } from 'node:path';
+import { accessControl } from './access.js';
 import { z, ZodError } from 'zod';
 import Papa from 'papaparse';
 import type { Store } from './db.js';
@@ -26,7 +26,6 @@ const urlSchema=z.union([z.literal(''),z.string().url().refine(s=>/^https?:\/\//
 const leadInput=z.object({name:z.string().trim().min(2).max(160),city:z.enum(cities),segment:z.enum(segments),area:z.string().max(400).default(''),email:z.union([z.literal(''),z.string().email().max(200)]).default(''),phone:z.string().max(40).default(''),website:urlSchema.default(''),owner:z.string().max(80).default('You')});
 const discoveryInput=z.object({cities:z.array(z.enum(cities)).min(1).max(10),segments:z.array(z.enum(segments)).min(1).max(9),limit:z.number().int().min(1).max(500).default(100),mode:modeSchema});
 const automationInput=z.object({name:z.string().trim().min(3).max(100),cities:z.array(z.enum(cities)).min(1).max(10),segments:z.array(z.enum(segments)).min(1).max(9),frequency:z.enum(['daily','weekly']),enabled:z.boolean().default(false),mode:modeSchema,minScore:z.number().int().min(0).max(100).default(70),draftOutreach:z.boolean().default(true),enrichEmails:z.boolean().default(false)});
-const hash=(s:string)=>createHash('sha256').update(s).digest('hex');
 const asyncRoute=(fn:(req:Request,res:Response)=>Promise<unknown>)=>(req:Request,res:Response,next:NextFunction)=>{void fn(req,res).catch(next);};
 const error=(message:string,status=400)=>Object.assign(new Error(message),{status});
 
@@ -35,9 +34,8 @@ export function createApp(store:Store,options:{readOnly?:boolean}={}) {
   const app=express();
   const readOnly=options.readOnly===true;
   const production=process.env.NODE_ENV==='production';
-  const password=readOnly?'':process.env.ADMIN_PASSWORD||'';
+  const password=process.env.ADMIN_PASSWORD||'';
   if(production && !readOnly && (password.length<12 || !process.env.APP_URL?.startsWith('https://')))throw new Error('Production requires ADMIN_PASSWORD (12+ characters) and an HTTPS APP_URL.');
-  const passwordHash=password?bcrypt.hashSync(password,12):'';
   app.disable('x-powered-by');
   app.set('trust proxy',1);
   app.use(helmet({contentSecurityPolicy:production?{directives:{defaultSrc:["'self'"],scriptSrc:["'self'"],styleSrc:["'self'","'unsafe-inline'"],imgSrc:["'self'",'data:','https://cdn.shopify.com'],fontSrc:["'self'"],connectSrc:["'self'"],upgradeInsecureRequests:[]}}:false}));
@@ -45,10 +43,9 @@ export function createApp(store:Store,options:{readOnly?:boolean}={}) {
   app.get('/api/health',(_req,res)=>{res.setHeader('Cache-Control','no-store');res.json({ok:true,service:'dhampur-green-grow',revision:process.env.VERCEL_GIT_COMMIT_SHA?.slice(0,12)||'local',readOnly});});
   app.use('/api',(req,res,next)=>{
     res.setHeader('Cache-Control','no-store');
-    if(readOnly&&!['GET','HEAD','OPTIONS'].includes(req.method))return res.status(503).json({error:'This live preview is read-only. Saving, automated searches and sending will be available after the cloud backend is connected.'});
     next();
   });
-  app.use('/api/webhooks/whatsapp',whatsappWebhook(store));
+  app.use('/api/webhooks/whatsapp',(req,res,next)=>readOnly?res.status(503).json({error:'This preview is read-only.'}):next(),whatsappWebhook(store));
   app.use('/api',rateLimit({windowMs:60000,limit:240,standardHeaders:'draft-7',legacyHeaders:false,message:{error:'Too many requests. Please try again in a minute.'}}));
   app.use('/api',(req,res,next)=>{
     if(['GET','HEAD','OPTIONS'].includes(req.method)||req.path==='/unsubscribe')return next();
@@ -58,21 +55,12 @@ export function createApp(store:Store,options:{readOnly?:boolean}={}) {
     if(origin&&!allowed.has(origin))return res.status(403).json({error:'Origin is not allowed.'});
     next();
   });
-  const isAuthed=(req:Request)=>{
-    if(!password)return true;
-    const token=req.cookies.grow_session;
-    return typeof token==='string'&&!!store.db.prepare('SELECT token FROM sessions WHERE token=? AND expires>?').get(hash(token),Date.now());
-  };
-  app.get('/api/auth/status',(req,res)=>res.json({authenticated:isAuthed(req),required:!!password}));
-  app.post('/api/auth/login',rateLimit({windowMs:900000,limit:10,message:{error:'Too many login attempts. Please wait 15 minutes.'}}),asyncRoute(async(req,res)=>{
-    const input=z.object({email:z.string().email(),password:z.string().max(200)}).parse(req.body);
-    if(!passwordHash||input.email.toLowerCase()!==(process.env.ADMIN_EMAIL||'admin@dhampurgreen.com').toLowerCase()||!await bcrypt.compare(input.password,passwordHash))return res.status(401).json({error:'Incorrect email or password.'});
-    const token=randomBytes(32).toString('hex');
-    store.db.prepare('DELETE FROM sessions WHERE expires<?').run(Date.now());
-    store.db.prepare('INSERT INTO sessions VALUES(?,?)').run(hash(token),Date.now()+7*86400000);
-    res.cookie('grow_session',token,{httpOnly:true,sameSite:'lax',secure:production,maxAge:7*86400000,path:'/'});res.json({ok:true});
-  }));
-  app.post('/api/auth/logout',(req,res)=>{if(req.cookies.grow_session)store.db.prepare('DELETE FROM sessions WHERE token=?').run(hash(req.cookies.grow_session));res.clearCookie('grow_session',{path:'/'}).json({ok:true});});
+  const access=accessControl(store,readOnly);
+  app.use('/api',access.router);
+  app.use('/api',(req,res,next)=>{
+    if(readOnly&&!['GET','HEAD','OPTIONS'].includes(req.method))return res.status(503).json({error:'This live preview is read-only. Saving, automated searches and sending will be available after the cloud backend is connected.'});
+    next();
+  });
   // A token only identifies its own recipient and cannot unsubscribe arbitrary email addresses.
   app.get('/api/unsubscribe',(req,res)=>{
     const token=z.string().regex(/^[a-f0-9]{64}$/).safeParse(req.query.token);
@@ -87,9 +75,13 @@ export function createApp(store:Store,options:{readOnly?:boolean}={}) {
     for(const lead of store.list<Lead>('leads').filter(l=>l.email.toLowerCase()===row.email.toLowerCase()))store.put('leads',{...lead,suppressed:true});
     res.type('html').send('<!doctype html><title>Unsubscribed</title><main style="font-family:system-ui;max-width:520px;margin:80px auto;padding:24px"><h1>You’re unsubscribed.</h1><p>You will no longer receive business outreach from Dhampur Green.</p></main>');
   });
-  app.use('/api',(req,res,next)=>isAuthed(req)?next():res.status(401).json({error:'Please sign in to continue.'}));
-  app.use('/api',campaignRoutes(store));
+  // Members can use the ingredient workspace, but every other workspace API
+  // remains behind the owner-only boundary below.
+  app.use('/api/ingredient-intelligence/companies/:id/lead',access.ownerOnly);
+  app.use('/api/ingredient-intelligence',access.signedIn);
   app.use('/api',intelligenceRoutes(store,readOnly));
+  app.use('/api',access.ownerOnly);
+  app.use('/api',campaignRoutes(store));
   const findLead=(id:string)=>{const lead=store.get<Lead>('leads',id);if(!lead)throw error('Lead not found.',404);return lead;};
   app.get('/api/data-quality',(_req,res)=>res.json(dataReport(store)));
   app.post('/api/leads/:id/google-check',asyncRoute(async(req,res)=>{

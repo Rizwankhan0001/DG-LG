@@ -5,9 +5,10 @@ import { seed } from '../server/seed.js';
 import { seedResearch } from '../server/research.js';
 import type { Product } from '../shared/types.js';
 
-// The public deployment contains only the versioned public research and sample workspace.
-// No local CRM database, notes, passwords or provider credentials are uploaded.
-// Write routes are blocked before authentication or provider calls can execute.
+// The preview contains only versioned public research and the sample workspace.
+// Owner sign-in is required even in the preview; configure ADMIN_EMAIL and ADMIN_PASSWORD
+// in the hosting environment. No local database or .env is uploaded.
+// Workspace writes and member provisioning require the persistent private backend.
 if(!process.env.APP_URL){
   const domain=process.env.VERCEL_PROJECT_PRODUCTION_URL||process.env.VERCEL_URL;
   if(domain)process.env.APP_URL=`https://${domain}`;

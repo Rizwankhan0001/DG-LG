@@ -1,3 +1,4 @@
+import { configureTestOwner, ownerCookie } from './auth-helper';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { once } from 'node:events';
@@ -69,10 +70,11 @@ test('unsupported or unapproved Meta templates cannot become campaign senders',a
   }finally{s.close();}
 });
 test('campaign API protects public preview, verifies permission imports atomically and accepts only signed opt-outs',async()=>{
-  const s=fixture();const server=createApp(s.store).listen(0,'127.0.0.1');await once(server,'listening');const root=`http://127.0.0.1:${(server.address() as {port:number}).port}/api`;
-  const post=(path:string,body:unknown,headers:Record<string,string>={})=>nativeFetch(root+path,{method:'POST',headers:{'Content-Type':'application/json','X-Requested-With':'Grow',...headers},body:JSON.stringify(body)});
+  configureTestOwner();const s=fixture();const server=createApp(s.store).listen(0,'127.0.0.1');await once(server,'listening');const root=`http://127.0.0.1:${(server.address() as {port:number}).port}/api`;
+  const cookie=await ownerCookie(root);
+  const post=(path:string,body:unknown,headers:Record<string,string>={})=>nativeFetch(root+path,{method:'POST',headers:{'Content-Type':'application/json','X-Requested-With':'Grow',Cookie:cookie,...headers},body:JSON.stringify(body)});
   try{const lead=s.add({permissions:{email:undefined,whatsapp:undefined}});
-    const rewritten=await nativeFetch(root+'/campaigns/audience?channel=email&limit=100&path=campaigns%2Faudience');assert.equal(rewritten.status,200);assert.equal((await rewritten.json()).matching,1);
+    const rewritten=await nativeFetch(root+'/campaigns/audience?channel=email&limit=100&path=campaigns%2Faudience',{headers:{Cookie:cookie}});assert.equal(rewritten.status,200);assert.equal((await rewritten.json()).matching,1);
     let response=await post('/campaign-permissions',{rows:[{leadId:lead.id,address:lead.email,channel:'email',status:'granted',note:'Buyer signed form on 25 September',confirmed:true},{leadId:'missing',address:'missing@business.test',channel:'email',status:'granted',note:'Buyer signed form',confirmed:true}]});assert.equal(response.status,400);assert.equal(s.store.get<Lead>('leads',lead.id)?.permissions?.email,undefined);
     response=await post('/campaign-permissions',{rows:[{leadId:lead.id,address:'different@business.test',channel:'email',status:'granted',note:'Buyer signed form on 25 September',confirmed:true}]});assert.equal(response.status,400);
     response=await post('/campaign-permissions',{rows:[{leadId:lead.id,address:lead.email,channel:'email',status:'granted',note:'Buyer signed form on 25 September',confirmed:true}]});assert.equal(response.status,200);assert.equal(campaignAudience(s.store,filters).ready,1);

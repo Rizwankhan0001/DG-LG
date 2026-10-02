@@ -1,0 +1,35 @@
+.credentials-page { max-width: 1120px; margin: 0 auto; }
+.credentials-layout { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+.credential-card, .credential-access { padding: 28px; }
+.credential-card h2, .credential-access h2 { font-size: 21px; margin: 14px 0 10px; }
+.credential-card p, .credential-access p { line-height: 1.65; color: #68746b; }
+.credential-card .form-stack { padding: 0; margin-top: 24px; }
+.credential-symbol { display: inline-flex; background: #edf3e8; color: #416349; border-radius: 14px; padding: 14px; }
+.credential-email { overflow-wrap: anywhere; font-weight: 600; }
+.credential-access { background: #f6f8f2; }
+.credential-access > svg { color: #55744d; }
+.credential-permission { display: flex; align-items: center; gap: 10px; padding: 16px 0; border-bottom: 1px solid #dfe6d9; font-size: 13px; }
+.credential-permission strong { margin-left: auto; color: #47613f; }
+.credential-members { margin-top: 24px; }
+.credential-invite { display: grid; grid-template-columns: 1fr 1fr auto; align-items: end; gap: 16px; margin: 24px 0; }
+.credential-invite label { min-width: 0; }
+.credential-member { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 18px 0; border-top: 1px solid #e5e9e1; }
+.credential-member > div { min-width: 0; overflow-wrap: anywhere; }
+.credential-member small { display: block; margin-top: 6px; color: #73806d; }
+.credential-success, .locked-notice { display: flex; align-items: center; gap: 12px; padding: 15px 18px; border: 1px solid #dfe6d9; border-radius: 12px; background: #f2f6ec; margin-bottom: 22px; font-size: 13px; }
+.locked-notice > svg { flex-shrink: 0; }
+.locked-notice > button { margin-left: auto; }
+.nav-item.nav-locked { color: #747e75; }
+.nav-item.nav-locked > svg:last-child { margin-left: auto; flex-shrink: 0; color: #929b8d; }
+.access-pill { display: inline-flex; align-items: center; gap: 7px; border-radius: 100px; padding: 8px 12px; font-size: 12px; background: #f0f3eb; color: #59674f; }
+.restricted-note { padding: 18px; background: #f0f3e9; border-radius: 12px; color: #5f7054; }
+.restricted-note strong { display: block; margin-top: 8px; font-size: 13px; }
+.restricted-note p { font-size: 12px; line-height: 1.6; margin-bottom: 0; }
+@media (max-width: 1000px) { .credential-invite { grid-template-columns: 1fr; } }
+@media (max-width: 700px) {
+  .credentials-layout { grid-template-columns: 1fr; gap: 16px; }
+  .credential-card, .credential-access { padding: 20px; }
+  .credential-member { align-items: flex-start; flex-direction: column; }
+  .access-pill { font-size: 11px; padding: 7px 9px; }
+  .restricted-shell .breadcrumb > span:first-of-type, .restricted-shell .breadcrumb > .slash { display: none; }
+}

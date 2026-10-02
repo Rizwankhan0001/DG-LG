@@ -1,6 +1,6 @@
 # Publish Dhampur Green Grow
 
-The public Vercel preview provides browsing with a read-only API. The full writable application needs **one always-on Node/Docker service and a persistent volume**, or a database and scheduler migration for serverless hosting.
+The Vercel preview provides owner-authenticated browsing with a read-only workspace API. The full writable application needs **one always-on Node/Docker service and a persistent volume**, or a database and scheduler migration for serverless hosting.
 
 ## Vercel preview
 
@@ -14,15 +14,15 @@ Vercel is connected to **`Rizwankhan0001/DG-LG`**, with **`main`** as the produc
 
 Check the deployment in the Vercel project's Deployments page. `/api/health` includes the first 12 characters of the deployed Git commit as `revision`, allowing you to verify which source version is serving production. A CLI-only deployment without Git metadata reports `local`.
 
-`vercel.json` builds the Vite frontend and routes `/api/*` to `api/index.ts`. The function initializes an in-memory database from the checked-in public research and catalogue. All API writes are blocked before authentication or provider calls. The frontend displays a preview notice and avoids background polling. The full local application still uses `server/index.ts` and supports saving.
+`vercel.json` builds the Vite frontend and routes `/api/*` to `api/index.ts`. The function initializes an in-memory database from the checked-in public research and catalogue. Owner sign-in and sign-out are available; workspace writes and member provisioning are blocked. The frontend displays a preview notice and avoids polling workspace data. The full local application still uses `server/index.ts` and supports saving.
 
 ```bash
 vercel deploy --prod
 ```
 
-Use Node.js 22. No provider keys are required for this preview. `.vercelignore` excludes local databases, backups, environment files and generated artifacts. Never upload private CRM data or provider credentials to this public preview. Adding provider keys alone will not enable editing: the Vercel entrypoint intentionally enforces read-only access.
+Use Node.js 22. Configure `ADMIN_EMAIL` and a strong `ADMIN_PASSWORD` in the Vercel environment to unlock the preview as the owner. Without them, only the Credentials page is available. Ingredient-only member accounts require the persistent private backend. Members can access Ingredient buyers and their own credentials; all general sales, campaign, report, settings and administration APIs remain owner-only. No provider keys are required for this preview. `.vercelignore` excludes local databases, backups, environment files and generated artifacts. Never upload private CRM data or provider credentials to this public preview. Adding provider keys alone will not enable editing: the Vercel entrypoint intentionally enforces read-only access.
 
-For a writable hosted workspace, deploy the existing persistent backend below, or migrate the database to a cloud service, restore administrator authentication, and move scheduled work to a durable queue before enabling writes on Vercel.
+For a writable hosted workspace, deploy the existing persistent backend below, or migrate the database to a cloud service, retain owner authentication, and move scheduled work to a durable queue before enabling writes on Vercel.
 
 ## Railway (integrated deployment option)
 

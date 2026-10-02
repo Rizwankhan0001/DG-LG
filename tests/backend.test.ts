@@ -1,3 +1,4 @@
+import { configureTestOwner, ownerCookie } from './auth-helper';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { once } from 'node:events';
@@ -20,17 +21,19 @@ import type { Lead, Product, Job, Draft } from '../shared/types.js';
 
 const products=JSON.parse(readFileSync(new URL('../data/catalog.json',import.meta.url),'utf8')) as Product[];
 const nativeFetch=globalThis.fetch;
-async function setup(options:{readOnly?:boolean}={}){
+async function setup(options:{readOnly?:boolean;anonymous?:boolean}={}){
+  configureTestOwner();
   const store=createStore(':memory:');seed(store,products);const server=createApp(store,options).listen(0,'127.0.0.1');await once(server,'listening');
   const address=server.address() as {port:number};const url=`http://127.0.0.1:${address.port}/api`;
+  const cookie=options.anonymous?'':await ownerCookie(url);
   async function request(path:string,body?:unknown,method?:string,headers:Record<string,string>={}){
-    const response=await nativeFetch(url+path,{method:method??(body?'POST':'GET'),headers:{'Content-Type':'application/json','X-Requested-With':'Grow',...headers},...(body?{body:JSON.stringify(body)}:{})});
+    const response=await nativeFetch(url+path,{method:method??(body?'POST':'GET'),headers:{'Content-Type':'application/json','X-Requested-With':'Grow',Cookie:cookie,...headers},...(body?{body:JSON.stringify(body)}:{})});
     const text=await response.text();let data;try{data=JSON.parse(text);}catch{data=text;}return {status:response.status,data,headers:response.headers};
   }
   return {store,request,close:async()=>{server.closeAllConnections();await new Promise<void>((resolve,reject)=>server.close(e=>e?reject(e):resolve()));store.db.close();}};
 }
 
-test('public preview serves sourced records but blocks all writes and provider actions',async()=>{
+test('authenticated preview serves sourced records but blocks workspace writes and provider actions',async()=>{
   const s=await setup({readOnly:true});
   try{
     seedResearch(s.store);
@@ -42,7 +45,6 @@ test('public preview serves sourced records but blocks all writes and provider a
       [`/leads/${lead.id}/draft`,'POST',{}],
       [`/leads/${lead.id}/google-check`,'POST',{}],
       ['/discover','POST',{cities:['Mumbai'],segments:['Bakeries'],mode:'live',limit:10}],
-      ['/auth/login','POST',{email:'any@example.com',password:'password'}],
     ] as const){const blocked=await s.request(path,body,method);assert.equal(blocked.status,503);assert.match(blocked.data.error,/read-only/);}
     assert.deepEqual(s.store.get('leads',lead.id),lead);
     const state=(await s.request('/readiness')).data;assert.equal(state.databaseHealthy,false);assert.equal(state.schedulerEnabled,false);
@@ -122,7 +124,7 @@ test('Google checks are live-only, preserve the CRM and enforce daily quotas',as
   }finally{globalThis.fetch=nativeFetch;await s.close();if(previous)process.env.GOOGLE_PLACES_API_KEY=previous;else delete process.env.GOOGLE_PLACES_API_KEY;if(limit)process.env.DAILY_DISCOVERY_LIMIT=limit;else delete process.env.DAILY_DISCOVERY_LIMIT;}
 });
 test('request origin protection and database-backed sign-in protect the workspace',async()=>{
-  const previous=process.env.ADMIN_PASSWORD;process.env.ADMIN_PASSWORD='test-password-123456';const s=await setup();
+  const previous=process.env.ADMIN_PASSWORD;process.env.ADMIN_PASSWORD='test-password-123456';const s=await setup({anonymous:true});
   try{
     assert.equal((await s.request('/bootstrap')).status,401);
     const blocked=await s.request('/auth/login',{email:'admin@dhampurgreen.com',password:'test-password-123456'},undefined,{Origin:'https://untrusted.example'});assert.equal(blocked.status,403);

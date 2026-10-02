@@ -1,3 +1,4 @@
+import { configureTestOwner, ownerCookie } from './auth-helper';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { once } from 'node:events';
@@ -120,7 +121,7 @@ test('catalogue refresh adds reviewable products, retains failures, and recovers
     assert.throws(()=>queueIngredientResearch(store,['http://127.0.0.1']),/supported/);
   }finally{globalThis.fetch=nativeFetch;store.db.close();}
 });
-async function fixture(readOnly=false){const store=createStore(':memory:');seed(store,catalogue);const server=createApp(store,{readOnly}).listen(0,'127.0.0.1');await once(server,'listening');const base=`http://127.0.0.1:${(server.address() as {port:number}).port}/api`;return {store,request:(path:string,body?:unknown,method=body?'POST':'GET')=>nativeFetch(base+path,{method,headers:{'Content-Type':'application/json','X-Requested-With':'Grow'},...(body?{body:JSON.stringify(body)}:{})}),close:async()=>{server.closeAllConnections();await new Promise<void>(r=>server.close(()=>r()));store.db.close();}};}
+async function fixture(readOnly=false){configureTestOwner();const store=createStore(':memory:');seed(store,catalogue);const server=createApp(store,{readOnly}).listen(0,'127.0.0.1');await once(server,'listening');const base=`http://127.0.0.1:${(server.address() as {port:number}).port}/api`;const cookie=await ownerCookie(base);return {store,request:(path:string,body?:unknown,method=body?'POST':'GET')=>nativeFetch(base+path,{method,headers:{'Content-Type':'application/json','X-Requested-With':'Grow',Cookie:cookie},...(body?{body:JSON.stringify(body)}:{})}),close:async()=>{server.closeAllConnections();await new Promise<void>(r=>server.close(()=>r()));store.db.close();}};}
 test('research API validates buyer evidence and persists scenarios; conversion is idempotent and does not opt in contacts',async()=>{
   const s=await fixture();try{
     const initial=await (await s.request('/ingredient-intelligence?path=ingredient-intelligence')).json() as IngredientBootstrap;assert.equal(initial.products.length,packagedProducts.length);assert.equal(initial.readOnly,false);

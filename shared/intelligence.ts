@@ -16,7 +16,7 @@ export interface IngredientRun {id:string;companyIds:string[];completedCompanyId
 export interface IngredientSearchInput {family:IngredientFamily;industry:string;location:string;marketplace:boolean}
 export interface IngredientSearch extends IngredientSearchInput {id:string;query:string;createdAt:string;finishedAt?:string;status:'queued'|'running'|'completed'|'failed';error:string;results:{title:string;url:string;excerpt:string}[]}
 export interface IngredientSchedule {id:string;enabled:boolean;companyIds:string[];nextRun:string;lastRun:string;discovery?:IngredientSearchInput|null}
-export interface IngredientBootstrap {companies:BuyerCompany[];products:BuyerProduct[];materials:SupplierMaterial[];workspaces:BuyerWorkspace[];runs:IngredientRun[];searches:IngredientSearch[];searchConfigured:boolean;schedule:IngredientSchedule;workerEnabled:boolean;coverage:{companyId:string;enabled:boolean;detail:string}[];readOnly:boolean;dailyResearch?:DailyResearchReport|null}
+export interface IngredientBootstrap {companies:BuyerCompany[];products:BuyerProduct[];catalogue:Product[];materials:SupplierMaterial[];workspaces:BuyerWorkspace[];runs:IngredientRun[];searches:IngredientSearch[];searchConfigured:boolean;schedule:IngredientSchedule;workerEnabled:boolean;coverage:{companyId:string;enabled:boolean;detail:string}[];readOnly:boolean;dailyResearch?:DailyResearchReport|null}
 
 export function ingredientPriority(product:BuyerProduct,company:BuyerCompany,workspace?:BuyerWorkspace){
   const reasons:{label:string;points:number}[]=[];

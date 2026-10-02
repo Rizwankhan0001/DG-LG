@@ -1,16 +1,17 @@
 import { createContext, useContext, useEffect, useRef, type ReactNode } from 'react';
 import { X, Loader2, SearchX, ArrowUpRight, type LucideIcon } from 'lucide-react';
 import type { Bootstrap, Lead, Mode, Draft } from '../shared/types';
+import type { AccessRole } from '../shared/access';
 export async function api<T=Record<string,unknown>>(path:string,body?:unknown,method?:string):Promise<T>{
   const response=await fetch('/api'+path,{method:method||(body?'POST':'GET'),headers:{'Content-Type':'application/json','X-Requested-With':'Grow'},credentials:'same-origin',...(body?{body:JSON.stringify(body)}:{})});
-  const json=await response.json();if(!response.ok){if(response.status===401)window.dispatchEvent(new Event('grow:logout'));throw new Error(json.error||'Unable to complete this action.');}return json;
+  const json=await response.json();if(!response.ok){if(response.status===401&&path!=='/auth/login')window.dispatchEvent(new Event('grow:logout'));throw new Error(json.error||'Unable to complete this action.');}return json;
 }
 export const currency=(value:number,compact=true)=>compact&&value>=100000?`₹${(value/100000).toFixed(1)}L`:compact&&value>=1000?`₹${(value/1000).toFixed(value%1000?1:0)}k`:new Intl.NumberFormat('en-IN',{style:'currency',currency:'INR',maximumFractionDigits:0}).format(value);
 export const initials=(name:string)=>name.replace(/[^a-zA-Z0-9 ]/g,'').split(' ').filter(Boolean).slice(0,2).map(s=>s[0]).join('');
 export const dateLabel=(date:string)=>new Date(date).toLocaleDateString('en-IN',{day:'numeric',month:'short'});
 export const relativeTime=(date:string)=>{const m=Math.floor((Date.now()-Date.parse(date))/60000);return m<1?'Just now':m<60?`${m}m ago`:m<1440?`${Math.floor(m/60)}h ago`:`${Math.floor(m/1440)}d ago`;};
-export type Page='Ingredient buyers'|'Campaigns'|'Data & accuracy'|'How it works'|'Overview'|'Today'|'Discover leads'|'Saved leads'|'Sales pipeline'|'Outreach studio'|'Automations'|'Product catalogue'|'Reports'|'Settings';
-export interface AppContextType {data:Bootstrap;mode:Mode;setMode:(m:Mode)=>void;refresh:()=>Promise<void>;navigate:(p:Page)=>void;openLead:(lead:Lead)=>void;logContact:(lead:Lead)=>void;openDraft:(draft:Draft)=>void;discover:(city?:string,segment?:string)=>void;browse:(city?:string,segment?:string)=>void;notify:(message:string,type?:'success'|'error')=>void;run:<T>(fn:()=>Promise<T>,message?:string)=>Promise<T|undefined>}
+export type Page='Credentials'|'Ingredient buyers'|'Campaigns'|'Data & accuracy'|'How it works'|'Overview'|'Today'|'Discover leads'|'Saved leads'|'Sales pipeline'|'Outreach studio'|'Automations'|'Product catalogue'|'Reports'|'Settings';
+export interface AppContextType {data:Bootstrap;accessRole:AccessRole;mode:Mode;setMode:(m:Mode)=>void;refresh:()=>Promise<void>;navigate:(p:Page)=>void;openLead:(lead:Lead)=>void;logContact:(lead:Lead)=>void;openDraft:(draft:Draft)=>void;discover:(city?:string,segment?:string)=>void;browse:(city?:string,segment?:string)=>void;notify:(message:string,type?:'success'|'error')=>void;run:<T>(fn:()=>Promise<T>,message?:string)=>Promise<T|undefined>}
 export const AppContext=createContext<AppContextType>(null!);
 export const useApp=()=>useContext(AppContext);
 export function Button({children,icon:Icon,variant='',className='',busy=false,requiresWrite=false,...props}:React.ButtonHTMLAttributes<HTMLButtonElement>&{icon?:LucideIcon;variant?:string;busy?:boolean;requiresWrite?:boolean}){

@@ -60,12 +60,24 @@ try {
   const plan={useCaseId:'sachets',dailyLow:80,dailyHigh:100,days:25,portion:1,supplyShare:50,notes:'Production persistence check'};
   const scenario=await fetch(base+`/api/leads/${lead.id}/demand-plan`,{method:'PUT',headers:{Cookie:cookie,'Content-Type':'application/json','X-Requested-With':'Grow',Origin:'https://localhost'},body:JSON.stringify(plan)});
   assert.equal(scenario.status,200);
-  await stop();await start();cookie=await login();
+  const memberCreated=await fetch(base+'/api/credentials/accounts',{method:'POST',headers:{Cookie:cookie,'Content-Type':'application/json','X-Requested-With':'Grow',Origin:'https://localhost'},body:JSON.stringify({email:'member@example.org',password:'production-member-password'})});
+  assert.equal(memberCreated.status,201);
+  const memberLogin=await fetch(base+'/api/auth/login',{method:'POST',headers:{'Content-Type':'application/json','X-Requested-With':'Grow',Origin:'https://localhost'},body:JSON.stringify({email:'member@example.org',password:'production-member-password'})});
+  assert.equal(memberLogin.status,200);const memberCookie=memberLogin.headers.get('set-cookie').split(';')[0];
+  await stop();await start();
+  assert.equal((await fetch(base+'/api/bootstrap',{headers:{Cookie:cookie}})).status,200);
+  assert.equal((await fetch(base+'/api/bootstrap',{headers:{Cookie:memberCookie}})).status,403);
+  assert.equal((await fetch(base+'/api/ingredient-intelligence',{headers:{Cookie:memberCookie}})).status,200);
+  assert.equal((await (await fetch(base+'/api/auth/status',{headers:{Cookie:memberCookie}})).json()).role,'member');
+  const accounts=await (await fetch(base+'/api/credentials/accounts',{headers:{Cookie:cookie}})).json();assert.equal(accounts.length,1);assert.equal(accounts[0].email,'member@example.org');
+  cookie=await login();
   const restored=await (await fetch(base+'/api/bootstrap',{headers:{Cookie:cookie}})).json();
   assert.equal(restored.leads.find(item=>item.id===lead.id).saved,true);
   assert.equal(restored.leads.length,expectedRecords);
   assert.equal(restored.leads.find(item=>item.id===lead.id).demandPlan.dailyLow,80);
   const restoredResearch=await (await fetch(base+'/api/ingredient-intelligence',{headers:{Cookie:cookie}})).json();
   assert.equal(restoredResearch.workspaces.find(w=>w.id==='true-elements').notes,'Ingredient research persistence check');
-  console.log('Production check passed: compiled frontend, protected API, secure session cookies, real starter records and data persistence after restart.');
+  await stop();env.ADMIN_PASSWORD=randomBytes(24).toString('base64url');await start();
+  assert.equal((await fetch(base+'/api/bootstrap',{headers:{Cookie:cookie}})).status,401);
+  console.log('Production check passed: compiled frontend, protected owner APIs, ingredient-only member access, secure session cookies, persistent accounts and data, and owner credential rotation.');
 } finally {await stop();await rm(directory,{recursive:true,force:true});}

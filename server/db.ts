@@ -12,6 +12,10 @@ export function createStore(path: string) {
   db.exec(`CREATE TABLE IF NOT EXISTS entities (collection TEXT NOT NULL, id TEXT NOT NULL, data TEXT NOT NULL, PRIMARY KEY(collection,id));
     CREATE TABLE IF NOT EXISTS lead_keys (fingerprint TEXT PRIMARY KEY, lead_id TEXT NOT NULL);
     CREATE TABLE IF NOT EXISTS sessions (token TEXT PRIMARY KEY, expires INTEGER NOT NULL);
+    CREATE TABLE IF NOT EXISTS accounts (id TEXT PRIMARY KEY, email TEXT NOT NULL UNIQUE, password_hash TEXT NOT NULL, createdAt TEXT NOT NULL);
+    CREATE TABLE IF NOT EXISTS owner_credentials (id TEXT PRIMARY KEY, email TEXT NOT NULL, password_hash TEXT NOT NULL, version TEXT NOT NULL);
+    CREATE TABLE IF NOT EXISTS access_sessions (token TEXT PRIMARY KEY, expires INTEGER NOT NULL, account_id TEXT NOT NULL, credential_version TEXT NOT NULL);
+    CREATE INDEX IF NOT EXISTS access_sessions_account ON access_sessions(account_id);
     CREATE TABLE IF NOT EXISTS suppressions (email TEXT PRIMARY KEY, created_at TEXT NOT NULL);
     CREATE TABLE IF NOT EXISTS unsubscribe_tokens (token TEXT PRIMARY KEY, email TEXT NOT NULL);
     CREATE TABLE IF NOT EXISTS usage (day TEXT NOT NULL, kind TEXT NOT NULL, count INTEGER NOT NULL, PRIMARY KEY(day,kind));`);

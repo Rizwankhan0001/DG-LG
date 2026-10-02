@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import App from './Access';
 import './styles.css';
 import './redesign.css';
 import './polish.css';
 import './modern.css';
 import './ingredients.css';
+import './access.css';
 ReactDOM.createRoot(document.getElementById('root')!).render(<React.StrictMode><App/></React.StrictMode>);
