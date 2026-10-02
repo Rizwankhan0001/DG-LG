@@ -33180,5 +33180,575 @@
     "reviewStatus": "Needs review",
     "status": "Unavailable at check",
     "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "ravi-sweets-web-32ab514f719aeaa3",
+    "companyId": "ravi-sweets",
+    "name": "Kaju Katli",
+    "url": "https://ravisweets.com/product/kaju-katli/",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Cashews; Sugar; Ghee; Cardamom; Edible silver leaf",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "ravi-sweets-web-3fbac69b9d379f7c",
+    "companyId": "ravi-sweets",
+    "name": "Gulab Jamun",
+    "url": "https://ravisweets.com/product/gulab-jamun/",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Khoya (milk solids); Refined flour; Sugar; Ghee; Rose water; Saffron; Cardamom",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "ravi-sweets-web-0e1d8af71057d682",
+    "companyId": "ravi-sweets",
+    "name": "Motichoor Ladoo",
+    "url": "https://ravisweets.com/product/motichoor-ladoo/",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Gram flour; Sugar; Ghee; Saffron; Cardamom; Melon seeds",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-zamaorganics-com-8486847119682",
+    "companyId": "web-zamaorganics-com",
+    "name": "HAZELNUT BUTTER",
+    "url": "https://zamaorganics.com/products/hazelnut-butter",
+    "image": "https://cdn.shopify.com/s/files/1/0782/6161/6962/files/hazel_nut_butter_drive.png?v=1753339251&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0782/6161/6962/files/hazel_nut_butter_drive.png?v=1753339251&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Hazelnut, Organic Palm Jaggery, Dark Cocoa, Powder Natural Vanilla Extract, Pink Salt.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Palm jaggery",
+        "term": "Palm Jaggery",
+        "quote": "Palm Jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "Published ingredient use supports a supplier conversation, not confirmed buying interest."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9411842605272",
+    "companyId": "web-anafoods-in",
+    "name": "Poongar Chocos – Rice Chocolate Breakfast Cereal",
+    "url": "https://anafoods.in/products/poongarrice-chocos-rice-chocolate-breakfast-cereal",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Poongar_Chocos_Ana_Foods.png?v=1787042546&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Poongar_Chocos_Ana_Foods.png?v=1787042546&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Poongar Rice (29%), Jaggery (27%), Corn (12%), Jowar (6%), Ragi (6%), Cocoa Powder, Rice bran oil, Malt extract powder, Iodised Salt, and Vanilla powder.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery 27%",
+        "percent": 27,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9325600735448",
+    "companyId": "web-anafoods-in",
+    "name": "Thinai Choco Fills – Foxtail Millet White Chocolate Cereal | 50% Millets",
+    "url": "https://anafoods.in/products/thinai-choco-fills",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Thinai_Center_Fill_with_white_chocolate_-_Ana_Foods.jpg?v=1784178252&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Thinai_Center_Fill_with_white_chocolate_-_Ana_Foods.jpg?v=1784178252&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Shell (50% Millets): Jowar, Foxtail Millet (Thinai), Corn, Wheat, Sugar, Rice Bran Oil, Iodised Salt",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9321812820184",
+    "companyId": "web-anafoods-in",
+    "name": "Ragi Choco Fills – Millet Chocolate Breakfast Cereal | 37% Millets",
+    "url": "https://anafoods.in/products/ragi-choco-fills",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Ragi_choco_fills_Ana_foods.png?v=1783766989&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Ragi_choco_fills_Ana_foods.png?v=1783766989&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Millets (37%) – Ragi, Jowar & Thinai; Corn; Sugar; Cocoa Powder; Milk Solids; Edible Vegetable Oil (Palm Oil); Chocolate Cream Filling (Sugar, Edible Vegetable Oil, Cocoa Solids); Emulsifier (INS 322(i)); Natural & Nature-Identical Chocolate Flavouring Substances",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      },
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "compound",
+        "note": "This ingredient is inside another ingredient. The brand may buy a finished component; identify its manufacturer before proposing raw material."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9130347004120",
+    "companyId": "web-anafoods-in",
+    "name": "Cold Pressed Sesame Oil – Pure Nallennai | Palm Jaggery Processed | Ana Foods",
+    "url": "https://anafoods.in/products/cold-pressed-sesame-oil",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/ColdPressedSesameOil-AnaFoods_0ef4c295-a8a0-4374-8114-0acdf7ab940e.jpg?v=1770203727&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/ColdPressedSesameOil-AnaFoods_0ef4c295-a8a0-4374-8114-0acdf7ab940e.jpg?v=1770203727&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Sesame seeds, palm jaggery",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Palm jaggery",
+        "term": "palm jaggery",
+        "quote": "palm jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "Published ingredient use supports a supplier conversation, not confirmed buying interest."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9127511359704",
+    "companyId": "web-anafoods-in",
+    "name": "Ragi Chocos – Millet Chocolate Breakfast Cereal",
+    "url": "https://anafoods.in/products/ragi-chocos",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Ana_foods_Ragi_Chocos.jpg?v=1789383841&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Ana_foods_Ragi_Chocos.jpg?v=1789383841&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Ragi, bajra, jowar, jaggery, corn, cocoa powder, vegetable oil, vanilla powder, iodised salt",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery",
+        "quote": "jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9127506247896",
+    "companyId": "web-anafoods-in",
+    "name": "Strawberry Pancake Mix – Millet & Oats | Jaggery-Sweetened",
+    "url": "https://anafoods.in/products/pancake-mix-strawberry",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Strawberry_Millet_Pancake_250g_-_Ana_Foods.png?v=1774254553&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Strawberry_Millet_Pancake_250g_-_Ana_Foods.png?v=1774254553&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Foxtail millet, white sorghum, oats flour, milk powder, jaggery, vanilla powder, blanched carrot, strawberry, baking powder, baking soda, salt",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery",
+        "quote": "jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9127506280664",
+    "companyId": "web-anafoods-in",
+    "name": "Chocolate Pancake Mix – Sprouted Ragi & Millet | Jaggery-Sweetened",
+    "url": "https://anafoods.in/products/pancake-mix-chocolate",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Chocolate_Millet_Pancake_250g_-_Anafoods.png?v=1774254553&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Chocolate_Millet_Pancake_250g_-_Anafoods.png?v=1774254553&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Sprouted ragi, foxtail millet, white sorghum, oats flour, milk powder, jaggery, cocoa powder, baking powder, baking soda, salt, cinnamon powder",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery",
+        "quote": "jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9127511130328",
+    "companyId": "web-anafoods-in",
+    "name": "Flavoured Jaggery Powder – Cardamom & Dry Ginger",
+    "url": "https://anafoods.in/products/flavoured-jaggery-powder",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/FlavouredJaggeryPowderAnaFoods.jpg?v=1769710387&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/FlavouredJaggeryPowderAnaFoods.jpg?v=1769710387&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Classic Jaggery Powder: 100% pure jaggery powder made from sugarcane juice.; Flavoured Jaggery Powder: Jaggery powder infused with cardamom and dry ginger for added flavor and wellness.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery Powder",
+        "quote": "Jaggery Powder",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Unavailable at check",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9127508410584",
+    "companyId": "web-anafoods-in",
+    "name": "Instant Sprouted Millet Health Mix – Nuts, Seeds & Dry Fruits | No Preservatives",
+    "url": "https://anafoods.in/products/instant-sprouted-millet-health-mix",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/InstantSproutedHealthmixAnaFoods_1af314c5-fbfb-4a55-87ca-c895a2cd51c3.jpg?v=1769736810&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/InstantSproutedHealthmixAnaFoods_1af314c5-fbfb-4a55-87ca-c895a2cd51c3.jpg?v=1769736810&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Sprouted millets, almonds, cashew, seeds, dry fruits, jaggery powder, cardamom",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery powder",
+        "quote": "jaggery powder",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9127508017368",
+    "companyId": "web-anafoods-in",
+    "name": "Instant ABC Mix – Apple, Beetroot & Carrot",
+    "url": "https://anafoods.in/products/instant-abc-mixapple-beetroot-carrot",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/ABCMixAnaFoods.jpg?v=1769737049&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/ABCMixAnaFoods.jpg?v=1769737049&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Apple, beetroot, carrot, almonds, cashew, jaggery powder / country sugar / nattusakkarai",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery powder",
+        "quote": "jaggery powder",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      },
+      {
+        "family": "White / baking sugar",
+        "term": "sugar",
+        "quote": "sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9127507984600",
+    "companyId": "web-anafoods-in",
+    "name": "Kambu Ladoo – Handmade Pearl Millet Ladoo | 12 Pieces",
+    "url": "https://anafoods.in/products/kambu-ladoo-or-pearl-millet-ladoo",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Kambu_Laddu_-_Ana_Foods.png?v=1783766987&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Kambu_Laddu_-_Ana_Foods.png?v=1783766987&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Pearl Millet (Kambu) Flour, Natural Sugar (Brown), Pure Ghee, Cashew",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9127507951832",
+    "companyId": "web-anafoods-in",
+    "name": "Thinai Ladoo – Handmade Foxtail Millet Ladoo | 12 Pieces",
+    "url": "https://anafoods.in/products/thinai-ladoo-or-foxtail-millet-ladoo-12-pieces",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Thinai_Laddu_-_Ana_Foods.png?v=1783766987&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Thinai_Laddu_-_Ana_Foods.png?v=1783766987&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Foxtail Millet (Thinai) Flour, Natural Sugar, Pure Ghee, Cashew",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9127507919064",
+    "companyId": "web-anafoods-in",
+    "name": "Naripayaru Ladoo – Handmade Mothbean Ladoo | 12 Pieces",
+    "url": "https://anafoods.in/products/mothbean-ladoo-or-naripayaru-ladoo-12-pieces",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Naripayaru_Laddu_-_Ana_Foods.png?v=1783766987&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Naripayaru_Laddu_-_Ana_Foods.png?v=1783766987&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Naripayaru (Mothbean) Flour, Natural Sugar, Pure Ghee, Cashew",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9127507886296",
+    "companyId": "web-anafoods-in",
+    "name": "Ragi Ladoo – Handmade Finger Millet Ladoo | 12 Pieces | Ghee, Cashew, No Preservatives",
+    "url": "https://anafoods.in/products/ragi-ladoo-or-finger-millet-ladoo-12-pieces",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Ragi_Laddu_-_Ana_Foods.png?v=1783766987&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Ragi_Laddu_-_Ana_Foods.png?v=1783766987&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Ragi (Finger Millet) Flour, Natural Sugar, Pure Ghee, Cashew",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "White / baking sugar",
+        "term": "Sugar",
+        "quote": "Sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9127506608344",
+    "companyId": "web-anafoods-in",
+    "name": "Instant Sprouted Ragi Choco Mix – No Refined Sugar | For Kids 1+",
+    "url": "https://anafoods.in/products/instant-sprouted-ragi-choco-mix",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/02RagiChocoMixIngridientsAnaFoods.jpg?v=1769739209&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/02RagiChocoMixIngridientsAnaFoods.jpg?v=1769739209&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Sprouted ragi flour, cocoa powder, jaggery powder, almonds",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery powder",
+        "quote": "jaggery powder",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9127506313432",
+    "companyId": "web-anafoods-in",
+    "name": "Millet Muesli – Strawberry",
+    "url": "https://anafoods.in/products/millet-muesli-strawberry",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Strawberry_Muesli_Ana_foods.png?v=1771476809&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Strawberry_Muesli_Ana_foods.png?v=1771476809&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Rolled oats,Jowar flakes,Bajra flakes,Ragi flakes,Kodo flakes,Thanga samba flakes,Almond,Cranberry,Strawberry,Cherry,Black raisin,Mango,Strawberry powder,Beetroot powder,Pink salt,Honey,Kakvi(Liquid Jaggery)",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "Jaggery",
+        "quote": "Jaggery",
+        "percent": null,
+        "relation": "compound",
+        "note": "This ingredient is inside another ingredient. The brand may buy a finished component; identify its manufacturer before proposing raw material."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "web-anafoods-in-9127505920216",
+    "companyId": "web-anafoods-in",
+    "name": "Instant Sprouted Millet Choco Health Mix – Gluten-Free, No Refined Sugar | For Kids & Adults",
+    "url": "https://anafoods.in/products/instant-sprouted-millet-health-mix-choco-flavour",
+    "image": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Ana_foods_choco_millet_health_mix_Salem.png?v=1777372950&width=520",
+    "imageSource": "https://cdn.shopify.com/s/files/1/0796/5458/4536/files/Ana_foods_choco_millet_health_mix_Salem.png?v=1777372950&width=520",
+    "packGrams": null,
+    "packNote": "Pack weight not established. Enter it before calculating a scenario.",
+    "ingredients": "Sprouted millets (Ragi, Saamai, Thinai, Kuthiraivali), seeds, almonds, cashews, cocoa powder, jaggery powder / country sugar / nattusakkarai, cardamom.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Cane jaggery",
+        "term": "jaggery powder",
+        "quote": "jaggery powder",
+        "percent": null,
+        "relation": "direct",
+        "note": "The label says jaggery; its cane origin and grade are not established. Confirm these before proposing Dhampur cane jaggery."
+      },
+      {
+        "family": "White / baking sugar",
+        "term": "sugar",
+        "quote": "sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Sugar grade and granulation are not confirmed by this general ingredient match."
+      }
+    ],
+    "checkedAt": "2026-10-02T10:02:38.947Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
   }
 ]

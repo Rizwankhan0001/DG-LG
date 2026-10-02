@@ -1208,7 +1208,7 @@
       "What ingredient grade, monthly quantity, bulk pack size and delivery location do you require?",
       "What certifications, lab tests, price and payment terms are required for supplier approval?"
     ],
-    "researchUpdatedAt": "2026-09-30T06:44:32.633Z",
+    "researchUpdatedAt": "2026-10-02T10:02:38.947Z",
     "contactRoutes": [
       {
         "kind": "Phone",
@@ -1223,6 +1223,13 @@
         "purpose": "General business / customer care; request procurement referral",
         "url": "https://www.mosbakery.in/pages/contact",
         "checkedAt": "2026-09-30T06:30:44.981Z"
+      },
+      {
+        "kind": "Email",
+        "value": "mosbakeryindia@gmail.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://www.mosbakery.in/pages/contact",
+        "checkedAt": "2026-10-02T10:02:38.947Z"
       }
     ]
   },
@@ -3611,7 +3618,7 @@
   },
   {
     "id": "kocoatrait",
-    "name": "Kocoatrait / Cocoatrait",
+    "name": "Bean to Bar Chocolates India",
     "website": "https://cocoatrait.com",
     "category": "Chocolate",
     "city": "Chennai",
@@ -3660,7 +3667,7 @@
       "Who approves ingredient suppliers and trials?",
       "What ingredient grade, delivery location and monthly quantities can the buyer confirm?"
     ],
-    "researchUpdatedAt": "2026-09-30T10:37:36.137Z",
+    "researchUpdatedAt": "2026-10-02T10:02:38.947Z",
     "contactRoutes": [
       {
         "kind": "Email",
@@ -3675,6 +3682,13 @@
         "purpose": "Published company phone; ask for procurement referral",
         "url": "https://cocoatrait.com/contact/",
         "checkedAt": "2026-09-30T06:44:32.633Z"
+      },
+      {
+        "kind": "Email",
+        "value": "nitinatksa@gmail.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://cocoatrait.com/contact/",
+        "checkedAt": "2026-10-02T10:02:38.947Z"
       }
     ]
   },
@@ -4242,5 +4256,120 @@
       "Which grade, delivery location, monthly quantity and certifications do you require?"
     ],
     "researchUpdatedAt": "2026-10-01T04:52:06.878Z"
+  },
+  {
+    "id": "ravi-sweets",
+    "name": "Ravi Sweets",
+    "website": "https://ravisweets.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Traditional sweets",
+    "description": "Published food product ingredients match the supplier catalogue. Confirm the manufacturing company and raw-material buying team.",
+    "contactUrl": "https://ravisweets.com/",
+    "email": "",
+    "phone": "+919398859978",
+    "contactCheckedAt": "2026-10-02T10:02:38.947Z",
+    "contactNote": "Public company route; purchasing authority and demand are unconfirmed.",
+    "contacts": [],
+    "contactRoutes": [
+      {
+        "kind": "Phone",
+        "value": "+919398859978",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://ravisweets.com/",
+        "checkedAt": "2026-10-02T10:02:38.947Z"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Operations / factory manager"
+    ],
+    "buyingQuestions": [
+      "Who purchases the raw materials: your company or a contract manufacturer?",
+      "Who approves ingredient suppliers and sample trials?",
+      "Which grade, delivery location, monthly quantity and certifications do you require?"
+    ],
+    "researchUpdatedAt": "2026-10-02T10:02:38.947Z"
+  },
+  {
+    "id": "web-zamaorganics-com",
+    "name": "Zama",
+    "website": "https://zamaorganics.com",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Food company · category to confirm",
+    "description": "Published food product ingredients match the supplier catalogue. Confirm the manufacturing company and raw-material buying team.",
+    "contactUrl": "https://zamaorganics.com/pages/contact",
+    "email": "marketing@zamaorganics.com",
+    "phone": "",
+    "contactCheckedAt": "2026-10-02T10:02:38.947Z",
+    "contactNote": "Public company route; purchasing authority and demand are unconfirmed.",
+    "contacts": [],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "marketing@zamaorganics.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://zamaorganics.com/pages/contact",
+        "checkedAt": "2026-10-02T10:02:38.947Z"
+      },
+      {
+        "kind": "Email",
+        "value": "support@zamaorganics.com",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://zamaorganics.com/pages/contact",
+        "checkedAt": "2026-10-02T10:02:38.947Z"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Operations / factory manager"
+    ],
+    "buyingQuestions": [
+      "Who purchases the raw materials: your company or a contract manufacturer?",
+      "Who approves ingredient suppliers and sample trials?",
+      "Which grade, delivery location, monthly quantity and certifications do you require?"
+    ],
+    "researchUpdatedAt": "2026-10-02T10:02:38.947Z"
+  },
+  {
+    "id": "web-anafoods-in",
+    "name": "ANA FOODS",
+    "website": "https://anafoods.in",
+    "city": "Location to confirm",
+    "state": "",
+    "locationSource": "",
+    "category": "Food company · category to confirm",
+    "description": "Published food product ingredients match the supplier catalogue. Confirm the manufacturing company and raw-material buying team.",
+    "contactUrl": "https://anafoods.in/",
+    "email": "info@anafoods.in",
+    "phone": "",
+    "contactCheckedAt": "2026-10-02T10:02:38.947Z",
+    "contactNote": "Public company route; purchasing authority and demand are unconfirmed.",
+    "contacts": [],
+    "contactRoutes": [
+      {
+        "kind": "Email",
+        "value": "info@anafoods.in",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://anafoods.in/",
+        "checkedAt": "2026-10-02T10:02:38.947Z"
+      }
+    ],
+    "targetRoles": [
+      "Ingredient procurement / purchase manager",
+      "Product development / R&D manager",
+      "Operations / factory manager"
+    ],
+    "buyingQuestions": [
+      "Who purchases the raw materials: your company or a contract manufacturer?",
+      "Who approves ingredient suppliers and sample trials?",
+      "Which grade, delivery location, monthly quantity and certifications do you require?"
+    ],
+    "researchUpdatedAt": "2026-10-02T10:02:38.947Z"
   }
 ]

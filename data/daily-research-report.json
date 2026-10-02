@@ -1,111 +1,216 @@
 {
-  "day": "2026-10-01",
-  "startedAt": "2026-10-01T06:54:59.022Z",
-  "finishedAt": "2026-10-01T06:55:38.245Z",
+  "day": "2026-10-02",
+  "startedAt": "2026-10-02T10:02:38.947Z",
+  "finishedAt": "2026-10-02T10:06:06.927Z",
   "target": 10,
   "addedCompanies": [
     {
-      "id": "jai-jungle",
-      "name": "Jai Jungle Farmers Producer Company",
-      "website": "https://jaijungle.com",
+      "id": "ravi-sweets",
+      "name": "Ravi Sweets",
+      "website": "https://ravisweets.com",
+      "products": 3
+    },
+    {
+      "id": "web-zamaorganics-com",
+      "name": "Zama",
+      "website": "https://zamaorganics.com",
       "products": 1
     },
     {
-      "id": "naashta-shop",
-      "name": "Naashta Shop / Ekat",
-      "website": "https://www.naashtashop.in",
-      "products": 3
-    },
-    {
-      "id": "pintexim",
-      "name": "Pintexim / Parmeshwari International Exim",
-      "website": "https://pintexim.com",
-      "products": 5
-    },
-    {
-      "id": "lets-try",
-      "name": "Let’s Try",
-      "website": "https://www.letstryfoods.com",
-      "products": 4
-    },
-    {
-      "id": "immunit",
-      "name": "Immunit",
-      "website": "https://immunit.in",
-      "products": 1
-    },
-    {
-      "id": "nihkan",
-      "name": "Nihkan",
-      "website": "https://nihkan.in",
-      "products": 3
-    },
-    {
-      "id": "some-more-foods",
-      "name": "Some More Foods",
-      "website": "https://somemorefoods.com",
-      "products": 3
-    },
-    {
-      "id": "trusnax",
-      "name": "TruSnax",
-      "website": "https://www.trusnax.com",
-      "products": 2
-    },
-    {
-      "id": "from-granny",
-      "name": "From Granny",
-      "website": "https://fromgranny.in",
-      "products": 6
-    },
-    {
-      "id": "paaramparik",
-      "name": "Paaramparik",
-      "website": "https://paaramparik.com",
-      "products": 5
+      "id": "web-anafoods-in",
+      "name": "ANA FOODS",
+      "website": "https://anafoods.in",
+      "products": 17
     }
   ],
-  "addedProducts": 53,
-  "addedPeople": 5,
-  "addedRoutes": 66,
-  "enrichedCompanies": 1,
-  "candidatesChecked": 6,
-  "requests": 72,
+  "addedProducts": 21,
+  "addedPeople": 0,
+  "addedRoutes": 6,
+  "enrichedCompanies": 2,
+  "candidatesChecked": 35,
+  "requests": 242,
   "searchRequests": 4,
   "searchConfigured": true,
-  "shortfall": 0,
-  "status": "target-met",
-  "warnings": [],
+  "shortfall": 7,
+  "status": "shortfall",
+  "warnings": [
+    "7 below the daily target. Unqualified candidates and duplicate firms were not counted."
+  ],
   "outcomes": [
     {
-      "company": "Lo! Foods",
-      "host": "lofoods.fit",
+      "company": "cocoatrait.com",
+      "host": "cocoatrait.com",
+      "result": "Rechecked: 0 new products, 1 new business routes, 0 new named people."
+    },
+    {
+      "company": "Minus 30",
+      "host": "minus30.co",
       "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
     },
     {
-      "company": "Loyka / August Assortments",
-      "host": "loyka.co",
-      "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+      "company": "Mo’s Bakery",
+      "host": "mosbakery.in",
+      "result": "Rechecked: 0 new products, 1 new business routes, 0 new named people."
     },
     {
-      "company": "Manam Chocolate",
-      "host": "manamchocolate.com",
-      "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+      "company": "anirink.com",
+      "host": "anirink.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
     },
     {
-      "company": "Mapro",
-      "host": "mapro.com",
-      "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+      "company": "distacart.com",
+      "host": "distacart.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route."
     },
     {
-      "company": "Millet Amma",
-      "host": "milletamma.com",
-      "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+      "company": "farmlokal.com",
+      "host": "farmlokal.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
     },
     {
-      "company": "Millet Bank",
-      "host": "milletbank.in",
-      "result": "Rechecked: 2 new products, 0 new business routes, 0 new named people."
+      "company": "goodbite.ai",
+      "host": "goodbite.ai",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+    },
+    {
+      "company": "kelloggs.com",
+      "host": "kelloggs.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 405."
+    },
+    {
+      "company": "naturessoulshop.com",
+      "host": "naturessoulshop.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 500."
+    },
+    {
+      "company": "Ravi Sweets",
+      "host": "ravisweets.com",
+      "result": "Added: 3 new products, 1 new business routes, 0 new named people."
+    },
+    {
+      "company": "satvyk.com",
+      "host": "satvyk.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route."
+    },
+    {
+      "company": "zamaorganics.com",
+      "host": "zamaorganics.com",
+      "result": "Added: 1 new products, 2 new business routes, 0 new named people."
+    },
+    {
+      "company": "aajkyabanau.com",
+      "host": "aajkyabanau.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+    },
+    {
+      "company": "anafoods.in",
+      "host": "anafoods.in",
+      "result": "Added: 17 new products, 1 new business routes, 0 new named people."
+    },
+    {
+      "company": "archanaskitchen.com",
+      "host": "archanaskitchen.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+    },
+    {
+      "company": "bakefromscratch.com",
+      "host": "bakefromscratch.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+    },
+    {
+      "company": "bakewithshivesh.com",
+      "host": "bakewithshivesh.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+    },
+    {
+      "company": "baranbakery.com",
+      "host": "baranbakery.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+    },
+    {
+      "company": "bebefoods.com",
+      "host": "bebefoods.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route."
+    },
+    {
+      "company": "bodhishop.in",
+      "host": "bodhishop.in",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route."
+    },
+    {
+      "company": "brownsugarindia.com",
+      "host": "brownsugarindia.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+    },
+    {
+      "company": "cookwithmanali.com",
+      "host": "cookwithmanali.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+    },
+    {
+      "company": "daromas.co.in",
+      "host": "daromas.co.in",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 400."
+    },
+    {
+      "company": "ensun.io",
+      "host": "ensun.io",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 429."
+    },
+    {
+      "company": "epicurious.com",
+      "host": "epicurious.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+    },
+    {
+      "company": "everayu.com",
+      "host": "everayu.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Page exceeded research size limit."
+    },
+    {
+      "company": "exportersindia.com",
+      "host": "exportersindia.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 410."
+    },
+    {
+      "company": "foodfitnessnfun.com",
+      "host": "foodfitnessnfun.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+    },
+    {
+      "company": "gayathriscookspot.com",
+      "host": "gayathriscookspot.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+    },
+    {
+      "company": "happybharat.com",
+      "host": "happybharat.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+    },
+    {
+      "company": "herobakery.co.in",
+      "host": "herobakery.co.in",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+    },
+    {
+      "company": "homebakers.co.in",
+      "host": "homebakers.co.in",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. No usable public catalogue feed; checked individual product pages."
+    },
+    {
+      "company": "ijcrt.org",
+      "host": "ijcrt.org",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. No usable public catalogue feed; checked individual product pages."
+    },
+    {
+      "company": "indianhealthyrecipe.com",
+      "host": "indianhealthyrecipe.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+    },
+    {
+      "company": "justdial.com",
+      "host": "justdial.com",
+      "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page timed out."
     }
   ],
   "schedule": "Daily at 09:15 IST (scheduled runs can be delayed)",

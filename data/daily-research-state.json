@@ -95,7 +95,42 @@
     "manamchocolate.com": "2026-10-01T06:54:59.022Z",
     "mapro.com": "2026-10-01T06:54:59.022Z",
     "milletamma.com": "2026-10-01T06:54:59.022Z",
-    "milletbank.in": "2026-10-01T06:54:59.022Z"
+    "milletbank.in": "2026-10-01T06:54:59.022Z",
+    "cocoatrait.com": "2026-10-02T10:02:38.947Z",
+    "minus30.co": "2026-10-02T10:02:38.947Z",
+    "mosbakery.in": "2026-10-02T10:02:38.947Z",
+    "anirink.com": "2026-10-02T10:02:38.947Z",
+    "distacart.com": "2026-10-02T10:02:38.947Z",
+    "farmlokal.com": "2026-10-02T10:02:38.947Z",
+    "goodbite.ai": "2026-10-02T10:02:38.947Z",
+    "kelloggs.com": "2026-10-02T10:02:38.947Z",
+    "naturessoulshop.com": "2026-10-02T10:02:38.947Z",
+    "ravisweets.com": "2026-10-02T10:02:38.947Z",
+    "satvyk.com": "2026-10-02T10:02:38.947Z",
+    "zamaorganics.com": "2026-10-02T10:02:38.947Z",
+    "aajkyabanau.com": "2026-10-02T10:02:38.947Z",
+    "anafoods.in": "2026-10-02T10:02:38.947Z",
+    "archanaskitchen.com": "2026-10-02T10:02:38.947Z",
+    "bakefromscratch.com": "2026-10-02T10:02:38.947Z",
+    "bakewithshivesh.com": "2026-10-02T10:02:38.947Z",
+    "baranbakery.com": "2026-10-02T10:02:38.947Z",
+    "bebefoods.com": "2026-10-02T10:02:38.947Z",
+    "bodhishop.in": "2026-10-02T10:02:38.947Z",
+    "brownsugarindia.com": "2026-10-02T10:02:38.947Z",
+    "cookwithmanali.com": "2026-10-02T10:02:38.947Z",
+    "daromas.co.in": "2026-10-02T10:02:38.947Z",
+    "ensun.io": "2026-10-02T10:02:38.947Z",
+    "epicurious.com": "2026-10-02T10:02:38.947Z",
+    "everayu.com": "2026-10-02T10:02:38.947Z",
+    "exportersindia.com": "2026-10-02T10:02:38.947Z",
+    "foodfitnessnfun.com": "2026-10-02T10:02:38.947Z",
+    "gayathriscookspot.com": "2026-10-02T10:02:38.947Z",
+    "happybharat.com": "2026-10-02T10:02:38.947Z",
+    "herobakery.co.in": "2026-10-02T10:02:38.947Z",
+    "homebakers.co.in": "2026-10-02T10:02:38.947Z",
+    "ijcrt.org": "2026-10-02T10:02:38.947Z",
+    "indianhealthyrecipe.com": "2026-10-02T10:02:38.947Z",
+    "justdial.com": "2026-10-02T10:02:38.947Z"
   },
   "discovered": [
     {
@@ -263,9 +298,461 @@
       "productUrls": [
         "https://www.kelloggs.com/en-in/products/muesli.html"
       ]
+    },
+    {
+      "id": "web-naturessoulshop-com",
+      "name": "naturessoulshop.com",
+      "host": "naturessoulshop.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://naturessoulshop.com/products/dark-milk-chocolate-a2-milk-dark-milk-sweetened-with-khandsari-sugar-48-cocoa-farm-to-bar-single-origin-no-added-preservatives-amp-no-added-artificial-flavours-anuttama-artisanal-chocolate-50gm",
+      "productUrls": [
+        "https://naturessoulshop.com/products/dark-milk-chocolate-a2-milk-dark-milk-sweetened-with-khandsari-sugar-48-cocoa-farm-to-bar-single-origin-no-added-preservatives-amp-no-added-artificial-flavours-anuttama-artisanal-chocolate-50gm"
+      ]
+    },
+    {
+      "id": "web-kovalglobal-in",
+      "name": "kovalglobal.in",
+      "host": "www.kovalglobal.in",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.kovalglobal.in/products-1/khandsari-sugar-exporter-india",
+      "productUrls": []
+    },
+    {
+      "id": "web-everayu-com",
+      "name": "everayu.com",
+      "host": "www.everayu.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.everayu.com/blogs/blogs/desi-khand-powder-khandsari-natural-sweetness-for-a-healthier-lifestyle",
+      "productUrls": []
+    },
+    {
+      "id": "web-happybharat-com",
+      "name": "happybharat.com",
+      "host": "happybharat.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://happybharat.com/khandsari-sugar",
+      "productUrls": []
+    },
+    {
+      "id": "web-goodbite-ai",
+      "name": "goodbite.ai",
+      "host": "goodbite.ai",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://goodbite.ai/product/organic-india-desi-khandsari-sugar",
+      "productUrls": [
+        "https://goodbite.ai/product/organic-india-desi-khandsari-sugar"
+      ]
+    },
+    {
+      "id": "web-distacart-com",
+      "name": "distacart.com",
+      "host": "www.distacart.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.distacart.com/en-ch/products/organic-india-desi-khandsari-sugar-unrefined-brown-sugar",
+      "productUrls": [
+        "https://www.distacart.com/en-ch/products/organic-india-desi-khandsari-sugar-unrefined-brown-sugar"
+      ]
+    },
+    {
+      "id": "web-sastasundar-com",
+      "name": "sastasundar.com",
+      "host": "sastasundar.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://sastasundar.com/order-otc/organic-india-desi-khandsari-sugar-pouch-500-g-cbpk36",
+      "productUrls": []
+    },
+    {
+      "id": "web-zamaorganics-com",
+      "name": "zamaorganics.com",
+      "host": "zamaorganics.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://zamaorganics.com/products/khandsari-sugar",
+      "productUrls": [
+        "https://zamaorganics.com/products/khandsari-sugar"
+      ]
+    },
+    {
+      "id": "web-bodhishop-in",
+      "name": "bodhishop.in",
+      "host": "bodhishop.in",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://bodhishop.in/blogs/news/khandsari-sugar-a-detailed-guide-how-its-made-and-faq",
+      "productUrls": []
+    },
+    {
+      "id": "web-cocoatrait-com",
+      "name": "cocoatrait.com",
+      "host": "cocoatrait.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://cocoatrait.com/bake-better-chocolate-couverture-made-with-desi-khandsari-a-k-a-muscovado-sugar",
+      "productUrls": []
+    },
+    {
+      "id": "web-kolhufoods-com",
+      "name": "kolhufoods.com",
+      "host": "www.kolhufoods.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.kolhufoods.com",
+      "productUrls": []
+    },
+    {
+      "id": "web-foodfitnessnfun-com",
+      "name": "foodfitnessnfun.com",
+      "host": "www.foodfitnessnfun.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.foodfitnessnfun.com/home-made-multigrain-granola-muesli",
+      "productUrls": []
+    },
+    {
+      "id": "web-yummytummyaarthi-com",
+      "name": "yummytummyaarthi.com",
+      "host": "www.yummytummyaarthi.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.yummytummyaarthi.com/granola-recipe-homemade-muesli-recipe",
+      "productUrls": []
+    },
+    {
+      "id": "web-bebefoods-com",
+      "name": "bebefoods.com",
+      "host": "bebefoods.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://bebefoods.com/blogs/news/stovetop-jaggery-granola-recipe",
+      "productUrls": []
+    },
+    {
+      "id": "web-anirink-com",
+      "name": "anirink.com",
+      "host": "anirink.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://anirink.com/product/anirink-jaggery-granola",
+      "productUrls": [
+        "https://anirink.com/product/anirink-jaggery-granola"
+      ]
+    },
+    {
+      "id": "web-anafoods-in",
+      "name": "anafoods.in",
+      "host": "anafoods.in",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://anafoods.in/collections/muesli-or-granola",
+      "productUrls": []
+    },
+    {
+      "id": "web-aajkyabanau-com",
+      "name": "aajkyabanau.com",
+      "host": "aajkyabanau.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://aajkyabanau.com/watch/recipe/stovetop-granola-using-jaggery",
+      "productUrls": []
+    },
+    {
+      "id": "web-indianhealthyrecipe-com",
+      "name": "indianhealthyrecipe.com",
+      "host": "indianhealthyrecipe.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://indianhealthyrecipe.com/stovetop-granola-recipe-easy-granola-recipe-using-jaggery",
+      "productUrls": []
+    },
+    {
+      "id": "web-epicurious-com",
+      "name": "epicurious.com",
+      "host": "www.epicurious.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.epicurious.com/recipes/food/views/brown-sugar-buttermilk-biscuits",
+      "productUrls": []
+    },
+    {
+      "id": "web-kannammacooks-com",
+      "name": "kannammacooks.com",
+      "host": "www.kannammacooks.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.kannammacooks.com/tea-shop-bakery-style-butter-biscuits-cookies",
+      "productUrls": []
+    },
+    {
+      "id": "web-baranbakery-com",
+      "name": "baranbakery.com",
+      "host": "baranbakery.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://baranbakery.com/brown-sugar-cookies",
+      "productUrls": []
+    },
+    {
+      "id": "web-homebakers-co-in",
+      "name": "homebakers.co.in",
+      "host": "homebakers.co.in",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://homebakers.co.in/baker/brown-sugar-patisserie",
+      "productUrls": []
+    },
+    {
+      "id": "web-brownsugarindia-com",
+      "name": "brownsugarindia.com",
+      "host": "www.brownsugarindia.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.brownsugarindia.com",
+      "productUrls": []
+    },
+    {
+      "id": "web-bakefromscratch-com",
+      "name": "bakefromscratch.com",
+      "host": "bakefromscratch.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://bakefromscratch.com/from-the-pantry-brown-sugar",
+      "productUrls": []
+    },
+    {
+      "id": "web-cookwithmanali-com",
+      "name": "cookwithmanali.com",
+      "host": "www.cookwithmanali.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.cookwithmanali.com/atta-biscuits",
+      "productUrls": []
+    },
+    {
+      "id": "web-gayathriscookspot-com",
+      "name": "gayathriscookspot.com",
+      "host": "gayathriscookspot.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://gayathriscookspot.com/2019/08/bakery-style-butter-biscuits-recipe",
+      "productUrls": []
+    },
+    {
+      "id": "web-tracxn-com",
+      "name": "tracxn.com",
+      "host": "tracxn.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://tracxn.com/d/companies/brown-sugar-india/__fFvxCZZp7UHSxYIC47ER46k2kx3DLuXCAC0vD2v2T6s",
+      "productUrls": []
+    },
+    {
+      "id": "web-bakewithshivesh-com",
+      "name": "bakewithshivesh.com",
+      "host": "bakewithshivesh.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://bakewithshivesh.com/types-of-baking-sugar",
+      "productUrls": []
     }
   ],
   "history": [
+    {
+      "day": "2026-10-02",
+      "startedAt": "2026-10-02T10:02:38.947Z",
+      "finishedAt": "2026-10-02T10:06:06.927Z",
+      "target": 10,
+      "addedCompanies": [
+        {
+          "id": "ravi-sweets",
+          "name": "Ravi Sweets",
+          "website": "https://ravisweets.com",
+          "products": 3
+        },
+        {
+          "id": "web-zamaorganics-com",
+          "name": "Zama",
+          "website": "https://zamaorganics.com",
+          "products": 1
+        },
+        {
+          "id": "web-anafoods-in",
+          "name": "ANA FOODS",
+          "website": "https://anafoods.in",
+          "products": 17
+        }
+      ],
+      "addedProducts": 21,
+      "addedPeople": 0,
+      "addedRoutes": 6,
+      "enrichedCompanies": 2,
+      "candidatesChecked": 35,
+      "requests": 242,
+      "searchRequests": 4,
+      "searchConfigured": true,
+      "shortfall": 7,
+      "status": "shortfall",
+      "warnings": [
+        "7 below the daily target. Unqualified candidates and duplicate firms were not counted."
+      ],
+      "outcomes": [
+        {
+          "company": "cocoatrait.com",
+          "host": "cocoatrait.com",
+          "result": "Rechecked: 0 new products, 1 new business routes, 0 new named people."
+        },
+        {
+          "company": "Minus 30",
+          "host": "minus30.co",
+          "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+        },
+        {
+          "company": "Mo’s Bakery",
+          "host": "mosbakery.in",
+          "result": "Rechecked: 0 new products, 1 new business routes, 0 new named people."
+        },
+        {
+          "company": "anirink.com",
+          "host": "anirink.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "distacart.com",
+          "host": "distacart.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route."
+        },
+        {
+          "company": "farmlokal.com",
+          "host": "farmlokal.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "goodbite.ai",
+          "host": "goodbite.ai",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "kelloggs.com",
+          "host": "kelloggs.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 405."
+        },
+        {
+          "company": "naturessoulshop.com",
+          "host": "naturessoulshop.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 500."
+        },
+        {
+          "company": "Ravi Sweets",
+          "host": "ravisweets.com",
+          "result": "Added: 3 new products, 1 new business routes, 0 new named people."
+        },
+        {
+          "company": "satvyk.com",
+          "host": "satvyk.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route."
+        },
+        {
+          "company": "zamaorganics.com",
+          "host": "zamaorganics.com",
+          "result": "Added: 1 new products, 2 new business routes, 0 new named people."
+        },
+        {
+          "company": "aajkyabanau.com",
+          "host": "aajkyabanau.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "anafoods.in",
+          "host": "anafoods.in",
+          "result": "Added: 17 new products, 1 new business routes, 0 new named people."
+        },
+        {
+          "company": "archanaskitchen.com",
+          "host": "archanaskitchen.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "bakefromscratch.com",
+          "host": "bakefromscratch.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "bakewithshivesh.com",
+          "host": "bakewithshivesh.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "baranbakery.com",
+          "host": "baranbakery.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "bebefoods.com",
+          "host": "bebefoods.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route."
+        },
+        {
+          "company": "bodhishop.in",
+          "host": "bodhishop.in",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route."
+        },
+        {
+          "company": "brownsugarindia.com",
+          "host": "brownsugarindia.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "cookwithmanali.com",
+          "host": "cookwithmanali.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "daromas.co.in",
+          "host": "daromas.co.in",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 400."
+        },
+        {
+          "company": "ensun.io",
+          "host": "ensun.io",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 429."
+        },
+        {
+          "company": "epicurious.com",
+          "host": "epicurious.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "everayu.com",
+          "host": "everayu.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Page exceeded research size limit."
+        },
+        {
+          "company": "exportersindia.com",
+          "host": "exportersindia.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 410."
+        },
+        {
+          "company": "foodfitnessnfun.com",
+          "host": "foodfitnessnfun.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "gayathriscookspot.com",
+          "host": "gayathriscookspot.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "happybharat.com",
+          "host": "happybharat.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "herobakery.co.in",
+          "host": "herobakery.co.in",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "homebakers.co.in",
+          "host": "homebakers.co.in",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. No usable public catalogue feed; checked individual product pages."
+        },
+        {
+          "company": "ijcrt.org",
+          "host": "ijcrt.org",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. No usable public catalogue feed; checked individual product pages."
+        },
+        {
+          "company": "indianhealthyrecipe.com",
+          "host": "indianhealthyrecipe.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "justdial.com",
+          "host": "justdial.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page timed out."
+        }
+      ],
+      "schedule": "Daily at 09:15 IST (scheduled runs can be delayed)",
+      "workflowUrl": "https://github.com/Rizwankhan0001/DG-LG/actions/workflows/daily-buyers.yml"
+    },
     {
       "day": "2026-10-01",
       "startedAt": "2026-10-01T06:54:59.022Z",
