@@ -1,7 +1,7 @@
 {
   "day": "2026-10-01",
-  "startedAt": "2026-10-01T06:34:53.135Z",
-  "finishedAt": "2026-10-01T06:35:26.832Z",
+  "startedAt": "2026-10-01T06:54:59.022Z",
+  "finishedAt": "2026-10-01T06:55:38.245Z",
   "target": 10,
   "addedCompanies": [
     {
@@ -65,49 +65,47 @@
       "products": 5
     }
   ],
-  "addedProducts": 51,
+  "addedProducts": 53,
   "addedPeople": 5,
   "addedRoutes": 66,
-  "enrichedCompanies": 5,
+  "enrichedCompanies": 1,
   "candidatesChecked": 6,
-  "requests": 83,
-  "searchRequests": 0,
-  "searchConfigured": false,
+  "requests": 72,
+  "searchRequests": 4,
+  "searchConfigured": true,
   "shortfall": 0,
   "status": "target-met",
-  "warnings": [
-    "Web discovery is not connected. Checking the registered company backlog; add TAVILY_API_KEY to GitHub Actions secrets for broader discovery."
-  ],
+  "warnings": [],
   "outcomes": [
     {
-      "company": "Farmley",
-      "host": "farmley.com",
-      "result": "Rechecked: 0 new products, 2 new business routes, 0 new named people."
-    },
-    {
-      "company": "Farmveda",
-      "host": "farmveda.in",
-      "result": "Rechecked: 2 new products, 1 new business routes, 0 new named people."
-    },
-    {
-      "company": "GO DESi",
-      "host": "godesi.in",
-      "result": "Rechecked: 0 new products, 1 new business routes, 0 new named people."
-    },
-    {
-      "company": "Govindjee",
-      "host": "govindjee.store",
-      "result": "Rechecked: 8 new products, 0 new business routes, 0 new named people."
-    },
-    {
-      "company": "Jai Jalaram Foods",
-      "host": "jaijalaramfoods.com",
+      "company": "Lo! Foods",
+      "host": "lofoods.fit",
       "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
     },
     {
-      "company": "Jus Amazin",
-      "host": "jusamazin.com",
-      "result": "Rechecked: 3 new products, 0 new business routes, 0 new named people."
+      "company": "Loyka / August Assortments",
+      "host": "loyka.co",
+      "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+    },
+    {
+      "company": "Manam Chocolate",
+      "host": "manamchocolate.com",
+      "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+    },
+    {
+      "company": "Mapro",
+      "host": "mapro.com",
+      "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+    },
+    {
+      "company": "Millet Amma",
+      "host": "milletamma.com",
+      "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+    },
+    {
+      "company": "Millet Bank",
+      "host": "milletbank.in",
+      "result": "Rechecked: 2 new products, 0 new business routes, 0 new named people."
     }
   ],
   "schedule": "Daily at 09:15 IST (scheduled runs can be delayed)",
