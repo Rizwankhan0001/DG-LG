@@ -130,7 +130,40 @@
     "homebakers.co.in": "2026-10-02T10:02:38.947Z",
     "ijcrt.org": "2026-10-02T10:02:38.947Z",
     "indianhealthyrecipe.com": "2026-10-02T10:02:38.947Z",
-    "justdial.com": "2026-10-02T10:02:38.947Z"
+    "justdial.com": "2026-10-02T10:02:38.947Z",
+    "myfitness.in": "2026-10-03T09:25:53.182Z",
+    "naaginsauce.com": "2026-10-03T09:25:53.182Z",
+    "nourishorganics.in": "2026-10-03T09:25:53.182Z",
+    "lylesgoldensyrup.com": "2026-10-03T09:25:53.182Z",
+    "bbcgoodfood.com": "2026-10-03T09:25:53.182Z",
+    "biscuitsandladles.com": "2026-10-03T09:25:53.182Z",
+    "greenemporium.wordpress.com": "2026-10-03T09:25:53.182Z",
+    "hometosight.com": "2026-10-03T09:25:53.182Z",
+    "indianhealthyrecipes.com": "2026-10-03T09:25:53.182Z",
+    "kannammacooks.com": "2026-10-03T09:25:53.182Z",
+    "kingarthurbaking.com": "2026-10-03T09:25:53.182Z",
+    "kitchentherapy.in": "2026-10-03T09:25:53.182Z",
+    "kleinworthco.com": "2026-10-03T09:25:53.182Z",
+    "kolhufoods.com": "2026-10-03T09:25:53.182Z",
+    "kovalglobal.in": "2026-10-03T09:25:53.182Z",
+    "krollskorner.com": "2026-10-03T09:25:53.182Z",
+    "nupursindiankitchen.com": "2026-10-03T09:25:53.182Z",
+    "paawakfoods.com": "2026-10-03T09:25:53.182Z",
+    "playfulcooking.com": "2026-10-03T09:25:53.182Z",
+    "qoot.food": "2026-10-03T09:25:53.182Z",
+    "ragus.co.uk": "2026-10-03T09:25:53.182Z",
+    "rcrec-ona.ifas.ufl.edu": "2026-10-03T09:25:53.182Z",
+    "researchgate.net": "2026-10-03T09:25:53.182Z",
+    "revenuebase.ai": "2026-10-03T09:25:53.182Z",
+    "samyarasden.com": "2026-10-03T09:25:53.182Z",
+    "sastasundar.com": "2026-10-03T09:25:53.182Z",
+    "tarladalal.com": "2026-10-03T09:25:53.182Z",
+    "thefoodslife.com": "2026-10-03T09:25:53.182Z",
+    "tracxn.com": "2026-10-03T09:25:53.182Z",
+    "yummytummyaarthi.com": "2026-10-03T09:25:53.182Z",
+    "nutritius.com": "2026-10-03T09:25:53.182Z",
+    "nuttyyogi.com": "2026-10-03T09:25:53.182Z",
+    "ohsugarpatisserie.com": "2026-10-03T09:25:53.182Z"
   },
   "discovered": [
     {
@@ -532,9 +565,293 @@
       "category": "Food company · category to confirm",
       "discoveryUrl": "https://bakewithshivesh.com/types-of-baking-sugar",
       "productUrls": []
+    },
+    {
+      "id": "web-biscuitsandladles-com",
+      "name": "biscuitsandladles.com",
+      "host": "biscuitsandladles.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://biscuitsandladles.com/spiced-brown-sugar-cookies-biscuits",
+      "productUrls": []
+    },
+    {
+      "id": "web-kleinworthco-com",
+      "name": "kleinworthco.com",
+      "host": "www.kleinworthco.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.kleinworthco.com/brown-sugar-cookies",
+      "productUrls": []
+    },
+    {
+      "id": "web-krollskorner-com",
+      "name": "krollskorner.com",
+      "host": "krollskorner.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://krollskorner.com/recipes/desserts/cookies/soft-chewy-brown-sugar-cookies",
+      "productUrls": []
+    },
+    {
+      "id": "web-indianhealthyrecipes-com",
+      "name": "indianhealthyrecipes.com",
+      "host": "www.indianhealthyrecipes.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.indianhealthyrecipes.com/nankhatai-recipe",
+      "productUrls": []
+    },
+    {
+      "id": "web-ragus-co-uk",
+      "name": "ragus.co.uk",
+      "host": "www.ragus.co.uk",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.ragus.co.uk/what-is-the-difference-between-molasses-and-black-treacle",
+      "productUrls": []
+    },
+    {
+      "id": "web-bbcgoodfood-com",
+      "name": "bbcgoodfood.com",
+      "host": "www.bbcgoodfood.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.bbcgoodfood.com/glossary/molasses-glossary",
+      "productUrls": []
+    },
+    {
+      "id": "web-greenemporium-wordpress-com",
+      "name": "greenemporium.wordpress.com",
+      "host": "greenemporium.wordpress.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://greenemporium.wordpress.com/2013/03/28/super-food-molasses",
+      "productUrls": []
+    },
+    {
+      "id": "web-lylesgoldensyrup-com",
+      "name": "lylesgoldensyrup.com",
+      "host": "www.lylesgoldensyrup.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.lylesgoldensyrup.com/blog/sweet-and-savoury-delights-mouth-watering-black-treacle-recipes-to-try-at-home",
+      "productUrls": [
+        "https://www.lylesgoldensyrup.com/product/bottle-1"
+      ]
+    },
+    {
+      "id": "web-rcrec-ona-ifas-ufl-edu",
+      "name": "rcrec-ona.ifas.ufl.edu",
+      "host": "rcrec-ona.ifas.ufl.edu",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://rcrec-ona.ifas.ufl.edu/media/rcrec-onaifasufledu/pdf/Molasses---General-Considerations.pdf",
+      "productUrls": []
+    },
+    {
+      "id": "web-kingarthurbaking-com",
+      "name": "kingarthurbaking.com",
+      "host": "www.kingarthurbaking.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://www.kingarthurbaking.com/blog/2024/12/16/light-dark-blackstrap-molasses",
+      "productUrls": []
+    },
+    {
+      "id": "web-hometosight-com",
+      "name": "hometosight.com",
+      "host": "hometosight.com",
+      "category": "Food company · category to confirm",
+      "discoveryUrl": "https://hometosight.com/best-blackstrap-molasses",
+      "productUrls": []
     }
   ],
   "history": [
+    {
+      "day": "2026-10-03",
+      "startedAt": "2026-10-03T09:25:53.182Z",
+      "finishedAt": "2026-10-03T09:27:32.662Z",
+      "target": 10,
+      "addedCompanies": [],
+      "addedProducts": 1,
+      "addedPeople": 0,
+      "addedRoutes": 1,
+      "enrichedCompanies": 1,
+      "candidatesChecked": 33,
+      "requests": 181,
+      "searchRequests": 4,
+      "searchConfigured": true,
+      "shortfall": 10,
+      "status": "shortfall",
+      "warnings": [
+        "10 below the daily target. Unqualified candidates and duplicate firms were not counted."
+      ],
+      "outcomes": [
+        {
+          "company": "MYFITNESS",
+          "host": "myfitness.in",
+          "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+        },
+        {
+          "company": "Naagin",
+          "host": "naaginsauce.com",
+          "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+        },
+        {
+          "company": "Nourish Organics",
+          "host": "nourishorganics.in",
+          "result": "Rechecked: 1 new products, 1 new business routes, 0 new named people."
+        },
+        {
+          "company": "lylesgoldensyrup.com",
+          "host": "lylesgoldensyrup.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 403."
+        },
+        {
+          "company": "bbcgoodfood.com",
+          "host": "bbcgoodfood.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "biscuitsandladles.com",
+          "host": "biscuitsandladles.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "greenemporium.wordpress.com",
+          "host": "greenemporium.wordpress.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Public company address could not be validated."
+        },
+        {
+          "company": "hometosight.com",
+          "host": "hometosight.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. No usable public catalogue feed; checked individual product pages."
+        },
+        {
+          "company": "indianhealthyrecipes.com",
+          "host": "indianhealthyrecipes.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "kannammacooks.com",
+          "host": "kannammacooks.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "kingarthurbaking.com",
+          "host": "kingarthurbaking.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "kitchentherapy.in",
+          "host": "kitchentherapy.in",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route."
+        },
+        {
+          "company": "kleinworthco.com",
+          "host": "kleinworthco.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 403."
+        },
+        {
+          "company": "kolhufoods.com",
+          "host": "kolhufoods.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "kovalglobal.in",
+          "host": "kovalglobal.in",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 400."
+        },
+        {
+          "company": "krollskorner.com",
+          "host": "krollskorner.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "nupursindiankitchen.com",
+          "host": "nupursindiankitchen.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "paawakfoods.com",
+          "host": "paawakfoods.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route."
+        },
+        {
+          "company": "Paper Boat",
+          "host": "paperboatfoods.com",
+          "result": "Skipped: company identifier belongs to another domain."
+        },
+        {
+          "company": "playfulcooking.com",
+          "host": "playfulcooking.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "qoot.food",
+          "host": "qoot.food",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "ragus.co.uk",
+          "host": "ragus.co.uk",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "rcrec-ona.ifas.ufl.edu",
+          "host": "rcrec-ona.ifas.ufl.edu",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "researchgate.net",
+          "host": "researchgate.net",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 403."
+        },
+        {
+          "company": "revenuebase.ai",
+          "host": "revenuebase.ai",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "samyarasden.com",
+          "host": "samyarasden.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 400."
+        },
+        {
+          "company": "sastasundar.com",
+          "host": "sastasundar.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. No usable public catalogue feed; checked individual product pages."
+        },
+        {
+          "company": "tarladalal.com",
+          "host": "tarladalal.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "thefoodslife.com",
+          "host": "thefoodslife.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 500."
+        },
+        {
+          "company": "tracxn.com",
+          "host": "tracxn.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "yummytummyaarthi.com",
+          "host": "yummytummyaarthi.com",
+          "result": "Held for review: needs active direct ingredient evidence, India evidence and a published business route. Company page returned HTTP 404."
+        },
+        {
+          "company": "Nutritius",
+          "host": "nutritius.com",
+          "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+        },
+        {
+          "company": "Nutty Yogi",
+          "host": "nuttyyogi.com",
+          "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+        },
+        {
+          "company": "Oh Sugar Patisserie",
+          "host": "ohsugarpatisserie.com",
+          "result": "Rechecked: 0 new products, 0 new business routes, 0 new named people."
+        }
+      ],
+      "schedule": "Daily at 09:15 IST (scheduled runs can be delayed)",
+      "workflowUrl": "https://github.com/Rizwankhan0001/DG-LG/actions/workflows/daily-buyers.yml"
+    },
     {
       "day": "2026-10-02",
       "startedAt": "2026-10-02T10:02:38.947Z",

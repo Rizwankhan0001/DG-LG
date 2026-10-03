@@ -33750,5 +33750,39 @@
     "reviewStatus": "Needs review",
     "status": "Active listing",
     "discoveredBy": "Catalogue scan"
+  },
+  {
+    "id": "nourish-organics-web-081dc21976aeb6c4",
+    "companyId": "nourish-organics",
+    "name": "Holiday Superfood Cookies Box | Healthy Gifting Pack of 4",
+    "url": "https://nourishorganics.in/products/superfood-cookies-box",
+    "image": "",
+    "imageSource": "",
+    "packGrams": null,
+    "packNote": "Pack weight not established.",
+    "ingredients": "Fig Amaranth Cookies- Amaranth, Dry fruits [Cashew, Almonds, Raisins], Sunflower seeds, Honey, Almond butter, Olive oil, Dates, Fig, Brown sugar, Vanilla extract & Aluminum free baking powder. Chocolate Coconut Cookies- Lite flour blend,[ Sorghum, Oat flakes, Potato starch], Coconut jaggery, Rice bran oil, Desiccated coconut powder, Cashew, Cranberry , Cocoa powder, Honey & Aluminum free baking powder. Oats Cranberry Cookies- Lite flour blend [Oat flakes, Sorghum & Potato starch], Coconut jaggery, Dry fruits [Walnut, Raisin, Cashewnut], Desiccated coconut powder, Edible vegetable oil [Rice Bran], Cranberry, Seeds [sunflower seeds, white sesame seed], Aluminium free baking powder, Cinnamon powder dalchini powder, Nutmeg powder, Vanilla extract & Himalayan pink rock salt. Almond Buckwheat Cookies- Buckwheat, Sunflower seed, Raisins, Coconut nectar, Desiccated coconut powder, Almond Butter, Buckwheat flour , Almond, Rice bran oil, Himalayan pink rock salt, Aluminium free baking powder, Cinnamon powder (Dalchini Powder) & Vanilla.",
+    "ingredientsSource": "Ingredient list",
+    "matches": [
+      {
+        "family": "Coconut jaggery",
+        "term": "Coconut jaggery",
+        "quote": "Coconut jaggery",
+        "percent": null,
+        "relation": "direct",
+        "note": "Published ingredient use supports a supplier conversation, not confirmed buying interest."
+      },
+      {
+        "family": "Brown sugar",
+        "term": "Brown sugar",
+        "quote": "Brown sugar",
+        "percent": null,
+        "relation": "direct",
+        "note": "Published ingredient use supports a supplier conversation, not confirmed buying interest."
+      }
+    ],
+    "checkedAt": "2026-10-03T09:25:53.182Z",
+    "reviewStatus": "Needs review",
+    "status": "Active listing",
+    "discoveredBy": "Catalogue scan"
   }
 ]

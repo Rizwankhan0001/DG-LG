@@ -851,7 +851,7 @@
   {
     "id": "naagin",
     "name": "Naagin",
-    "website": "https://naaginsauce.com",
+    "website": "https://www.naaginsauce.com",
     "city": "Location to confirm",
     "state": "",
     "locationSource": "",
@@ -1468,9 +1468,16 @@
         "purpose": "Bulk orders & sales enquiries",
         "url": "https://nourishorganics.in/pages/contact",
         "checkedAt": "2026-09-30T06:30:46.621Z"
+      },
+      {
+        "kind": "Email",
+        "value": "marketing@nourishorganics.in",
+        "purpose": "Published company contact; ask for ingredient procurement or supplier registration",
+        "url": "https://nourishorganics.in/",
+        "checkedAt": "2026-10-03T09:25:53.182Z"
       }
     ],
-    "researchUpdatedAt": "2026-10-01T04:46:06.581Z"
+    "researchUpdatedAt": "2026-10-03T09:25:53.182Z"
   },
   {
     "id": "the-cinnamon-kitchen",
